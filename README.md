@@ -83,9 +83,12 @@ a cada mudança em script e quando disparado à mão em **Actions → Atualizar
 planilhas… → Run workflow**. No disparo manual dá para passar, por exemplo,
 `--reprocessar-tudo` ou `--forcar=202503`.
 
-A primeira carga do SIA tem uns 45 movimentos, e cada execução processa até 25,
-então ela se completa em duas execuções (dispare a segunda à mão para não
-esperar o dia seguinte). Mês que falha fica para a próxima execução.
+Cada movimento do SIA leva de 10 a 15 minutos para baixar do FTP. Por isso cada
+etapa tem limite de tempo (`--minutos`: 200 no SIA, 90 no SIH), e cada mês é
+enviado ao repositório assim que termina (`publicar.sh`). A carga histórica do
+SIA (uns 45 movimentos) se completa em duas ou três execuções; dispare as
+seguintes à mão para não esperar o dia seguinte. Se uma execução cair, só se
+perde o mês que estava em andamento. Mês que falha fica para a próxima execução.
 
 ## Rodar no computador
 

@@ -16,7 +16,7 @@
 #   VALOR_TOTAL (VAL_TOT), VALOR_SH (serviços hospitalares), VALOR_SP (serviços profissionais).
 #
 # Só baixa meses novos ou republicados.
-# Uso: Rscript 03_sih.R [--reprocessar-tudo] [--forcar=AAAAMM] [--max=N]
+# Uso: Rscript 03_sih.R [--reprocessar-tudo] [--forcar=AAAAMM] [--max=N] [--minutos=N]
 # ------------------------------------------------------------------------------
 
 source("utils.R")
@@ -78,12 +78,18 @@ main <- function() {
   pend <- head(pend, SIH$max_por_execucao)
 
   falhas <- character()
+  inicio <- Sys.time()
   for (i in seq_len(nrow(pend))) {
+    if (tempo_esgotado(inicio, argumento("minutos"))) {
+      log_msg("Limite de %s minutos atingido; os meses restantes ficam para a próxima execução", argumento("minutos"))
+      break
+    }
     p <- pend[i]
     ok <- tryCatch({
       dt <- processar_rd(p$nome, cnes_validos)
       gravar_parquet(dt, file.path(SIH$dir, sprintf("rd_%s.parquet", p$mes)))
       ctrl <- registrar_controle(ctrl, SIH$controle, "mes", p$mes, p$assinatura)
+      publicar_parcial(paste("SIH: mês", p$mes))
       TRUE
     }, error = function(e) { log_msg("ERRO em %s: %s", p$nome, conditionMessage(e)); FALSE })
     if (!ok) falhas <- c(falhas, p$nome)

@@ -21,7 +21,7 @@
 # Só baixa movimentos novos ou republicados. Cada execução processa no máximo
 # SIA$max_por_execucao movimentos (os mais recentes primeiro), para caber no
 # tempo do GitHub Actions; a carga histórica se completa em execuções seguidas.
-# Uso: Rscript 02_sia.R [--reprocessar-tudo] [--forcar=AAAAMM] [--max=N]
+# Uso: Rscript 02_sia.R [--reprocessar-tudo] [--forcar=AAAAMM] [--max=N] [--minutos=N]
 # ------------------------------------------------------------------------------
 
 source("utils.R")
@@ -84,7 +84,12 @@ main <- function() {
   pend <- head(pend, SIA$max_por_execucao)
 
   falhas <- character()
+  inicio <- Sys.time()
   for (m in pend$mvm) {
+    if (tempo_esgotado(inicio, argumento("minutos"))) {
+      log_msg("Limite de %s minutos atingido; os movimentos restantes ficam para a próxima execução", argumento("minutos"))
+      break
+    }
     log_msg("Movimento %s", m)
     ok <- tryCatch({
       partes <- lapply(ftp[mvm == m]$nome, ler_parte, mvm = m, cnes_validos = cnes_validos)
@@ -93,6 +98,7 @@ main <- function() {
                .SDcols = c("QTD_APRESENTADA", "QTD_APROVADA", "VALOR_APRESENTADO", "VALOR_APROVADO", "N_REGISTROS")]
       gravar_parquet(dt, file.path(SIA$dir, sprintf("sia_%s.parquet", m)))
       ctrl <- registrar_controle(ctrl, SIA$controle, "mvm", m, pend[mvm == m]$assinatura)
+      publicar_parcial(paste("SIA: movimento", m))
       TRUE
     }, error = function(e) { log_msg("ERRO no movimento %s: %s", m, conditionMessage(e)); FALSE })
     if (!ok) falhas <- c(falhas, m)

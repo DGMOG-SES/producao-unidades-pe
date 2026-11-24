@@ -180,5 +180,19 @@ registrar_controle <- function(ctrl, caminho, chave, valor, assinatura) {
   ctrl
 }
 
+# No GitHub Actions (PUBLICAR_PARCIAL=1), grava e envia ao repositório cada mês
+# assim que ele termina: se a execução cair, o que já foi feito não se perde.
+publicar_parcial <- function(mensagem) {
+  if (!nzchar(Sys.getenv("PUBLICAR_PARCIAL"))) return(invisible(NULL))
+  status <- system2("bash", c("publicar.sh", shQuote(mensagem)))
+  if (status != 0) log_msg("AVISO: não consegui publicar \"%s\"; vai na publicação final", mensagem)
+}
+
+# Limite de tempo (--minutos=N): para de começar meses novos depois de N
+# minutos, para sobrar tempo para as etapas seguintes dentro do limite do Actions.
+tempo_esgotado <- function(inicio, minutos) {
+  !is.null(minutos) && as.numeric(difftime(Sys.time(), inicio, units = "mins")) > as.numeric(minutos)
+}
+
 # Lista de unidades validada pela SES (rede própria, OSS e referências fora da rede).
 ler_validados <- function() ler_csv("referencias/estabelecimentos_validados.csv")
