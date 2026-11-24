@@ -1,0 +1,96 @@
+name: Atualizar planilhas de produção por unidade (PE)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "*.R"
+      - "referencias/**"
+      - ".github/workflows/atualizar.yml"
+  schedule:
+    # Checagem diária (09h23 de Brasília); só baixa quando há mês novo ou
+    # republicado no FTP do DATASUS, e só regrava as planilhas se algo mudou.
+    - cron: "23 12 * * *"
+  workflow_dispatch:
+    inputs:
+      argumentos_sia:
+        description: "Argumentos do 02_sia.R (ex.: --reprocessar-tudo, --forcar=202503, --max=40)"
+        required: false
+        default: ""
+      argumentos_sih:
+        description: "Argumentos do 03_sih.R (ex.: --reprocessar-tudo, --forcar=202503)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar-dados
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::data.table
+            any::curl
+            any::arrow
+            any::remotes
+            any::jsonlite
+            any::writexl
+
+      - name: Instalar leitor de .dbc
+        env:
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          Rscript instalar_pacotes.R
+          pip install pyreaddbc
+
+      - name: 01 Cadastro das unidades (CNES-ST)
+        continue-on-error: true
+        run: Rscript 01_unidades.R
+
+      - name: 02 Produção ambulatorial (SIA)
+        id: sia
+        continue-on-error: true
+        run: Rscript 02_sia.R ${{ github.event.inputs.argumentos_sia }}
+
+      - name: 03 Produção hospitalar (SIH)
+        id: sih
+        continue-on-error: true
+        run: Rscript 03_sih.R ${{ github.event.inputs.argumentos_sih }}
+
+      - name: 04 Planilhas
+        if: always()
+        run: Rscript 04_planilhas.R
+
+      - name: Publicar no repositório
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dados planilhas
+          if git diff --cached --quiet; then
+            echo "Sem mudanças."
+          else
+            git commit -m "Atualiza dados e planilhas ($(date +%Y-%m-%d))"
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: Sinalizar falha de extração
+        if: steps.sia.outcome == 'failure' || steps.sih.outcome == 'failure'
+        run: |
+          echo "Algum mês do SIA ou do SIH falhou; ele será tentado de novo na próxima execução."
+          exit 1
