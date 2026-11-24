@@ -18,8 +18,8 @@ Ficam em `planilhas/` (Excel, com aba **Leia-me** explicando a regra) e
 |---|---|---|
 | `00_unidades` | Cadastro das unidades com produção: tipo de rede, modelo de gestão, tipo, natureza jurídica, município, região de saúde | Lista validada da SES + CNES-ST |
 | `01_producao_geral` | Abas **Resumo anual**, **Mensal** e **Por grupo SIGTAP**: quantidade e valor ambulatorial, internações, AIH, diárias, valor hospitalar e valor total | SIA (aprovado) + SIH |
-| `02_procedimentos_ambulatoriais` | Uma aba por ano: unidade × mês × procedimento, com quantidade e valor apresentados e aprovados | SIA-PA, todos os procedimentos |
-| `03_internamentos` | Uma aba por ano: unidade × mês × especialidade do leito × caráter × complexidade × procedimento realizado; internações, AIH, diárias, óbitos e valores (total, SH, SP) | SIH-RD |
+| `02_procedimentos_ambulatoriais_AAAA` | Um arquivo por ano: unidade × mês × procedimento, com quantidade e valor apresentados e aprovados | SIA-PA, todos os procedimentos |
+| `03_internamentos_AAAA` | Um arquivo por ano: unidade × mês × especialidade do leito × caráter × complexidade × procedimento realizado; internações, AIH, diárias, óbitos e valores (total, SH, SP) | SIH-RD |
 | `04_transplantes` | Órgãos e tecidos transplantados, por unidade, mês e procedimento | Subgrupo SIGTAP 05.05, no SIA e no SIH |
 | `05_consultas_medicas_especializadas` | Aba **Por unidade** e abas **Por CBO** (especialidade do médico) | SIA, procedimento 0301010072 |
 | `06_consultas_nivel_superior` | Idem, por CBO do profissional | SIA, procedimento 0301010048 (exceto médico) |

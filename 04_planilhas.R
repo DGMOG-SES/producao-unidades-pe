@@ -24,8 +24,8 @@
 #
 # Saídas em planilhas/ (Excel) e planilhas/csv/ (CSV separado por ";"):
 #   01_producao_geral                 resumo anual, mensal e por grupo SIGTAP
-#   02_procedimentos_ambulatoriais    SIA por procedimento (uma aba por ano)
-#   03_internamentos                  SIH por procedimento realizado, leito e caráter
+#   02_procedimentos_ambulatoriais_AAAA   SIA por procedimento (um arquivo por ano)
+#   03_internamentos_AAAA             SIH por procedimento realizado, leito e caráter (um arquivo por ano)
 #   04_transplantes                   subgrupo SIGTAP 05.05 (SIA + SIH)
 #   05_consultas_medicas_especializadas   SIGTAP 0301010072, por CBO
 #   06_consultas_nivel_superior       SIGTAP 0301010048 (exceto médico), por CBO
@@ -266,6 +266,17 @@ leia_me <- function(titulo, regras, atualizacao) {
   setnames(x, "Descricao", "Descri\u00e7\u00e3o")
 }
 
+# Temas grandes (procedimentos e internamentos) saem com um arquivo por ano:
+# um arquivo único passaria do limite de 100 MB do GitHub e ficaria lento no Excel.
+gravar_tema_por_ano <- function(nome, dt, titulo, regras, atualizacao) {
+  antigos <- c(file.path(PLAN, paste0(nome, ".xlsx")), file.path(PLAN, "csv", paste0(nome, ".csv")))
+  unlink(antigos[file.exists(antigos)])
+  for (a in sort(unique(dt$ANO))) {
+    x <- dt[ANO == a]
+    gravar_tema(paste0(nome, "_", a), abas_por_ano(x), paste0(titulo, " - ", a), regras, atualizacao, csv = x)
+  }
+}
+
 gravar_tema <- function(nome, abas, titulo, regras, atualizacao, csv = NULL) {
   dir.create(file.path(PLAN, "csv"), recursive = TRUE, showWarnings = FALSE)
   abas <- c(list(`Leia-me` = leia_me(titulo, regras, atualizacao)), abas)
@@ -366,9 +377,9 @@ main <- function() {
                by = "PROC", all.x = TRUE)
   setcolorder(amb, c("COMPETENCIA", "CNES", "CO_GRUPO", "NO_GRUPO", "CO_SUB_GRUPO", "NO_SUB_GRUPO", "PROC", "NO_PROCEDIMENTO"))
   amb <- com_unidade(amb, unidades)
-  gravar_tema("02_procedimentos_ambulatoriais", abas_por_ano(amb), "Procedimentos ambulatoriais (SIA) por unidade",
+  gravar_tema_por_ano("02_procedimentos_ambulatoriais", amb, "Procedimentos ambulatoriais (SIA) por unidade",
               "Todos os procedimentos do SIA-PA, por mês de processamento (movimento), unidade e procedimento SIGTAP.",
-              atualizacao, csv = amb)
+              atualizacao)
 
   # 03 Internamentos ----------------------------------------------------------------
   int <- sih[, .(INTERNACOES = sum(N_AIH[INTERNACAO]), AIH_TOTAL = sum(N_AIH), DIARIAS = sum(DIARIAS),
@@ -382,11 +393,11 @@ main <- function() {
   int[, c("ESPEC", "CAR_INT", "COMPLEX") := NULL]
   setcolorder(int, c("COMPETENCIA", "CNES", "LEITO", "CARATER", "COMPLEXIDADE", "CO_GRUPO", "NO_GRUPO", "PROC", "NO_PROCEDIMENTO"))
   int <- com_unidade(int, unidades)
-  gravar_tema("03_internamentos", abas_por_ano(int), "Internamentos (SIH) por unidade",
+  gravar_tema_por_ano("03_internamentos", int, "Internamentos (SIH) por unidade",
               paste("AIH aprovadas por mês de processamento, unidade, especialidade do leito, caráter,",
                     "complexidade e procedimento realizado. INTERNACOES e OBITOS contam só AIH normal (IDENT 1);",
                     "AIH_TOTAL e os valores incluem as de longa permanência (IDENT 5)."),
-              atualizacao, csv = int)
+              atualizacao)
 
   # 04 Transplantes ---------------------------------------------------------------
   tx_amb <- sia[substr(PA_PROC_ID, 1, 4) == SUBGRUPO_TRANSPLANTE,
