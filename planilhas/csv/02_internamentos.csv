@@ -1,167 +1,654 @@
 ﻿ANO;TIPO_REDE;MODELO_GESTAO;CNES;UNIDADE;MUNICIPIO;REGIAO_SAUDE;GRUPO_PROC;QTD;VALOR
-2026;Complementar;Complementar;2429004;APAMI DE VITORIA DE SANTO ANTAO;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;975;892722,23
-2026;Complementar;Complementar;2429004;APAMI DE VITORIA DE SANTO ANTAO;Vitória de Santo Antão;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2005;5631596,69
-2026;Complementar;Complementar;9671013;ASHOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;518;267700,49
-2026;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;273;1378707,45
-2026;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;95;499863,54
-2026;Complementar;Complementar;2432307;CENTRO HOSPITALAR SANTA MARIA;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;200;114283,46
-2026;Complementar;Complementar;2432307;CENTRO HOSPITALAR SANTA MARIA;Vitória de Santo Antão;I Região de Saúde - PE;04 Procedimentos cirúrgicos;508;790606,01
-2026;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1594;4976572,42
-2026;Complementar;Complementar;9460144;FUNDACAO ALTINO VENTURA;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;67;127836,97
-2026;Complementar;Complementar;2343738;HOSPITAL ARMINDO MOURA;Moreno;I Região de Saúde - PE;03 Procedimentos clínicos;815;2416398,62
-2026;Complementar;Complementar;2343738;HOSPITAL ARMINDO MOURA;Moreno;I Região de Saúde - PE;04 Procedimentos cirúrgicos;4385;21612976,61
-2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;35;22606,28
-2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;7004;5018532
-2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;4053;8253422,84
-2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;152;988695,52
-2026;Complementar;Complementar;2517019;HOSPITAL DAS CLINICAS DO CARPINA;Carpina;II Região de Saúde - PE;03 Procedimentos clínicos;204;93413
-2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;51;17932,98
-2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;4367;6251217,99
-2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;4571;18467891,09
-2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;23;14605
-2026;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;49;176940,95
-2026;Complementar;Complementar;2344882;HOSPITAL DO TRICENTENARIO;Olinda;I Região de Saúde - PE;03 Procedimentos clínicos;231;2489136,64
-2026;Complementar;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;03 Procedimentos clínicos;300;2404396,17
-2026;Complementar;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;04 Procedimentos cirúrgicos;2;4362,46
-2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;321;482276,36
-2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;917;5307984,09
-2026;Complementar;Complementar;2703041;HOSPITAL E MATERNIDADE ALCIDES CURSINO;Buíque;VI Região de Saúde - PE;03 Procedimentos clínicos;26;14149,26
-2026;Complementar;Complementar;2703041;HOSPITAL E MATERNIDADE ALCIDES CURSINO;Buíque;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;84;160640,16
-2026;Complementar;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;03 Procedimentos clínicos;975;4735679,93
-2026;Complementar;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;04 Procedimentos cirúrgicos;1145;1985314,92
-2026;Complementar;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;03 Procedimentos clínicos;212;353494,43
-2026;Complementar;Complementar;2344254;HOSPITAL JESUS PEQUENINO;Bezerros;IV Região de Saúde - PE;03 Procedimentos clínicos;299;1266347,42
-2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;4;33721,05
-2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;2370;2281087,14
-2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;746;1500501,91
+2023;Complementar;Complementar;2429004;APAMI DE VITORIA DE SANTO ANTAO;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;805;580638,49
+2023;Complementar;Complementar;2429004;APAMI DE VITORIA DE SANTO ANTAO;Vitória de Santo Antão;I Região de Saúde - PE;04 Procedimentos cirúrgicos;209;348293,6
+2023;Complementar;Complementar;9671013;ASHOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;242;107092,48
+2023;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;708;2747219,2
+2023;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;147;645940,62
+2023;Complementar;Complementar;3722678;CEMUPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;10;11155
+2023;Complementar;Complementar;2432307;CENTRO HOSPITALAR SANTA MARIA;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;182;104199,21
+2023;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;3838;8005545,37
+2023;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;1;2070
+2023;Complementar;Complementar;2343738;HOSPITAL ARMINDO MOURA;Moreno;I Região de Saúde - PE;03 Procedimentos clínicos;1633;4530150,27
+2023;Complementar;Complementar;2343738;HOSPITAL ARMINDO MOURA;Moreno;I Região de Saúde - PE;04 Procedimentos cirúrgicos;4927;10530126,75
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;69;49796,75
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;9320;8258380,93
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;6880;10373924,13
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;185;619872,42
+2023;Complementar;Complementar;2517019;HOSPITAL DAS CLINICAS DO CARPINA;Carpina;II Região de Saúde - PE;03 Procedimentos clínicos;385;194148
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;342;96025,18
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;7768;11084567,54
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;7921;38691947,02
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;122;77470
+2023;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;175;602603,15
+2023;Complementar;Complementar;2344882;HOSPITAL DO TRICENTENARIO;Olinda;I Região de Saúde - PE;03 Procedimentos clínicos;593;5112053,84
+2023;Complementar;Complementar;2344882;HOSPITAL DO TRICENTENARIO;Olinda;I Região de Saúde - PE;04 Procedimentos cirúrgicos;86;66983,37
+2023;Complementar;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;03 Procedimentos clínicos;558;4491295,13
+2023;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;654;1231359,55
+2023;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;1126;6449412,38
+2023;Complementar;Complementar;2703041;HOSPITAL E MATERNIDADE ALCIDES CURSINO;Buíque;VI Região de Saúde - PE;03 Procedimentos clínicos;544;191591,41
+2023;Complementar;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;03 Procedimentos clínicos;877;5426124,18
+2023;Complementar;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;04 Procedimentos cirúrgicos;39;29044,24
+2023;Complementar;Complementar;2752808;HOSPITAL EVANGELICO DE PERNAMBUCO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;186;82478,84
+2023;Complementar;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;03 Procedimentos clínicos;519;449676
+2023;Complementar;Complementar;2344254;HOSPITAL JESUS PEQUENINO;Bezerros;IV Região de Saúde - PE;03 Procedimentos clínicos;726;1143043,03
+2023;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;7;31822,3
+2023;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;3224;3703496,72
+2023;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;128;539182,6
+2023;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;77;80733,07
+2023;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;472;1473997,66
+2023;Complementar;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;468;2328183,45
+2023;Complementar;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;933;1414125,86
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;58;347253,34
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;1950;3036293,4
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1948;23824220,11
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;2592;24558569,72
+2023;Complementar;Complementar;2777460;HOSPITAL SANTO AMARO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;472;116194,85
+2023;Complementar;Complementar;2777460;HOSPITAL SANTO AMARO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2968;6088460,12
+2023;Complementar;Complementar;2315343;HVU HOSPITAL VALE DO UNA;Palmares;III Região de Saúde - PE;03 Procedimentos clínicos;582;4599907,36
+2023;Complementar;Complementar;2315343;HVU HOSPITAL VALE DO UNA;Palmares;III Região de Saúde - PE;04 Procedimentos cirúrgicos;63;188571,26
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;297;233659,38
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;29652;46889160,39
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;15431;56910227,56
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;3232;25078363,71
+2023;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;92;319264,42
+2023;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;167;1699508,82
+2023;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;163;751258,77
+2023;Complementar;Complementar;3812553;MEMORIAL HOSPITAL DE GOIANA;Goiana;XII Região de Saúde - PE;03 Procedimentos clínicos;47;15343,13
+2023;Complementar;Complementar;2430118;NEUROCARDIO;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;30;13707,6
+2023;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;208;1160006,64
+2023;Complementar;Complementar;2713497;PRONTO SOCORRO SAO FRANCISCO LTDA;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;355;2677037,78
+2023;Complementar;Complementar;2713497;PRONTO SOCORRO SAO FRANCISCO LTDA;Salgueiro;VII Região de Saúde - PE;04 Procedimentos cirúrgicos;14;50571,09
+2023;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;63;224886,68
+2023;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;67;138690
+2023;Complementar;Complementar;0147028;SOCIEDADE HOSPITALAR MARIA VITORIA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;1485;10074852,32
+2023;Complementar;Complementar;6525296;SOCIEDADE HOSPITALAR MARIA VITORIA;São Lourenço da Mata;I Região de Saúde - PE;03 Procedimentos clínicos;591;2387168,92
+2023;Complementar;Complementar;0147028;SOCIEDADE HOSPITALAR MARIA VITORIA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;60;112260,75
+2023;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;03 Procedimentos clínicos;3107;4739719,3
+2023;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;04 Procedimentos cirúrgicos;5468;12936509,54
+2023;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2;1164,74
+2023;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;9546;6016596,34
+2023;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;4714;5072261,07
+2023;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;88;63860
+2023;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;3155;2105763,57
+2023;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;2323;1904226,61
+2023;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;03 Procedimentos clínicos;2793;1334347,08
+2023;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;04 Procedimentos cirúrgicos;1067;602698,58
+2023;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;4115;4839798,14
+2023;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1406;1571100,84
+2023;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;19;22083,07
+2023;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;9553;9382324,53
+2023;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;4773;12084653,56
+2023;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;47;36913,56
+2023;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2;3052,97
+2023;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;03 Procedimentos clínicos;5042;3428905,08
+2023;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;04 Procedimentos cirúrgicos;4637;6739582,42
+2023;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;13;9688,63
+2023;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;4190;5547126,83
+2023;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;122;87095,88
+2023;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;4;14875,62
+2023;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;8516;7076560,37
+2023;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1721;10180782,77
+2023;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;26;25438,15
+2023;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;03 Procedimentos clínicos;6560;4911719,16
+2023;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;04 Procedimentos cirúrgicos;4391;3591411,34
+2023;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;03 Procedimentos clínicos;3956;1715284,36
+2023;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;04 Procedimentos cirúrgicos;5158;3442078
+2023;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;03 Procedimentos clínicos;2828;1381048,67
+2023;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;04 Procedimentos cirúrgicos;4710;3306634,27
+2023;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;7813;4675611,28
+2023;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;5547;4407004,93
+2023;OSS;OSS;2428989;HOSPITAL SAO SEBASTIAO;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;1907;1233442,34
+2023;OSS;OSS;2344858;MATERNIDADE BRITES DE ALBUQUERQUE;Olinda;I Região de Saúde - PE;03 Procedimentos clínicos;2399;1753265,22
+2023;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;184;56250,38
+2023;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;2728;887301,36
+2023;OSS;OSS;0151475;UPAE GOIANA;Goiana;XII Região de Saúde - PE;03 Procedimentos clínicos;80;52463,01
+2023;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;641;265339,5
+2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2;195,38
+2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;5234;5645940,34
+2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2775;2275037,88
+2023;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;2651;3180975,55
+2023;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;32;62305,62
+2023;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;10359;19354216,65
+2023;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;6965;17440811,2
+2023;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;42;28285
+2023;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;6;1119,86
+2023;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;12770;17903973,23
+2023;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;5777;8138806,84
+2023;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;03 Procedimentos clínicos;2478;967605,67
+2023;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;04 Procedimentos cirúrgicos;962;543740,38
+2023;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;2355;3460099,07
+2023;Rede própria;Gestão direta;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;03 Procedimentos clínicos;1025;970218,07
+2023;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;12;20643,79
+2023;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;18217;24436561,81
+2023;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;12336;42828240,92
+2023;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;84;207164,92
+2023;Rede própria;Gestão direta;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;6731;5265443,87
+2023;Rede própria;Gestão direta;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;4013;3573431,79
+2023;Rede própria;Gestão direta;2946424;HOSPITAL DE RETAGUARDA EM NEUROLOGIA HRN;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;1280;718939,1
+2023;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;2560;1155805,91
+2023;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;641;240335,67
+2023;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;7534;15309981,02
+2023;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;12230;31324542,78
+2023;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;13;8255
+2023;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;03 Procedimentos clínicos;2571;1193229,17
+2023;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;317;141941,34
+2023;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;13189;16525237,57
+2023;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;6385;20762121,05
+2023;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;287;4451596,09
+2023;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;149;39829,32
+2023;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;11263;24603807,73
+2023;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;11794;20736407,83
+2023;Rede própria;Gestão direta;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;2653;1222924,52
+2023;Rede própria;Gestão direta;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;1463;824209,04
+2023;Rede própria;Gestão direta;0001546;HOSPITAL PSIQUIATRICO ULYSSES PERNAMBUCANO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;3551;1714361,94
+2023;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;03 Procedimentos clínicos;2188;902054,71
+2023;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;04 Procedimentos cirúrgicos;1506;1154502,65
+2023;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1;114,36
+2023;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;3180;7481373,11
+2023;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;5973;8133090,19
+2023;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;4721;3188777,82
+2023;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;2719;2142168,26
+2023;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;4632;2523204,32
+2023;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;04 Procedimentos cirúrgicos;4428;3344596,04
+2023;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;03 Procedimentos clínicos;85;8009,88
+2023;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;21;133690,03
+2023;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;3246;8852521,03
+2023;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;3499;34868746,7
+2023;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;21;153013,21
+2024;Complementar;Complementar;2429004;APAMI DE VITORIA DE SANTO ANTAO;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;1670;1294974,79
+2024;Complementar;Complementar;2429004;APAMI DE VITORIA DE SANTO ANTAO;Vitória de Santo Antão;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2488;5600829,71
+2024;Complementar;Complementar;9671013;ASHOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;545;266450,72
+2024;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;512;2107110,95
+2024;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;67;376354,66
+2024;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;3119;8189215,62
+2024;Complementar;Complementar;2343738;HOSPITAL ARMINDO MOURA;Moreno;I Região de Saúde - PE;03 Procedimentos clínicos;2027;5641541,5
+2024;Complementar;Complementar;2343738;HOSPITAL ARMINDO MOURA;Moreno;I Região de Saúde - PE;04 Procedimentos cirúrgicos;5091;15302132,37
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;75;57233,76
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;12786;9211774,03
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;6933;11376485,13
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;221;1088593,56
+2024;Complementar;Complementar;2517019;HOSPITAL DAS CLINICAS DO CARPINA;Carpina;II Região de Saúde - PE;03 Procedimentos clínicos;382;185715
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;251;73134,74
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;8213;12824625,8
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;8396;32582624,54
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;145;92075
+2024;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;143;479652,52
+2024;Complementar;Complementar;2344882;HOSPITAL DO TRICENTENARIO;Olinda;I Região de Saúde - PE;03 Procedimentos clínicos;498;5104139,22
+2024;Complementar;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;03 Procedimentos clínicos;556;4503819,81
+2024;Complementar;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;04 Procedimentos cirúrgicos;1;4943,41
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2;3994,7
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;819;1126741,35
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;1701;10477490,38
+2024;Complementar;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;4;6622,04
+2024;Complementar;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;03 Procedimentos clínicos;786;6070883,43
+2024;Complementar;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;04 Procedimentos cirúrgicos;1298;872609,74
+2024;Complementar;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;03 Procedimentos clínicos;453;620170,16
+2024;Complementar;Complementar;2344254;HOSPITAL JESUS PEQUENINO;Bezerros;IV Região de Saúde - PE;03 Procedimentos clínicos;581;2523681,87
+2024;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;21;121390,83
+2024;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;3767;3437120,97
+2024;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;251;1163096,82
+2024;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;1;2545
+2024;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;46;53687,79
+2024;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;481;1454669,26
+2024;Complementar;Complementar;4222466;HOSPITAL MEMORIAL DE PERNAMBUCO;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;793;590615,74
+2024;Complementar;Complementar;4222466;HOSPITAL MEMORIAL DE PERNAMBUCO;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;145;231817,84
+2024;Complementar;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;482;2085372,52
+2024;Complementar;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;1129;1658535,16
+2024;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;47;420973,46
+2024;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;1516;4507849,73
+2024;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2184;34783819,63
+2024;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;2332;33438964,58
+2024;Complementar;Complementar;2777460;HOSPITAL SANTO AMARO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;640;169347,46
+2024;Complementar;Complementar;2777460;HOSPITAL SANTO AMARO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;3089;8924228,51
+2024;Complementar;Complementar;2315343;HVU HOSPITAL VALE DO UNA;Palmares;III Região de Saúde - PE;03 Procedimentos clínicos;515;4321235,65
+2024;Complementar;Complementar;2315343;HVU HOSPITAL VALE DO UNA;Palmares;III Região de Saúde - PE;04 Procedimentos cirúrgicos;1010;1126298,6
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;245;248554,49
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;29278;45363681,04
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;16069;66283028,43
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;3367;27487577,89
+2024;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;185;636810,14
+2024;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;335;3689685,22
+2024;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;166;676483,62
+2024;Complementar;Complementar;5333504;MAX DAY HOSPITAL;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;309;728099,22
+2024;Complementar;Complementar;3812553;MEMORIAL HOSPITAL DE GOIANA;Goiana;XII Região de Saúde - PE;03 Procedimentos clínicos;9;4310,04
+2024;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;396;1848689,98
+2024;Complementar;Complementar;2713497;PRONTO SOCORRO SAO FRANCISCO LTDA;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;346;2642343,47
+2024;Complementar;Complementar;2713497;PRONTO SOCORRO SAO FRANCISCO LTDA;Salgueiro;VII Região de Saúde - PE;04 Procedimentos cirúrgicos;14;56343,73
+2024;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;75;267511,89
+2024;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;75;155250
+2024;Complementar;Complementar;0147028;SOCIEDADE HOSPITALAR MARIA VITORIA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;1158;9485385,35
+2024;Complementar;Complementar;6525296;SOCIEDADE HOSPITALAR MARIA VITORIA;São Lourenço da Mata;I Região de Saúde - PE;03 Procedimentos clínicos;4;16160,72
+2024;Complementar;Complementar;0147028;SOCIEDADE HOSPITALAR MARIA VITORIA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;33;89412,53
+2024;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1;589,93
+2024;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;03 Procedimentos clínicos;4719;3640108,34
+2024;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;04 Procedimentos cirúrgicos;4785;13290422,95
+2024;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;7;4659,52
+2024;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3;608
+2024;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;10462;6548165,41
+2024;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;5970;5825010,22
+2024;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;90;70315
+2024;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;3772;2468733,09
+2024;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;3630;3254972,44
+2024;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;03 Procedimentos clínicos;2931;1374043,5
+2024;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;04 Procedimentos cirúrgicos;1127;612302,12
+2024;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;4979;4684148,55
+2024;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1748;2033463,15
+2024;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;6;4740,06
+2024;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;9006;10848146,4
+2024;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;5947;23339303,98
+2024;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;94;79759,94
+2024;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;03 Procedimentos clínicos;5928;3209995,09
+2024;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;04 Procedimentos cirúrgicos;5029;6909518,29
+2024;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;70;44358,63
+2024;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1;417,03
+2024;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;3459;4586933,44
+2024;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;4016;4612599,61
+2024;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;55;41457,19
+2024;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1;3430,99
+2024;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;8135;6895042,83
+2024;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2111;13814406,76
+2024;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;51;45664,04
+2024;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;03 Procedimentos clínicos;7085;5014086,81
+2024;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;04 Procedimentos cirúrgicos;4963;4619366,73
+2024;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;03 Procedimentos clínicos;4678;1879748,87
+2024;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;04 Procedimentos cirúrgicos;4415;3409090,45
+2024;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;03 Procedimentos clínicos;3776;3191748,28
+2024;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;04 Procedimentos cirúrgicos;5256;4227766,04
+2024;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;9021;4732746,35
+2024;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;5344;4720122,71
+2024;OSS;OSS;2428989;HOSPITAL SAO SEBASTIAO;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;2252;1448820,23
+2024;OSS;OSS;2344858;MATERNIDADE BRITES DE ALBUQUERQUE;Olinda;I Região de Saúde - PE;03 Procedimentos clínicos;1983;1600386,2
+2024;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;86;29887,79
+2024;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;3928;1278452,62
+2024;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;439;164242,93
+2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1;141,69
+2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;5214;4904218,45
+2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2838;2199957,06
+2024;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;2912;3367860,71
+2024;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;21;55833,07
+2024;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;9060;21495100,56
+2024;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;7984;22929158,22
+2024;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;58;28095
+2024;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;5;900,95
+2024;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;11622;16679590,35
+2024;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;4917;7279872,9
+2024;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;03 Procedimentos clínicos;2269;874482,77
+2024;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;04 Procedimentos cirúrgicos;916;784855,98
+2024;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;2448;3216931,38
+2024;Rede própria;Gestão direta;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;03 Procedimentos clínicos;1062;964742,71
+2024;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;62;285943,89
+2024;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;20124;27269770,68
+2024;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;14063;51806305,22
+2024;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;96;252428,48
+2024;Rede própria;Gestão direta;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;6796;5110109,24
+2024;Rede própria;Gestão direta;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;3890;3296682,26
+2024;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;2860;1249458,96
+2024;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1099;422667,23
+2024;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;7416;15822519,58
+2024;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;12142;32382524,94
+2024;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;03 Procedimentos clínicos;2589;989507,2
+2024;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;04 Procedimentos cirúrgicos;525;216754,67
+2024;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;346;150540,9
+2024;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;16920;20423458,36
+2024;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;7100;21878850,35
+2024;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;277;4762160,44
+2024;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;252;158956,01
+2024;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;13198;25908605,5
+2024;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;12165;21827014,04
+2024;Rede própria;Gestão direta;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;3003;1365900,01
+2024;Rede própria;Gestão direta;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;1351;825486,33
+2024;Rede própria;Gestão direta;0001546;HOSPITAL PSIQUIATRICO ULYSSES PERNAMBUCANO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;3340;1698570,39
+2024;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;03 Procedimentos clínicos;2090;836558,29
+2024;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;04 Procedimentos cirúrgicos;1289;1520686,96
+2024;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;2835;8041221,68
+2024;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;6299;8422590,44
+2024;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;5491;3831936,97
+2024;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;1962;1531277,24
+2024;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;4602;2315860,08
+2024;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;04 Procedimentos cirúrgicos;4289;3495210,97
+2024;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;03 Procedimentos clínicos;133;22800,97
+2024;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;34;357835,39
+2024;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;3160;8852423,91
+2024;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2949;34932224,26
+2024;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;30;276867,22
+2025;Complementar;Complementar;2429004;APAMI DE VITORIA DE SANTO ANTAO;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;2205;1975633,61
+2025;Complementar;Complementar;2429004;APAMI DE VITORIA DE SANTO ANTAO;Vitória de Santo Antão;I Região de Saúde - PE;04 Procedimentos cirúrgicos;4399;14141551,54
+2025;Complementar;Complementar;9671013;ASHOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;942;443157,44
+2025;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;490;2663372,62
+2025;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;128;735601,49
+2025;Complementar;Complementar;2432307;CENTRO HOSPITALAR SANTA MARIA;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;60;13204,25
+2025;Complementar;Complementar;2432307;CENTRO HOSPITALAR SANTA MARIA;Vitória de Santo Antão;I Região de Saúde - PE;04 Procedimentos cirúrgicos;519;393961,41
+2025;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1;199,21
+2025;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;3472;11067550,9
+2025;Complementar;Complementar;9460144;FUNDACAO ALTINO VENTURA;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;59;198000,85
+2025;Complementar;Complementar;2343738;HOSPITAL ARMINDO MOURA;Moreno;I Região de Saúde - PE;03 Procedimentos clínicos;1966;5531535,65
+2025;Complementar;Complementar;2343738;HOSPITAL ARMINDO MOURA;Moreno;I Região de Saúde - PE;04 Procedimentos cirúrgicos;7193;30546979,51
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;48;29442,85
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;14565;9628424
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;7527;13599168,49
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;260;1490075,78
+2025;Complementar;Complementar;2517019;HOSPITAL DAS CLINICAS DO CARPINA;Carpina;II Região de Saúde - PE;03 Procedimentos clínicos;391;198862
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;150;48050,89
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;7659;11902813,12
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;7606;30225028,9
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;98;62230
+2025;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;146;524552,55
+2025;Complementar;Complementar;2344882;HOSPITAL DO TRICENTENARIO;Olinda;I Região de Saúde - PE;03 Procedimentos clínicos;633;5074581,15
+2025;Complementar;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;03 Procedimentos clínicos;574;4822724,71
+2025;Complementar;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;04 Procedimentos cirúrgicos;8;16606,68
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;4;11907,64
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;797;1251793,35
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;1673;9111866,85
+2025;Complementar;Complementar;2703041;HOSPITAL E MATERNIDADE ALCIDES CURSINO;Buíque;VI Região de Saúde - PE;03 Procedimentos clínicos;54;28186,74
+2025;Complementar;Complementar;2703041;HOSPITAL E MATERNIDADE ALCIDES CURSINO;Buíque;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;126;110307,91
+2025;Complementar;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;03 Procedimentos clínicos;1365;7932839,28
+2025;Complementar;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;04 Procedimentos cirúrgicos;1636;999382,28
+2025;Complementar;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;03 Procedimentos clínicos;422;681061,77
+2025;Complementar;Complementar;2344254;HOSPITAL JESUS PEQUENINO;Bezerros;IV Região de Saúde - PE;03 Procedimentos clínicos;627;2581373,98
+2025;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;9;54828,37
+2025;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;4912;4325470,01
+2025;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1113;2068430,45
+2025;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;61;68592,32
+2025;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;436;1249312,48
+2025;Complementar;Complementar;4222466;HOSPITAL MEMORIAL DE PERNAMBUCO;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;2225;1644970,47
+2025;Complementar;Complementar;4222466;HOSPITAL MEMORIAL DE PERNAMBUCO;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;1605;2761932,76
+2025;Complementar;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;555;2102498,16
+2025;Complementar;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;1361;2043319,46
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;59;431982,33
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;1581;4994344,7
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2045;31984946,52
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;2909;38568636,81
+2025;Complementar;Complementar;2777460;HOSPITAL SANTO AMARO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;614;113251,69
+2025;Complementar;Complementar;2777460;HOSPITAL SANTO AMARO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;3865;13871699,69
+2025;Complementar;Complementar;4017455;HOSPITAL SAO JOSE;Pesqueira;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;320;354109,19
+2025;Complementar;Complementar;2354551;HOSPITAL SAO LUIZ;Surubim;II Região de Saúde - PE;04 Procedimentos cirúrgicos;195;165013,15
+2025;Complementar;Complementar;2315343;HVU HOSPITAL VALE DO UNA;Palmares;III Região de Saúde - PE;03 Procedimentos clínicos;599;4387013,34
+2025;Complementar;Complementar;2315343;HVU HOSPITAL VALE DO UNA;Palmares;III Região de Saúde - PE;04 Procedimentos cirúrgicos;1572;1833729,78
+2025;Complementar;Complementar;6228852;ICIA;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;189;1173529,02
+2025;Complementar;Complementar;6228852;ICIA;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;243;155691,03
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;229;210602,02
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;30782;44379513,27
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;17613;76422643,18
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;3919;31009140,72
+2025;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;261;806834,58
+2025;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;402;4132582,13
+2025;Complementar;Complementar;4239423;INTENSIVA DAY HOSPITAL;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;15;605,7
+2025;Complementar;Complementar;4239423;INTENSIVA DAY HOSPITAL;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;1138;1881638,56
+2025;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;152;582554,49
+2025;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;5;10350
+2025;Complementar;Complementar;5333504;MAX DAY HOSPITAL;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1534;6957794,01
+2025;Complementar;Complementar;3812553;MEMORIAL HOSPITAL DE GOIANA;Goiana;XII Região de Saúde - PE;03 Procedimentos clínicos;123;26922,59
+2025;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;705;2117165,52
+2025;Complementar;Complementar;2713497;PRONTO SOCORRO SAO FRANCISCO LTDA;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;403;2642437,79
+2025;Complementar;Complementar;2713497;PRONTO SOCORRO SAO FRANCISCO LTDA;Salgueiro;VII Região de Saúde - PE;04 Procedimentos cirúrgicos;10;44222,25
+2025;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;103;437152,56
+2025;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;67;138690
+2025;Complementar;Complementar;0147028;SOCIEDADE HOSPITALAR MARIA VITORIA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;1301;9108681,6
+2025;Complementar;Complementar;0147028;SOCIEDADE HOSPITALAR MARIA VITORIA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;675;738910,58
+2025;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3;273,07
+2025;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;629;245993,38
+2025;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;224;103134,46
+2025;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2;1025,9
+2025;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;03 Procedimentos clínicos;4584;3419393,14
+2025;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;04 Procedimentos cirúrgicos;4398;13934162
+2025;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;7;5250,47
+2025;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2;511,71
+2025;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;9695;5987410,24
+2025;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;5685;5475353,97
+2025;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;118;104345
+2025;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;4790;4399885,5
+2025;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;3776;4205985,14
+2025;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;03 Procedimentos clínicos;3074;1383584,73
+2025;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;04 Procedimentos cirúrgicos;988;551559,17
+2025;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;4536;5064828,78
+2025;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1964;2305250,94
+2025;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;6;6252,25
+2025;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;9372;11515065,78
+2025;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;6564;27444891,54
+2025;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;94;85444,92
+2025;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1;224,17
+2025;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;03 Procedimentos clínicos;6791;3573847,26
+2025;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;04 Procedimentos cirúrgicos;4542;6387115,16
+2025;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;58;39682,26
+2025;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1;778,07
+2025;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;3165;4127791,76
+2025;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;5058;5857442,71
+2025;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;96;72087,12
+2025;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2;7214,19
+2025;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;7463;6856224,61
+2025;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2177;15052540,44
+2025;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;46;24744,52
+2025;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;03 Procedimentos clínicos;8202;5602654,42
+2025;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;04 Procedimentos cirúrgicos;4842;3346167,91
+2025;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;03 Procedimentos clínicos;4680;2637206,48
+2025;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;04 Procedimentos cirúrgicos;4104;2591120,9
+2025;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;03 Procedimentos clínicos;3739;2791400,36
+2025;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;04 Procedimentos cirúrgicos;5093;4442916,97
+2025;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;9658;4193148,75
+2025;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;5963;5357410,45
+2025;OSS;OSS;2428989;HOSPITAL SAO SEBASTIAO;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;2330;1432671,43
+2025;OSS;OSS;2344858;MATERNIDADE BRITES DE ALBUQUERQUE;Olinda;I Região de Saúde - PE;03 Procedimentos clínicos;1073;714033
+2025;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;128;94641,16
+2025;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;37;19412,47
+2025;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;3019;831336,03
+2025;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;690;481916,17
+2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;5597;5421784,81
+2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2990;2321335,79
+2025;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;2714;3193652,19
+2025;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;15;17878,29
+2025;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;9851;23285267,95
+2025;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;8659;26576935,35
+2025;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;69;33272,26
+2025;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2;571,56
+2025;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;12315;15692593,88
+2025;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;5708;9067462,42
+2025;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;03 Procedimentos clínicos;2599;915088,91
+2025;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;04 Procedimentos cirúrgicos;973;557870,98
+2025;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;2178;2890644,13
+2025;Rede própria;Gestão direta;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;03 Procedimentos clínicos;1248;981285,25
+2025;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;48;103233,89
+2025;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;20617;29094902,97
+2025;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;12908;47807121,81
+2025;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;87;228460,81
+2025;Rede própria;Gestão direta;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;2318;1710780,88
+2025;Rede própria;Gestão direta;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;1276;1107394,4
+2025;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;3016;1259878,01
+2025;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1181;511877,32
+2025;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2;351,98
+2025;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;7263;16141520,36
+2025;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;11248;29493248,3
+2025;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;28;16650
+2025;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;03 Procedimentos clínicos;2576;893002,23
+2025;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;04 Procedimentos cirúrgicos;749;383434,23
+2025;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;237;183404,62
+2025;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;7171;9641324,89
+2025;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;6594;19667677,54
+2025;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;282;4878207,96
+2025;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;302;126048,17
+2025;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;12829;24656611,93
+2025;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;10417;18964230,68
+2025;Rede própria;Gestão direta;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;3383;1462240,76
+2025;Rede própria;Gestão direta;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;1104;576712,77
+2025;Rede própria;Gestão direta;0001546;HOSPITAL PSIQUIATRICO ULYSSES PERNAMBUCANO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;4238;2021016,46
+2025;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;03 Procedimentos clínicos;2714;977756,15
+2025;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;04 Procedimentos cirúrgicos;1002;701250,75
+2025;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;2273;7714588,7
+2025;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;7175;10355975,88
+2025;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;6317;4470166,74
+2025;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;2524;1753521,27
+2025;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;4512;2093142,21
+2025;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;04 Procedimentos cirúrgicos;3694;2797931,39
+2025;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;03 Procedimentos clínicos;119;17464,94
+2025;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;272;250942,8
+2025;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;3052;8668260,98
+2025;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;3313;40869526,4
+2025;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;25;245681,71
+2026;Complementar;Complementar;2429004;APAMI DE VITORIA DE SANTO ANTAO;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;1487;1424616,15
+2026;Complementar;Complementar;2429004;APAMI DE VITORIA DE SANTO ANTAO;Vitória de Santo Antão;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2919;8735530,2
+2026;Complementar;Complementar;9671013;ASHOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;763;394466,85
+2026;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;400;2051815,3
+2026;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;180;667284,42
+2026;Complementar;Complementar;2432307;CENTRO HOSPITALAR SANTA MARIA;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;268;153888,02
+2026;Complementar;Complementar;2432307;CENTRO HOSPITALAR SANTA MARIA;Vitória de Santo Antão;I Região de Saúde - PE;04 Procedimentos cirúrgicos;814;1479950,08
+2026;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2585;8187382,98
+2026;Complementar;Complementar;9460144;FUNDACAO ALTINO VENTURA;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;113;229019,09
+2026;Complementar;Complementar;2343738;HOSPITAL ARMINDO MOURA;Moreno;I Região de Saúde - PE;03 Procedimentos clínicos;1168;3456480,24
+2026;Complementar;Complementar;2343738;HOSPITAL ARMINDO MOURA;Moreno;I Região de Saúde - PE;04 Procedimentos cirúrgicos;6546;31587301,55
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;60;46341,4
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;10438;7832241,28
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;6107;12231105,56
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;240;1513448,37
+2026;Complementar;Complementar;2517019;HOSPITAL DAS CLINICAS DO CARPINA;Carpina;II Região de Saúde - PE;03 Procedimentos clínicos;314;133533
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;110;37529,38
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;6338;9360463,64
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;7453;30231039,34
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;33;20955
+2026;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;86;275037,35
+2026;Complementar;Complementar;2344882;HOSPITAL DO TRICENTENARIO;Olinda;I Região de Saúde - PE;03 Procedimentos clínicos;358;3767332,34
+2026;Complementar;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;03 Procedimentos clínicos;440;3617639,96
+2026;Complementar;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;04 Procedimentos cirúrgicos;3;6143,64
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;444;693355,13
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;1425;8263080,36
+2026;Complementar;Complementar;2703041;HOSPITAL E MATERNIDADE ALCIDES CURSINO;Buíque;VI Região de Saúde - PE;03 Procedimentos clínicos;27;14771,68
+2026;Complementar;Complementar;2703041;HOSPITAL E MATERNIDADE ALCIDES CURSINO;Buíque;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;115;281685,64
+2026;Complementar;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;03 Procedimentos clínicos;1432;6919169,68
+2026;Complementar;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;04 Procedimentos cirúrgicos;1761;3538143,85
+2026;Complementar;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;03 Procedimentos clínicos;289;488384,83
+2026;Complementar;Complementar;2344254;HOSPITAL JESUS PEQUENINO;Bezerros;IV Região de Saúde - PE;03 Procedimentos clínicos;448;1942772,08
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;5;34152,8
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;3685;3508061,04
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1126;2330131,12
 2026;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;7;11909,85
-2026;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;228;695650,91
-2026;Complementar;Complementar;4222466;HOSPITAL MEMORIAL DE PERNAMBUCO;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;1078;844713,66
-2026;Complementar;Complementar;4222466;HOSPITAL MEMORIAL DE PERNAMBUCO;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;748;1853395,37
-2026;Complementar;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;286;934619,17
-2026;Complementar;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;754;1422247,16
-2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;22;215326,38
-2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;767;2381305,73
-2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;965;14699400,61
-2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;1367;17355599,99
-2026;Complementar;Complementar;2777460;HOSPITAL SANTO AMARO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;234;54097,95
-2026;Complementar;Complementar;2777460;HOSPITAL SANTO AMARO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2110;8412351,91
-2026;Complementar;Complementar;4017455;HOSPITAL SAO JOSE;Pesqueira;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;345;608493,45
-2026;Complementar;Complementar;2354551;HOSPITAL SAO LUIZ;Surubim;II Região de Saúde - PE;04 Procedimentos cirúrgicos;413;868774,22
-2026;Complementar;Complementar;2315343;HVU HOSPITAL VALE DO UNA;Palmares;III Região de Saúde - PE;03 Procedimentos clínicos;300;2165226,3
-2026;Complementar;Complementar;2315343;HVU HOSPITAL VALE DO UNA;Palmares;III Região de Saúde - PE;04 Procedimentos cirúrgicos;852;1518453,71
-2026;Complementar;Complementar;7152566;IBVASF;Petrolândia;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;104;233529,1
-2026;Complementar;Complementar;6228852;ICIA;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;161;751028,23
+2026;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;364;1121187,39
+2026;Complementar;Complementar;4222466;HOSPITAL MEMORIAL DE PERNAMBUCO;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;1673;1283119,13
+2026;Complementar;Complementar;4222466;HOSPITAL MEMORIAL DE PERNAMBUCO;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;1140;3200086,42
+2026;Complementar;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;402;1428747,49
+2026;Complementar;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;1183;2184599,61
+2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;35;308685,37
+2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;1167;3640902,31
+2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1581;24141203,15
+2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;2155;25072916,51
+2026;Complementar;Complementar;2777460;HOSPITAL SANTO AMARO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;367;83740,37
+2026;Complementar;Complementar;2777460;HOSPITAL SANTO AMARO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;3406;14974998,64
+2026;Complementar;Complementar;4017455;HOSPITAL SAO JOSE;Pesqueira;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;568;1162386,48
+2026;Complementar;Complementar;2354551;HOSPITAL SAO LUIZ;Surubim;II Região de Saúde - PE;04 Procedimentos cirúrgicos;694;1702109,82
+2026;Complementar;Complementar;2315343;HVU HOSPITAL VALE DO UNA;Palmares;III Região de Saúde - PE;03 Procedimentos clínicos;491;3280420,17
+2026;Complementar;Complementar;2315343;HVU HOSPITAL VALE DO UNA;Palmares;III Região de Saúde - PE;04 Procedimentos cirúrgicos;1359;2556351,79
+2026;Complementar;Complementar;7152566;IBVASF;Petrolândia;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;246;648806,87
+2026;Complementar;Complementar;6228852;ICIA;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;245;1214935,67
 2026;Complementar;Complementar;6228852;ICIA;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;1;2610,78
-2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;113;101395,5
-2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;16109;24107152,94
-2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;8863;40075306,15
-2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;2028;16074121,58
-2026;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;105;371128,61
-2026;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;180;2002433,14
-2026;Complementar;Complementar;4239423;INTENSIVA DAY HOSPITAL;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;628;2108014,68
-2026;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;92;278081,88
-2026;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;18;37260
-2026;Complementar;Complementar;5333504;MAX DAY HOSPITAL;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;748;2957509,8
-2026;Complementar;Complementar;3812553;MEMORIAL HOSPITAL DE GOIANA;Goiana;XII Região de Saúde - PE;03 Procedimentos clínicos;21;6253,82
-2026;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;425;1421448,03
-2026;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;34;70380
-2026;Complementar;Complementar;2713497;PRONTO SOCORRO SAO FRANCISCO LTDA;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;205;1292849,38
-2026;Complementar;Complementar;2713497;PRONTO SOCORRO SAO FRANCISCO LTDA;Salgueiro;VII Região de Saúde - PE;04 Procedimentos cirúrgicos;8;29898,27
-2026;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;80;303185,28
-2026;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;28;57960
-2026;Complementar;Complementar;0147028;SOCIEDADE HOSPITALAR MARIA VITORIA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;651;4793554,27
-2026;Complementar;Complementar;0147028;SOCIEDADE HOSPITALAR MARIA VITORIA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;447;975338,66
-2026;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;2164;898670,13
-2026;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;756;429297,12
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;182;162288,86
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;24054;35728671,8
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;13410;62345859,79
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;2991;23256127,22
+2026;Complementar;Complementar;8025991;INSTITUTO ESPERANCA DE BENEFICENCIA EM SAUDE;Escada;III Região de Saúde - PE;03 Procedimentos clínicos;160;119799,28
+2026;Complementar;Complementar;8025991;INSTITUTO ESPERANCA DE BENEFICENCIA EM SAUDE;Escada;III Região de Saúde - PE;04 Procedimentos cirúrgicos;16;57670,31
+2026;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;156;553131,43
+2026;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;299;3308839,04
+2026;Complementar;Complementar;4239423;INTENSIVA DAY HOSPITAL;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;1003;3522463,39
+2026;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;153;479681,61
+2026;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;25;51750
+2026;Complementar;Complementar;5333504;MAX DAY HOSPITAL;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1302;5961222,84
+2026;Complementar;Complementar;3812553;MEMORIAL HOSPITAL DE GOIANA;Goiana;XII Região de Saúde - PE;03 Procedimentos clínicos;31;8565,59
+2026;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;681;2360450,66
+2026;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;62;128340
+2026;Complementar;Complementar;2713497;PRONTO SOCORRO SAO FRANCISCO LTDA;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;307;1947844,1
+2026;Complementar;Complementar;2713497;PRONTO SOCORRO SAO FRANCISCO LTDA;Salgueiro;VII Região de Saúde - PE;04 Procedimentos cirúrgicos;9;31739,05
+2026;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;138;518130,48
+2026;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;42;86940
+2026;Complementar;Complementar;0147028;SOCIEDADE HOSPITALAR MARIA VITORIA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;1011;6995405,25
+2026;Complementar;Complementar;0147028;SOCIEDADE HOSPITALAR MARIA VITORIA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;711;1799531,56
+2026;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;3052;1243730,98
+2026;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;1276;809392,72
 2026;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3;974,94
-2026;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;03 Procedimentos clínicos;2027;1809721,09
-2026;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2043;6207534,7
-2026;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;6;4078,57
-2026;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;4906;2899747,25
-2026;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;2710;2724672,04
-2026;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;41;34640
-2026;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;3151;3182339,21
-2026;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;1940;2407902,87
-2026;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;03 Procedimentos clínicos;1722;678776,42
-2026;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;04 Procedimentos cirúrgicos;427;238778,81
-2026;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;2445;2804826,52
-2026;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;04 Procedimentos cirúrgicos;999;1227224,25
-2026;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;5;18841,02
-2026;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;4422;6023543,73
-2026;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;3636;16575884,72
-2026;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;72;68855,64
+2026;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;03 Procedimentos clínicos;3074;2759877,9
+2026;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;04 Procedimentos cirúrgicos;3138;9368059,42
+2026;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;10;6618,57
+2026;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;7502;4433356,97
+2026;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;4231;4213804,32
+2026;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;67;55485
+2026;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;4847;4973251,69
+2026;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;2845;3445460,19
+2026;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;03 Procedimentos clínicos;2539;1012684,62
+2026;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;04 Procedimentos cirúrgicos;672;366846,59
+2026;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;3761;4226156,78
+2026;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1604;1901691,9
+2026;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;8;29396,17
+2026;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;7537;9247253,04
+2026;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;5474;24899352,31
+2026;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;87;83037,77
 2026;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1;325,79
-2026;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;03 Procedimentos clínicos;3157;1607376,76
-2026;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2137;3016366,38
-2026;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;38;26023,63
-2026;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;1606;2104786,51
-2026;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2413;2714821,94
-2026;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;90;68341,23
-2026;OSS;OSS;9309594;HOSPITAL NOSSA SENHORA DE APARECIDA;Paulista;I Região de Saúde - PE;03 Procedimentos clínicos;39;15749,72
-2026;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2;4485,41
-2026;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;3368;3215702,59
-2026;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1099;7627442,48
-2026;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;40;31019,52
-2026;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;03 Procedimentos clínicos;4534;3033999,48
-2026;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;04 Procedimentos cirúrgicos;2250;1622960,02
-2026;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;03 Procedimentos clínicos;2340;1454867,16
-2026;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;04 Procedimentos cirúrgicos;2139;1438665,16
-2026;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;03 Procedimentos clínicos;2029;1442431,07
-2026;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;04 Procedimentos cirúrgicos;2376;2075905,87
-2026;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;5222;2563605,37
-2026;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;2999;2671115,41
-2026;OSS;OSS;2428989;HOSPITAL SAO SEBASTIAO;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;1084;777779,74
-2026;OSS;OSS;2344858;MATERNIDADE BRITES DE ALBUQUERQUE;Olinda;I Região de Saúde - PE;03 Procedimentos clínicos;440;278146,76
-2026;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;56;50596,14
-2026;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;2657;697654,18
-2026;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;437;312986,2
-2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;2396;2820440,71
-2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1222;960426,84
-2026;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;1545;1689397,75
+2026;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;03 Procedimentos clínicos;4542;2500485,84
+2026;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;04 Procedimentos cirúrgicos;3204;4361562,29
+2026;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;53;35548,63
+2026;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;2208;3655017,37
+2026;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;3550;4085632,84
+2026;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;125;93316,64
+2026;OSS;OSS;9309594;HOSPITAL NOSSA SENHORA DE APARECIDA;Paulista;I Região de Saúde - PE;03 Procedimentos clínicos;496;272922,75
+2026;OSS;OSS;9309594;HOSPITAL NOSSA SENHORA DE APARECIDA;Paulista;I Região de Saúde - PE;04 Procedimentos cirúrgicos;5;3243,08
+2026;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;8;24634,3
+2026;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;5078;4979865,87
+2026;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1622;11265487,98
+2026;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;65;47128,15
+2026;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;03 Procedimentos clínicos;6707;4442147,19
+2026;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;04 Procedimentos cirúrgicos;3358;2464025,85
+2026;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;03 Procedimentos clínicos;3489;2071010,25
+2026;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;04 Procedimentos cirúrgicos;3151;2195609,22
+2026;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;03 Procedimentos clínicos;3016;2162077,62
+2026;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;04 Procedimentos cirúrgicos;3780;3216748,59
+2026;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;7618;3692690,99
+2026;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;4153;3594591,08
+2026;OSS;OSS;2428989;HOSPITAL SAO SEBASTIAO;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;1636;1097930,31
+2026;OSS;OSS;2344858;MATERNIDADE BRITES DE ALBUQUERQUE;Olinda;I Região de Saúde - PE;03 Procedimentos clínicos;633;398520,79
+2026;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;130;110967,6
+2026;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;3971;1001430,03
+2026;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;574;414976,3
+2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;3870;4116635,72
+2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1967;1545206,21
+2026;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;2065;2264627,01
 2026;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;14;7829,98
-2026;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;5145;13196294,58
-2026;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;4213;12843194,28
-2026;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;45;19448,63
-2026;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;6121;6185515,24
-2026;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2936;5179647,06
-2026;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;03 Procedimentos clínicos;1642;581768,17
-2026;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;04 Procedimentos cirúrgicos;400;214652,67
-2026;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;778;1193332,91
-2026;Rede própria;Gestão direta;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;03 Procedimentos clínicos;684;548203,27
-2026;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;10;20613,58
-2026;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;8923;13338444,47
-2026;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;5569;21146618,29
-2026;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;62;145379,72
-2026;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;1561;651022,41
-2026;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;620;351752,89
-2026;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;3564;8394531,63
-2026;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;5706;13974120,52
-2026;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;18;7560
-2026;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;03 Procedimentos clínicos;1334;511762,52
-2026;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;04 Procedimentos cirúrgicos;366;156123,19
-2026;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;128;91365,4
-2026;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;2949;4606479,36
-2026;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;3204;9157432,36
-2026;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;119;2751113,72
-2026;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;314;270533,11
-2026;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;5542;11001557,23
-2026;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;4826;9373868,77
+2026;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;7446;19776735,68
+2026;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;6363;19134485,88
+2026;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;80;33693,63
+2026;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;9937;12152408,84
+2026;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;4756;7978356,04
+2026;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;03 Procedimentos clínicos;2468;841473,77
+2026;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;04 Procedimentos cirúrgicos;691;380673,04
+2026;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;1089;1781450,86
+2026;Rede própria;Gestão direta;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;03 Procedimentos clínicos;1065;924207,44
+2026;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;13;27630,24
+2026;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;14879;21744632,61
+2026;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;8973;34253145,82
+2026;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;79;178076,43
+2026;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;2390;1029050,59
+2026;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1139;662246,28
+2026;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;5378;12263362,59
+2026;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;9087;22354071,82
+2026;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;22;9240
+2026;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;03 Procedimentos clínicos;1887;700568,6
+2026;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;04 Procedimentos cirúrgicos;598;256424,49
+2026;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;224;133417,91
+2026;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;4528;6966342,71
+2026;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;4980;13908908,78
+2026;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;167;3487669,39
+2026;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;412;355196,03
+2026;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;8213;17637755,86
+2026;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;7319;14288473,49
 2026;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;1;1550
-2026;Rede própria;Gestão direta;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;1834;724030,2
-2026;Rede própria;Gestão direta;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;613;334654,36
-2026;Rede própria;Gestão direta;0001546;HOSPITAL PSIQUIATRICO ULYSSES PERNAMBUCANO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;2132;1019561,83
-2026;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;03 Procedimentos clínicos;1476;484264,73
-2026;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;04 Procedimentos cirúrgicos;326;183447,36
-2026;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;1018;3764445,95
-2026;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;3685;5190879,99
-2026;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;10;11185,7
-2026;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;3036;2239598,15
-2026;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;1255;820973,86
-2026;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;2270;1069731,13
-2026;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;04 Procedimentos cirúrgicos;1742;1241685,15
-2026;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;03 Procedimentos clínicos;21;2901,92
-2026;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;301;137135,31
-2026;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;1691;5114626,43
-2026;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1752;22493742,84
-2026;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;14;173610,37
+2026;Rede própria;Gestão direta;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;2841;1079675,97
+2026;Rede própria;Gestão direta;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;914;494497,56
+2026;Rede própria;Gestão direta;0001546;HOSPITAL PSIQUIATRICO ULYSSES PERNAMBUCANO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;3271;1572307,67
+2026;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;03 Procedimentos clínicos;2125;690128,96
+2026;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;04 Procedimentos cirúrgicos;693;389233,3
+2026;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;1477;5115859,94
+2026;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;5710;8250227,01
+2026;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;17;19015,69
+2026;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;4508;3176305,66
+2026;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;2051;1370495,85
+2026;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;3601;1686184,06
+2026;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;04 Procedimentos cirúrgicos;2760;1979269,73
+2026;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;03 Procedimentos clínicos;53;6680,22
+2026;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;459;168157,55
+2026;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;2552;7611177,37
+2026;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2699;34240146,32
+2026;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;17;223618,99

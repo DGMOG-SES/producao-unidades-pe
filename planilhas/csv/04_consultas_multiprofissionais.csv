@@ -1,4 +1,1156 @@
 ﻿ANO;TIPO_REDE;MODELO_GESTAO;CNES;UNIDADE;MUNICIPIO;REGIAO_SAUDE;ESPECIALIDADE;QTD;VALOR
+2023;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;223505 Enfermeiro;1554;9790,2
+2023;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;223605 Fisioterapeuta geral;493;3105,9
+2023;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;223710 Nutricionista;514;3238,2
+2023;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;223810 Fonoaudiólogo geral;13;81,9
+2023;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;251510 Psicólogo clínico;24;151,2
+2023;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;251520 Psicólogo hospitalar;1;6,3
+2023;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;251605 Assistente social;3573;22509,9
+2023;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;223505 Enfermeiro;1164;7333,2
+2023;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;223530 Enfermeiro do trabalho;2552;16077,6
+2023;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;223545 Enfermeiro obstétrico;153;963,9
+2023;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;223605 Fisioterapeuta geral;44;277,2
+2023;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;223710 Nutricionista;414;2608,2
+2023;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;223810 Fonoaudiólogo geral;7;44,1
+2023;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;251510 Psicólogo clínico;1385;8725,5
+2023;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;251520 Psicólogo hospitalar;521;3282,3
+2023;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;251605 Assistente social;4718;29723,4
+2023;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;223505 Enfermeiro;2485;15655,5
+2023;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;223605 Fisioterapeuta geral;23;144,9
+2023;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;251605 Assistente social;54;340,2
+2023;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;223405 Farmacêutico;1;6,3
+2023;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;223710 Nutricionista;119;749,7
+2023;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;223810 Fonoaudiólogo geral;1;6,3
+2023;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;251510 Psicólogo clínico;784;4939,2
+2023;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;251605 Assistente social;67;422,1
+2023;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;223710 Nutricionista;18;113,4
+2023;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;251605 Assistente social;56659;356951,7
+2023;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;223505 Enfermeiro;16516;104050,8
+2023;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;223535 Enfermeiro nefrologista;13988;88124,4
+2023;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;223605 Fisioterapeuta geral;453;2853,9
+2023;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;223710 Nutricionista;5918;37283,4
+2023;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;251510 Psicólogo clínico;3743;23580,9
+2023;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;251605 Assistente social;29006;182737,8
+2023;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;223505 Enfermeiro;3389;21350,7
+2023;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;223605 Fisioterapeuta geral;24;151,2
+2023;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;223710 Nutricionista;1012;6375,6
+2023;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;223810 Fonoaudiólogo geral;271;1707,3
+2023;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;251510 Psicólogo clínico;7;44,1
+2023;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;251605 Assistente social;1756;11062,8
+2023;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;223505 Enfermeiro;1400;8820
+2023;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;1305;8221,5
+2023;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;223710 Nutricionista;720;4536
+2023;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;351;2211,3
+2023;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;182;1146,6
+2023;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;251605 Assistente social;138;869,4
+2023;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;223505 Enfermeiro;4817;30347,1
+2023;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;1244;7837,2
+2023;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;223710 Nutricionista;1088;6854,4
+2023;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;230;1449
+2023;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;265;1669,5
+2023;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;251605 Assistente social;21034;132514,2
+2023;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;223505 Enfermeiro;60;378
+2023;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;223605 Fisioterapeuta geral;491;3093,3
+2023;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;223710 Nutricionista;1;6,3
+2023;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;223810 Fonoaudiólogo geral;512;3225,6
+2023;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;223905 Terapeuta ocupacional;5;31,5
+2023;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;251510 Psicólogo clínico;439;2765,7
+2023;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;251605 Assistente social;1122;7068,6
+2023;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;223505 Enfermeiro;1120;7056
+2023;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;223545 Enfermeiro obstétrico;30;189
+2023;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;251605 Assistente social;2314;14578,2
+2023;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;223505 Enfermeiro;35516;223750,8
+2023;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;251605 Assistente social;20;126
+2023;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;223505 Enfermeiro;5343;33660,9
+2023;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;223605 Fisioterapeuta geral;6;37,8
+2023;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;223710 Nutricionista;248;1562,4
+2023;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;223810 Fonoaudiólogo geral;155;976,5
+2023;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;251510 Psicólogo clínico;805;5071,5
+2023;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;251520 Psicólogo hospitalar;375;2362,5
+2023;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;251605 Assistente social;20289;127820,7
+2023;OSS;OSS;6562205;UPA BARRA DE JANGADA;Jaboatão dos Guararapes;I Região de Saúde - PE;251605 Assistente social;575;3622,5
+2023;OSS;OSS;6690742;UPA CABO DE SANTO AGOSTINHO;Cabo de Santo Agostinho;I Região de Saúde - PE;223505 Enfermeiro;4;25,2
+2023;OSS;OSS;6690742;UPA CABO DE SANTO AGOSTINHO;Cabo de Santo Agostinho;I Região de Saúde - PE;251605 Assistente social;5307;33434,1
+2023;OSS;OSS;6631819;UPA CARUARU;Caruaru;IV Região de Saúde - PE;223405 Farmacêutico;1;6,3
+2023;OSS;OSS;6631819;UPA CARUARU;Caruaru;IV Região de Saúde - PE;223505 Enfermeiro;112;705,6
+2023;OSS;OSS;6631819;UPA CARUARU;Caruaru;IV Região de Saúde - PE;223710 Nutricionista;1807;11384,1
+2023;OSS;OSS;6631819;UPA CARUARU;Caruaru;IV Região de Saúde - PE;251605 Assistente social;12514;78838,2
+2023;OSS;OSS;6488315;UPA CAXANGA;Recife;I Região de Saúde - PE;223505 Enfermeiro;7768;48938,4
+2023;OSS;OSS;6488315;UPA CAXANGA;Recife;I Região de Saúde - PE;223710 Nutricionista;6973;43929,9
+2023;OSS;OSS;6558992;UPA CURADO;Jaboatão dos Guararapes;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;15;94,5
+2023;OSS;OSS;6558992;UPA CURADO;Jaboatão dos Guararapes;I Região de Saúde - PE;223505 Enfermeiro;22371;140937,3
+2023;OSS;OSS;6558992;UPA CURADO;Jaboatão dos Guararapes;I Região de Saúde - PE;223605 Fisioterapeuta geral;1;6,3
+2023;OSS;OSS;6558992;UPA CURADO;Jaboatão dos Guararapes;I Região de Saúde - PE;251605 Assistente social;16485;103855,5
+2023;OSS;OSS;6618464;UPA ENGENHO VELHO;Jaboatão dos Guararapes;I Região de Saúde - PE;223505 Enfermeiro;1;6,3
+2023;OSS;OSS;6618464;UPA ENGENHO VELHO;Jaboatão dos Guararapes;I Região de Saúde - PE;251605 Assistente social;8020;50526
+2023;OSS;OSS;6726852;UPA IBURA;Recife;I Região de Saúde - PE;223405 Farmacêutico;3003;18918,9
+2023;OSS;OSS;6726852;UPA IBURA;Recife;I Região de Saúde - PE;223505 Enfermeiro;8319;52409,7
+2023;OSS;OSS;6726852;UPA IBURA;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;4;25,2
+2023;OSS;OSS;6726852;UPA IBURA;Recife;I Região de Saúde - PE;223710 Nutricionista;609;3836,7
+2023;OSS;OSS;6726852;UPA IBURA;Recife;I Região de Saúde - PE;251605 Assistente social;29120;183456
+2023;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;223405 Farmacêutico;1278;8051,4
+2023;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;223505 Enfermeiro;19654;123820,2
+2023;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;223605 Fisioterapeuta geral;3958;24935,4
+2023;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;223710 Nutricionista;3241;20418,3
+2023;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;251510 Psicólogo clínico;1367;8612,1
+2023;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;251605 Assistente social;5230;32949
+2023;OSS;OSS;6481876;UPA IMBIRIBEIRA;Recife;I Região de Saúde - PE;223505 Enfermeiro;3229;20342,7
+2023;OSS;OSS;6481876;UPA IMBIRIBEIRA;Recife;I Região de Saúde - PE;251605 Assistente social;28936;182296,8
+2023;OSS;OSS;6703437;UPA NOVA DESCOBERTA;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;11;69,3
+2023;OSS;OSS;6703437;UPA NOVA DESCOBERTA;Recife;I Região de Saúde - PE;223505 Enfermeiro;47909;301826,7
+2023;OSS;OSS;6703437;UPA NOVA DESCOBERTA;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;637;4013,1
+2023;OSS;OSS;6703437;UPA NOVA DESCOBERTA;Recife;I Região de Saúde - PE;251605 Assistente social;924;5821,2
+2023;OSS;OSS;6443397;UPA OLINDA;Olinda;I Região de Saúde - PE;223505 Enfermeiro;4;25,2
+2023;OSS;OSS;6443397;UPA OLINDA;Olinda;I Região de Saúde - PE;223605 Fisioterapeuta geral;4818;30353,4
+2023;OSS;OSS;6443397;UPA OLINDA;Olinda;I Região de Saúde - PE;223710 Nutricionista;3729;23492,7
+2023;OSS;OSS;6443397;UPA OLINDA;Olinda;I Região de Saúde - PE;251605 Assistente social;9355;58936,5
+2023;OSS;OSS;6443419;UPA PAULISTA;Paulista;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;3;18,9
+2023;OSS;OSS;6443419;UPA PAULISTA;Paulista;I Região de Saúde - PE;223505 Enfermeiro;13979;88067,7
+2023;OSS;OSS;6443419;UPA PAULISTA;Paulista;I Região de Saúde - PE;223605 Fisioterapeuta geral;6;37,8
+2023;OSS;OSS;6443419;UPA PAULISTA;Paulista;I Região de Saúde - PE;223710 Nutricionista;4176;26308,8
+2023;OSS;OSS;6443419;UPA PAULISTA;Paulista;I Região de Saúde - PE;251605 Assistente social;5985;37705,5
+2023;OSS;OSS;6507557;UPA SAO LOURENCO DA MATA;São Lourenço da Mata;I Região de Saúde - PE;223405 Farmacêutico;14;88,2
+2023;OSS;OSS;6507557;UPA SAO LOURENCO DA MATA;São Lourenço da Mata;I Região de Saúde - PE;251605 Assistente social;111;699,3
+2023;OSS;OSS;6530389;UPA TORROES;Recife;I Região de Saúde - PE;223405 Farmacêutico;207;1304,1
+2023;OSS;OSS;6530389;UPA TORROES;Recife;I Região de Saúde - PE;251605 Assistente social;4861;30624,3
+2023;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;223415 Farmacêutico analista clínico;674;4246,2
+2023;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;223505 Enfermeiro;6742;42474,6
+2023;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;223605 Fisioterapeuta geral;804;5065,2
+2023;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;223710 Nutricionista;2769;17444,7
+2023;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;223810 Fonoaudiólogo geral;279;1757,7
+2023;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;251510 Psicólogo clínico;2426;15283,8
+2023;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;251605 Assistente social;2680;16884
+2023;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;223405 Farmacêutico;474;2986,2
+2023;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;223505 Enfermeiro;3892;24519,6
+2023;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;223605 Fisioterapeuta geral;4197;26441,1
+2023;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;223710 Nutricionista;1945;12253,5
+2023;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;223810 Fonoaudiólogo geral;603;3798,9
+2023;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;251510 Psicólogo clínico;1802;11352,6
+2023;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;251605 Assistente social;1868;11768,4
+2023;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;223405 Farmacêutico;356;2242,8
+2023;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;223505 Enfermeiro;1561;9834,3
+2023;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;223605 Fisioterapeuta geral;275;1732,5
+2023;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;223710 Nutricionista;1259;7931,7
+2023;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;223810 Fonoaudiólogo geral;246;1549,8
+2023;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;223905 Terapeuta ocupacional;214;1348,2
+2023;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;251510 Psicólogo clínico;1118;7043,4
+2023;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;251605 Assistente social;1279;8057,7
+2023;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;223415 Farmacêutico analista clínico;452;2847,6
+2023;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;223505 Enfermeiro;1257;7919,1
+2023;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;223605 Fisioterapeuta geral;305;1921,5
+2023;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;223710 Nutricionista;861;5424,3
+2023;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;223810 Fonoaudiólogo geral;96;604,8
+2023;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;223905 Terapeuta ocupacional;1;6,3
+2023;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;251510 Psicólogo clínico;1595;10048,5
+2023;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;251605 Assistente social;1171;7377,3
+2023;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;6;37,8
+2023;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;223405 Farmacêutico;252;1587,6
+2023;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;223505 Enfermeiro;3208;20210,4
+2023;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;223605 Fisioterapeuta geral;1503;9468,9
+2023;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;223710 Nutricionista;404;2545,2
+2023;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;223810 Fonoaudiólogo geral;102;642,6
+2023;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;251510 Psicólogo clínico;886;5581,8
+2023;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;251605 Assistente social;7622;48018,6
+2023;OSS;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;223405 Farmacêutico;96;604,8
+2023;OSS;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;223505 Enfermeiro;2062;12990,6
+2023;OSS;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;223605 Fisioterapeuta geral;909;5726,7
+2023;OSS;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;223710 Nutricionista;1324;8341,2
+2023;OSS;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;223810 Fonoaudiólogo geral;55;346,5
+2023;OSS;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;251510 Psicólogo clínico;997;6281,1
+2023;OSS;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;251605 Assistente social;989;6230,7
+2023;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;223415 Farmacêutico analista clínico;81;510,3
+2023;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;223505 Enfermeiro;1812;11415,6
+2023;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;223605 Fisioterapeuta geral;667;4202,1
+2023;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;223710 Nutricionista;1882;11856,6
+2023;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;223810 Fonoaudiólogo geral;153;963,9
+2023;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;223905 Terapeuta ocupacional;50;315
+2023;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;251510 Psicólogo clínico;3051;19221,3
+2023;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;251605 Assistente social;1328;8366,4
+2023;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;223405 Farmacêutico;2709;17066,7
+2023;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;223505 Enfermeiro;8448;53222,4
+2023;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;223605 Fisioterapeuta geral;5516;34750,8
+2023;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;223710 Nutricionista;1913;12051,9
+2023;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;223810 Fonoaudiólogo geral;138;869,4
+2023;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;251510 Psicólogo clínico;1575;9922,5
+2023;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;251605 Assistente social;1802;11352,6
+2023;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;223405 Farmacêutico;1115;7024,5
+2023;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;223505 Enfermeiro;2604;16405,2
+2023;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;223605 Fisioterapeuta geral;589;3710,7
+2023;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;223710 Nutricionista;1743;10980,9
+2023;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;223810 Fonoaudiólogo geral;75;472,5
+2023;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;223905 Terapeuta ocupacional;61;384,3
+2023;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;251510 Psicólogo clínico;1476;9298,8
+2023;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;251605 Assistente social;1338;8429,4
+2023;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;223405 Farmacêutico;1524;9601,2
+2023;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;223505 Enfermeiro;2968;18698,4
+2023;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;223605 Fisioterapeuta geral;120;756
+2023;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;223710 Nutricionista;2129;13412,7
+2023;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;223810 Fonoaudiólogo geral;1167;7352,1
+2023;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;251510 Psicólogo clínico;230;1449
+2023;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;251605 Assistente social;3737;23543,1
+2023;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;223405 Farmacêutico;1996;12574,8
+2023;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;223505 Enfermeiro;17229;108542,7
+2023;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;223605 Fisioterapeuta geral;2666;16795,8
+2023;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;223710 Nutricionista;3764;23713,2
+2023;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;223810 Fonoaudiólogo geral;138;869,4
+2023;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;223905 Terapeuta ocupacional;58;365,4
+2023;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;251510 Psicólogo clínico;4181;26340,3
+2023;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;251605 Assistente social;5331;33585,3
+2023;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;223505 Enfermeiro;425;2677,5
+2023;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;223605 Fisioterapeuta geral;2367;14912,1
+2023;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;223710 Nutricionista;1248;7862,4
+2023;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;223810 Fonoaudiólogo geral;61;384,3
+2023;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;251510 Psicólogo clínico;1711;10779,3
+2023;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;251605 Assistente social;1033;6507,9
+2023;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;223405 Farmacêutico;465;2929,5
+2023;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;223505 Enfermeiro;1503;9468,9
+2023;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;223605 Fisioterapeuta geral;215;1354,5
+2023;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;223710 Nutricionista;1567;9872,1
+2023;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;223810 Fonoaudiólogo geral;106;667,8
+2023;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;223905 Terapeuta ocupacional;47;296,1
+2023;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;251510 Psicólogo clínico;1192;7509,6
+2023;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;251605 Assistente social;1622;10218,6
+2023;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;223405 Farmacêutico;1;6,3
+2023;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;223505 Enfermeiro;3153;19863,9
+2023;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;223605 Fisioterapeuta geral;2553;16083,9
+2023;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;223710 Nutricionista;994;6262,2
+2023;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;223810 Fonoaudiólogo geral;356;2242,8
+2023;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;251510 Psicólogo clínico;1174;7396,2
+2023;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;251605 Assistente social;1365;8599,5
+2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;203;1278,9
+2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223212 Cirurgião dentista - endodontista;0;0
+2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223220 Cirurgião dentista - estomatologista;31;195,3
+2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;47;296,1
+2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223288 Cirurgião dentista - odontologia para pacientes com necessidades especiais;7;44,1
+2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223505 Enfermeiro;8024;50551,2
+2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;1706;10747,8
+2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;317;1997,1
+2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;1406;8857,8
+2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;251605 Assistente social;980;6174
+2023;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;731;4605,3
+2023;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;223288 Cirurgião dentista - odontologia para pacientes com necessidades especiais;319;2009,7
+2023;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;223405 Farmacêutico;21144;133207,2
+2023;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;223505 Enfermeiro;8906;56107,8
+2023;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;1435;9040,5
+2023;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;223710 Nutricionista;150;945
+2023;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;43;270,9
+2023;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;711;4479,3
+2023;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;251605 Assistente social;996;6274,8
+2023;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;223505 Enfermeiro;1;6,3
+2023;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;430;2709
+2023;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;223710 Nutricionista;1376;8668,8
+2023;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;1126;7093,8
+2023;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;58;365,4
+2023;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;67;422,1
+2023;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;251605 Assistente social;16686;105121,8
+2023;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;223505 Enfermeiro;9505;59881,5
+2023;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;934;5884,2
+2023;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;223710 Nutricionista;2028;12776,4
+2023;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;1598;10067,4
+2023;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;596;3754,8
+2023;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;1978;12461,4
+2023;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;251605 Assistente social;450;2835
+2023;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;223505 Enfermeiro;54631;344175,3
+2023;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;223545 Enfermeiro obstétrico;4722;29748,6
+2023;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;223605 Fisioterapeuta geral;1196;7534,8
+2023;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;223710 Nutricionista;3019;19019,7
+2023;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;223810 Fonoaudiólogo geral;249;1568,7
+2023;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;223905 Terapeuta ocupacional;94;592,2
+2023;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;251510 Psicólogo clínico;770;4851
+2023;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;251605 Assistente social;16469;103754,7
+2023;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;705;4441,5
+2023;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;223505 Enfermeiro;3773;23769,9
+2023;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;223710 Nutricionista;379;2387,7
+2023;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;1301;8196,3
+2023;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;148;932,4
+2023;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;251605 Assistente social;1109;6986,7
+2023;Rede própria;Gestão direta;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;251510 Psicólogo clínico;2036;12826,8
+2023;Rede própria;Gestão direta;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;251605 Assistente social;1051;6621,3
+2023;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;223240 Cirurgião dentista - ortopedista e ortodontista;355;2236,5
+2023;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;1322;8328,6
+2023;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;223505 Enfermeiro;768850;4843755
+2023;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;934;5884,2
+2023;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;84;529,2
+2023;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;127;800,1
+2023;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;251605 Assistente social;666984;4201999,2
+2023;Rede própria;Gestão direta;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;223505 Enfermeiro;31953;201303,9
+2023;Rede própria;Gestão direta;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;251510 Psicólogo clínico;6908;43520,4
+2023;Rede própria;Gestão direta;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;251605 Assistente social;22570;142191
+2023;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;2849;17948,7
+2023;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;2757;17369,1
+2023;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;223288 Cirurgião dentista - odontologia para pacientes com necessidades especiais;1496;9424,8
+2023;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;223505 Enfermeiro;35103;221148,9
+2023;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;223710 Nutricionista;414;2608,2
+2023;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;280;1764
+2023;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;3514;22138,2
+2023;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;251605 Assistente social;30289;190820,7
+2023;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;117;737,1
+2023;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;223505 Enfermeiro;8553;53883,9
+2023;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;64;403,2
+2023;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;223710 Nutricionista;251;1581,3
+2023;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;74;466,2
+2023;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;251605 Assistente social;76;478,8
+2023;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;223505 Enfermeiro;388;2444,4
+2023;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;223605 Fisioterapeuta geral;609;3836,7
+2023;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;223905 Terapeuta ocupacional;379;2387,7
+2023;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;251510 Psicólogo clínico;804;5065,2
+2023;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;251520 Psicólogo hospitalar;2542;16014,6
+2023;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;251605 Assistente social;25938;163409,4
+2023;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;2292;14439,6
+2023;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223212 Cirurgião dentista - endodontista;2;12,6
+2023;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;6545;41233,5
+2023;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223405 Farmacêutico;10;63
+2023;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223505 Enfermeiro;5234;32974,2
+2023;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;1430;9009
+2023;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223710 Nutricionista;2869;18074,7
+2023;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;4850;30555
+2023;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;3010;18963
+2023;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;2471;15567,3
+2023;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;251605 Assistente social;4285;26995,5
+2023;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;223505 Enfermeiro;3032;19101,6
+2023;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;21105;132961,5
+2023;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;1755;11056,5
+2023;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;4877;30725,1
+2023;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;982;6186,6
+2023;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;9;56,7
+2023;Rede própria;Gestão direta;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;223505 Enfermeiro;17914;112858,2
+2023;Rede própria;Gestão direta;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;223810 Fonoaudiólogo geral;90;567
+2023;Rede própria;Gestão direta;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;251605 Assistente social;164;1033,2
+2023;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;268;1688,4
+2023;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;223505 Enfermeiro;2270;14301
+2023;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;223545 Enfermeiro obstétrico;858;5405,4
+2023;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;223605 Fisioterapeuta geral;7208;45410,4
+2023;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;223710 Nutricionista;5265;33169,5
+2023;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;223810 Fonoaudiólogo geral;437;2753,1
+2023;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;251510 Psicólogo clínico;1174;7396,2
+2023;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;251605 Assistente social;15578;98141,4
+2023;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;151;951,3
+2023;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223232 Cirurgião dentista - odontologista legal;28;176,4
+2023;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223252 Cirurgião dentista - protesiólogo bucomaxilofacial;3;18,9
+2023;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;2107;13274,1
+2023;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223405 Farmacêutico;3194;20122,2
+2023;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223415 Farmacêutico analista clínico;16;100,8
+2023;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223505 Enfermeiro;17996;113374,8
+2023;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223605 Fisioterapeuta geral;14908;93920,4
+2023;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223710 Nutricionista;5313;33471,9
+2023;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223810 Fonoaudiólogo geral;2592;16329,6
+2023;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223905 Terapeuta ocupacional;1524;9601,2
+2023;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;251510 Psicólogo clínico;4112;25905,6
+2023;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;251605 Assistente social;22139;139475,7
+2023;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;48;302,4
+2023;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;223505 Enfermeiro;5337;33623,1
+2023;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;251510 Psicólogo clínico;84;529,2
+2023;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;223505 Enfermeiro;1975;12442,5
+2023;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;223545 Enfermeiro obstétrico;196;1234,8
+2023;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;223710 Nutricionista;6597;41561,1
+2023;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;223810 Fonoaudiólogo geral;1633;10287,9
+2023;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;223905 Terapeuta ocupacional;2943;18540,9
+2023;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;251510 Psicólogo clínico;3159;19901,7
+2023;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;251605 Assistente social;11298;71177,4
+2023;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;396;2494,8
+2023;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;223505 Enfermeiro;14919;93989,7
+2023;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;223810 Fonoaudiólogo geral;404;2545,2
+2023;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;223905 Terapeuta ocupacional;47;296,1
+2023;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;251510 Psicólogo clínico;765;4819,5
+2023;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;251605 Assistente social;478;3011,4
+2023;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;223405 Farmacêutico;1;6,3
+2023;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;223505 Enfermeiro;2685;16915,5
+2023;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;5;31,5
+2023;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;18;113,4
+2023;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;251605 Assistente social;49;308,7
+2024;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;221205 Biomédico;4;25,2
+2024;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;223505 Enfermeiro;4332;27291,6
+2024;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;223605 Fisioterapeuta geral;558;3515,4
+2024;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;223710 Nutricionista;892;5619,6
+2024;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;223810 Fonoaudiólogo geral;393;2475,9
+2024;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;251510 Psicólogo clínico;6;37,8
+2024;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;251605 Assistente social;3062;19290,6
+2024;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;223505 Enfermeiro;769;4844,7
+2024;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;223605 Fisioterapeuta geral;4;25,2
+2024;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;223710 Nutricionista;511;3219,3
+2024;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;223810 Fonoaudiólogo geral;1;6,3
+2024;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;251510 Psicólogo clínico;1995;12568,5
+2024;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;251520 Psicólogo hospitalar;438;2759,4
+2024;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;251605 Assistente social;5840;36792
+2024;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;46;289,8
+2024;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;223505 Enfermeiro;2475;15592,5
+2024;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;223605 Fisioterapeuta geral;50;315
+2024;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;223810 Fonoaudiólogo geral;154;970,2
+2024;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;251605 Assistente social;98;617,4
+2024;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;223405 Farmacêutico;6;37,8
+2024;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;223505 Enfermeiro;3;18,9
+2024;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;223710 Nutricionista;99;623,7
+2024;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;223810 Fonoaudiólogo geral;865;5449,5
+2024;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;251510 Psicólogo clínico;806;5077,8
+2024;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;251605 Assistente social;577;3635,1
+2024;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;223505 Enfermeiro;308;1940,4
+2024;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;223710 Nutricionista;54;340,2
+2024;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;223810 Fonoaudiólogo geral;15;94,5
+2024;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;251605 Assistente social;37663;237276,9
+2024;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;221205 Biomédico;1;6,3
+2024;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;223505 Enfermeiro;18617;117287,1
+2024;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;223530 Enfermeiro do trabalho;8282;52176,6
+2024;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;223535 Enfermeiro nefrologista;39600;249480
+2024;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;223605 Fisioterapeuta geral;687;4328,1
+2024;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;223710 Nutricionista;11365;71599,5
+2024;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;223810 Fonoaudiólogo geral;2;12,6
+2024;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;251510 Psicólogo clínico;7171;45177,3
+2024;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;251605 Assistente social;20311;127959,3
+2024;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;223505 Enfermeiro;9515;59944,5
+2024;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;223605 Fisioterapeuta geral;26;163,8
+2024;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;223710 Nutricionista;1186;7471,8
+2024;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;223810 Fonoaudiólogo geral;402;2532,6
+2024;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;251510 Psicólogo clínico;1;6,3
+2024;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;251605 Assistente social;1808;11390,4
+2024;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;223505 Enfermeiro;4787;30158,1
+2024;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;3397;21401,1
+2024;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;223710 Nutricionista;772;4863,6
+2024;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;388;2444,4
+2024;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;131;825,3
+2024;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;251605 Assistente social;397;2501,1
+2024;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;131205 Diretor de serviços de saúde;10;63
+2024;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;221205 Biomédico;1;6,3
+2024;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;223505 Enfermeiro;5207;32804,1
+2024;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;2058;12965,4
+2024;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;223710 Nutricionista;1206;7597,8
+2024;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;392;2469,6
+2024;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;200;1260
+2024;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;1;6,3
+2024;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;251605 Assistente social;23198;146147,4
+2024;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;1;6,3
+2024;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;223605 Fisioterapeuta geral;558;3515,4
+2024;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;223710 Nutricionista;10;63
+2024;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;223810 Fonoaudiólogo geral;351;2211,3
+2024;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;223905 Terapeuta ocupacional;1;6,3
+2024;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;251510 Psicólogo clínico;218;1373,4
+2024;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;251605 Assistente social;841;5298,3
+2024;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;223505 Enfermeiro;1106;6967,8
+2024;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;223810 Fonoaudiólogo geral;27;170,1
+2024;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;251605 Assistente social;2133;13437,9
+2024;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;221205 Biomédico;1;6,3
+2024;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;223505 Enfermeiro;37690;237447
+2024;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;251605 Assistente social;151;951,3
+2024;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;223505 Enfermeiro;16756;105562,8
+2024;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;223545 Enfermeiro obstétrico;222;1398,6
+2024;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;223605 Fisioterapeuta geral;4;25,2
+2024;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;223710 Nutricionista;289;1820,7
+2024;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;223810 Fonoaudiólogo geral;130;819
+2024;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;251510 Psicólogo clínico;954;6010,2
+2024;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;251520 Psicólogo hospitalar;451;2841,3
+2024;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;251605 Assistente social;14919;93989,7
+2024;OSS;OSS;6562205;UPA BARRA DE JANGADA;Jaboatão dos Guararapes;I Região de Saúde - PE;223605 Fisioterapeuta geral;3;18,9
+2024;OSS;OSS;6562205;UPA BARRA DE JANGADA;Jaboatão dos Guararapes;I Região de Saúde - PE;251605 Assistente social;4219;26579,7
+2024;OSS;OSS;6690742;UPA CABO DE SANTO AGOSTINHO;Cabo de Santo Agostinho;I Região de Saúde - PE;251605 Assistente social;11537;72683,1
+2024;OSS;OSS;6631819;UPA CARUARU;Caruaru;IV Região de Saúde - PE;221205 Biomédico;3;18,9
+2024;OSS;OSS;6631819;UPA CARUARU;Caruaru;IV Região de Saúde - PE;223505 Enfermeiro;232;1461,6
+2024;OSS;OSS;6631819;UPA CARUARU;Caruaru;IV Região de Saúde - PE;223605 Fisioterapeuta geral;1663;10476,9
+2024;OSS;OSS;6631819;UPA CARUARU;Caruaru;IV Região de Saúde - PE;223710 Nutricionista;3771;23757,3
+2024;OSS;OSS;6631819;UPA CARUARU;Caruaru;IV Região de Saúde - PE;251605 Assistente social;13303;83808,9
+2024;OSS;OSS;6488315;UPA CAXANGA;Recife;I Região de Saúde - PE;223505 Enfermeiro;1070;6741
+2024;OSS;OSS;6488315;UPA CAXANGA;Recife;I Região de Saúde - PE;223710 Nutricionista;13928;87746,4
+2024;OSS;OSS;6488315;UPA CAXANGA;Recife;I Região de Saúde - PE;251605 Assistente social;2437;15353,1
+2024;OSS;OSS;6558992;UPA CURADO;Jaboatão dos Guararapes;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;13;81,9
+2024;OSS;OSS;6558992;UPA CURADO;Jaboatão dos Guararapes;I Região de Saúde - PE;223505 Enfermeiro;21366;134605,8
+2024;OSS;OSS;6558992;UPA CURADO;Jaboatão dos Guararapes;I Região de Saúde - PE;223605 Fisioterapeuta geral;4;25,2
+2024;OSS;OSS;6558992;UPA CURADO;Jaboatão dos Guararapes;I Região de Saúde - PE;251605 Assistente social;15024;94651,2
+2024;OSS;OSS;6618464;UPA ENGENHO VELHO;Jaboatão dos Guararapes;I Região de Saúde - PE;223505 Enfermeiro;5;31,5
+2024;OSS;OSS;6618464;UPA ENGENHO VELHO;Jaboatão dos Guararapes;I Região de Saúde - PE;251605 Assistente social;9019;56819,7
+2024;OSS;OSS;6726852;UPA IBURA;Recife;I Região de Saúde - PE;221205 Biomédico;1;6,3
+2024;OSS;OSS;6726852;UPA IBURA;Recife;I Região de Saúde - PE;223405 Farmacêutico;4143;26100,9
+2024;OSS;OSS;6726852;UPA IBURA;Recife;I Região de Saúde - PE;223505 Enfermeiro;8092;50979,6
+2024;OSS;OSS;6726852;UPA IBURA;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;5812;36615,6
+2024;OSS;OSS;6726852;UPA IBURA;Recife;I Região de Saúde - PE;223710 Nutricionista;728;4586,4
+2024;OSS;OSS;6726852;UPA IBURA;Recife;I Região de Saúde - PE;251605 Assistente social;29878;188231,4
+2024;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;221205 Biomédico;199;1253,7
+2024;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;223405 Farmacêutico;136;856,8
+2024;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;223505 Enfermeiro;12956;81622,8
+2024;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;223605 Fisioterapeuta geral;5180;32634
+2024;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;223625 Fisioterapeuta respiratória;1438;9059,4
+2024;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;223710 Nutricionista;3193;20115,9
+2024;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;251510 Psicólogo clínico;2543;16020,9
+2024;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;251605 Assistente social;5151;32451,3
+2024;OSS;OSS;6481876;UPA IMBIRIBEIRA;Recife;I Região de Saúde - PE;221105 Biólogo;1105;6961,5
+2024;OSS;OSS;6481876;UPA IMBIRIBEIRA;Recife;I Região de Saúde - PE;223505 Enfermeiro;268;1688,4
+2024;OSS;OSS;6481876;UPA IMBIRIBEIRA;Recife;I Região de Saúde - PE;251605 Assistente social;38568;242978,4
+2024;OSS;OSS;6703437;UPA NOVA DESCOBERTA;Recife;I Região de Saúde - PE;223505 Enfermeiro;7;44,1
+2024;OSS;OSS;6703437;UPA NOVA DESCOBERTA;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;367;2312,1
+2024;OSS;OSS;6703437;UPA NOVA DESCOBERTA;Recife;I Região de Saúde - PE;251605 Assistente social;1369;8624,7
+2024;OSS;OSS;6443397;UPA OLINDA;Olinda;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;476;2998,8
+2024;OSS;OSS;6443397;UPA OLINDA;Olinda;I Região de Saúde - PE;223505 Enfermeiro;2;12,6
+2024;OSS;OSS;6443397;UPA OLINDA;Olinda;I Região de Saúde - PE;223605 Fisioterapeuta geral;6159;38801,7
+2024;OSS;OSS;6443397;UPA OLINDA;Olinda;I Região de Saúde - PE;223710 Nutricionista;4236;26686,8
+2024;OSS;OSS;6443397;UPA OLINDA;Olinda;I Região de Saúde - PE;251605 Assistente social;6977;43955,1
+2024;OSS;OSS;6443419;UPA PAULISTA;Paulista;I Região de Saúde - PE;221205 Biomédico;2;12,6
+2024;OSS;OSS;6443419;UPA PAULISTA;Paulista;I Região de Saúde - PE;223415 Farmacêutico analista clínico;6;37,8
+2024;OSS;OSS;6443419;UPA PAULISTA;Paulista;I Região de Saúde - PE;223505 Enfermeiro;16535;104170,5
+2024;OSS;OSS;6443419;UPA PAULISTA;Paulista;I Região de Saúde - PE;223605 Fisioterapeuta geral;1;6,3
+2024;OSS;OSS;6443419;UPA PAULISTA;Paulista;I Região de Saúde - PE;223710 Nutricionista;3960;24948
+2024;OSS;OSS;6443419;UPA PAULISTA;Paulista;I Região de Saúde - PE;251605 Assistente social;6203;39078,9
+2024;OSS;OSS;6507557;UPA SAO LOURENCO DA MATA;São Lourenço da Mata;I Região de Saúde - PE;221105 Biólogo;203;1278,9
+2024;OSS;OSS;6507557;UPA SAO LOURENCO DA MATA;São Lourenço da Mata;I Região de Saúde - PE;223405 Farmacêutico;1;6,3
+2024;OSS;OSS;6507557;UPA SAO LOURENCO DA MATA;São Lourenço da Mata;I Região de Saúde - PE;223505 Enfermeiro;1;6,3
+2024;OSS;OSS;6507557;UPA SAO LOURENCO DA MATA;São Lourenço da Mata;I Região de Saúde - PE;251605 Assistente social;235;1480,5
+2024;OSS;OSS;6530389;UPA TORROES;Recife;I Região de Saúde - PE;221205 Biomédico;2422;15258,6
+2024;OSS;OSS;6530389;UPA TORROES;Recife;I Região de Saúde - PE;223405 Farmacêutico;268;1688,4
+2024;OSS;OSS;6530389;UPA TORROES;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;4258;26825,4
+2024;OSS;OSS;6530389;UPA TORROES;Recife;I Região de Saúde - PE;251605 Assistente social;14066;88615,8
+2024;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;223405 Farmacêutico;64;403,2
+2024;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;223415 Farmacêutico analista clínico;846;5329,8
+2024;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;223505 Enfermeiro;8857;55799,1
+2024;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;223605 Fisioterapeuta geral;737;4643,1
+2024;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;223710 Nutricionista;2551;16071,3
+2024;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;223810 Fonoaudiólogo geral;6;37,8
+2024;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;223905 Terapeuta ocupacional;189;1190,7
+2024;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;251510 Psicólogo clínico;1979;12467,7
+2024;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;251605 Assistente social;2101;13236,3
+2024;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;223405 Farmacêutico;1103;6948,9
+2024;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;223505 Enfermeiro;2832;17841,6
+2024;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;223605 Fisioterapeuta geral;7197;45341,1
+2024;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;223710 Nutricionista;3211;20229,3
+2024;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;223810 Fonoaudiólogo geral;1200;7560
+2024;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;251510 Psicólogo clínico;1755;11056,5
+2024;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;251605 Assistente social;4939;31115,7
+2024;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;221205 Biomédico;1;6,3
+2024;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;223405 Farmacêutico;309;1946,7
+2024;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;223505 Enfermeiro;2281;14370,3
+2024;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;223605 Fisioterapeuta geral;284;1789,2
+2024;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;223710 Nutricionista;910;5733
+2024;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;223810 Fonoaudiólogo geral;248;1562,4
+2024;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;223905 Terapeuta ocupacional;4;25,2
+2024;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;251510 Psicólogo clínico;1549;9758,7
+2024;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;251605 Assistente social;1096;6904,8
+2024;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;223415 Farmacêutico analista clínico;605;3811,5
+2024;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;223505 Enfermeiro;1998;12587,4
+2024;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;223605 Fisioterapeuta geral;379;2387,7
+2024;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;223710 Nutricionista;801;5046,3
+2024;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;223810 Fonoaudiólogo geral;71;447,3
+2024;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;223905 Terapeuta ocupacional;8;50,4
+2024;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;251510 Psicólogo clínico;305;1921,5
+2024;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;251605 Assistente social;673;4239,9
+2024;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;6;37,8
+2024;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;223405 Farmacêutico;753;4743,9
+2024;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;223505 Enfermeiro;1766;11125,8
+2024;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;223605 Fisioterapeuta geral;1406;8857,8
+2024;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;223710 Nutricionista;285;1795,5
+2024;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;223810 Fonoaudiólogo geral;402;2532,6
+2024;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;251510 Psicólogo clínico;1330;8379
+2024;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;251605 Assistente social;5940;37422
+2024;OSS;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;223405 Farmacêutico;235;1480,5
+2024;OSS;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;223505 Enfermeiro;1999;12593,7
+2024;OSS;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;223605 Fisioterapeuta geral;623;3924,9
+2024;OSS;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;223710 Nutricionista;1752;11037,6
+2024;OSS;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;251510 Psicólogo clínico;1137;7163,1
+2024;OSS;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;251605 Assistente social;1427;8990,1
+2024;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;223415 Farmacêutico analista clínico;43;270,9
+2024;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;223505 Enfermeiro;2156;13582,8
+2024;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;223605 Fisioterapeuta geral;1162;7320,6
+2024;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;223710 Nutricionista;3158;19895,4
+2024;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;223810 Fonoaudiólogo geral;126;793,8
+2024;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;223905 Terapeuta ocupacional;44;277,2
+2024;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;251510 Psicólogo clínico;342;2154,6
+2024;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;251605 Assistente social;1658;10445,4
+2024;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;223405 Farmacêutico;1964;12373,2
+2024;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;223505 Enfermeiro;5413;34101,9
+2024;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;223605 Fisioterapeuta geral;2019;12719,7
+2024;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;223710 Nutricionista;2842;17904,6
+2024;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;223810 Fonoaudiólogo geral;155;976,5
+2024;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;251510 Psicólogo clínico;2353;14823,9
+2024;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;251605 Assistente social;1893;11925,9
+2024;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;223405 Farmacêutico;1869;11774,7
+2024;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;223505 Enfermeiro;3501;22056,3
+2024;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;223605 Fisioterapeuta geral;480;3024
+2024;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;223710 Nutricionista;1365;8599,5
+2024;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;223810 Fonoaudiólogo geral;43;270,9
+2024;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;223905 Terapeuta ocupacional;60;378
+2024;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;251510 Psicólogo clínico;1990;12537
+2024;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;251605 Assistente social;1517;9557,1
+2024;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;223405 Farmacêutico;1223;7704,9
+2024;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;223505 Enfermeiro;14218;89573,4
+2024;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;223605 Fisioterapeuta geral;281;1770,3
+2024;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;223710 Nutricionista;2278;14351,4
+2024;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;223810 Fonoaudiólogo geral;1462;9210,6
+2024;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;251510 Psicólogo clínico;72;453,6
+2024;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;251605 Assistente social;4752;29937,6
+2024;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;223405 Farmacêutico;2119;13349,7
+2024;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;223505 Enfermeiro;13672;86133,6
+2024;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;223605 Fisioterapeuta geral;2333;14697,9
+2024;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;223710 Nutricionista;2830;17829
+2024;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;223810 Fonoaudiólogo geral;23;144,9
+2024;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;223905 Terapeuta ocupacional;45;283,5
+2024;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;251510 Psicólogo clínico;4385;27625,5
+2024;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;251605 Assistente social;9657;60839,1
+2024;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;223505 Enfermeiro;941;5928,3
+2024;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;223605 Fisioterapeuta geral;3261;20544,3
+2024;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;223710 Nutricionista;1297;8171,1
+2024;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;223810 Fonoaudiólogo geral;304;1915,2
+2024;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;251510 Psicólogo clínico;1271;8007,3
+2024;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;251605 Assistente social;1223;7704,9
+2024;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;223405 Farmacêutico;317;1997,1
+2024;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;223505 Enfermeiro;753;4743,9
+2024;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;223605 Fisioterapeuta geral;301;1896,3
+2024;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;223710 Nutricionista;1917;12077,1
+2024;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;223810 Fonoaudiólogo geral;85;535,5
+2024;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;251510 Psicólogo clínico;1147;7226,1
+2024;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;251605 Assistente social;1877;11825,1
+2024;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;223405 Farmacêutico;143;900,9
+2024;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;223505 Enfermeiro;4995;31468,5
+2024;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;223605 Fisioterapeuta geral;1418;8933,4
+2024;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;223710 Nutricionista;1392;8769,6
+2024;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;223810 Fonoaudiólogo geral;164;1033,2
+2024;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;251510 Psicólogo clínico;1601;10086,3
+2024;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;251605 Assistente social;2338;14729,4
+2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;31;195,3
+2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223220 Cirurgião dentista - estomatologista;0;0
+2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;16;100,8
+2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223288 Cirurgião dentista - odontologia para pacientes com necessidades especiais;0;0
+2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223505 Enfermeiro;6678;42071,4
+2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;1230;7749
+2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;7;44,1
+2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;516;3250,8
+2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;1538;9689,4
+2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;251605 Assistente social;1097;6911,1
+2024;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;536;3376,8
+2024;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;223288 Cirurgião dentista - odontologia para pacientes com necessidades especiais;392;2469,6
+2024;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;223405 Farmacêutico;16650;104895
+2024;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;223505 Enfermeiro;10306;64927,8
+2024;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;1725;10867,5
+2024;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;223710 Nutricionista;208;1310,4
+2024;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;150;945
+2024;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;601;3786,3
+2024;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;251605 Assistente social;881;5550,3
+2024;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;223505 Enfermeiro;448;2822,4
+2024;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;223545 Enfermeiro obstétrico;401;2526,3
+2024;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;490;3087
+2024;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;223625 Fisioterapeuta respiratória;5;31,5
+2024;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;223710 Nutricionista;1254;7900,2
+2024;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;1407;8864,1
+2024;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;329;2072,7
+2024;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;579;3647,7
+2024;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;16;100,8
+2024;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;251605 Assistente social;14070;88641
+2024;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;223505 Enfermeiro;11429;72002,7
+2024;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;888;5594,4
+2024;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;223625 Fisioterapeuta respiratória;122;768,6
+2024;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;223710 Nutricionista;1921;12102,3
+2024;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;933;5877,9
+2024;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;463;2916,9
+2024;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;2103;13248,9
+2024;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;251605 Assistente social;496;3124,8
+2024;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;223505 Enfermeiro;47255;297706,5
+2024;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;223545 Enfermeiro obstétrico;3601;22686,3
+2024;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;223605 Fisioterapeuta geral;3042;19164,6
+2024;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;223710 Nutricionista;68;428,4
+2024;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;223810 Fonoaudiólogo geral;274;1726,2
+2024;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;251510 Psicólogo clínico;831;5235,3
+2024;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;251605 Assistente social;14649;92288,7
+2024;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;357;2249,1
+2024;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;223505 Enfermeiro;3776;23788,8
+2024;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;223710 Nutricionista;680;4284
+2024;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;1552;9777,6
+2024;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;939;5915,7
+2024;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;251605 Assistente social;1213;7641,9
+2024;Rede própria;Gestão direta;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;223710 Nutricionista;30;189
+2024;Rede própria;Gestão direta;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;251510 Psicólogo clínico;2368;14918,4
+2024;Rede própria;Gestão direta;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;251605 Assistente social;1266;7975,8
+2024;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;221105 Biólogo;2900;18270
+2024;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;223240 Cirurgião dentista - ortopedista e ortodontista;683;4302,9
+2024;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;1466;9235,8
+2024;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;223505 Enfermeiro;576386;3631231,8
+2024;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;832;5241,6
+2024;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;223625 Fisioterapeuta respiratória;3;18,9
+2024;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;223710 Nutricionista;1;6,3
+2024;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;34;214,2
+2024;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;73;459,9
+2024;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;251605 Assistente social;817773;5151969,9
+2024;Rede própria;Gestão direta;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;223505 Enfermeiro;31292;197139,6
+2024;Rede própria;Gestão direta;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;223545 Enfermeiro obstétrico;177;1115,1
+2024;Rede própria;Gestão direta;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;251510 Psicólogo clínico;4640;29232
+2024;Rede própria;Gestão direta;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;251605 Assistente social;22049;138908,7
+2024;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;5075;31972,5
+2024;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;3138;19769,4
+2024;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;223288 Cirurgião dentista - odontologia para pacientes com necessidades especiais;2423;15264,9
+2024;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;223505 Enfermeiro;42176;265708,8
+2024;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;223710 Nutricionista;631;3975,3
+2024;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;63;396,9
+2024;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;3356;21142,8
+2024;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;251605 Assistente social;35584;224179,2
+2024;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;221105 Biólogo;2;12,6
+2024;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;546;3439,8
+2024;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;223505 Enfermeiro;20921;131802,3
+2024;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;2203;13878,9
+2024;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;223635 Fisioterapeuta traumato-ortopédica funcional;26;163,8
+2024;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;223710 Nutricionista;3210;20223
+2024;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;197;1241,1
+2024;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;223505 Enfermeiro;1034;6514,2
+2024;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;223530 Enfermeiro do trabalho;44;277,2
+2024;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;223605 Fisioterapeuta geral;1496;9424,8
+2024;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;223710 Nutricionista;17;107,1
+2024;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;223905 Terapeuta ocupacional;1114;7018,2
+2024;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;251510 Psicólogo clínico;196;1234,8
+2024;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;251520 Psicólogo hospitalar;2584;16279,2
+2024;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;251605 Assistente social;21431;135015,3
+2024;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;221205 Biomédico;18;113,4
+2024;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;1537;9683,1
+2024;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223260 Cirurgião dentista - radiologista;2;12,6
+2024;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;6707;42254,1
+2024;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223505 Enfermeiro;5329;33572,7
+2024;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;3559;22421,7
+2024;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223710 Nutricionista;3204;20185,2
+2024;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;6151;38751,3
+2024;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;2264;14263,2
+2024;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;2707;17054,1
+2024;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;251605 Assistente social;3323;20934,9
+2024;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;223405 Farmacêutico;267;1682,1
+2024;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;223505 Enfermeiro;3359;21161,7
+2024;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;35966;226585,8
+2024;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;223710 Nutricionista;110;693
+2024;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;6366;40105,8
+2024;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;1251;7881,3
+2024;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;829;5222,7
+2024;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;251605 Assistente social;34534;217564,2
+2024;Rede própria;Gestão direta;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;223505 Enfermeiro;53236;335386,8
+2024;Rede própria;Gestão direta;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;223810 Fonoaudiólogo geral;222;1398,6
+2024;Rede própria;Gestão direta;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;251605 Assistente social;235;1480,5
+2024;Rede própria;Gestão direta;0001546;HOSPITAL PSIQUIATRICO ULYSSES PERNAMBUCANO;Recife;I Região de Saúde - PE;223505 Enfermeiro;560;3528
+2024;Rede própria;Gestão direta;0001546;HOSPITAL PSIQUIATRICO ULYSSES PERNAMBUCANO;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;278;1751,4
+2024;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;41;258,3
+2024;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;223505 Enfermeiro;1771;11157,3
+2024;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;223545 Enfermeiro obstétrico;169;1064,7
+2024;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;223605 Fisioterapeuta geral;8312;52365,6
+2024;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;223710 Nutricionista;6240;39312
+2024;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;223810 Fonoaudiólogo geral;476;2998,8
+2024;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;251510 Psicólogo clínico;607;3824,1
+2024;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;251605 Assistente social;11028;69476,4
+2024;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;221205 Biomédico;2;12,6
+2024;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;148;932,4
+2024;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223232 Cirurgião dentista - odontologista legal;44;277,2
+2024;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;3013;18981,9
+2024;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223405 Farmacêutico;2662;16770,6
+2024;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223415 Farmacêutico analista clínico;9;56,7
+2024;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223505 Enfermeiro;14598;91967,4
+2024;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223605 Fisioterapeuta geral;15955;100516,5
+2024;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223625 Fisioterapeuta respiratória;24;151,2
+2024;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223710 Nutricionista;5748;36212,4
+2024;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223810 Fonoaudiólogo geral;2241;14118,3
+2024;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223905 Terapeuta ocupacional;1845;11623,5
+2024;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;251510 Psicólogo clínico;3508;22100,4
+2024;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;251605 Assistente social;5933;37377,9
+2024;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;223505 Enfermeiro;446;2809,8
+2024;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;223710 Nutricionista;1901;11976,3
+2024;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;223810 Fonoaudiólogo geral;88;554,4
+2024;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;251510 Psicólogo clínico;309;1946,7
+2024;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;251520 Psicólogo hospitalar;241;1518,3
+2024;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;251605 Assistente social;5304;33415,2
+2024;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;223505 Enfermeiro;11798;74327,4
+2024;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;223545 Enfermeiro obstétrico;70;441
+2024;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;223710 Nutricionista;6650;41895
+2024;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;223810 Fonoaudiólogo geral;1556;9802,8
+2024;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;223905 Terapeuta ocupacional;1649;10388,7
+2024;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;251510 Psicólogo clínico;5297;33371,1
+2024;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;251605 Assistente social;11896;74944,8
+2024;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;238;1499,4
+2024;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;223505 Enfermeiro;17868;112568,4
+2024;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;223810 Fonoaudiólogo geral;53;333,9
+2024;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;251510 Psicólogo clínico;383;2412,9
+2024;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;251605 Assistente social;1516;9550,8
+2024;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;223505 Enfermeiro;3507;22094,1
+2024;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;251605 Assistente social;44;277,2
+2025;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;223545 Enfermeiro obstétrico;639;4025,7
+2025;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;223710 Nutricionista;2457;15479,1
+2025;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;251510 Psicólogo clínico;1866;11755,8
+2025;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;251605 Assistente social;2169;13664,7
+2025;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;223505 Enfermeiro;5716;36010,8
+2025;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;223605 Fisioterapeuta geral;351;2211,3
+2025;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;223710 Nutricionista;753;4743,9
+2025;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;223810 Fonoaudiólogo geral;279;1757,7
+2025;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;251510 Psicólogo clínico;8;50,4
+2025;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;251605 Assistente social;2067;13022,1
+2025;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;223505 Enfermeiro;422;2658,6
+2025;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;223530 Enfermeiro do trabalho;30;189
+2025;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;223605 Fisioterapeuta geral;26;163,8
+2025;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;223710 Nutricionista;587;3698,1
+2025;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;251510 Psicólogo clínico;205;1291,5
+2025;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;251520 Psicólogo hospitalar;389;2450,7
+2025;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;251605 Assistente social;6171;38877,3
+2025;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;30;189
+2025;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;223505 Enfermeiro;461;2904,3
+2025;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;223505 Enfermeiro;5;31,5
+2025;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;223605 Fisioterapeuta geral;7;44,1
+2025;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;223710 Nutricionista;157;989,1
+2025;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;223810 Fonoaudiólogo geral;677;4265,1
+2025;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;251510 Psicólogo clínico;556;3502,8
+2025;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;251605 Assistente social;338;2129,4
+2025;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;223505 Enfermeiro;792;4989,6
+2025;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;223605 Fisioterapeuta geral;246;1549,8
+2025;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;223710 Nutricionista;208;1310,4
+2025;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;223810 Fonoaudiólogo geral;80;504
+2025;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;251510 Psicólogo clínico;2;12,6
+2025;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;251520 Psicólogo hospitalar;524;3301,2
+2025;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;251605 Assistente social;1471;9267,3
+2025;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;221205 Biomédico;14;88,2
+2025;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;5;31,5
+2025;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;223505 Enfermeiro;5340;33642
+2025;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;223530 Enfermeiro do trabalho;2685;16915,5
+2025;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;223535 Enfermeiro nefrologista;12233;77067,9
+2025;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;223605 Fisioterapeuta geral;492;3099,6
+2025;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;223710 Nutricionista;3523;22194,9
+2025;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;223810 Fonoaudiólogo geral;11;69,3
+2025;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;251510 Psicólogo clínico;2381;15000,3
+2025;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;251605 Assistente social;4556;28702,8
+2025;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;223505 Enfermeiro;8899;56063,7
+2025;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;223605 Fisioterapeuta geral;18;113,4
+2025;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;223710 Nutricionista;810;5103
+2025;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;223810 Fonoaudiólogo geral;402;2532,6
+2025;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;251510 Psicólogo clínico;8;50,4
+2025;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;251605 Assistente social;2025;12757,5
+2025;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;223505 Enfermeiro;5493;34605,9
+2025;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;4232;26661,6
+2025;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;223710 Nutricionista;995;6268,5
+2025;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;375;2362,5
+2025;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;401;2526,3
+2025;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;251605 Assistente social;766;4825,8
+2025;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;223505 Enfermeiro;4945;31153,5
+2025;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;2727;17180,1
+2025;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;223710 Nutricionista;1749;11018,7
+2025;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;595;3748,5
+2025;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;46;289,8
+2025;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;251605 Assistente social;14302;90102,6
+2025;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;1;6,3
+2025;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;223505 Enfermeiro;286;1801,8
+2025;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;223605 Fisioterapeuta geral;236;1486,8
+2025;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;223710 Nutricionista;1;6,3
+2025;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;223810 Fonoaudiólogo geral;119;749,7
+2025;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;251510 Psicólogo clínico;333;2097,9
+2025;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;251605 Assistente social;784;4939,2
+2025;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;223505 Enfermeiro;1552;9777,6
+2025;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;223605 Fisioterapeuta geral;2;12,6
+2025;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;223810 Fonoaudiólogo geral;44;277,2
+2025;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;251510 Psicólogo clínico;96;604,8
+2025;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;251605 Assistente social;2312;14565,6
+2025;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;223505 Enfermeiro;35298;222377,4
+2025;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;251605 Assistente social;144;907,2
+2025;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;223505 Enfermeiro;5144;32407,2
+2025;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;223545 Enfermeiro obstétrico;34;214,2
+2025;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;223710 Nutricionista;109;686,7
+2025;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;223810 Fonoaudiólogo geral;49;308,7
+2025;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;251510 Psicólogo clínico;521;3282,3
+2025;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;251520 Psicólogo hospitalar;1054;6640,2
+2025;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;251605 Assistente social;1138;7169,4
+2025;OSS;OSS;6562205;UPA BARRA DE JANGADA;Jaboatão dos Guararapes;I Região de Saúde - PE;251605 Assistente social;6624;41731,2
+2025;OSS;OSS;6690742;UPA CABO DE SANTO AGOSTINHO;Cabo de Santo Agostinho;I Região de Saúde - PE;251605 Assistente social;12781;80520,3
+2025;OSS;OSS;6631819;UPA CARUARU;Caruaru;IV Região de Saúde - PE;221205 Biomédico;8;50,4
+2025;OSS;OSS;6631819;UPA CARUARU;Caruaru;IV Região de Saúde - PE;223505 Enfermeiro;41;258,3
+2025;OSS;OSS;6631819;UPA CARUARU;Caruaru;IV Região de Saúde - PE;223605 Fisioterapeuta geral;1873;11799,9
+2025;OSS;OSS;6631819;UPA CARUARU;Caruaru;IV Região de Saúde - PE;223710 Nutricionista;3105;19561,5
+2025;OSS;OSS;6631819;UPA CARUARU;Caruaru;IV Região de Saúde - PE;251605 Assistente social;10361;65274,3
+2025;OSS;OSS;6488315;UPA CAXANGA;Recife;I Região de Saúde - PE;223710 Nutricionista;16095;101398,5
+2025;OSS;OSS;6488315;UPA CAXANGA;Recife;I Região de Saúde - PE;251605 Assistente social;16558;104315,4
+2025;OSS;OSS;6558992;UPA CURADO;Jaboatão dos Guararapes;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;12;75,6
+2025;OSS;OSS;6558992;UPA CURADO;Jaboatão dos Guararapes;I Região de Saúde - PE;223505 Enfermeiro;20045;126283,5
+2025;OSS;OSS;6558992;UPA CURADO;Jaboatão dos Guararapes;I Região de Saúde - PE;251605 Assistente social;13200;83160
+2025;OSS;OSS;6618464;UPA ENGENHO VELHO;Jaboatão dos Guararapes;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;1;6,3
+2025;OSS;OSS;6618464;UPA ENGENHO VELHO;Jaboatão dos Guararapes;I Região de Saúde - PE;223505 Enfermeiro;1;6,3
+2025;OSS;OSS;6618464;UPA ENGENHO VELHO;Jaboatão dos Guararapes;I Região de Saúde - PE;251605 Assistente social;9067;57122,1
+2025;OSS;OSS;6726852;UPA IBURA;Recife;I Região de Saúde - PE;221205 Biomédico;1624;10231,2
+2025;OSS;OSS;6726852;UPA IBURA;Recife;I Região de Saúde - PE;223405 Farmacêutico;6753;42543,9
+2025;OSS;OSS;6726852;UPA IBURA;Recife;I Região de Saúde - PE;223505 Enfermeiro;13616;85780,8
+2025;OSS;OSS;6726852;UPA IBURA;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;6107;38474,1
+2025;OSS;OSS;6726852;UPA IBURA;Recife;I Região de Saúde - PE;223710 Nutricionista;647;4076,1
+2025;OSS;OSS;6726852;UPA IBURA;Recife;I Região de Saúde - PE;251605 Assistente social;28978;182561,4
+2025;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;223405 Farmacêutico;3615;22774,5
+2025;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;223505 Enfermeiro;17637;111113,1
+2025;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;223605 Fisioterapeuta geral;6848;43142,4
+2025;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;223625 Fisioterapeuta respiratória;1118;7043,4
+2025;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;223710 Nutricionista;4816;30340,8
+2025;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;251510 Psicólogo clínico;2660;16758
+2025;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;251605 Assistente social;11072;69753,6
+2025;OSS;OSS;6481876;UPA IMBIRIBEIRA;Recife;I Região de Saúde - PE;221205 Biomédico;519;3269,7
+2025;OSS;OSS;6481876;UPA IMBIRIBEIRA;Recife;I Região de Saúde - PE;223405 Farmacêutico;14;88,2
+2025;OSS;OSS;6481876;UPA IMBIRIBEIRA;Recife;I Região de Saúde - PE;223505 Enfermeiro;26;163,8
+2025;OSS;OSS;6481876;UPA IMBIRIBEIRA;Recife;I Região de Saúde - PE;223625 Fisioterapeuta respiratória;59;371,7
+2025;OSS;OSS;6481876;UPA IMBIRIBEIRA;Recife;I Região de Saúde - PE;223710 Nutricionista;354;2230,2
+2025;OSS;OSS;6481876;UPA IMBIRIBEIRA;Recife;I Região de Saúde - PE;251605 Assistente social;4196;26434,8
+2025;OSS;OSS;6703437;UPA NOVA DESCOBERTA;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;419;2639,7
+2025;OSS;OSS;6703437;UPA NOVA DESCOBERTA;Recife;I Região de Saúde - PE;251605 Assistente social;2618;16493,4
+2025;OSS;OSS;6443397;UPA OLINDA;Olinda;I Região de Saúde - PE;223505 Enfermeiro;1;6,3
+2025;OSS;OSS;6443397;UPA OLINDA;Olinda;I Região de Saúde - PE;223605 Fisioterapeuta geral;6695;42178,5
+2025;OSS;OSS;6443397;UPA OLINDA;Olinda;I Região de Saúde - PE;223710 Nutricionista;1911;12039,3
+2025;OSS;OSS;6443397;UPA OLINDA;Olinda;I Região de Saúde - PE;251605 Assistente social;4737;29843,1
+2025;OSS;OSS;6443419;UPA PAULISTA;Paulista;I Região de Saúde - PE;221105 Biólogo;151;951,3
+2025;OSS;OSS;6443419;UPA PAULISTA;Paulista;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;1;6,3
+2025;OSS;OSS;6443419;UPA PAULISTA;Paulista;I Região de Saúde - PE;223505 Enfermeiro;5202;32772,6
+2025;OSS;OSS;6443419;UPA PAULISTA;Paulista;I Região de Saúde - PE;223605 Fisioterapeuta geral;1;6,3
+2025;OSS;OSS;6443419;UPA PAULISTA;Paulista;I Região de Saúde - PE;223710 Nutricionista;3699;23303,7
+2025;OSS;OSS;6443419;UPA PAULISTA;Paulista;I Região de Saúde - PE;251605 Assistente social;9688;61034,4
+2025;OSS;OSS;6507557;UPA SAO LOURENCO DA MATA;São Lourenço da Mata;I Região de Saúde - PE;251605 Assistente social;125;787,5
+2025;OSS;OSS;6530389;UPA TORROES;Recife;I Região de Saúde - PE;221205 Biomédico;4488;28274,4
+2025;OSS;OSS;6530389;UPA TORROES;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;3676;23158,8
+2025;OSS;OSS;6530389;UPA TORROES;Recife;I Região de Saúde - PE;251605 Assistente social;15252;96087,6
+2025;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;223405 Farmacêutico;591;3723,3
+2025;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;223505 Enfermeiro;10509;66206,7
+2025;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;223605 Fisioterapeuta geral;672;4233,6
+2025;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;223710 Nutricionista;2239;14105,7
+2025;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;223905 Terapeuta ocupacional;673;4239,9
+2025;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;251510 Psicólogo clínico;1715;10804,5
+2025;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;251605 Assistente social;2183;13752,9
+2025;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;223405 Farmacêutico;1147;7226,1
+2025;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;223505 Enfermeiro;5871;36987,3
+2025;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;223605 Fisioterapeuta geral;11394;71782,2
+2025;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;223710 Nutricionista;2125;13387,5
+2025;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;223810 Fonoaudiólogo geral;732;4611,6
+2025;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;251510 Psicólogo clínico;1635;10300,5
+2025;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;251605 Assistente social;3779;23807,7
+2025;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;223405 Farmacêutico;328;2066,4
+2025;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;223505 Enfermeiro;2310;14553
+2025;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;223605 Fisioterapeuta geral;322;2028,6
+2025;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;223710 Nutricionista;1544;9727,2
+2025;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;223810 Fonoaudiólogo geral;171;1077,3
+2025;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;223905 Terapeuta ocupacional;6;37,8
+2025;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;251510 Psicólogo clínico;1152;7257,6
+2025;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;251605 Assistente social;1002;6312,6
+2025;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;223415 Farmacêutico analista clínico;661;4164,3
+2025;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;223505 Enfermeiro;1798;11327,4
+2025;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;223605 Fisioterapeuta geral;308;1940,4
+2025;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;223710 Nutricionista;1368;8618,4
+2025;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;223810 Fonoaudiólogo geral;42;264,6
+2025;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;251510 Psicólogo clínico;169;1064,7
+2025;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;251605 Assistente social;1268;7988,4
+2025;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;223405 Farmacêutico;95;598,5
+2025;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;223505 Enfermeiro;2033;12807,9
+2025;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;223605 Fisioterapeuta geral;1389;8750,7
+2025;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;223710 Nutricionista;183;1152,9
+2025;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;223810 Fonoaudiólogo geral;1391;8763,3
+2025;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;251510 Psicólogo clínico;1487;9368,1
+2025;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;251605 Assistente social;3401;21426,3
+2025;OSS;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;223405 Farmacêutico;378;2381,4
+2025;OSS;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;223505 Enfermeiro;3114;19618,2
+2025;OSS;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;223605 Fisioterapeuta geral;994;6262,2
+2025;OSS;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;223710 Nutricionista;1451;9141,3
+2025;OSS;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;251510 Psicólogo clínico;1146;7219,8
+2025;OSS;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;251605 Assistente social;1370;8631
+2025;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;223415 Farmacêutico analista clínico;135;850,5
+2025;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;223505 Enfermeiro;1715;10804,5
+2025;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;223605 Fisioterapeuta geral;1610;10143
+2025;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;223710 Nutricionista;2505;15781,5
+2025;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;223810 Fonoaudiólogo geral;60;378
+2025;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;223905 Terapeuta ocupacional;4;25,2
+2025;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;251510 Psicólogo clínico;333;2097,9
+2025;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;251605 Assistente social;2150;13545
+2025;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;223405 Farmacêutico;583;3672,9
+2025;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;223505 Enfermeiro;4630;29169
+2025;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;223605 Fisioterapeuta geral;1805;11371,5
+2025;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;223710 Nutricionista;3490;21987
+2025;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;223810 Fonoaudiólogo geral;23;144,9
+2025;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;251510 Psicólogo clínico;3372;21243,6
+2025;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;251605 Assistente social;2161;13614,3
+2025;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;223405 Farmacêutico;1759;11081,7
+2025;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;223505 Enfermeiro;2890;18207
+2025;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;223605 Fisioterapeuta geral;620;3906
+2025;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;223710 Nutricionista;842;5304,6
+2025;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;223810 Fonoaudiólogo geral;235;1480,5
+2025;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;223905 Terapeuta ocupacional;241;1518,3
+2025;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;251510 Psicólogo clínico;1766;11125,8
+2025;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;251605 Assistente social;1224;7711,2
+2025;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;223405 Farmacêutico;882;5556,6
+2025;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;223505 Enfermeiro;19062;120090,6
+2025;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;223605 Fisioterapeuta geral;89;560,7
+2025;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;223710 Nutricionista;2311;14559,3
+2025;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;223810 Fonoaudiólogo geral;1493;9405,9
+2025;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;251510 Psicólogo clínico;191;1203,3
+2025;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;251605 Assistente social;4222;26598,6
+2025;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;223405 Farmacêutico;3714;23398,2
+2025;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;223505 Enfermeiro;9604;60505,2
+2025;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;223605 Fisioterapeuta geral;1645;10363,5
+2025;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;223710 Nutricionista;2832;17841,6
+2025;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;223810 Fonoaudiólogo geral;107;674,1
+2025;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;223905 Terapeuta ocupacional;97;611,1
+2025;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;251510 Psicólogo clínico;3948;24872,4
+2025;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;251605 Assistente social;8590;54117
+2025;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;223405 Farmacêutico;209;1316,7
+2025;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;223415 Farmacêutico analista clínico;84;529,2
+2025;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;223505 Enfermeiro;990;6237
+2025;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;223605 Fisioterapeuta geral;457;2879,1
+2025;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;223710 Nutricionista;1110;6993
+2025;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;223810 Fonoaudiólogo geral;80;504
+2025;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;251510 Psicólogo clínico;305;1921,5
+2025;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;251605 Assistente social;1142;7194,6
+2025;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;223405 Farmacêutico;333;2097,9
+2025;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;223505 Enfermeiro;1434;9034,2
+2025;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;223605 Fisioterapeuta geral;339;2135,7
+2025;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;223710 Nutricionista;1676;10558,8
+2025;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;223810 Fonoaudiólogo geral;88;554,4
+2025;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;251510 Psicólogo clínico;1587;9998,1
+2025;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;251605 Assistente social;1642;10344,6
+2025;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;223405 Farmacêutico;108;680,4
+2025;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;223505 Enfermeiro;8144;51307,2
+2025;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;223605 Fisioterapeuta geral;1371;8637,3
+2025;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;223710 Nutricionista;1783;11232,9
+2025;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;223810 Fonoaudiólogo geral;35;220,5
+2025;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;223905 Terapeuta ocupacional;30;189
+2025;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;251510 Psicólogo clínico;2258;14225,4
+2025;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;251605 Assistente social;5247;33056,1
+2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;434;2734,2
+2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223220 Cirurgião dentista - estomatologista;75;472,5
+2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223236 Cirurgião dentista - odontopediatra;63;396,9
+2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;87;548,1
+2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223288 Cirurgião dentista - odontologia para pacientes com necessidades especiais;71;447,3
+2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223505 Enfermeiro;3391;21363,3
+2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;2618;16493,4
+2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223710 Nutricionista;625;3937,5
+2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;500;3150
+2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;1033;6507,9
+2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;2181;13740,3
+2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;251605 Assistente social;1341;8448,3
+2025;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;594;3742,2
+2025;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;223288 Cirurgião dentista - odontologia para pacientes com necessidades especiais;279;1757,7
+2025;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;223405 Farmacêutico;22;138,6
+2025;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;223445 Farmacêutico hospitalar e clínico;6;37,8
+2025;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;223505 Enfermeiro;9785;61645,5
+2025;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;1567;9872,1
+2025;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;223710 Nutricionista;229;1442,7
+2025;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;106;667,8
+2025;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;269;1694,7
+2025;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;251605 Assistente social;904;5695,2
+2025;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;223505 Enfermeiro;4625;29137,5
+2025;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;223545 Enfermeiro obstétrico;768;4838,4
+2025;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;532;3351,6
+2025;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;223710 Nutricionista;1660;10458
+2025;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;1587;9998,1
+2025;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;258;1625,4
+2025;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;1650;10395
+2025;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;86;541,8
+2025;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;251605 Assistente social;1517;9557,1
+2025;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;223505 Enfermeiro;12111;76299,3
+2025;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;223530 Enfermeiro do trabalho;1;6,3
+2025;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;1929;12152,7
+2025;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;223625 Fisioterapeuta respiratória;570;3591
+2025;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;223710 Nutricionista;2058;12965,4
+2025;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;925;5827,5
+2025;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;1124;7081,2
+2025;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;2958;18635,4
+2025;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;251605 Assistente social;1370;8631
+2025;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;223505 Enfermeiro;21504;135475,2
+2025;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;223545 Enfermeiro obstétrico;1602;10092,6
+2025;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;223605 Fisioterapeuta geral;1306;8227,8
+2025;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;223710 Nutricionista;24;151,2
+2025;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;223810 Fonoaudiólogo geral;202;1272,6
+2025;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;251510 Psicólogo clínico;1115;7024,5
+2025;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;251520 Psicólogo hospitalar;5;31,5
+2025;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;251605 Assistente social;816;5140,8
+2025;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;649;4088,7
+2025;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;223505 Enfermeiro;2292;14439,6
+2025;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;223710 Nutricionista;310;1953
+2025;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;521;3282,3
+2025;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;184;1159,2
+2025;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;251605 Assistente social;1057;6659,1
+2025;Rede própria;Gestão direta;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;223710 Nutricionista;256;1612,8
+2025;Rede própria;Gestão direta;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;251510 Psicólogo clínico;1575;9922,5
+2025;Rede própria;Gestão direta;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;251605 Assistente social;637;4013,1
+2025;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;221105 Biólogo;3;18,9
+2025;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;223240 Cirurgião dentista - ortopedista e ortodontista;127;800,1
+2025;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;954;6010,2
+2025;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;223505 Enfermeiro;623554;3928390,2
+2025;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;746;4699,8
+2025;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;223625 Fisioterapeuta respiratória;8;50,4
+2025;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;223710 Nutricionista;66726;420373,8
+2025;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;44;277,2
+2025;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;71;447,3
+2025;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;1;6,3
+2025;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;11286;71101,8
+2025;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;251545 Neuropsicólogo;11;69,3
+2025;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;251605 Assistente social;802761;5057394,3
+2025;Rede própria;Gestão direta;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;223545 Enfermeiro obstétrico;298;1877,4
+2025;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;3626;22843,8
+2025;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;2239;14105,7
+2025;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;223288 Cirurgião dentista - odontologia para pacientes com necessidades especiais;2588;16304,4
+2025;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;223505 Enfermeiro;51764;326113,2
+2025;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;223710 Nutricionista;1227;7730,1
+2025;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;630;3969
+2025;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;3731;23505,3
+2025;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;251605 Assistente social;41675;262552,5
+2025;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;2144;13507,2
+2025;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;223505 Enfermeiro;13437;84653,1
+2025;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;223530 Enfermeiro do trabalho;114;718,2
+2025;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;9230;58149
+2025;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;223635 Fisioterapeuta traumato-ortopédica funcional;234;1474,2
+2025;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;223710 Nutricionista;2660;16758
+2025;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;625;3937,5
+2025;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;1;6,3
+2025;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;449;2828,7
+2025;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;251605 Assistente social;38;239,4
+2025;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;223530 Enfermeiro do trabalho;208;1310,4
+2025;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;223605 Fisioterapeuta geral;2252;14187,6
+2025;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;223905 Terapeuta ocupacional;348;2192,4
+2025;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;251510 Psicólogo clínico;514;3238,2
+2025;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;251520 Psicólogo hospitalar;1668;10508,4
+2025;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;251605 Assistente social;3247;20456,1
+2025;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;221205 Biomédico;136;856,8
+2025;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;1553;9783,9
+2025;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223212 Cirurgião dentista - endodontista;36;226,8
+2025;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223236 Cirurgião dentista - odontopediatra;232;1461,6
+2025;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;4187;26378,1
+2025;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223505 Enfermeiro;22855;143986,5
+2025;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;5329;33572,7
+2025;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223710 Nutricionista;3101;19536,3
+2025;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;5223;32904,9
+2025;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;1914;12058,2
+2025;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;2483;15642,9
+2025;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;251605 Assistente social;3903;24588,9
+2025;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;223405 Farmacêutico;3935;24790,5
+2025;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;223505 Enfermeiro;41573;261909,9
+2025;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;223530 Enfermeiro do trabalho;386;2431,8
+2025;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;33988;214124,4
+2025;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;223710 Nutricionista;122;768,6
+2025;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;414;2608,2
+2025;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;1906;12007,8
+2025;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;1481;9330,3
+2025;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;1137;7163,1
+2025;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;251605 Assistente social;68256;430012,8
+2025;Rede própria;Gestão direta;0001546;HOSPITAL PSIQUIATRICO ULYSSES PERNAMBUCANO;Recife;I Região de Saúde - PE;223505 Enfermeiro;920;5796
+2025;Rede própria;Gestão direta;0001546;HOSPITAL PSIQUIATRICO ULYSSES PERNAMBUCANO;Recife;I Região de Saúde - PE;251605 Assistente social;3741;23568,3
+2025;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;223505 Enfermeiro;5858;36905,4
+2025;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;223545 Enfermeiro obstétrico;742;4674,6
+2025;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;223605 Fisioterapeuta geral;11464;72223,2
+2025;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;223625 Fisioterapeuta respiratória;1840;11592
+2025;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;223710 Nutricionista;5517;34757,1
+2025;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;223810 Fonoaudiólogo geral;582;3666,6
+2025;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;251510 Psicólogo clínico;1225;7717,5
+2025;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;251520 Psicólogo hospitalar;208;1310,4
+2025;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;251605 Assistente social;9029;56882,7
+2025;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;1;6,3
+2025;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223232 Cirurgião dentista - odontologista legal;2;12,6
+2025;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;3202;20172,6
+2025;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223405 Farmacêutico;3936;24796,8
+2025;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223505 Enfermeiro;9835;61960,5
+2025;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223605 Fisioterapeuta geral;15124;95281,2
+2025;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223710 Nutricionista;1386;8731,8
+2025;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223810 Fonoaudiólogo geral;1265;7969,5
+2025;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;223905 Terapeuta ocupacional;1358;8555,4
+2025;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;251510 Psicólogo clínico;2505;15781,5
+2025;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;251605 Assistente social;3388;21344,4
+2025;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;445;2803,5
+2025;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;223505 Enfermeiro;101;636,3
+2025;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;223605 Fisioterapeuta geral;2132;13431,6
+2025;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;223710 Nutricionista;19362;121980,6
+2025;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;223810 Fonoaudiólogo geral;733;4617,9
+2025;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;251520 Psicólogo hospitalar;7047;44396,1
+2025;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;251605 Assistente social;36752;231537,6
+2025;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;223505 Enfermeiro;10571;66597,3
+2025;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;223545 Enfermeiro obstétrico;180;1134
+2025;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;223710 Nutricionista;1665;10489,5
+2025;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;223810 Fonoaudiólogo geral;949;5978,7
+2025;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;223905 Terapeuta ocupacional;1217;7667,1
+2025;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;251510 Psicólogo clínico;2582;16266,6
+2025;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;251605 Assistente social;13890;87507
+2025;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;853;5373,9
+2025;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;223212 Cirurgião dentista - endodontista;97;611,1
+2025;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;223236 Cirurgião dentista - odontopediatra;102;642,6
+2025;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;110;693
+2025;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;223505 Enfermeiro;18517;116657,1
+2025;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;251510 Psicólogo clínico;14;88,2
+2025;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;251605 Assistente social;1281;8070,3
+2025;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;223505 Enfermeiro;3492;21999,6
+2025;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;251605 Assistente social;8;50,4
 2026;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;223505 Enfermeiro;1526;9613,8
 2026;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;223545 Enfermeiro obstétrico;570;3591
 2026;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;223710 Nutricionista;2031;12795,3
