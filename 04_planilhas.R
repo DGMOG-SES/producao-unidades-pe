@@ -6,7 +6,7 @@
 # grava uma planilha Excel por tema, seguindo as tabulações do TabWin usadas
 # pela SES (RD_PE.DEF e Prod_PE.def). Em todas: produção | valor por ano.
 #
-#   01_procedimentos_ambulatoriais   SIA, grupos SIGTAP 02 a 05: qtd. e valor aprovados
+#   01_procedimentos_ambulatoriais   SIA, todos os grupos SIGTAP: qtd. e valor aprovados
 #                                    abas Geral (grupo × ano) e Unidades
 #   02_internamentos                 SIH, grupo do procedimento realizado (02 a 05):
 #                                    AIH (normais e de longa permanência) e valor total
@@ -484,7 +484,7 @@ main <- function() {
   nome_grupo <- function(g) fcoalesce(grupos$NO_GRUPO[match(g, grupos$GRUPO)], paste("Grupo", g))
 
   # Bases de cada tema (já filtradas)
-  amb  <- rede_estadual(sia[GRUPO %chin% GRUPOS_PROC], unidades)
+  amb  <- rede_estadual(sia, unidades)   # todos os grupos do SIGTAP
   int  <- rede_estadual(sih[GRUPO %chin% GRUPOS_PROC], unidades)
   cons <- function(cod) {
     x <- rede_estadual(sia[PA_PROC_ID == cod], unidades)
@@ -519,8 +519,8 @@ main <- function() {
                   list(Geral = geral(amb, "GRUPO_PROC", anos, "Quantidade", larg_grupo),
                        Unidades = unidades_ano(amb, unidades, anos, "Quantidade")),
                   "Procedimentos ambulatoriais",
-                  paste("SIA, grupos SIGTAP", paste(GRUPOS_PROC, collapse = ", "),
-                        "(diagnóstico, clínicos, cirúrgicos e transplantes). Produção = quantidade aprovada (PA_QTDAPR,",
+                  paste("SIA, todos os grupos SIGTAP (01 a 09).",
+                        "Produção = quantidade aprovada (PA_QTDAPR,",
                         "a Freqüência do Prod_PE.def); valor = valor aprovado."),
                   atualizacao, csv = csv_tema(amb, unidades, "GRUPO_PROC"))
 

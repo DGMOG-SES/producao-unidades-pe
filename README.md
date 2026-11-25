@@ -20,7 +20,7 @@ com subtotais e total geral.
 
 | Arquivo | Abas | Produção | Valor |
 |---|---|---|---|
-| `01_procedimentos_ambulatoriais` | **Geral** (grupo de procedimento × ano) e **Unidades** | SIA, quantidade aprovada, grupos SIGTAP 02 a 05 | Valor aprovado |
+| `01_procedimentos_ambulatoriais` | **Geral** (grupo de procedimento × ano) e **Unidades** | SIA, quantidade aprovada, todos os grupos SIGTAP (01 a 09) | Valor aprovado |
 | `02_internamentos` | **Geral** (grupo × ano) e uma aba por grupo: **02 Diagnóstico**, **03 Clínicos**, **04 Cirúrgicos**, **05 Transplantes** (unidades × ano) | SIH, número de AIH pelo grupo do procedimento realizado, **incluindo as de longa permanência** (Freqüência do TabWin, padrão da área) | Valor total da AIH |
 | `03_consultas_medicas_especializadas` | **Geral** (especialidade/CBO × ano) e **Unidades** | SIA, procedimento 0301010072, quantidade aprovada | Valor aprovado |
 | `04_consultas_multiprofissionais` | **Geral** (CBO × ano) e **Unidades** | SIA, procedimento 0301010048 (nível superior, exceto médico) | Valor aprovado |
