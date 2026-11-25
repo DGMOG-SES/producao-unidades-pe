@@ -1,0 +1,270 @@
+﻿ANO;TIPO_REDE;MODELO_GESTAO;CNES;UNIDADE;MUNICIPIO;REGIAO_SAUDE;GESTAO;TIPO_DE_PARTO;PROCEDIMENTO;QTD;VALOR
+2026;Complementar;Complementar;2432307;CENTRO HOSPITALAR SANTA MARIA;Vitória de Santo Antão;I Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;104;56755,92
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana;1;775,23
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;204;178983,1
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana em gestação de alto risco;429;530761,59
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;Estadual;Parto normal;Parto normal;3;2084,19
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;Estadual;Parto normal;Parto normal em gestação de alto risco;434;358568,05
+2026;Complementar;Complementar;2344882;HOSPITAL DO TRICENTENARIO;Olinda;I Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;115;78442,32
+2026;Complementar;Complementar;2344882;HOSPITAL DO TRICENTENARIO;Olinda;I Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;31;21007,49
+2026;Complementar;Complementar;2344882;HOSPITAL DO TRICENTENARIO;Olinda;I Região de Saúde - PE;Municipal;Parto normal;Parto normal;450;238358,1
+2026;Complementar;Complementar;2703041;HOSPITAL E MATERNIDADE ALCIDES CURSINO;Buíque;VI Região de Saúde - PE;Municipal;Parto normal;Parto normal;90;45884
+2026;Complementar;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;449;334779,91
+2026;Complementar;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;Municipal;Parto normal;Parto normal;494;322660,02
+2026;Complementar;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;175;132146,54
+2026;Complementar;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;138;104818,19
+2026;Complementar;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana em gestação de alto risco;20;22256,96
+2026;Complementar;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Parto normal;Parto normal;257;157902,44
+2026;Complementar;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Parto normal;Parto normal em gestação de alto risco;14;10444,12
+2026;Complementar;Complementar;2638991;HOSPITAL INFANTIL PALMIRA SALES;Garanhuns;V Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;324;225743,68
+2026;Complementar;Complementar;2638991;HOSPITAL INFANTIL PALMIRA SALES;Garanhuns;V Região de Saúde - PE;Municipal;Parto normal;Parto normal;242;127062,88
+2026;Complementar;Complementar;2344254;HOSPITAL JESUS PEQUENINO;Bezerros;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;41;25227,31
+2026;Complementar;Complementar;9417435;HOSPITAL MEMORIAL ALZIRA RIBEIRO;Agrestina;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;87;54264,99
+2026;Complementar;Complementar;9417435;HOSPITAL MEMORIAL ALZIRA RIBEIRO;Agrestina;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;2;924,8
+2026;Complementar;Complementar;2517124;HOSPITAL SAO FRANCISCO;Serra Talhada;XI Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;261;177513,11
+2026;Complementar;Complementar;2354551;HOSPITAL SAO LUIZ;Surubim;II Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;364;249393,3
+2026;Complementar;Complementar;2354551;HOSPITAL SAO LUIZ;Surubim;II Região de Saúde - PE;Municipal;Parto normal;Parto normal;39;19640,6
+2026;Complementar;Complementar;2712067;HOSPITAL SEVERINO TAVORA;Orobó;II Região de Saúde - PE;Municipal;Parto normal;Parto normal;5;2217
+2026;Complementar;Complementar;2315343;HVU HOSPITAL VALE DO UNA;Palmares;III Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;86;58079,58
+2026;Complementar;Complementar;2315343;HVU HOSPITAL VALE DO UNA;Palmares;III Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;84;57145,65
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana em gestação de alto risco;1322;1674056,09
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Estadual;Parto normal;Parto normal em centro de parto normal;147;15152,79
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Estadual;Parto normal;Parto normal em gestação de alto risco;1184;924258,34
+2026;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana;128;92961,17
+2026;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;283;208741,36
+2026;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;Estadual;Parto normal;Parto normal;601;328863,29
+2026;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;534;450537,55
+2026;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana em gestação de alto risco;1061;1307281,43
+2026;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;Estadual;Parto normal;Parto normal;947;605244,66
+2026;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;Estadual;Parto normal;Parto normal em gestação de alto risco;408;315132,82
+2026;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana;253;176999,97
+2026;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;25;17885,47
+2026;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;Estadual;Parto normal;Parto normal;699;371294,1
+2026;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana;31;22652,38
+2026;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana em gestação de alto risco;836;1151255,32
+2026;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;Estadual;Parto normal;Parto normal;231;123595,49
+2026;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;Estadual;Parto normal;Parto normal em gestação de alto risco;725;554847,13
+2026;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana;410;293092,31
+2026;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;Estadual;Parto normal;Parto normal;1144;622943,52
+2026;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana;382;260050,8
+2026;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;75;50647,5
+2026;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;Estadual;Parto normal;Parto normal;381;213304,22
+2026;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana;360;248832,72
+2026;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;103;71286,13
+2026;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;Estadual;Parto normal;Parto normal;347;180042,2
+2026;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana;219;157528,21
+2026;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;13;8972,43
+2026;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;Estadual;Parto normal;Parto normal;548;288347,78
+2026;Outro público;Pública;0267317;CASA DE PARTO DR GERALDO DE OLIVEIRA PASSOS;Lajedo;V Região de Saúde - PE;Municipal;Parto normal;Parto normal;61;27047,4
+2026;Outro público;Pública;2711389;CASA DE SAUDE E MATERNIDADE JOSEFA CAVALCANTI DE PETRIBU;Lagoa de Itaenga;II Região de Saúde - PE;Municipal;Parto normal;Parto normal;2;886,8
+2026;Outro público;Pública;0519529;CENTRO DE PARTO NORMAL DE CAMARAGIBE;Camaragibe;I Região de Saúde - PE;Municipal;Parto normal;Parto normal;75;38397
+2026;Outro público;Pública;9578161;CENTRO DE PARTO NORMAL DE PAUDALHO GABRIELLY RAMOS CPNP;Paudalho;II Região de Saúde - PE;Municipal;Parto normal;Parto normal em centro de parto normal;98;6760,6
+2026;Outro público;Pública;0214299;CENTRO DE PARTO NORMAL MARIA DAS DORES DE SOUZA;Petrolina;VIII Região de Saúde - PE;Municipal;Parto normal;Parto normal;193;85576,2
+2026;Outro público;Pública;2435802;H G G DR PAULO DA VEIGA PESSOA;Gravatá;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;4;2294,92
+2026;Outro público;Pública;2435802;H G G DR PAULO DA VEIGA PESSOA;Gravatá;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;15;8607,95
+2026;Outro público;Pública;2711850;HOMUPE;Petrolândia;VI Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;150;103473,56
+2026;Outro público;Pública;2711850;HOMUPE;Petrolândia;VI Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;99;68368,12
+2026;Outro público;Pública;2711850;HOMUPE;Petrolândia;VI Região de Saúde - PE;Municipal;Parto normal;Parto normal;57;26699,32
+2026;Outro público;Pública;2711877;HOSPITAL ALICE BATISTA DOS ANJOS;Amaraji;III Região de Saúde - PE;Municipal;Parto normal;Parto normal;4;1784,6
+2026;Outro público;Pública;2703386;HOSPITAL CAMOCIM DE SAO FELIX;Camocim de São Félix;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;2;894,8
+2026;Outro público;Pública;2711893;HOSPITAL CEL ALVARO FERRAZ;Floresta;XI Região de Saúde - PE;Municipal;Parto normal;Parto normal;45;20757
+2026;Outro público;Pública;2435454;HOSPITAL DE PEQUENO PORTE ARGEMIRA S R BARROS;Gameleira;III Região de Saúde - PE;Municipal;Parto normal;Parto normal;1;452,4
+2026;Outro público;Pública;2499975;HOSPITAL DISTRITAL JAILTON MESSIAS DE ALBUQUERQUE;Barreiros;III Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;5;3050,55
+2026;Outro público;Pública;2499975;HOSPITAL DISTRITAL JAILTON MESSIAS DE ALBUQUERQUE;Barreiros;III Região de Saúde - PE;Municipal;Parto normal;Parto normal;14;6907,8
+2026;Outro público;Pública;2638835;HOSPITAL DR ALBERTO DE OLIVEIRA;Bonito;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;12;7442,92
+2026;Outro público;Pública;2638835;HOSPITAL DR ALBERTO DE OLIVEIRA;Bonito;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;31;19230,21
+2026;Outro público;Pública;2638835;HOSPITAL DR ALBERTO DE OLIVEIRA;Bonito;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;39;17620,6
+2026;Outro público;Pública;2639246;HOSPITAL DR ARNALDO VASCONCELOS DE ALENCAR;Cabrobó;VIII Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;30;16515,9
+2026;Outro público;Pública;2639246;HOSPITAL DR ARNALDO VASCONCELOS DE ALENCAR;Cabrobó;VIII Região de Saúde - PE;Municipal;Parto normal;Parto normal;51;22827,4
+2026;Outro público;Pública;2702991;HOSPITAL DR JOAO SECUNDINO DE SOUZA;Águas Belas;V Região de Saúde - PE;Municipal;Parto normal;Parto normal;106;53805,4
+2026;Outro público;Pública;2349574;HOSPITAL DR JOSE ALVENTINO LIMA;Belém do São Francisco;VII Região de Saúde - PE;Municipal;Parto normal;Parto normal;9;3990,6
+2026;Outro público;Pública;2436205;HOSPITAL DR JOSE CARLOS DE SANTANA;Brejo da Madre de Deus;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;11;5770,88
+2026;Outro público;Pública;2638878;HOSPITAL DR LIDIO PARAIBA;Pesqueira;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;113;77659,23
+2026;Outro público;Pública;2638878;HOSPITAL DR LIDIO PARAIBA;Pesqueira;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;37;25378,87
+2026;Outro público;Pública;2638878;HOSPITAL DR LIDIO PARAIBA;Pesqueira;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;58;30058,8
+2026;Outro público;Pública;2348497;HOSPITAL DR LUIZ JOSE DA SILVA NETO;Tabira;X Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;38;21669,54
+2026;Outro público;Pública;2348497;HOSPITAL DR LUIZ JOSE DA SILVA NETO;Tabira;X Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;23;13211,39
+2026;Outro público;Pública;2348497;HOSPITAL DR LUIZ JOSE DA SILVA NETO;Tabira;X Região de Saúde - PE;Municipal;Parto normal;Parto normal;2;927
+2026;Outro público;Pública;2638916;HOSPITAL E MATERNIDADE JOAO ALEXANDRE DE OLIVEIRA;Frei Miguelinho;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;1;443,4
+2026;Outro público;Pública;2703084;HOSPITAL E MATERNIDADE JUSTA MARIA BEZERRA;Venturosa;VI Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;42;25778,22
+2026;Outro público;Pública;2703084;HOSPITAL E MATERNIDADE JUSTA MARIA BEZERRA;Venturosa;VI Região de Saúde - PE;Municipal;Parto normal;Parto normal;36;16226,4
+2026;Outro público;Pública;2432048;HOSPITAL E MATERNIDADES PETRONILA CAMPOS;São Lourenço da Mata;I Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;116;80440,22
+2026;Outro público;Pública;2432048;HOSPITAL E MATERNIDADES PETRONILA CAMPOS;São Lourenço da Mata;I Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;61;42249,31
+2026;Outro público;Pública;2432048;HOSPITAL E MATERNIDADES PETRONILA CAMPOS;São Lourenço da Mata;I Região de Saúde - PE;Municipal;Parto normal;Parto normal;321;168590,3
+2026;Outro público;Pública;2432471;HOSPITAL GENEZIO FRANCISCO XAVIER;Flores;XI Região de Saúde - PE;Municipal;Parto normal;Parto normal;1;451,4
+2026;Outro público;Pública;2344408;HOSPITAL GERAL ALFREDO ALVES DE LIMA;Chã Grande;I Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;8;5302,88
+2026;Outro público;Pública;2344408;HOSPITAL GERAL ALFREDO ALVES DE LIMA;Chã Grande;I Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;18;11928,98
+2026;Outro público;Pública;2344408;HOSPITAL GERAL ALFREDO ALVES DE LIMA;Chã Grande;I Região de Saúde - PE;Municipal;Parto normal;Parto normal;4;1995,4
+2026;Outro público;Pública;2349566;HOSPITAL GERAL IMACULADA CONCEICAO;Serrita;VII Região de Saúde - PE;Municipal;Parto normal;Parto normal;16;7230,4
+2026;Outro público;Pública;2703378;HOSPITAL GERAL SEVERINO PEREIRA DA SILVA;Taquaritinga do Norte;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;1;451,4
+2026;Outro público;Pública;2344033;HOSPITAL JOSEFA CORDEIRO VILACA;São João;V Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;34;19066,82
+2026;Outro público;Pública;2344033;HOSPITAL JOSEFA CORDEIRO VILACA;São João;V Região de Saúde - PE;Municipal;Parto normal;Parto normal;3;1330,2
+2026;Outro público;Pública;2638940;HOSPITAL JOSINA GODOY;Saloá;V Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;42;23298,66
+2026;Outro público;Pública;2638940;HOSPITAL JOSINA GODOY;Saloá;V Região de Saúde - PE;Municipal;Parto normal;Parto normal;14;6330,6
+2026;Outro público;Pública;2355841;HOSPITAL MAE KYOLA;Correntes;V Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;24;14565,84
+2026;Outro público;Pública;2355841;HOSPITAL MAE KYOLA;Correntes;V Região de Saúde - PE;Municipal;Parto normal;Parto normal;14;6207,6
+2026;Outro público;Pública;2712016;HOSPITAL MARIA ALICE GOMES LAFAYETTE;Sertânia;VI Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;26;16195,66
+2026;Outro público;Pública;2712016;HOSPITAL MARIA ALICE GOMES LAFAYETTE;Sertânia;VI Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;17;10573,47
+2026;Outro público;Pública;2712016;HOSPITAL MARIA ALICE GOMES LAFAYETTE;Sertânia;VI Região de Saúde - PE;Municipal;Parto normal;Parto normal;10;4466
+2026;Outro público;Pública;2715317;HOSPITAL MARIA RAFAEL DE SIQUEIRA;São José do Egito;X Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;84;53166,44
+2026;Outro público;Pública;2715317;HOSPITAL MARIA RAFAEL DE SIQUEIRA;São José do Egito;X Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;30;18977,3
+2026;Outro público;Pública;2715317;HOSPITAL MARIA RAFAEL DE SIQUEIRA;São José do Egito;X Região de Saúde - PE;Municipal;Parto normal;Parto normal;18;8327,2
+2026;Outro público;Pública;2639025;HOSPITAL MONSENHOR ALFREDO DAMASO;Bom Conselho;V Região de Saúde - PE;Municipal;Parto normal;Parto normal;58;32719,8
+2026;Outro público;Pública;2703351;HOSPITAL MUNICIPAL ADOLPHO PEREIRA CARNEIRO;São Caitano;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;79;43857,67
+2026;Outro público;Pública;2703351;HOSPITAL MUNICIPAL ADOLPHO PEREIRA CARNEIRO;São Caitano;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;33;14967,2
+2026;Outro público;Pública;2352524;HOSPITAL MUNICIPAL ALICE FIGUEIRA;Brejão;V Região de Saúde - PE;Municipal;Parto normal;Parto normal;3;1330,2
+2026;Outro público;Pública;2433788;HOSPITAL MUNICIPAL ANA ARGEMIRA CORREIA;Jataúba;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;21;10879,6
+2026;Outro público;Pública;2638924;HOSPITAL MUNICIPAL ANTONIA ALVES DE MELO;Canhotinho;V Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;36;21604,04
+2026;Outro público;Pública;2638924;HOSPITAL MUNICIPAL ANTONIA ALVES DE MELO;Canhotinho;V Região de Saúde - PE;Municipal;Parto normal;Parto normal;36;15962,4
+2026;Outro público;Pública;2638932;HOSPITAL MUNICIPAL ANTONIO XAVIER SOBRINHO;Paranatama;V Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;29;16050,17
+2026;Outro público;Pública;2638932;HOSPITAL MUNICIPAL ANTONIO XAVIER SOBRINHO;Paranatama;V Região de Saúde - PE;Municipal;Parto normal;Parto normal;4;1781,6
+2026;Outro público;Pública;2638975;HOSPITAL MUNICIPAL CLAUDINA TEIXEIRA;Jupi;V Região de Saúde - PE;Municipal;Parto normal;Parto normal;5;2217
+2026;Outro público;Pública;2343894;HOSPITAL MUNICIPAL DAS VERTENTES EVARISTO FERREIRA FILHO;Vertentes;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;15;8409,95
+2026;Outro público;Pública;2343894;HOSPITAL MUNICIPAL DAS VERTENTES EVARISTO FERREIRA FILHO;Vertentes;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;13;7302,49
+2026;Outro público;Pública;2343894;HOSPITAL MUNICIPAL DAS VERTENTES EVARISTO FERREIRA FILHO;Vertentes;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;5;2257
+2026;Outro público;Pública;7288263;HOSPITAL MUNICIPAL DE JAQUEIRA MARIA HELENA SILVA DE ANDRADE;Jaqueira;III Região de Saúde - PE;Municipal;Parto normal;Parto normal;2;886,8
+2026;Outro público;Pública;2349361;HOSPITAL MUNICIPAL DE JATOBA;Jatobá;VI Região de Saúde - PE;Municipal;Parto normal;Parto normal;11;4877,4
+2026;Outro público;Pública;2516764;HOSPITAL MUNICIPAL DE PAUDALHO;Paudalho;II Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;43;29502,73
+2026;Outro público;Pública;2516764;HOSPITAL MUNICIPAL DE PAUDALHO;Paudalho;II Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;118;80896,98
+2026;Outro público;Pública;0164542;HOSPITAL MUNICIPAL DO RIBEIRAO;Ribeirão;III Região de Saúde - PE;Municipal;Parto normal;Parto normal;12;5332,8
+2026;Outro público;Pública;2352133;HOSPITAL MUNICIPAL DR JOSE ANTONIO DE SIQUEIRA NETO;São Bento do Una;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;84;38737,4
+2026;Outro público;Pública;2428881;HOSPITAL MUNICIPAL DR JOSE DANTAS FILHO;Carnaíba;X Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;13;7439,69
+2026;Outro público;Pública;2428881;HOSPITAL MUNICIPAL DR JOSE DANTAS FILHO;Carnaíba;X Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;2;1147,66
+2026;Outro público;Pública;2711931;HOSPITAL MUNICIPAL DR MIGUEL ARRAES DE ALENCAR;Bom Jardim;II Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;6;3274,38
+2026;Outro público;Pública;2639068;HOSPITAL MUNICIPAL ELIZABETH BARBOSA;Custódia;VI Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;26;16203,66
+2026;Outro público;Pública;2639068;HOSPITAL MUNICIPAL ELIZABETH BARBOSA;Custódia;VI Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;1;553,73
+2026;Outro público;Pública;2639068;HOSPITAL MUNICIPAL ELIZABETH BARBOSA;Custódia;VI Região de Saúde - PE;Municipal;Parto normal;Parto normal;13;5972,2
+2026;Outro público;Pública;2639203;HOSPITAL MUNICIPAL EULINA DE NOVAES BIONE;Orocó;VIII Região de Saúde - PE;Municipal;Parto normal;Parto normal;29;13095,6
+2026;Outro público;Pública;2345374;HOSPITAL MUNICIPAL EULINA SILVA LOCIO DE ALENCAR;Bodocó;IX Região de Saúde - PE;Municipal;Parto normal;Parto normal;18;8157,2
+2026;Outro público;Pública;9146032;HOSPITAL MUNICIPAL GILZA DE MACEDO COELHO MELO;Santa Filomena;IX Região de Saúde - PE;Municipal;Parto normal;Parto normal;11;4887,4
+2026;Outro público;Pública;2714485;HOSPITAL MUNICIPAL JOAO RODRIGUES DE SOUZA;Santa Cruz;IX Região de Saúde - PE;Municipal;Parto normal;Parto normal;2;904,8
+2026;Outro público;Pública;2638959;HOSPITAL MUNICIPAL JOAO VICENTE;Itaíba;V Região de Saúde - PE;Municipal;Parto normal;Parto normal;12;5400,8
+2026;Outro público;Pública;2639211;HOSPITAL MUNICIPAL JOSE HENRIQUE DE LIMA;Lagoa Grande;VIII Região de Saúde - PE;Municipal;Parto normal;Parto normal;51;25746,04
+2026;Outro público;Pública;2638967;HOSPITAL MUNICIPAL JOSE JOSY DUARTE;Lagoa do Ouro;V Região de Saúde - PE;Municipal;Parto normal;Parto normal;11;4877,4
+2026;Outro público;Pública;2431106;HOSPITAL MUNICIPAL JOSE PINTO SARAIVA;Exu;IX Região de Saúde - PE;Municipal;Parto normal;Parto normal;13;5764,2
+2026;Outro público;Pública;2354845;HOSPITAL MUNICIPAL JOSE VERISSIMO DE SOUZA;Cupira;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;24;10641,6
+2026;Outro público;Pública;2712024;HOSPITAL MUNICIPAL JOSEFA EUSEBIA DA ROCHA;Feira Nova;II Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;8;4855,28
+2026;Outro público;Pública;2712024;HOSPITAL MUNICIPAL JOSEFA EUSEBIA DA ROCHA;Feira Nova;II Região de Saúde - PE;Municipal;Parto normal;Parto normal;2;886,8
+2026;Outro público;Pública;2703017;HOSPITAL MUNICIPAL LUIZA PEREIRA DE CARVALHO;Caetés;V Região de Saúde - PE;Municipal;Parto normal;Parto normal;12;5320,8
+2026;Outro público;Pública;2638894;HOSPITAL MUNICIPAL MANOEL ABRANTES FERREIRA;São Joaquim do Monte;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;10;5601,3
+2026;Outro público;Pública;2638894;HOSPITAL MUNICIPAL MANOEL ABRANTES FERREIRA;São Joaquim do Monte;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;12;6724,76
+2026;Outro público;Pública;2638894;HOSPITAL MUNICIPAL MANOEL ABRANTES FERREIRA;São Joaquim do Monte;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;9;4110,6
+2026;Outro público;Pública;2715228;HOSPITAL MUNICIPAL MARCELINO DA SILVA MUDO;Ipubi;IX Região de Saúde - PE;Municipal;Parto normal;Parto normal;9;4062,6
+2026;Outro público;Pública;2639238;HOSPITAL MUNICIPAL MARIA COELHO CAVALCANTI RODRIGUES;Afrânio;VIII Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;32;17463,36
+2026;Outro público;Pública;2356430;HOSPITAL MUNICIPAL MARIA DIGNA PESSOA DE MELLO;Quipapá;III Região de Saúde - PE;Municipal;Parto normal;Parto normal;9;3990,6
+2026;Outro público;Pública;2702835;HOSPITAL MUNICIPAL MARIA SENHORINHA DE SOUSA;Granito;IX Região de Saúde - PE;Municipal;Parto normal;Parto normal;4;1829,6
+2026;Outro público;Pública;2703505;HOSPITAL MUNICIPAL MARIA SILVA;Itapetim;X Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;58;32938,74
+2026;Outro público;Pública;2703505;HOSPITAL MUNICIPAL MARIA SILVA;Itapetim;X Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;21;11982,93
+2026;Outro público;Pública;2703505;HOSPITAL MUNICIPAL MARIA SILVA;Itapetim;X Região de Saúde - PE;Municipal;Parto normal;Parto normal;2;927
+2026;Outro público;Pública;2706709;HOSPITAL MUNICIPAL MARIA VENERI;Trindade;IX Região de Saúde - PE;Municipal;Parto normal;Parto normal;4;1773,6
+2026;Outro público;Pública;2639173;HOSPITAL MUNICIPAL MONSENHOR ANGELO SAMPAIO;Santa Maria da Boa Vista;VIII Região de Saúde - PE;Municipal;Parto normal;Parto normal;76;38262,6
+2026;Outro público;Pública;2702975;HOSPITAL MUNICIPAL NOSSA SENHORA DA CONCEICAO;Iati;V Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;44;26952,12
+2026;Outro público;Pública;2702975;HOSPITAL MUNICIPAL NOSSA SENHORA DA CONCEICAO;Iati;V Região de Saúde - PE;Municipal;Parto normal;Parto normal;23;11730,8
+2026;Outro público;Pública;2350289;HOSPITAL MUNICIPAL NOSSA SENHORA DA PAZ;Dormentes;VIII Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;4;2384,52
+2026;Outro público;Pública;2350289;HOSPITAL MUNICIPAL NOSSA SENHORA DA PAZ;Dormentes;VIII Região de Saúde - PE;Municipal;Parto normal;Parto normal;17;8548
+2026;Outro público;Pública;2639033;HOSPITAL MUNICIPAL NOSSA SENHORA DAS NEVES;Palmeirina;V Região de Saúde - PE;Municipal;Parto normal;Parto normal;1;459,4
+2026;Outro público;Pública;2631180;HOSPITAL MUNICIPAL NOSSA SENHORA DE FATIMA;Toritama;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;5;2778,65
+2026;Outro público;Pública;2631180;HOSPITAL MUNICIPAL NOSSA SENHORA DE FATIMA;Toritama;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;1;555,73
+2026;Outro público;Pública;2631180;HOSPITAL MUNICIPAL NOSSA SENHORA DE FATIMA;Toritama;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;21;9335,4
+2026;Outro público;Pública;2346869;HOSPITAL MUNICIPAL QUITERIA ALVES VILELA;Capoeiras;V Região de Saúde - PE;Municipal;Parto normal;Parto normal;17;7537,8
+2026;Outro público;Pública;2344289;HOSPITAL MUNICIPAL RAYMUNDO FRANCELINO ARAGAO;Santa Cruz do Capibaribe;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;48;29563,68
+2026;Outro público;Pública;2344289;HOSPITAL MUNICIPAL RAYMUNDO FRANCELINO ARAGAO;Santa Cruz do Capibaribe;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;134;61412,6
+2026;Outro público;Pública;2703068;HOSPITAL MUNICIPAL SANTA RITA;Inajá;VI Região de Saúde - PE;Municipal;Parto normal;Parto normal;40;17736
+2026;Outro público;Pública;2349906;HOSPITAL MUNICIPAL SAO SEBASTIAO;Poção;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;1;443,4
+2026;Outro público;Pública;2638908;HOSPITAL NAIR ALVES RAIMUNDO;Cachoeirinha;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;5;2217
+2026;Outro público;Pública;2346850;HOSPITAL PROFESSOR JORGE DE OLIVEIRA LOBO;Ibirajuba;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;1;443,4
+2026;Outro público;Pública;2712059;HOSPITAL REGIONAL DR BENEVOLO WANDERLEY DO AMARAL;Escada;III Região de Saúde - PE;Municipal;Parto normal;Parto normal;3;1357,2
+2026;Outro público;Pública;2436310;HOSPITAL REGIONAL JULIO ALVES DE LIRA;Belo Jardim;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;36;22336,76
+2026;Outro público;Pública;2436310;HOSPITAL REGIONAL JULIO ALVES DE LIRA;Belo Jardim;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;127;57390,8
+2026;Outro público;Pública;2715201;HOSPITAL SENADOR ANTONIO FARIAS;Cortês;III Região de Saúde - PE;Municipal;Parto normal;Parto normal;2;886,8
+2026;Outro público;Pública;5015499;HOSPITAL TEOFILO SALES ASFORA;Brejo da Madre de Deus;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;3;1527,8
+2026;Outro público;Pública;2876671;MATERNIDADE E CENTRO DE PARTO NORMAL RITA BARRADAS;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Parto normal;Parto normal;178;78925,2
+2026;Outro público;Pública;2427249;MATERNIDADE MAE LIDIA;Ipojuca;I Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;88;53652,62
+2026;Outro público;Pública;2427249;MATERNIDADE MAE LIDIA;Ipojuca;I Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;30;18287,9
+2026;Outro público;Pública;2427249;MATERNIDADE MAE LIDIA;Ipojuca;I Região de Saúde - PE;Municipal;Parto normal;Parto normal;369;187538,2
+2026;Outro público;Pública;7772408;MATERNIDADE MUNICIPAL MARIA COELHO CAVALCANTI RODRIGUES;Afrânio;VIII Região de Saúde - PE;Municipal;Parto normal;Parto normal;22;9754,8
+2026;Outro público;Pública;0000094;MATERNIDADE PADRE GERALDO LEITE BASTOS;Cabo de Santo Agostinho;I Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;35;20139,83
+2026;Outro público;Pública;0000094;MATERNIDADE PADRE GERALDO LEITE BASTOS;Cabo de Santo Agostinho;I Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;18;10267,14
+2026;Outro público;Pública;0000094;MATERNIDADE PADRE GERALDO LEITE BASTOS;Cabo de Santo Agostinho;I Região de Saúde - PE;Municipal;Parto normal;Parto normal;119;56003,72
+2026;Outro público;Pública;3083721;MATERNIDADE SANTA DULCE DOS POBRES;Caruaru;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;445;317315,05
+2026;Outro público;Pública;3083721;MATERNIDADE SANTA DULCE DOS POBRES;Caruaru;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;138;97838,62
+2026;Outro público;Pública;3083721;MATERNIDADE SANTA DULCE DOS POBRES;Caruaru;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;3;1568,8
+2026;Outro público;Pública;3083721;MATERNIDADE SANTA DULCE DOS POBRES;Caruaru;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal em centro de parto normal;768;74210,83
+2026;Outro público;Pública;2702843;MATERNIDADE UNIDADE MISTA FELINTO WANDERLEY;Triunfo;XI Região de Saúde - PE;Municipal;Parto normal;Parto normal;3;1519,8
+2026;Outro público;Pública;2715252;UNIDADE HOSPITALAR DE TEREZINHA;Terezinha;V Região de Saúde - PE;Municipal;Parto normal;Parto normal;9;3990,6
+2026;Outro público;Pública;2344491;UNIDADE HOSPITALAR JOAO SOARES DA FONSECA;Riacho das Almas;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;37;23039,67
+2026;Outro público;Pública;2344491;UNIDADE HOSPITALAR JOAO SOARES DA FONSECA;Riacho das Almas;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;21;13081,11
+2026;Outro público;Pública;2344491;UNIDADE HOSPITALAR JOAO SOARES DA FONSECA;Riacho das Almas;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;2;902,8
+2026;Outro público;Pública;2639106;UNIDADE HOSPITALAR JUSTINO ALVES BEZERRA;Pedra;VI Região de Saúde - PE;Municipal;Parto normal;Parto normal;20;10160
+2026;Outro público;Pública;4018044;UNIDADE MISTA ARGEMIRO JOSE TORRES;Carnaubeira da Penha;XI Região de Saúde - PE;Municipal;Parto normal;Parto normal;8;3555,2
+2026;Outro público;Pública;2715171;UNIDADE MISTA BELARMINO L P MELO;Aliança;XII Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;3;1820,73
+2026;Outro público;Pública;2715171;UNIDADE MISTA BELARMINO L P MELO;Aliança;XII Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;17;10340,29
+2026;Outro público;Pública;2319284;UNIDADE MISTA DO ALTINHO;Altinho;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;5;2257
+2026;Outro público;Pública;2352559;UNIDADE MISTA DR HERCILIO MORAES BORBA;Itambé;XII Região de Saúde - PE;Municipal;Parto normal;Parto normal;7;3103,8
+2026;Outro público;Pública;2715260;UNIDADE MISTA DR JOAO MAYRINK;Catende;III Região de Saúde - PE;Municipal;Parto normal;Parto normal;6;2724,4
+2026;Outro público;Pública;2715279;UNIDADE MISTA DR JOSE MUCIO MONTEIRO;Tamandaré;III Região de Saúde - PE;Municipal;Parto normal;Parto normal;16;7363,8
+2026;Outro público;Pública;2354454;UNIDADE MISTA EDSON REGIS DE CARVALHO;São Vicente Férrer;XII Região de Saúde - PE;Municipal;Parto normal;Parto normal;6;2660,4
+2026;Outro público;Pública;2715287;UNIDADE MISTA JOANA AMELIA CAVALCANTI;João Alfredo;II Região de Saúde - PE;Municipal;Parto normal;Parto normal;3;1521,8
+2026;Outro público;Pública;3513351;UNIDADE MISTA JOAO PAULO II;Manari;VI Região de Saúde - PE;Municipal;Parto normal;Parto normal;16;8153,6
+2026;Outro público;Pública;2638851;UNIDADE MISTA JOAO XXIII;Sanharó;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;4;1801,6
+2026;Outro público;Pública;2715309;UNIDADE MISTA JOAQUIM FRANCISCO DE MELO CAVALCANTI;Macaparana;XII Região de Saúde - PE;Municipal;Parto normal;Parto normal;5;2217
+2026;Outro público;Pública;2715163;UNIDADE MISTA LEONIDAS PEREIRA DE MENEZES;São José do Belmonte;XI Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;77;47225,71
+2026;Outro público;Pública;2715163;UNIDADE MISTA LEONIDAS PEREIRA DE MENEZES;São José do Belmonte;XI Região de Saúde - PE;Municipal;Parto normal;Parto normal;13;5892,2
+2026;Outro público;Pública;2639092;UNIDADE MISTA MARCOS FERREIRA DAVILA;Ibimirim;VI Região de Saúde - PE;Municipal;Parto normal;Parto normal;3;1330,2
+2026;Outro público;Pública;2630524;UNIDADE MISTA MARIA ELIZIARIA PAES;Alagoinha;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;10;4514
+2026;Outro público;Pública;2499843;UNIDADE MISTA MARIA GAIAO GUERRA;Glória do Goitá;I Região de Saúde - PE;Municipal;Parto normal;Parto normal;1;443,4
+2026;Outro público;Pública;2715341;UNIDADE MISTA MINERVINA GUEDES TAVARES DE MELO;Camutanga;XII Região de Saúde - PE;Municipal;Parto normal;Parto normal;1;443,4
+2026;Outro público;Pública;2703394;UNIDADE MISTA NOSSA SENHORA DE FATIMA;Panelas;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;10;4562
+2026;Outro público;Pública;2703076;UNIDADE MISTA PROFESSOR ALCIDES FERREIRA LIMA;Betânia;XI Região de Saúde - PE;Municipal;Parto normal;Parto normal;3;1330,2
+2026;Outro público;Pública;2715384;UNIDADE MISTA RAIMUNDA DE SA BARRETO CABRAL;Parnamirim;IX Região de Saúde - PE;Municipal;Parto normal;Parto normal;3;1386,2
+2026;Outro público;Pública;2703092;UNIDADE MISTA SANTA CLARA;Tupanatinga;VI Região de Saúde - PE;Municipal;Parto normal;Parto normal;19;9255,6
+2026;Outro público;Pública;2353954;UNIDADE MISTA SANTA ROSA;Lagoa dos Gatos;III Região de Saúde - PE;Municipal;Parto normal;Parto normal;1;451,4
+2026;Outro público;Pública;2350246;UNIDADE MISTA SANTA TEREZINHA;Cumaru;II Região de Saúde - PE;Municipal;Parto normal;Parto normal;5;2249
+2026;Outro público;Pública;2500000;UNIDADE MISTA SANTA TEREZINHA;Santa Terezinha;X Região de Saúde - PE;Municipal;Parto normal;Parto normal;2;886,8
+2026;Outro público;Pública;2344246;UNIDADE MISTA SAO JOSE DR RINALDO PACHECO VAZ;Bezerros;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;28;17489,48
+2026;Outro público;Pública;2344246;UNIDADE MISTA SAO JOSE DR RINALDO PACHECO VAZ;Bezerros;IV Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;48;30003,68
+2026;Outro público;Pública;2344246;UNIDADE MISTA SAO JOSE DR RINALDO PACHECO VAZ;Bezerros;IV Região de Saúde - PE;Municipal;Parto normal;Parto normal;20;9222
+2026;Outro público;Pública;2639319;UNIDADE MISTA SEVERINO SOUTO DE SIQUEIRA;Tuparetama;X Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;21;12015,13
+2026;Outro público;Pública;2639319;UNIDADE MISTA SEVERINO SOUTO DE SIQUEIRA;Tuparetama;X Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;1;577,93
+2026;Outro público;Pública;2639319;UNIDADE MISTA SEVERINO SOUTO DE SIQUEIRA;Tuparetama;X Região de Saúde - PE;Municipal;Parto normal;Parto normal;2;927
+2026;Outro público;Pública;2715392;UNIDADE MISTA SIMEAO RIBEIRO DE LEMOS;Lagoa do Carro;II Região de Saúde - PE;Municipal;Parto normal;Parto normal;2;886,8
+2026;Outro público;Pública;2315165;UNIDADE MISTA VIRGINIA GUERRA;Chã de Alegria;I Região de Saúde - PE;Municipal;Parto normal;Parto normal;2;886,8
+2026;Outro público;Pública;0000671;US 153 POLICLINICA E MATERNIDADE ARNALDO MARQUES;Recife;I Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;238;164722,18
+2026;Outro público;Pública;0000671;US 153 POLICLINICA E MATERNIDADE ARNALDO MARQUES;Recife;I Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;36;24828,14
+2026;Outro público;Pública;0000671;US 153 POLICLINICA E MATERNIDADE ARNALDO MARQUES;Recife;I Região de Saúde - PE;Municipal;Parto normal;Parto normal;869;532791,25
+2026;Outro público;Pública;0000701;US 165 MATERNIDADE BANDEIRA FILHO;Recife;I Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;294;224460,92
+2026;Outro público;Pública;0000701;US 165 MATERNIDADE BANDEIRA FILHO;Recife;I Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;106;80866,7
+2026;Outro público;Pública;0000701;US 165 MATERNIDADE BANDEIRA FILHO;Recife;I Região de Saúde - PE;Municipal;Parto normal;Parto normal;871;531851,56
+2026;Outro público;Pública;0020516;US 167 POLICLINICA E MATERNIDADE PROFESSOR BARROS LIMA;Recife;I Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;228;172763,26
+2026;Outro público;Pública;0020516;US 167 POLICLINICA E MATERNIDADE PROFESSOR BARROS LIMA;Recife;I Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;93;70151,8
+2026;Outro público;Pública;0020516;US 167 POLICLINICA E MATERNIDADE PROFESSOR BARROS LIMA;Recife;I Região de Saúde - PE;Municipal;Parto normal;Parto normal;1156;711508,89
+2026;Outro público;Pública;7958838;US 411 HOSPITAL DA MULHER DO RECIFE DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana;547;479743,83
+2026;Outro público;Pública;7958838;US 411 HOSPITAL DA MULHER DO RECIFE DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;Municipal;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;332;288686,71
+2026;Outro público;Pública;7958838;US 411 HOSPITAL DA MULHER DO RECIFE DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;Municipal;Parto normal;Parto normal;1139;750710,86
+2026;Outro público;Pública;7958838;US 411 HOSPITAL DA MULHER DO RECIFE DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;Municipal;Parto normal;Parto normal em centro de parto normal;25;2572,09
+2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana;11;8597
+2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;251;194880,91
+2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana em gestação de alto risco;388;440609,63
+2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;Estadual;Parto normal;Parto normal;95;58465,96
+2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;Estadual;Parto normal;Parto normal em gestação de alto risco;554;418705,21
+2026;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;3;2475,28
+2026;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana em gestação de alto risco;964;1175033,44
+2026;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;Estadual;Parto normal;Parto normal em gestação de alto risco;820;627347,21
+2026;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana;1;903,97
+2026;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;347;332255,52
+2026;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana em gestação de alto risco;723;1016404,44
+2026;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Parto normal;Parto normal em gestação de alto risco;960;900097,58
+2026;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana;140;86771,08
+2026;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;21;11995,12
+2026;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;Estadual;Parto normal;Parto normal;187;85185,42
+2026;Rede própria;Gestão direta;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana;234;160782,9
+2026;Rede própria;Gestão direta;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;26;17633,56
+2026;Rede própria;Gestão direta;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;Estadual;Parto normal;Parto normal;132;69113,15
+2026;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana;66;44361,06
+2026;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;2;1346,22
+2026;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;Estadual;Parto normal;Parto normal;172;87519,8
+2026;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana;97;62653,49
+2026;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;Estadual;Parto normal;Parto normal;236;111926,42
+2026;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana;480;330402,55
+2026;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;Estadual;Parto cesáreo;Cirurgia cesariana c/ laqueadura tubária;94;64671,18
+2026;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;Estadual;Parto normal;Parto normal;158;81842,72

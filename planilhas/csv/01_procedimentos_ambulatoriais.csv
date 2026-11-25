@@ -1,0 +1,190 @@
+﻿ANO;TIPO_REDE;MODELO_GESTAO;CNES;UNIDADE;MUNICIPIO;REGIAO_SAUDE;GRUPO_PROC;QTD;VALOR
+2026;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;111789;981686,23
+2026;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;50853;519901,26
+2026;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;2;39,58
+2026;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;81888;684258,3
+2026;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;03 Procedimentos clínicos;55391;332141,57
+2026;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2115;69669,15
+2026;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;158149;719654,88
+2026;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;175435;648756,94
+2026;OSS;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;102;3225,12
+2026;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;290425;1415234,26
+2026;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;46035;280532,58
+2026;OSS;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;129;3125,4
+2026;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;89110;429678,15
+2026;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;03 Procedimentos clínicos;147569;607116,82
+2026;OSS;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;04 Procedimentos cirúrgicos;161;3639,49
+2026;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;125449;495825,49
+2026;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;281153;1219014,4
+2026;OSS;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;04 Procedimentos cirúrgicos;277;8626,4
+2026;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;184880;3382629,75
+2026;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;267702;17596174,2
+2026;OSS;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;445;154894,03
+2026;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;144565;1554603,75
+2026;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;03 Procedimentos clínicos;55625;333589,94
+2026;OSS;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;04 Procedimentos cirúrgicos;760;16701,07
+2026;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;53700;1139182,28
+2026;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;31167;266234,5
+2026;OSS;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;72;1090,8
+2026;OSS;OSS;9309594;HOSPITAL NOSSA SENHORA DE APARECIDA;Paulista;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1200;18684,93
+2026;OSS;OSS;9309594;HOSPITAL NOSSA SENHORA DE APARECIDA;Paulista;I Região de Saúde - PE;03 Procedimentos clínicos;608;3621,71
+2026;OSS;OSS;9309594;HOSPITAL NOSSA SENHORA DE APARECIDA;Paulista;I Região de Saúde - PE;04 Procedimentos cirúrgicos;67;1036,94
+2026;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;81609;1460723,23
+2026;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;51204;364892,65
+2026;OSS;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;78;6365,51
+2026;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;167204;1572473,42
+2026;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;03 Procedimentos clínicos;324461;1134836,39
+2026;OSS;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;04 Procedimentos cirúrgicos;4494;121297,64
+2026;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;95087;698877,28
+2026;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;03 Procedimentos clínicos;164579;1037421,06
+2026;OSS;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;04 Procedimentos cirúrgicos;156;3608,16
+2026;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;62012;359692,84
+2026;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;03 Procedimentos clínicos;96916;975878,91
+2026;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;04 Procedimentos cirúrgicos;511;14541
+2026;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;133093;628969,42
+2026;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;248547;1019468,32
+2026;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;1496;37997,91
+2026;OSS;OSS;6562205;UPA BARRA DE JANGADA;Jaboatão dos Guararapes;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;122853;370683,77
+2026;OSS;OSS;6562205;UPA BARRA DE JANGADA;Jaboatão dos Guararapes;I Região de Saúde - PE;03 Procedimentos clínicos;366692;1159012,23
+2026;OSS;OSS;6562205;UPA BARRA DE JANGADA;Jaboatão dos Guararapes;I Região de Saúde - PE;04 Procedimentos cirúrgicos;575;16860,11
+2026;OSS;OSS;6690742;UPA CABO DE SANTO AGOSTINHO;Cabo de Santo Agostinho;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;86119;305151,15
+2026;OSS;OSS;6690742;UPA CABO DE SANTO AGOSTINHO;Cabo de Santo Agostinho;I Região de Saúde - PE;03 Procedimentos clínicos;353599;1094333,79
+2026;OSS;OSS;6690742;UPA CABO DE SANTO AGOSTINHO;Cabo de Santo Agostinho;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2072;60455,48
+2026;OSS;OSS;6631819;UPA CARUARU;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;124728;561709,34
+2026;OSS;OSS;6631819;UPA CARUARU;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;355092;1637779,57
+2026;OSS;OSS;6631819;UPA CARUARU;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;3981;115332,16
+2026;OSS;OSS;6488315;UPA CAXANGA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;138085;579060,08
+2026;OSS;OSS;6488315;UPA CAXANGA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;594462;1937882,07
+2026;OSS;OSS;6488315;UPA CAXANGA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1111;25730,76
+2026;OSS;OSS;6558992;UPA CURADO;Jaboatão dos Guararapes;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;172542;596732,64
+2026;OSS;OSS;6558992;UPA CURADO;Jaboatão dos Guararapes;I Região de Saúde - PE;03 Procedimentos clínicos;415052;1454438
+2026;OSS;OSS;6558992;UPA CURADO;Jaboatão dos Guararapes;I Região de Saúde - PE;04 Procedimentos cirúrgicos;4277;28818,57
+2026;OSS;OSS;6618464;UPA ENGENHO VELHO;Jaboatão dos Guararapes;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;138369;443853,55
+2026;OSS;OSS;6618464;UPA ENGENHO VELHO;Jaboatão dos Guararapes;I Região de Saúde - PE;03 Procedimentos clínicos;478177;1346281,44
+2026;OSS;OSS;6618464;UPA ENGENHO VELHO;Jaboatão dos Guararapes;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1438;28882,53
+2026;OSS;OSS;6726852;UPA IBURA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;190639;660116,96
+2026;OSS;OSS;6726852;UPA IBURA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;625494;2263451,13
+2026;OSS;OSS;6726852;UPA IBURA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;3922;91140,82
+2026;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;143491;598934,9
+2026;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;03 Procedimentos clínicos;326329;1650199,91
+2026;OSS;OSS;6443370;UPA IGARASSU;Igarassu;I Região de Saúde - PE;04 Procedimentos cirúrgicos;3821;117167,6
+2026;OSS;OSS;6481876;UPA IMBIRIBEIRA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;161549;744997,64
+2026;OSS;OSS;6481876;UPA IMBIRIBEIRA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;511798;2244911,08
+2026;OSS;OSS;6481876;UPA IMBIRIBEIRA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1920;45097,36
+2026;OSS;OSS;6703437;UPA NOVA DESCOBERTA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;195768;615605,26
+2026;OSS;OSS;6703437;UPA NOVA DESCOBERTA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;429945;1992236,16
+2026;OSS;OSS;6703437;UPA NOVA DESCOBERTA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1163;25180,95
+2026;OSS;OSS;6443397;UPA OLINDA;Olinda;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;148714;534015,08
+2026;OSS;OSS;6443397;UPA OLINDA;Olinda;I Região de Saúde - PE;03 Procedimentos clínicos;512908;1622281,22
+2026;OSS;OSS;6443397;UPA OLINDA;Olinda;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1154;17642,83
+2026;OSS;OSS;6443419;UPA PAULISTA;Paulista;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;210876;948826,74
+2026;OSS;OSS;6443419;UPA PAULISTA;Paulista;I Região de Saúde - PE;03 Procedimentos clínicos;402209;1656636,82
+2026;OSS;OSS;6443419;UPA PAULISTA;Paulista;I Região de Saúde - PE;04 Procedimentos cirúrgicos;6716;188046,39
+2026;OSS;OSS;6507557;UPA SAO LOURENCO DA MATA;São Lourenço da Mata;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;81321;335107,97
+2026;OSS;OSS;6507557;UPA SAO LOURENCO DA MATA;São Lourenço da Mata;I Região de Saúde - PE;03 Procedimentos clínicos;188162;1010847,99
+2026;OSS;OSS;6507557;UPA SAO LOURENCO DA MATA;São Lourenço da Mata;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1029;23840,64
+2026;OSS;OSS;6530389;UPA TORROES;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;175353;667325,66
+2026;OSS;OSS;6530389;UPA TORROES;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;367578;2123200,9
+2026;OSS;OSS;6530389;UPA TORROES;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1613;37357,08
+2026;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;112760;951983,79
+2026;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;74077;641744,5
+2026;OSS;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;4828;749656,84
+2026;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;66115;777634,03
+2026;OSS;OSS;3489302;UPAE CARPINA;Carpina;II Região de Saúde - PE;03 Procedimentos clínicos;41797;361262,27
+2026;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;54018;509403,8
+2026;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;24682;204392,68
+2026;OSS;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;61;1809,02
+2026;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;67280;559784,07
+2026;OSS;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;03 Procedimentos clínicos;26041;224954,47
+2026;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;151518;1062962,15
+2026;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;504080;1689901,29
+2026;OSS;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;970;71791,45
+2026;OSS;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;40636;366466,61
+2026;OSS;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;20927;174403,76
+2026;OSS;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;04 Procedimentos cirúrgicos;50;1492
+2026;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;148322;1248236,38
+2026;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;53159;443686,66
+2026;OSS;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;1230;15182,06
+2026;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;79834;865726,67
+2026;OSS;OSS;3460967;UPAE ESCADA;Escada;III Região de Saúde - PE;03 Procedimentos clínicos;42564;332093,61
+2026;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1407;24604,29
+2026;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;03 Procedimentos clínicos;7643;62036,4
+2026;OSS;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;04 Procedimentos cirúrgicos;38;1204,43
+2026;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;137802;1224355,83
+2026;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;03 Procedimentos clínicos;91847;788550,33
+2026;OSS;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;04 Procedimentos cirúrgicos;768;7222,87
+2026;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;87901;966409,16
+2026;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;53596;427329,62
+2026;OSS;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;1647;44473,01
+2026;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;14850;111006,99
+2026;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;03 Procedimentos clínicos;15391;133118,27
+2026;OSS;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;04 Procedimentos cirúrgicos;144;2186,5
+2026;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;45999;369683,81
+2026;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;03 Procedimentos clínicos;18276;143609,92
+2026;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;254;3277,16
+2026;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;56067;560553,33
+2026;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;03 Procedimentos clínicos;46353;328727,86
+2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;131794;740029,41
+2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;66816;461019,23
+2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;690;9121,96
+2026;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1449802;19411786,57
+2026;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;287586;9916910,74
+2026;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;101;1525,12
+2026;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;2820;334689,78
+2026;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;291380;1995155,46
+2026;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;152188;1051224,75
+2026;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1292;77256,72
+2026;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;880180;8554700,84
+2026;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;147672;7654633,13
+2026;Rede própria;06 grandes;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1267;140102,34
+2026;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;119092;485130,75
+2026;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;03 Procedimentos clínicos;224768;872334,12
+2026;Rede própria;Gestão direta;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;04 Procedimentos cirúrgicos;2362;71112,66
+2026;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;234504;957027,29
+2026;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;10531;95360,35
+2026;Rede própria;Gestão direta;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;24;196
+2026;Rede própria;Gestão direta;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;18012;178963,47
+2026;Rede própria;Gestão direta;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;03 Procedimentos clínicos;18452;134417,81
+2026;Rede própria;Gestão direta;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;04 Procedimentos cirúrgicos;93;3013,2
+2026;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1841099;11576606,41
+2026;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;3359942;10346783,04
+2026;Rede própria;06 grandes;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;20862;555568,69
+2026;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;229431;969208,83
+2026;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;271381;1269683,15
+2026;Rede própria;Gestão direta;2711974;HOSPITAL GERAL DE AREIAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;4515;79207,16
+2026;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;236646;3025566,03
+2026;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;116585;911472,1
+2026;Rede própria;06 grandes;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;9671;312258,04
+2026;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;79857;224914,59
+2026;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;03 Procedimentos clínicos;223350;1135250,98
+2026;Rede própria;Gestão direta;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1318;21312,96
+2026;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;466523;5853190,91
+2026;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;249131;19132929,34
+2026;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;11267;242233,19
+2026;Rede própria;Administração indireta;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;3783;808296,39
+2026;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;289353;3950269,18
+2026;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;427242;4803390,78
+2026;Rede própria;06 grandes;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;4152;110593,43
+2026;Rede própria;Gestão direta;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;131929;512159,31
+2026;Rede própria;Gestão direta;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;107227;776070,18
+2026;Rede própria;Gestão direta;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;15;489,46
+2026;Rede própria;Gestão direta;0001546;HOSPITAL PSIQUIATRICO ULYSSES PERNAMBUCANO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;111567;238415,37
+2026;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;16357;181935,78
+2026;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;03 Procedimentos clínicos;180742;867297,83
+2026;Rede própria;Gestão direta;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;04 Procedimentos cirúrgicos;998;20759,63
+2026;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;99753;1939698,83
+2026;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;116493;8145178,49
+2026;Rede própria;06 grandes;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;1816;46455,77
+2026;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;257683;1987432,61
+2026;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;483138;2869728,32
+2026;Rede própria;Gestão direta;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;2156;47914,88
+2026;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;83542;543349,22
+2026;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;86715;778813,59
+2026;Rede própria;Gestão direta;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;04 Procedimentos cirúrgicos;306936;70343,41
+2026;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;37869;153703,03
+2026;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;03 Procedimentos clínicos;55318;292703,51
+2026;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;04 Procedimentos cirúrgicos;443;2276,33
+2026;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;274050;5763849,32
+2026;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;70734;534677,99
+2026;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2406;56085,41
+2026;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;12;13494,35
