@@ -48,7 +48,7 @@ ABA_GRUPO   <- c("02" = "02 Diagnóstico", "03" = "03 Clínicos", "04" = "04 Cir
 
 # Rótulos do cabeçalho das tabelas
 ROTULOS <- c(GRUPO_PROC = "Grupo de procedimento", ESPECIALIDADE = "Especialidade (CBO)",
-             TIPO_DE_PARTO = "Tipo de parto", PROCEDIMENTO = "Procedimento", GESTAO = "Gestão",
+             TIPO_DE_PARTO = "Tipo de parto", TIPO_DE_LEITO = "Tipo de leito", ESPECIALIDADE_LEITO = "Especialidade do leito", PROCEDIMENTO = "Procedimento", GESTAO = "Gestão",
              TIPO_REDE = "Tipo de rede", MODELO_GESTAO = "Modelo de gestão", CNES = "CNES", UNIDADE = "Unidade",
              MUNICIPIO = "Município", REGIAO_SAUDE = "Região de saúde")
 CONSULTA_MEDICA_ESPECIALIZADA <- "0301010072"
@@ -245,25 +245,51 @@ somar_linha <- function(w, cols_val, rotulos) {
   t
 }
 
-tabela <- function(dados, ids, anos, rotulo_qtd, linhas_total, larguras) {
+# rotulo_qtd: nome da 1ª coluna de cada ano. A 2ª é "Valor (R$)", salvo se
+# 'rotulos' trouxer os dois nomes (ex.: leitos, c("Existentes", "SUS")).
+tabela <- function(dados, ids, anos, rotulo_qtd, linhas_total, larguras, rotulos = NULL, formatos = NULL) {
   for (cl in ids) set(dados, which(is.na(dados[[cl]])), cl, "")
-  structure(list(dados = dados, ids = ids, anos = anos, rotulo_qtd = rotulo_qtd,
+  structure(list(dados = dados, ids = ids, anos = anos,
+                 rotulos = rotulos %||% c(rotulo_qtd, "Valor (R$)"),
+                 formatos = formatos %||% c("#,##0", "#,##0.00"),
                  linhas_total = linhas_total, larguras = larguras), class = "tabela_anual")
 }
 
 # Geral: uma linha por categoria (grupo, CBO...), total geral ao final.
-geral <- function(dt, dims, anos, rotulo_qtd, larguras) {
+geral <- function(dt, dims, anos, rotulo_qtd, larguras, ...) {
   w <- largo(dt, dims, anos)
   setorderv(w, dims)
   cols_val <- setdiff(names(w), dims)
   w <- rbind(w, somar_linha(w, cols_val, setNames(list("Total geral"), dims[1])), fill = TRUE)
-  tabela(w, dims, anos, rotulo_qtd, nrow(w), larguras)
+  tabela(w, dims, anos, rotulo_qtd, nrow(w), larguras, ...)
+}
+
+# Categoria (e subcategoria) × gestão, com total por gestão de cada categoria e
+# total geral. Usado nos partos (tipo e procedimento) e nos leitos.
+por_gestao <- function(dt, n1, n2 = NULL, anos, ordem1, ordem2 = NULL, rotulo_qtd, larguras, ...) {
+  ord_gestao <- c("Estadual", "Municipal", "Dupla", "Sem gestão", "Não definida", "Não informada", "Total")
+  dims <- c(n1, n2)
+  ag <- dt[, .(QTD = sum(QTD), VALOR = sum(VALOR)), by = c(dims, "GESTAO", "ANO")]
+  partes <- list(ag)
+  if (!is.null(n2)) partes[[2]] <- dt[, .(QTD = sum(QTD), VALOR = sum(VALOR)), by = c(n1, "GESTAO", "ANO")][, (n2) := "Total"]
+  partes[[length(partes) + 1]] <- dt[, .(QTD = sum(QTD), VALOR = sum(VALOR)), by = .(GESTAO, ANO)][, (n1) := "Total geral"]
+  ag <- rbindlist(partes, use.names = TRUE, fill = TRUE)
+  if (!is.null(n2)) ag[is.na(get(n2)), (n2) := ""]
+  ag <- rbind(ag, ag[, .(GESTAO = "Total", QTD = sum(QTD), VALOR = sum(VALOR)), by = c(dims, "ANO")])
+  w <- largo(ag, c(dims, "GESTAO"), anos)
+  w[, O1_ := match(get(n1), c(ordem1, "Total geral"), nomatch = 98L)]
+  w[, O2_ := if (is.null(n2)) 0L else fifelse(get(n2) == "Total", 999L, match(get(n2), ordem2, nomatch = 500L))]
+  w[, O3_ := match(GESTAO, ord_gestao, nomatch = 50L)]
+  setorder(w, O1_, O2_, O3_)
+  tot <- which(w$GESTAO == "Total" | w[[n1]] == "Total geral" | (if (is.null(n2)) FALSE else w[[n2]] == "Total"))
+  w[, c("O1_", "O2_", "O3_") := NULL]
+  tabela(w, c(dims, "GESTAO"), anos, rotulo_qtd, tot, larguras, ...)
 }
 
 # Unidades: uma linha por unidade (e por valor de 'agrupar', quando ele vem da
 # produção, como a gestão nos partos), subtotal por grupo e total geral.
 COLS_UNID <- c("TIPO_REDE", "MODELO_GESTAO", "CNES", "UNIDADE", "MUNICIPIO", "REGIAO_SAUDE")
-unidades_ano <- function(dt, unidades, anos, rotulo_qtd, agrupar = "TIPO_REDE") {
+unidades_ano <- function(dt, unidades, anos, rotulo_qtd, agrupar = "TIPO_REDE", ...) {
   chave <- unique(c(if (agrupar %in% names(dt)) agrupar, "CNES"))
   w <- largo(dt, chave, anos)
   cols_val <- setdiff(names(w), chave)
@@ -271,7 +297,8 @@ unidades_ano <- function(dt, unidades, anos, rotulo_qtd, agrupar = "TIPO_REDE") 
   w <- merge(unidades[, c(COLS_UNID), with = FALSE], w, by = "CNES")
   ids <- unique(c(agrupar, COLS_UNID))
   setcolorder(w, c(ids, cols_val))
-  ordem_grupo <- if (agrupar == "TIPO_REDE") ORDEM_REDE else c("Estadual", "Municipal", "Dupla", "Não definida", "Não informada")
+  ordem_grupo <- if (agrupar == "TIPO_REDE") ORDEM_REDE else
+    c("Estadual", "Municipal", "Dupla", "Sem gestão", "Não definida", "Não informada")
   w[, `:=`(O1_ = match(get(agrupar), ordem_grupo, nomatch = 99L),
            O2_ = match(TIPO_REDE, ORDEM_REDE, nomatch = 99L),
            O3_ = match(MODELO_GESTAO, ORDEM_MODELO, nomatch = 99L))]
@@ -287,7 +314,7 @@ unidades_ano <- function(dt, unidades, anos, rotulo_qtd, agrupar = "TIPO_REDE") 
   setcolorder(out, c(ids, cols_val))
   tot <- which(startsWith(fcoalesce(out$UNIDADE, ""), "Subtotal") | out$UNIDADE == "Total geral")
   larg <- c(TIPO_REDE = 14, GESTAO = 12, MODELO_GESTAO = 22, CNES = 10, UNIDADE = 45, MUNICIPIO = 20, REGIAO_SAUDE = 26)
-  tabela(out, ids, anos, rotulo_qtd, tot, unname(larg[ids]))
+  tabela(out, ids, anos, rotulo_qtd, tot, unname(larg[ids]), ...)
 }
 
 # ---- Excel -----------------------------------------------------------------------
@@ -295,7 +322,7 @@ unidades_ano <- function(dt, unidades, anos, rotulo_qtd, agrupar = "TIPO_REDE") 
 escrever_tabela <- function(wb, aba, r) {
   n_id <- length(r$ids); n_anos <- length(r$anos)
   cab1 <- c(fcoalesce(unname(ROTULOS[r$ids]), r$ids), as.vector(rbind(as.character(r$anos), "")))
-  cab2 <- c(rep("", n_id), rep(c(r$rotulo_qtd, "Valor (R$)"), n_anos))
+  cab2 <- c(rep("", n_id), rep(r$rotulos, n_anos))
   openxlsx::writeData(wb, aba, t(cab1), startRow = 1, colNames = FALSE)
   openxlsx::writeData(wb, aba, t(cab2), startRow = 2, colNames = FALSE)
   for (i in seq_len(n_id)) openxlsx::mergeCells(wb, aba, cols = i, rows = 1:2)
@@ -306,7 +333,7 @@ escrever_tabela <- function(wb, aba, r) {
                                                     fgFill = "#DCE6F1", border = "TopBottomLeftRight", wrapText = TRUE),
                      rows = 1:2, cols = 1:ncol, gridExpand = TRUE)
   cols_num <- (n_id + 1):ncol
-  for (j in seq_along(cols_num)) openxlsx::addStyle(wb, aba, openxlsx::createStyle(numFmt = if (j %% 2) "#,##0" else "#,##0.00"),
+  for (j in seq_along(cols_num)) openxlsx::addStyle(wb, aba, openxlsx::createStyle(numFmt = r$formatos[2 - j %% 2]),
                                                      rows = 3:(nlin + 2), cols = cols_num[j], stack = TRUE)
   if (length(r$linhas_total)) openxlsx::addStyle(wb, aba, openxlsx::createStyle(textDecoration = "bold", fgFill = "#F2F2F2"),
                                                  rows = r$linhas_total + 2, cols = 1:ncol, gridExpand = TRUE, stack = TRUE)
@@ -315,7 +342,7 @@ escrever_tabela <- function(wb, aba, r) {
   openxlsx::freezePane(wb, aba, firstActiveRow = 3, firstActiveCol = n_id + 1)
 }
 
-leia_me <- function(titulo, regras, atualizacao) {
+leia_me <- function(titulo, regras, atualizacao, itens = NULL) {
   x <- data.table(
     Item = c("Tema", "Regra", "Formato", "Período", "Unidades", "Valor", "Meses recentes", "Fonte", "Atualizado em"),
     Texto = c(titulo, regras,
@@ -332,14 +359,15 @@ leia_me <- function(titulo, regras, atualizacao) {
               "Os últimos 3 a 4 meses ainda recebem produção com atraso; leia-os como parciais.",
               "DATASUS (SIA-PA, SIH-RD, CNES-ST e SIGTAP), FTP público. Mesmos arquivos do TabWin (T:\\TabSia08, T:\\Tabaih08).",
               atualizacao$em))
+  for (nm in names(itens)) x[Item == nm, Texto := itens[[nm]]]
   setnames(x, "Texto", "Descrição")
 }
 
-gravar_planilha <- function(nome, abas, titulo, regras, atualizacao, csv = NULL) {
+gravar_planilha <- function(nome, abas, titulo, regras, atualizacao, csv = NULL, itens = NULL) {
   dir.create(file.path(PLAN, "csv"), recursive = TRUE, showWarnings = FALSE)
   wb <- openxlsx::createWorkbook()
   openxlsx::addWorksheet(wb, "Leia-me")
-  openxlsx::writeData(wb, "Leia-me", leia_me(titulo, regras, atualizacao),
+  openxlsx::writeData(wb, "Leia-me", leia_me(titulo, regras, atualizacao, itens),
                       headerStyle = openxlsx::createStyle(textDecoration = "bold"))
   openxlsx::setColWidths(wb, "Leia-me", cols = 1:2, widths = c(16, 120))
   openxlsx::addStyle(wb, "Leia-me", openxlsx::createStyle(wrapText = TRUE, valign = "top"), rows = 2:10, cols = 2)
@@ -375,7 +403,7 @@ main <- function() {
     log_msg("Planilhas não geradas: faltam as bases do SIA e/ou do SIH (rode 02_sia.R e 03_sih.R)")
     return(invisible(NULL))
   }
-  entradas <- c(arq_sia, arq_sih, file.path(REF, "cnes_st_pe.csv"), "referencias/estabelecimentos_validados.csv",
+  entradas <- c(arq_sia, arq_sih, file.path(SAIDA, "leitos.parquet"), file.path(REF, "cnes_st_pe.csv"), "referencias/estabelecimentos_validados.csv",
                 "referencias/municipios_regiao_saude_pe.csv", "04_planilhas.R")
   hash <- paste(tools::md5sum(entradas[file.exists(entradas)]), collapse = "")
   arq_hash <- file.path(CFG$dir_dados, "controle", "planilhas_hash.txt")
@@ -385,6 +413,8 @@ main <- function() {
     return(invisible(NULL))
   }
 
+  arq_lt <- file.path(SAIDA, "leitos.parquet")
+  lt <- if (file.exists(arq_lt)) ler_parquet(arq_lt)[COMPETENCIA >= CFG$inicio & COMPETENCIA <= CFG$fim] else NULL
   sia <- ler_parquet(arq_sia)[PA_MVM >= CFG$inicio & PA_MVM <= CFG$fim]
   sih <- ler_parquet(arq_sih)[COMPETENCIA >= CFG$inicio & COMPETENCIA <= CFG$fim]
   for (cl in c("PA_CONDIC", "PA_UFMUN")) if (!cl %in% names(sia)) set(sia, j = cl, value = NA_character_)
@@ -398,7 +428,8 @@ main <- function() {
           paste(sih[, .N, by = GESTAO][, paste(GESTAO, N, sep = "=")], collapse = ", "))
   anos <- seq(as.integer(substr(CFG$inicio, 1, 4)), max(c(sia$ANO, sih$ANO)))
 
-  mun_prod <- rbind(sia[, .(CNES, MUN_PROD = PA_UFMUN)], sih[, .(CNES, MUN_PROD = MUNIC_MOV)])
+  mun_prod <- rbind(sia[, .(CNES, MUN_PROD = PA_UFMUN)], sih[, .(CNES, MUN_PROD = MUNIC_MOV)],
+                    if (!is.null(lt)) lt[, .(CNES, MUN_PROD = CODUFMUN)])
   unidades <- montar_unidades(mun_prod)
 
   sig <- sigtap()
@@ -420,7 +451,7 @@ main <- function() {
   pt <- merge(sih[PROC_REA %chin% PARTOS$PROC], PARTOS, by.x = "PROC_REA", by.y = "PROC")
 
   # Nomes só das unidades que aparecem em algum tema
-  usados <- unique(c(amb$CNES, int$CNES, cm$CNES, cs$CNES, pt$CNES))
+  usados <- unique(c(amb$CNES, int$CNES, cm$CNES, cs$CNES, pt$CNES, lt$CNES))
   unidades <- nomear(unidades[CNES %chin% usados])
   unidades[, O_ := match(TIPO_REDE, ORDEM_REDE, nomatch = 99L)]
   setorder(unidades, O_, MODELO_GESTAO, UNIDADE)[, O_ := NULL]
@@ -476,27 +507,48 @@ main <- function() {
   }
 
   # 05 Partos (todo o estado, por gestão)
-  pt_ger <- rbind(
-    pt[, .(QTD = sum(QTD), VALOR = sum(VALOR)), by = .(TIPO_PARTO, SUBTIPO, GESTAO, ANO)],
-    pt[, .(SUBTIPO = "Total do tipo", QTD = sum(QTD), VALOR = sum(VALOR)), by = .(TIPO_PARTO, GESTAO, ANO)],
-    pt[, .(TIPO_PARTO = "Total geral", SUBTIPO = "", QTD = sum(QTD), VALOR = sum(VALOR)), by = .(GESTAO, ANO)])
-  pt_ger <- rbind(pt_ger, pt_ger[, .(GESTAO = "Total", QTD = sum(QTD), VALOR = sum(VALOR)), by = .(TIPO_PARTO, SUBTIPO, ANO)])
-  w <- largo(pt_ger, c("TIPO_PARTO", "SUBTIPO", "GESTAO"), anos)
-  w[, `:=`(O1_ = match(TIPO_PARTO, c("Parto normal", "Parto cesáreo", "Total geral")),
-           O2_ = fifelse(SUBTIPO == "Total do tipo", 99L, match(SUBTIPO, PARTOS$SUBTIPO, nomatch = 0L)),
-           O3_ = match(GESTAO, c("Estadual", "Municipal", "Não definida", "Total"), nomatch = 50L))]
-  setorder(w, O1_, O2_, O3_)
-  tot <- which(w$SUBTIPO == "Total do tipo" | w$TIPO_PARTO == "Total geral" | w$GESTAO == "Total")
-  w[, c("O1_", "O2_", "O3_") := NULL]
-  setnames(w, c("TIPO_PARTO", "SUBTIPO", "GESTAO"), c("TIPO_DE_PARTO", "PROCEDIMENTO", "GESTAO"))
-  abas_pt <- list(Geral = tabela(w, c("TIPO_DE_PARTO", "PROCEDIMENTO", "GESTAO"), anos, "Partos", tot, c(16, 42, 12)))
-  for (tp in c("Parto normal", "Parto cesáreo")) abas_pt[[tp]] <- unidades_ano(pt[TIPO_PARTO == tp], unidades, anos, "Partos", "GESTAO")
+  setnames(pt, c("TIPO_PARTO", "SUBTIPO"), c("TIPO_DE_PARTO", "PROCEDIMENTO"))
+  abas_pt <- list(Geral = por_gestao(pt, "TIPO_DE_PARTO", "PROCEDIMENTO", anos, c("Parto normal", "Parto cesáreo"),
+                                     PARTOS$SUBTIPO, "Partos", c(16, 42, 12)))
+  for (tp in c("Parto normal", "Parto cesáreo")) abas_pt[[tp]] <- unidades_ano(pt[TIPO_DE_PARTO == tp], unidades, anos, "Partos", "GESTAO")
   gravar_planilha("05_partos", abas_pt, "Partos por tipo de parto e gestão",
                   paste("SIH, procedimento realizado entre os 6 do PROCOBS2C.CNV (Proced obst do TabWin): parto normal",
                         "(0310010039, 0310010047, 0310010055) e cesáreo (0411010034, 0411010026, 0411010042).",
                         "TODO O ESTADO, por gestão (campo GESTAO da AIH: Estadual/Municipal). Produção = número de AIH;",
                         "valor = valor total da AIH. Nas abas por tipo, as unidades estão agrupadas por gestão."),
-                  atualizacao, csv = csv_tema(pt, unidades, c("GESTAO", "TIPO_PARTO", "SUBTIPO")))
+                  atualizacao, csv = csv_tema(pt, unidades, c("GESTAO", "TIPO_DE_PARTO", "PROCEDIMENTO")),
+                  itens = c(Unidades = "Todas as unidades de PE com parto, separadas pela gestão da AIH (campo GESTAO)."))
+
+  # 06 Leitos (todo o estado, por tipo de gestão)
+  if (!is.null(lt) && nrow(lt)) {
+    tipos <- ler_csv("referencias/leitos_tipo.csv"); esp <- ler_csv("referencias/leitos_especialidade.csv")
+    lt[, `:=`(ANO = as.integer(substr(COMPETENCIA, 1, 4)),
+              GESTAO = fcase(TPGESTAO == "E", "Estadual", TPGESTAO == "M", "Municipal", TPGESTAO == "D", "Dupla",
+                             TPGESTAO %chin% c("S", "Z"), "Sem gestão", default = "Não informada"),
+              TIPO_DE_LEITO = fcoalesce(tipos$TIPO_LEITO[match(TP_LEITO, tipos$TP_LEITO)], paste("Tipo", TP_LEITO)),
+              ESPECIALIDADE_LEITO = paste(CODLEITO, fcoalesce(esp$ESPECIALIDADE[match(CODLEITO, esp$CODLEITO)], "(sem descrição)")),
+              QTD = QT_EXIST, VALOR = QT_SUS)]
+    rl <- list(rotulos = c("Existentes", "SUS"), formatos = c("#,##0", "#,##0"))
+    meses_ref <- paste(sort(unique(lt$COMPETENCIA)), collapse = ", ")
+    abas_lt <- list(
+      Geral = do.call(por_gestao, c(list(lt, "TIPO_DE_LEITO", NULL, anos, tipos$TIPO_LEITO, NULL, "Existentes", c(24, 12)), rl)),
+      `Por especialidade` = do.call(por_gestao, c(list(lt, "TIPO_DE_LEITO", "ESPECIALIDADE_LEITO", anos, tipos$TIPO_LEITO,
+                                                      sort(unique(lt$ESPECIALIDADE_LEITO)), "Existentes", c(24, 40, 12)), rl)),
+      Unidades = do.call(unidades_ano, c(list(lt, unidades, anos, "Existentes", "GESTAO"), rl)))
+    gravar_planilha("06_leitos", abas_lt, "Leitos por tipo de leito e tipo de gestão",
+                    paste("CNES-LT (Leitos_Especialidade.def do TabWin): leitos existentes (QT_EXIST, a Freqüência do TabWin)",
+                          "e leitos SUS (QT_SUS), por tipo de leito (TIP1LEIT.CNV), especialidade (ESP_LEIT.CNV) e tipo de",
+                          "gestão do estabelecimento (TPGESTAO: dupla, estadual, municipal, sem gestão). TODO O ESTADO."),
+                    atualizacao, csv = setnames(csv_tema(lt, unidades, c("GESTAO", "TIPO_DE_LEITO", "ESPECIALIDADE_LEITO")),
+                                                c("QTD", "VALOR"), c("LEITOS_EXISTENTES", "LEITOS_SUS")),
+                    itens = c(Formato = "Para cada ano: leitos existentes e leitos SUS. Subtotais e total geral em negrito.",
+                              `Período` = paste("Leito é estoque: cada ano mostra a posição de dezembro; o ano corrente, o último",
+                                                "mês publicado. Meses usados:", meses_ref),
+                              Unidades = "Todos os estabelecimentos de PE com leitos, agrupados pelo tipo de gestão.",
+                              Valor = "Não se aplica.",
+                              `Meses recentes` = "O CNES é atualizado mensalmente; o ano corrente pode mudar até dezembro.",
+                              Fonte = "DATASUS, CNES-LT (arquivos LTPEaamm.dbc), FTP público. Mesmos arquivos do TabWin (T:\\TabWCNES\\LEITO)."))
+  }
 
   # 00 Unidades
   gravar_planilha("00_unidades", list(Unidades = unidades[, .(CNES, UNIDADE, TIPO_REDE, MODELO_GESTAO, TIPO_UNIDADE,

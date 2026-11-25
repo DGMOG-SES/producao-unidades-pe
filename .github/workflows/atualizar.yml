@@ -74,6 +74,10 @@ jobs:
       # Cada mês é enviado ao repositório assim que termina (PUBLICAR_PARCIAL).
       # --minutos limita o tempo de cada etapa: o SIA leva 10 a 15 min por
       # movimento, e a execução inteira precisa caber nas 6 h do Actions.
+      - name: 01b Leitos (CNES-LT)
+        continue-on-error: true
+        run: Rscript 01b_leitos.R
+
       - name: 02 Produção ambulatorial (SIA)
         id: sia
         continue-on-error: true

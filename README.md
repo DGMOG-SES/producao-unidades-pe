@@ -25,6 +25,7 @@ com subtotais e total geral.
 | `03_consultas_medicas_especializadas` | **Geral** (especialidade/CBO × ano) e **Unidades** | SIA, procedimento 0301010072, quantidade aprovada | Valor aprovado |
 | `04_consultas_multiprofissionais` | **Geral** (CBO × ano) e **Unidades** | SIA, procedimento 0301010048 (nível superior, exceto médico) | Valor aprovado |
 | `05_partos` | **Geral** (tipo e procedimento × gestão × ano) e **Parto normal** / **Parto cesáreo** (unidades agrupadas por gestão) | SIH, AIH dos 6 procedimentos do `PROCOBS2C.CNV`: normal (0310010039, 0310010047, 0310010055) e cesáreo (0411010034, 0411010026, 0411010042). **Todo o estado**, gestão estadual e municipal | Valor total da AIH |
+| `06_leitos` | **Geral** (tipo de leito × gestão × ano), **Por especialidade** (tipo e especialidade × gestão) e **Unidades** (agrupadas por gestão) | CNES-LT, leitos existentes (`QT_EXIST`, a Freqüência do `Leitos_Especialidade.def`), posição de **dezembro** de cada ano (no ano corrente, o último mês publicado). **Todo o estado**, por tipo de gestão (dupla, estadual, municipal, sem gestão) | No lugar do valor: leitos SUS (`QT_SUS`) |
 | `00_unidades` | Cadastro das unidades que aparecem nas planilhas | | |
 | `atualizacao.csv` | Último mês disponível de cada fonte e data da geração | | |
 
@@ -68,6 +69,7 @@ início do `04_planilhas.R`. Para mudar o período, edite `inicio` e `fim` em `u
 | Script | O que faz | Saída |
 |---|---|---|
 | `01_unidades.R` | Baixa o CNES-ST de PE (primeiro e último mês de cada ano) e guarda natureza jurídica, tipo e município de cada CNES | `dados/referencias/cnes_st_pe.csv` |
+| `01b_leitos.R` | CNES-LT de PE: o mês de dezembro de cada ano e o último mês do ano corrente; guarda leitos existentes, SUS e não SUS por CNES, tipo de leito, especialidade e tipo de gestão | `dados/leitos/*.parquet` → `dados/saida/leitos.parquet` |
 | `02_sia.R` | SIA-PA de PE por movimento, toda a produção do estado; agrega por movimento, competência, CNES, gestor, procedimento, CBO (só nas consultas 0301), município, tipo de unidade e de prestador, natureza jurídica, financiamento e instrumento de registro | `dados/sia/*.parquet` → `dados/saida/sia_unidades.parquet` |
 | `03_sih.R` | SIH-RD de PE por mês, todas as AIH do estado; agrega por competência, CNES, gestor, procedimento, leito, caráter, complexidade, tipo de AIH, natureza jurídica, município e financiamento | `dados/sih/*.parquet` → `dados/saida/sih_unidades.parquet` |
 | `04_planilhas.R` | Classifica as unidades, baixa o SIGTAP para os nomes e grava as cinco planilhas temáticas | `planilhas/` |
