@@ -138,7 +138,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Publicar dados
-        run: bash publicar.sh "Carga paralela: ${{ github.event.inputs.anos }}"
+        run: bash publicar.sh "Carga paralela - anos ${{ github.event.inputs.anos }}"
 
       - name: 01 Cadastro das unidades (CNES-ST)
         continue-on-error: true
