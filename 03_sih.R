@@ -19,6 +19,7 @@
 #
 # Só baixa meses novos ou republicados.
 # Uso: Rscript 03_sih.R [--reprocessar-tudo] [--forcar=AAAAMM] [--max=N] [--minutos=N]
+#                       [--periodo=AAAAMM-AAAAMM]
 # ------------------------------------------------------------------------------
 
 source("utils.R")
@@ -72,6 +73,7 @@ main <- function() {
   forcar <- argumento("forcar")
   pend <- if (tem_flag("reprocessar-tudo")) ftp else ftp[!ctrl, on = .(mes, assinatura)]
   if (!is.null(forcar)) pend <- unique(rbind(pend, ftp[mes == forcar]))
+  pend <- pend[no_periodo(mes)]
   setorder(pend, -mes)
   log_msg("SIH: %d arquivos no FTP entre %s e %s; %d pendentes; processando até %d",
           nrow(ftp), CFG$inicio, CFG$fim, nrow(pend), SIH$max_por_execucao)

@@ -25,6 +25,7 @@
 # SIA$max_por_execucao movimentos (os mais recentes primeiro), para caber no
 # tempo do GitHub Actions; a carga histórica se completa em execuções seguidas.
 # Uso: Rscript 02_sia.R [--reprocessar-tudo] [--forcar=AAAAMM] [--max=N] [--minutos=N]
+#                       [--periodo=AAAAMM-AAAAMM]
 # ------------------------------------------------------------------------------
 
 source("utils.R")
@@ -84,6 +85,7 @@ main <- function() {
   pend <- if (tem_flag("reprocessar-tudo")) movs else
     movs[!ctrl, on = .(mvm, assinatura)]
   if (!is.null(forcar)) pend <- unique(rbind(pend, movs[mvm == forcar]))
+  pend <- pend[no_periodo(mvm)]
   # Mais recentes primeiro: o mês novo entra logo; o histórico vem nas execuções seguintes.
   setorder(pend, -mvm)
   log_msg("SIA: %d movimentos no FTP entre %s e %s; %d pendentes; processando até %d",

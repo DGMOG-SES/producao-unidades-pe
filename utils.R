@@ -194,5 +194,14 @@ tempo_esgotado <- function(inicio, minutos) {
   !is.null(minutos) && as.numeric(difftime(Sys.time(), inicio, units = "mins")) > as.numeric(minutos)
 }
 
+# --periodo=AAAAMM-AAAAMM: restringe os meses processados (usado na carga
+# paralela, em que cada máquina do GitHub Actions baixa um trecho do período).
+no_periodo <- function(meses) {
+  p <- argumento("periodo")
+  if (is.null(p)) return(rep(TRUE, length(meses)))
+  lim <- strsplit(p, "-")[[1]]
+  meses >= lim[1] & meses <= lim[2]
+}
+
 # Lista de unidades validada pela SES (rede própria, OSS e referências fora da rede).
 ler_validados <- function() ler_csv("referencias/estabelecimentos_validados.csv")

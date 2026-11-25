@@ -359,9 +359,10 @@ leia_me <- function(titulo, regras, atualizacao, itens = NULL) {
     Item = c("Tema", "Regra", "Formato", "Período", "Unidades", "Valor", "Meses recentes", "Fonte", "Atualizado em"),
     Texto = c(titulo, regras,
               "Para cada ano: produção (quantidade) e valor (R$). Subtotais e total geral em negrito.",
-              sprintf("Competência (mês de processamento) de %s/%s a %s/%s; dados até %s.",
-                      substr(CFG$inicio, 5, 6), substr(CFG$inicio, 1, 4), substr(CFG$fim, 5, 6), substr(CFG$fim, 1, 4),
-                      atualizacao$ultimo),
+              sprintf(paste("Competência (mês de processamento) de %s a %s; dados até %s. A série completa",
+                            "vai de %s; anos ainda não carregados entram automaticamente."),
+                      atualizacao$desde, paste0(substr(CFG$fim, 5, 6), "/", substr(CFG$fim, 1, 4)), atualizacao$ultimo,
+                      paste0(substr(CFG$inicio, 5, 6), "/", substr(CFG$inicio, 1, 4))),
               paste("Rede estadual: rede própria e OSS da lista validada pela SES (toda a produção);",
                     "estabelecimentos estaduais fora da lista e rede complementar (referências fora da rede da lista e",
                     "prestadores privados/filantrópicos), só a produção sob gestão estadual. Gestão como no TabWin da SES:",
@@ -406,6 +407,26 @@ csv_tema <- function(dt, unidades, dims) {
   x
 }
 
+# Primeiro ano (AAAA01) a partir do qual SIA e SIH têm todos os meses na base,
+# pelos controles de extração. O ano corrente conta até o último mês baixado.
+primeiro_ano_completo <- function() {
+  ctl <- function(arq, chave) {
+    f <- file.path(CFG$dir_dados, "controle", arq)
+    if (file.exists(f)) ler_csv(f)[[chave]] else character()
+  }
+  meses <- intersect(ctl("sia_processados_v3.csv", "mvm"), ctl("sih_processados_v2.csv", "mes"))
+  if (!length(meses)) return(CFG$inicio)
+  ultimo <- max(meses)
+  anos <- rev(seq(as.integer(substr(CFG$inicio, 1, 4)), as.integer(substr(ultimo, 1, 4))))
+  inicio <- NULL
+  for (a in anos) {
+    esperados <- sprintf("%d%02d", a, 1:12)
+    esperados <- esperados[esperados <= ultimo]
+    if (all(esperados %chin% meses)) inicio <- sprintf("%d01", a) else break
+  }
+  inicio %||% CFG$inicio
+}
+
 # ---- Principal ---------------------------------------------------------------------
 
 main <- function() {
@@ -416,7 +437,8 @@ main <- function() {
     return(invisible(NULL))
   }
   entradas <- c(arq_sia, arq_sih, file.path(SAIDA, "leitos.parquet"), file.path(REF, "cnes_st_pe.csv"), "referencias/estabelecimentos_validados.csv",
-                "referencias/municipios_regiao_saude_pe.csv", "04_planilhas.R")
+                "referencias/municipios_regiao_saude_pe.csv", "04_planilhas.R",
+                file.path(CFG$dir_dados, "controle", c("sia_processados_v3.csv", "sih_processados_v2.csv")))
   hash <- paste(tools::md5sum(entradas[file.exists(entradas)]), collapse = "")
   arq_hash <- file.path(CFG$dir_dados, "controle", "planilhas_hash.txt")
   if (!tem_flag("forcar") && file.exists(arq_hash) && identical(readLines(arq_hash), hash) &&
@@ -426,9 +448,15 @@ main <- function() {
   }
 
   arq_lt <- file.path(SAIDA, "leitos.parquet")
-  lt <- if (file.exists(arq_lt)) ler_parquet(arq_lt)[COMPETENCIA >= CFG$inicio & COMPETENCIA <= CFG$fim] else NULL
-  sia <- ler_parquet(arq_sia)[PA_MVM >= CFG$inicio & PA_MVM <= CFG$fim]
-  sih <- ler_parquet(arq_sih)[COMPETENCIA >= CFG$inicio & COMPETENCIA <= CFG$fim]
+  lt <- NULL
+  # As planilhas começam no primeiro ano completo na base (SIA e SIH com todos
+  # os meses daquele ano em diante): durante a carga histórica, os anos antigos
+  # entram sozinhos à medida que são baixados.
+  inicio <- primeiro_ano_completo()
+  log_msg("Planilhas a partir de %s", inicio)
+  sia <- ler_parquet(arq_sia)[PA_MVM >= inicio & PA_MVM <= CFG$fim]
+  if (file.exists(arq_lt)) lt <- ler_parquet(arq_lt)[COMPETENCIA >= inicio & COMPETENCIA <= CFG$fim]
+  sih <- ler_parquet(arq_sih)[COMPETENCIA >= inicio & COMPETENCIA <= CFG$fim]
   for (cl in c("PA_CONDIC", "PA_UFMUN", "PA_CATEND")) if (!cl %in% names(sia)) set(sia, j = cl, value = NA_character_)
   for (cl in c("TP_GESTAO", "MUNIC_MOV")) if (!cl %in% names(sih)) set(sih, j = cl, value = NA_character_)
   sia[, `:=`(ANO = as.integer(substr(PA_MVM, 1, 4)), GESTAO = gestao_sia(PA_CONDIC),
@@ -438,7 +466,7 @@ main <- function() {
   log_msg("Gestão (registros) SIA: %s | SIH: %s",
           paste(sia[, .N, by = GESTAO][, paste(GESTAO, N, sep = "=")], collapse = ", "),
           paste(sih[, .N, by = GESTAO][, paste(GESTAO, N, sep = "=")], collapse = ", "))
-  anos <- seq(as.integer(substr(CFG$inicio, 1, 4)), max(c(sia$ANO, sih$ANO)))
+  anos <- seq(as.integer(substr(inicio, 1, 4)), max(c(sia$ANO, sih$ANO)))
 
   mun_prod <- rbind(sia[, .(CNES, MUN_PROD = PA_UFMUN)], sih[, .(CNES, MUN_PROD = MUNIC_MOV)],
                     if (!is.null(lt)) lt[, .(CNES, MUN_PROD = CODUFMUN)])
@@ -469,6 +497,7 @@ main <- function() {
   setorder(unidades, O_, MODELO_GESTAO, UNIDADE)[, O_ := NULL]
 
   atualizacao <- list(
+    desde = paste0(substr(inicio, 5, 6), "/", substr(inicio, 1, 4)),
     ultimo = sprintf("SIA %s/%s, SIH %s/%s", substr(max(sia$PA_MVM), 5, 6), substr(max(sia$PA_MVM), 1, 4),
                      substr(max(sih$COMPETENCIA), 5, 6), substr(max(sih$COMPETENCIA), 1, 4)),
     em = format(Sys.time(), "%d/%m/%Y %H:%M", tz = "America/Recife"))

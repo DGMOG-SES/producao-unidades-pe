@@ -1,0 +1,155 @@
+name: Carga paralela do histórico (SIA e SIH)
+
+# Baixa vários semestres ao mesmo tempo, cada um numa máquina, para acelerar a
+# carga histórica (o gargalo é o download do FTP do DATASUS). No fim, junta as
+# partes, atualiza cadastro e leitos, gera as planilhas e publica.
+# Disparo manual: Actions → "Carga paralela do histórico" → Run workflow.
+
+on:
+  workflow_dispatch:
+    inputs:
+      anos:
+        description: "Anos a carregar, separados por espaço (ex.: 2023 2024 2025 2026)"
+        required: true
+        default: "2023 2024 2025 2026"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar-dados
+  cancel-in-progress: false
+
+jobs:
+  plano:
+    runs-on: ubuntu-latest
+    outputs:
+      periodos: ${{ steps.p.outputs.periodos }}
+    steps:
+      - id: p
+        run: |
+          lista=""
+          for a in ${{ github.event.inputs.anos }}; do
+            lista="$lista\"${a}01-${a}06\",\"${a}07-${a}12\","
+          done
+          echo "periodos=[${lista%,}]" >> "$GITHUB_OUTPUT"
+
+  extrair:
+    needs: plano
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: 16
+      matrix:
+        periodo: ${{ fromJSON(needs.plano.outputs.periodos) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::data.table
+            any::curl
+            any::arrow
+            any::remotes
+            any::jsonlite
+
+      - name: Instalar leitor de .dbc
+        env:
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          Rscript instalar_pacotes.R
+          pip install pyreaddbc
+
+      - name: Marcar início
+        run: touch /tmp/marcador && sleep 1
+
+      - name: SIA ${{ matrix.periodo }}
+        continue-on-error: true
+        run: Rscript 02_sia.R --periodo=${{ matrix.periodo }} --max=99 --minutos=240
+
+      - name: SIH ${{ matrix.periodo }}
+        continue-on-error: true
+        run: Rscript 03_sih.R --periodo=${{ matrix.periodo }} --max=99 --minutos=60
+
+      - name: Separar o que foi baixado
+        run: |
+          mkdir -p parte
+          find dados/sia dados/sih dados/controle -type f -newer /tmp/marcador -print0 2>/dev/null \
+            | xargs -0 -r -I{} cp --parents {} parte/
+          find parte -type f | sort
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: parte-${{ matrix.periodo }}
+          path: parte
+          retention-days: 3
+
+  juntar:
+    needs: extrair
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::data.table
+            any::curl
+            any::arrow
+            any::remotes
+            any::jsonlite
+            any::writexl
+            any::openxlsx
+
+      - name: Instalar leitor de .dbc
+        env:
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          Rscript instalar_pacotes.R
+          pip install pyreaddbc
+
+      - uses: actions/download-artifact@v4
+        with:
+          path: partes
+          pattern: parte-*
+
+      - name: Juntar as partes
+        run: Rscript juntar_partes.R partes
+
+      - name: Configurar git para publicar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Publicar dados
+        run: bash publicar.sh "Carga paralela: ${{ github.event.inputs.anos }}"
+
+      - name: 01 Cadastro das unidades (CNES-ST)
+        continue-on-error: true
+        run: Rscript 01_unidades.R
+
+      - name: 01b Leitos (CNES-LT)
+        continue-on-error: true
+        run: Rscript 01b_leitos.R
+
+      - name: 04 Planilhas
+        run: Rscript 04_planilhas.R
+
+      - name: Publicar planilhas
+        run: bash publicar.sh "Atualiza planilhas após carga paralela ($(date +%Y-%m-%d))"
