@@ -13,7 +13,7 @@ CFG <- list(
   dir_dados  = Sys.getenv("PROD_DIR_DADOS", "dados"),
   dir_planilhas = Sys.getenv("PROD_DIR_PLANILHAS", "planilhas"),
   # Primeiro mês do período (movimento do SIA / mês do arquivo do SIH)
-  inicio     = "202301",
+  inicio     = "201901",
   # Último mês do período: dezembro de 2026
   fim        = "202612",
   uf         = "PE",

@@ -1,4 +1,4 @@
-# Produção e valor por unidade de saúde – Pernambuco (2023 a 2026)
+# Produção e valor por unidade de saúde – Pernambuco (2019 a 2026)
 
 Planilhas de produção e valor da rede estadual de saúde de PE, por unidade,
 a partir dos dados abertos do DATASUS (SIA, SIH, CNES e SIGTAP). Os dados vêm
@@ -46,7 +46,7 @@ unidades estão na lista validada (para a complementar, as que constam como
 "Referência fora da rede").
 
 **Período e competência.** Mês de processamento: no SIA, o movimento
-(`PA_MVM`); no SIH, `ANO_CMPT`/`MES_CMPT`. Vai de 01/2023 até 12/2026 (ou o
+(`PA_MVM`); no SIH, `ANO_CMPT`/`MES_CMPT`. Vai de 01/2019 até 12/2026 (ou o
 último mês publicado). Cada movimento traz também produção atrasada de meses
 anteriores, então **os últimos 3 a 4 meses são parciais**. A base do SIA guarda
 também `PA_CMP` (competência de atendimento) para quem precisar dessa visão.
@@ -69,11 +69,15 @@ início do `04_planilhas.R`. Para mudar o período, edite `inicio` e `fim` em `u
 | Script | O que faz | Saída |
 |---|---|---|
 | `01_unidades.R` | Baixa o CNES-ST de PE (último mês de cada ano) e guarda natureza jurídica, tipo e município de cada CNES | `dados/referencias/cnes_st_pe.csv` |
-| `02_sia.R` | SIA-PA de PE por movimento, só unidades da lista validada + produção sob gestão estadual; agrega por movimento, competência, CNES, gestor, procedimento e CBO (só nas consultas 0301) | `dados/sia/*.parquet` → `dados/saida/sia_unidades.parquet` |
-| `03_sih.R` | SIH-RD de PE por mês, mesmo filtro; agrega por competência, CNES, gestor, procedimento, leito, caráter, complexidade e tipo de AIH | `dados/sih/*.parquet` → `dados/saida/sih_unidades.parquet` |
+| `02_sia.R` | SIA-PA de PE por movimento, toda a produção do estado; agrega por movimento, competência, CNES, gestor, procedimento, CBO (só nas consultas 0301), município, tipo de unidade e de prestador, natureza jurídica, financiamento e instrumento de registro | `dados/sia/*.parquet` → `dados/saida/sia_unidades.parquet` |
+| `03_sih.R` | SIH-RD de PE por mês, todas as AIH do estado; agrega por competência, CNES, gestor, procedimento, leito, caráter, complexidade, tipo de AIH, natureza jurídica, município e financiamento | `dados/sih/*.parquet` → `dados/saida/sih_unidades.parquet` |
 | `04_planilhas.R` | Classifica as unidades, baixa o SIGTAP para os nomes e grava as planilhas | `planilhas/` |
 | `utils.R` | Funções comuns (FTP, leitura de .dbc, controle do que já foi processado) e configuração | |
 | `instalar_pacotes.R` | Instala os pacotes (rodar uma vez) | |
+
+As bases consolidadas em `dados/saida/` não são versionadas no Git (passariam do limite de
+100 MB por arquivo com todo o estado desde 2019): elas são remontadas a partir das partições
+`dados/sia/` e `dados/sih/` a cada execução.
 
 `dados/controle/` guarda o que já foi baixado, com nome, tamanho e data do
 arquivo no FTP: arquivo republicado pelo DATASUS é refeito automaticamente.

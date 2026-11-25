@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 # ------------------------------------------------------------------------------
-# 04 - Planilhas de produção e valor por unidade de saúde (PE, 2023 a 2026)
+# 04 - Planilhas de produção e valor por unidade de saúde (PE, 2019 a 2026)
 #
 # Junta as bases do SIA (02_sia.R) e do SIH (03_sih.R), classifica cada unidade
 # por tipo de rede e grava uma planilha Excel por tema, com uma aba "Leia-me",
@@ -23,7 +23,7 @@
 # só no log.
 #
 # Período: mês de processamento (SIA: movimento PA_MVM; SIH: ANO/MES_CMPT),
-# de 01/2023 a 12/2026. Os últimos meses são parciais (reapresentações).
+# de 01/2019 a 12/2026. Os últimos meses são parciais (reapresentações).
 #
 # Saídas em planilhas/ (Excel) e planilhas/csv/ (CSV separado por ";"):
 #   01_producao_geral                 abas Ambulatorial, Hospitalar e Total (uma linha por
@@ -276,7 +276,8 @@ leia_me <- function(titulo, regras, atualizacao) {
              Descricao = c(
                titulo, regras,
                sprintf("Mês de processamento, de %s a %s (dados disponíveis até %s)",
-                       "01/2023", "12/2026", atualizacao$ultimo),
+                       paste0(substr(CFG$inicio, 5, 6), "/", substr(CFG$inicio, 1, 4)),
+                       paste0(substr(CFG$fim, 5, 6), "/", substr(CFG$fim, 1, 4)), atualizacao$ultimo),
                paste("Rede própria (gestão direta, 06 grandes, administração indireta) e OSS: lista validada pela SES,",
                      "qualquer gestor. Rede própria também inclui estabelecimentos estaduais no CNES fora da lista",
                      "(modelo 'Estadual fora da lista SES'), só sob gestão estadual. Complementar: prestadores privados",

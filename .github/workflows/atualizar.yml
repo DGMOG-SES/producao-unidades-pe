@@ -8,9 +8,9 @@ on:
       - "referencias/**"
       - ".github/workflows/atualizar.yml"
   schedule:
-    # Checagem diária (09h23 de Brasília); só baixa quando há mês novo ou
+    # Checagem a cada 6 horas; só baixa quando há mês novo ou
     # republicado no FTP do DATASUS, e só regrava as planilhas se algo mudou.
-    - cron: "23 12 * * *"
+    - cron: "23 */6 * * *"
   workflow_dispatch:
     inputs:
       argumentos_sia:

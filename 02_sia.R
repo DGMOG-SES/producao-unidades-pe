@@ -2,19 +2,19 @@
 # ------------------------------------------------------------------------------
 # 02 - Produção ambulatorial (SIA-PA) de PE, por movimento
 #
-# Lê os arquivos PAPEaamm[a,b,...].dbc do FTP do DATASUS, de 01/2023 em diante,
-# e mantém só as linhas que interessam às planilhas:
-#   - estabelecimentos da lista validada da SES (rede própria, OSS e referências),
-#     qualquer que seja o gestor; e
-#   - toda a produção sob gestão estadual (PA_GESTAO = 260000), onde estão os
-#     prestadores da rede complementar.
-# A separação por tipo de rede é feita depois, no 04_planilhas.R.
+# Lê os arquivos PAPEaamm[a,b,...].dbc do FTP do DATASUS, de 01/2019 em diante,
+# e guarda TODA a produção de PE, agregada. A seleção de unidades e a
+# separação por tipo de rede são feitas depois, no 04_planilhas.R; assim uma
+# regra nova não exige baixar tudo de novo.
 #
 # Saída: uma partição por movimento em dados/sia/ e a base consolidada
 #   dados/saida/sia_unidades.parquet, agregada por
 #   PA_MVM (movimento = mês de processamento), PA_CMP (competência de
-#   atendimento), CNES, PA_GESTAO, PA_PROC_ID e CBO (o CBO só é mantido nos
-#   procedimentos 0301, consultas e atendimentos; nos demais fica vazio).
+#   atendimento), CNES, PA_GESTAO, PA_PROC_ID, CBO (o CBO só é mantido nos
+#   procedimentos 0301, consultas e atendimentos; nos demais fica vazio),
+#   PA_UFMUN (município do estabelecimento), PA_TPUPS (tipo de unidade),
+#   PA_TIPPRE (tipo de prestador), PA_NAT_JUR (natureza jurídica), PA_TPFIN
+#   (tipo de financiamento) e PA_DOCORIG (instrumento: BPA-C, BPA-I, APAC...).
 # Medidas: QTD_APRESENTADA (PA_QTDPRO), QTD_APROVADA (PA_QTDAPR),
 #   VALOR_APRESENTADO (PA_VALPRO), VALOR_APROVADO (PA_VALAPR), N_REGISTROS.
 #
@@ -31,7 +31,11 @@ SIA <- list(
   dir      = file.path(CFG$dir_dados, "sia"),
   saida    = file.path(CFG$dir_dados, "saida", "sia_unidades.parquet"),
   controle = file.path(CFG$dir_dados, "controle", "sia_processados.csv"),
-  texto    = c("PA_CODUNI", "PA_GESTAO", "PA_CMP", "PA_MVM", "PA_PROC_ID", "PA_CBOCOD"),
+  # Além das chaves, guarda campos de classificação (natureza jurídica, tipo de
+  # unidade e de prestador, financiamento, instrumento de registro e município)
+  # para que regras novas possam ser aplicadas sem baixar tudo de novo.
+  texto    = c("PA_CODUNI", "PA_GESTAO", "PA_CMP", "PA_MVM", "PA_PROC_ID", "PA_CBOCOD",
+               "PA_UFMUN", "PA_TPUPS", "PA_TIPPRE", "PA_NAT_JUR", "PA_TPFIN", "PA_DOCORIG"),
   numero   = c("PA_QTDPRO", "PA_QTDAPR", "PA_VALPRO", "PA_VALAPR")
 )
 
@@ -48,27 +52,25 @@ listar_sia <- function() {
 
 # Lê uma parte do movimento, filtra e agrega logo em seguida, para não manter o
 # arquivo inteiro (milhões de linhas) na memória.
-ler_parte <- function(nome, mvm, cnes_validos) {
+ler_parte <- function(nome, mvm) {
   dt <- padronizar(baixar_ler(CFG$ftp_sia, nome), texto = SIA$texto, numero = SIA$numero)
   n <- nrow(dt)
   dt[is.na(PA_MVM) | PA_MVM == "", PA_MVM := mvm]
-  dt <- dt[PA_CODUNI %chin% cnes_validos | PA_GESTAO == CFG$gestor_estadual]
   dt[!startsWith(PA_PROC_ID, "0301") | is.na(PA_CBOCOD), PA_CBOCOD := ""]
   out <- dt[, .(QTD_APRESENTADA = sum(PA_QTDPRO, na.rm = TRUE),
                 QTD_APROVADA = sum(PA_QTDAPR, na.rm = TRUE),
                 VALOR_APRESENTADO = sum(PA_VALPRO, na.rm = TRUE),
                 VALOR_APROVADO = sum(PA_VALAPR, na.rm = TRUE),
                 N_REGISTROS = .N),
-            by = .(PA_MVM, PA_CMP, CNES = PA_CODUNI, PA_GESTAO, PA_PROC_ID, CBO = PA_CBOCOD)]
-  log_msg("  %s: %s registros no arquivo; %s mantidos; %d linhas agregadas",
-          nome, format(n, big.mark = "."), format(nrow(dt), big.mark = "."), nrow(out))
+            by = .(PA_MVM, PA_CMP, CNES = PA_CODUNI, PA_GESTAO, PA_PROC_ID, CBO = PA_CBOCOD,
+                   PA_UFMUN, PA_TPUPS, PA_TIPPRE, PA_NAT_JUR, PA_TPFIN, PA_DOCORIG)]
+  log_msg("  %s: %s registros no arquivo; %d linhas agregadas", nome, format(n, big.mark = "."), nrow(out))
   rm(dt); gc(verbose = FALSE)
   out
 }
 
 main <- function() {
   dir.create(SIA$dir, recursive = TRUE, showWarnings = FALSE)
-  cnes_validos <- ler_validados()$CNES
 
   ftp <- listar_sia()
   movs <- ftp[, .(assinatura = paste(assinatura, collapse = ";")), by = mvm]
@@ -92,9 +94,10 @@ main <- function() {
     }
     log_msg("Movimento %s", m)
     ok <- tryCatch({
-      partes <- lapply(ftp[mvm == m]$nome, ler_parte, mvm = m, cnes_validos = cnes_validos)
+      partes <- lapply(ftp[mvm == m]$nome, ler_parte, mvm = m)
       dt <- rbindlist(partes)
-      dt <- dt[, lapply(.SD, sum), by = .(PA_MVM, PA_CMP, CNES, PA_GESTAO, PA_PROC_ID, CBO),
+      dt <- dt[, lapply(.SD, sum), by = .(PA_MVM, PA_CMP, CNES, PA_GESTAO, PA_PROC_ID, CBO,
+                                          PA_UFMUN, PA_TPUPS, PA_TIPPRE, PA_NAT_JUR, PA_TPFIN, PA_DOCORIG),
                .SDcols = c("QTD_APRESENTADA", "QTD_APROVADA", "VALOR_APRESENTADO", "VALOR_APROVADO", "N_REGISTROS")]
       gravar_parquet(dt, file.path(SIA$dir, sprintf("sia_%s.parquet", m)))
       ctrl <- registrar_controle(ctrl, SIA$controle, "mvm", m, pend[mvm == m]$assinatura)
