@@ -1,4 +1,717 @@
 ﻿ANO;TIPO_REDE;CNES;UNIDADE;MUNICIPIO;REGIAO_SAUDE;ESPECIALIDADE;QTD;VALOR
+2019;Complementar;6697461;C D C;Cabo de Santo Agostinho;I Região de Saúde - PE;225109 Médico nefrologista;3685;36850
+2019;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;225109 Médico nefrologista;2;20
+2019;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;225120 Médico cardiologista;30;300
+2019;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;225121 Médico oncologista clínico;1976;19760
+2019;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;225275 Médico otorrinolaringologista;3;30
+2019;Complementar;4018834;CENTRO DE TRATAMENTO RENAL;Jaboatão dos Guararapes;I Região de Saúde - PE;225109 Médico nefrologista;3942;39420
+2019;Complementar;2636808;CLINICA DO RIM;Carpina;II Região de Saúde - PE;225109 Médico nefrologista;2396;23960
+2019;Complementar;2636808;CLINICA DO RIM;Carpina;II Região de Saúde - PE;225203 Médico em cirurgia vascular;9;90
+2019;Complementar;2434067;CLINICA DO RIM DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;225109 Médico nefrologista;3809;38090
+2019;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;225109 Médico nefrologista;3602;36020
+2019;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;225203 Médico em cirurgia vascular;40;400
+2019;Complementar;5789656;CTRMS;Palmares;III Região de Saúde - PE;225109 Médico nefrologista;2972;29720
+2019;Complementar;0001449;DAVITA;Recife;I Região de Saúde - PE;225109 Médico nefrologista;3958;39580
+2019;Complementar;2708019;DAVITA;Recife;I Região de Saúde - PE;225109 Médico nefrologista;2854;28540
+2019;Complementar;3240509;DAVITA;Olinda;I Região de Saúde - PE;225109 Médico nefrologista;1776;17760
+2019;Complementar;0002038;DAVITA RECIFE;Recife;I Região de Saúde - PE;225109 Médico nefrologista;3836;38360
+2019;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225112 Médico neurologista;712;7120
+2019;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225120 Médico cardiologista;3350;33500
+2019;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225133 Médico psiquiatra;64;640
+2019;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;13;130
+2019;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;84587;845870
+2019;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;607;6070
+2019;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225275 Médico otorrinolaringologista;658;6580
+2019;Complementar;3481506;FUNDACAO ALTINO VENTURA 2;Salgueiro;VII Região de Saúde - PE;225265 Médico oftalmologista;4692;46920
+2019;Complementar;2343738;HOSPITAL ARMINDO MOURA;Moreno;I Região de Saúde - PE;225120 Médico cardiologista;2940;29400
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;2231G1 Médico Cardiologista Intervencionista;80;800
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225103 Médico infectologista;2823;28230
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225105 Médico acupunturista;375;3750
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225109 Médico nefrologista;5705;57050
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225110 Médico alergista e imunologista;3820;38200
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225112 Médico neurologista;6117;61170
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225120 Médico cardiologista;11913;119130
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225121 Médico oncologista clínico;6299;62990
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225124 Médico pediatra;8684;86840
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225125 Médico clínico;12884;128840
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225127 Médico pneumologista;4814;48140
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225133 Médico psiquiatra;3037;30370
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225135 Médico dermatologista;10737;107370
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225136 Médico reumatologista;12168;121680
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225148 Médico anatomopatologista;71;710
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225150 Médico em medicina intensiva;354;3540
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;2987;29870
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225155 Médico endocrinologista e metabologista;11300;113000
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;7720;77200
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225185 Médico hematologista;2832;28320
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;1975;19750
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;302;3020
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225220 Médico cirurgião do aparelho digestivo;1522;15220
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;7396;73960
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;2039;20390
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225235 Médico cirurgião plástico;8686;86860
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225240 Médico cirurgião torácico;5;50
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;16803;168030
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225255 Médico mastologista;1297;12970
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225260 Médico neurocirurgião;353;3530
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;12283;122830
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;2758;27580
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225275 Médico otorrinolaringologista;770;7700
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225280 Médico coloproctologista;319;3190
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225285 Médico urologista;3885;38850
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225310 Médico em endoscopia;46;460
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225315 Médico em medicina nuclear;6;60
+2019;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;74;740
+2019;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225120 Médico cardiologista;6277;62770
+2019;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225121 Médico oncologista clínico;44103;441030
+2019;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225122 Médico cancerologista pediátrico;3179;31790
+2019;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225124 Médico pediatra;4;40
+2019;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225125 Médico clínico;16573;165730
+2019;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;2575;25750
+2019;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225185 Médico hematologista;3539;35390
+2019;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;12701;127010
+2019;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;5136;51360
+2019;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;11;110
+2019;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225235 Médico cirurgião plástico;3541;35410
+2019;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225240 Médico cirurgião torácico;1116;11160
+2019;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;12199;121990
+2019;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225255 Médico mastologista;14666;146660
+2019;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225260 Médico neurocirurgião;1375;13750
+2019;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;5159;51590
+2019;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225285 Médico urologista;4942;49420
+2019;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225290 Médico cancerologista cirurgíco;9126;91260
+2019;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225310 Médico em endoscopia;7;70
+2019;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;159;1590
+2019;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225330 Médico radioterapeuta;6064;60640
+2019;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;12202;122020
+2019;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225121 Médico oncologista clínico;6916;69160
+2019;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225122 Médico cancerologista pediátrico;615;6150
+2019;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225125 Médico clínico;2336;23360
+2019;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225185 Médico hematologista;1293;12930
+2019;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225225 Médico cirurgião geral;706;7060
+2019;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225230 Médico cirurgião pediátrico;41;410
+2019;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225255 Médico mastologista;1139;11390
+2019;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225285 Médico urologista;193;1930
+2019;Complementar;2703041;HOSPITAL E MATERNIDADE ALCIDES CURSINO;Buíque;VI Região de Saúde - PE;225124 Médico pediatra;2057;20570
+2019;Complementar;2703041;HOSPITAL E MATERNIDADE ALCIDES CURSINO;Buíque;VI Região de Saúde - PE;225125 Médico clínico;3900;39000
+2019;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225109 Médico nefrologista;2605;26050
+2019;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225112 Médico neurologista;780;7800
+2019;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225120 Médico cardiologista;386;3860
+2019;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225124 Médico pediatra;693;6930
+2019;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225127 Médico pneumologista;158;1580
+2019;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225185 Médico hematologista;2;20
+2019;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;31;310
+2019;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;121;1210
+2019;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;372;3720
+2019;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225275 Médico otorrinolaringologista;1;10
+2019;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225121 Médico oncologista clínico;3654;36540
+2019;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225125 Médico clínico;2;20
+2019;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;364;3640
+2019;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225225 Médico cirurgião geral;3;30
+2019;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225255 Médico mastologista;612;6120
+2019;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225285 Médico urologista;450;4500
+2019;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;2;20
+2019;Complementar;2430622;HOSPITAL MEMORIAL PETROLINA;Petrolina;VIII Região de Saúde - PE;225120 Médico cardiologista;248;2480
+2019;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225109 Médico nefrologista;6338;63380
+2019;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225115 Médico angiologista;554;5540
+2019;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225120 Médico cardiologista;869;8690
+2019;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225125 Médico clínico;16;160
+2019;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225150 Médico em medicina intensiva;1;10
+2019;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;13;130
+2019;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;146;1460
+2019;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225185 Médico hematologista;1;10
+2019;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;942;9420
+2019;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225210 Médico cirurgião cardiovascular;1269;12690
+2019;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;337;3370
+2019;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225240 Médico cirurgião torácico;16;160
+2019;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225285 Médico urologista;392;3920
+2019;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225290 Médico cancerologista cirurgíco;1;10
+2019;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225330 Médico radioterapeuta;302;3020
+2019;Complementar;7152566;IBVASF;Petrolândia;VI Região de Saúde - PE;225125 Médico clínico;621;6210
+2019;Complementar;7152566;IBVASF;Petrolândia;VI Região de Saúde - PE;225225 Médico cirurgião geral;36;360
+2019;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;225124 Médico pediatra;630;6300
+2019;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;8906;89060
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225103 Médico infectologista;4254;42540
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225109 Médico nefrologista;18752;187520
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225110 Médico alergista e imunologista;2381;23810
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225112 Médico neurologista;4543;45430
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225120 Médico cardiologista;17276;172760
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225121 Médico oncologista clínico;31122;311220
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225122 Médico cancerologista pediátrico;17094;170940
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225124 Médico pediatra;26820;268200
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225125 Médico clínico;1825;18250
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225127 Médico pneumologista;4870;48700
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225133 Médico psiquiatra;3765;37650
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225135 Médico dermatologista;11103;111030
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225136 Médico reumatologista;1972;19720
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;62;620
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225155 Médico endocrinologista e metabologista;4174;41740
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;7806;78060
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225175 Médico geneticista;1093;10930
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225180 Médico geriatra;1498;14980
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225185 Médico hematologista;5361;53610
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;666;6660
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225210 Médico cirurgião cardiovascular;272;2720
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;4805;48050
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;326;3260
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;5555;55550
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225235 Médico cirurgião plástico;9627;96270
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225240 Médico cirurgião torácico;28;280
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;37332;373320
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225255 Médico mastologista;8777;87770
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225260 Médico neurocirurgião;1485;14850
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;7402;74020
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;7433;74330
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225275 Médico otorrinolaringologista;3433;34330
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225285 Médico urologista;1494;14940
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225290 Médico cancerologista cirurgíco;133;1330
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225295 Médico cirurgião da mão;75;750
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225305 Médico citopatologista;98;980
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225315 Médico em medicina nuclear;208;2080
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;37;370
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225330 Médico radioterapeuta;4045;40450
+2019;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225350 Médico neurofisiologista clínico;9;90
+2019;Complementar;6218458;IMIP SALGUEIRO;Salgueiro;VII Região de Saúde - PE;225109 Médico nefrologista;4098;40980
+2019;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;13429;134290
+2019;Complementar;0002119;NEFROCENTRO;Recife;I Região de Saúde - PE;225109 Médico nefrologista;3731;37310
+2019;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;5923;59230
+2019;Complementar;3660710;SOS RIM;Caruaru;IV Região de Saúde - PE;225109 Médico nefrologista;5251;52510
+2019;Complementar;5315654;SOS RIM ARCOVERDE;Arcoverde;VI Região de Saúde - PE;225109 Médico nefrologista;1168;11680
+2019;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;225109 Médico nefrologista;241;2410
+2019;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;225112 Médico neurologista;546;5460
+2019;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;225120 Médico cardiologista;11478;114780
+2019;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;225125 Médico clínico;2126;21260
+2019;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;225203 Médico em cirurgia vascular;333;3330
+2019;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;225210 Médico cirurgião cardiovascular;314;3140
+2019;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;225225 Médico cirurgião geral;413;4130
+2019;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;225235 Médico cirurgião plástico;4;40
+2019;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;12256;122560
+2019;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;2231F9 Médico residente;835;8350
+2019;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;225109 Médico nefrologista;309;3090
+2019;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;225112 Médico neurologista;1025;10250
+2019;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;225120 Médico cardiologista;763;7630
+2019;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;225121 Médico oncologista clínico;2666;26660
+2019;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;225122 Médico cancerologista pediátrico;384;3840
+2019;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;225124 Médico pediatra;4389;43890
+2019;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;225125 Médico clínico;1381;13810
+2019;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;225136 Médico reumatologista;3;30
+2019;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;225150 Médico em medicina intensiva;6;60
+2019;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;225151 Médico anestesiologista;238;2380
+2019;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;225155 Médico endocrinologista e metabologista;236;2360
+2019;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;225165 Médico gastroenterologista;342;3420
+2019;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;225185 Médico hematologista;795;7950
+2019;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;225225 Médico cirurgião geral;561;5610
+2019;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;225230 Médico cirurgião pediátrico;1108;11080
+2019;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;225250 Médico ginecologista e obstetra;2051;20510
+2019;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;225255 Médico mastologista;2456;24560
+2019;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;225260 Médico neurocirurgião;771;7710
+2019;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;225275 Médico otorrinolaringologista;147;1470
+2019;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;225285 Médico urologista;90;900
+2019;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;225120 Médico cardiologista;80;800
+2019;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;225124 Médico pediatra;1364;13640
+2019;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;225125 Médico clínico;910;9100
+2019;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;225151 Médico anestesiologista;2;20
+2019;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;225225 Médico cirurgião geral;611;6110
+2019;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;225250 Médico ginecologista e obstetra;1819;18190
+2019;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;225275 Médico otorrinolaringologista;1425;14250
+2019;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;5;50
+2019;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;225120 Médico cardiologista;1289;12890
+2019;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;225125 Médico clínico;124;1240
+2019;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;225133 Médico psiquiatra;4234;42340
+2019;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;225225 Médico cirurgião geral;2885;28850
+2019;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;2624;26240
+2019;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;225109 Médico nefrologista;739;7390
+2019;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;225112 Médico neurologista;3149;31490
+2019;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;225120 Médico cardiologista;1162;11620
+2019;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;225121 Médico oncologista clínico;5377;53770
+2019;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;225124 Médico pediatra;407;4070
+2019;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;225125 Médico clínico;1064;10640
+2019;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;225127 Médico pneumologista;1;10
+2019;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;225140 Médico do trabalho;2425;24250
+2019;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;225150 Médico em medicina intensiva;14;140
+2019;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;225165 Médico gastroenterologista;437;4370
+2019;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;225210 Médico cirurgião cardiovascular;900;9000
+2019;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;225225 Médico cirurgião geral;3220;32200
+2019;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;225230 Médico cirurgião pediátrico;550;5500
+2019;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;225285 Médico urologista;967;9670
+2019;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;2231F9 Médico residente;15;150
+2019;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;225120 Médico cardiologista;276;2760
+2019;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;225125 Médico clínico;3150;31500
+2019;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;225225 Médico cirurgião geral;3616;36160
+2019;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;225235 Médico cirurgião plástico;292;2920
+2019;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;13279;132790
+2019;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;225285 Médico urologista;226;2260
+2019;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;2231F9 Médico residente;7;70
+2019;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;225109 Médico nefrologista;16;160
+2019;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;225112 Médico neurologista;6615;66150
+2019;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;225120 Médico cardiologista;6388;63880
+2019;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;225140 Médico do trabalho;1;10
+2019;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;225148 Médico anatomopatologista;2;20
+2019;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;3;30
+2019;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;225160 Médico fisiatra;458;4580
+2019;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;225235 Médico cirurgião plástico;37;370
+2019;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;225260 Médico neurocirurgião;1325;13250
+2019;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;2;20
+2019;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;225103 Médico infectologista;3;30
+2019;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;225124 Médico pediatra;1154;11540
+2019;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;225125 Médico clínico;4708;47080
+2019;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;225225 Médico cirurgião geral;1596;15960
+2019;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;225250 Médico ginecologista e obstetra;350;3500
+2019;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;225270 Médico ortopedista e traumatologista;764;7640
+2019;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;225120 Médico cardiologista;1114;11140
+2019;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;225133 Médico psiquiatra;777;7770
+2019;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;225225 Médico cirurgião geral;1045;10450
+2019;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;225250 Médico ginecologista e obstetra;1569;15690
+2019;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;225109 Médico nefrologista;910;9100
+2019;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;225120 Médico cardiologista;710;7100
+2019;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;225124 Médico pediatra;1666;16660
+2019;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;225125 Médico clínico;798;7980
+2019;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;225133 Médico psiquiatra;1220;12200
+2019;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;225150 Médico em medicina intensiva;263;2630
+2019;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;225155 Médico endocrinologista e metabologista;852;8520
+2019;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;225225 Médico cirurgião geral;3574;35740
+2019;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;225250 Médico ginecologista e obstetra;1801;18010
+2019;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;225265 Médico oftalmologista;460;4600
+2019;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;225270 Médico ortopedista e traumatologista;5593;55930
+2019;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;225275 Médico otorrinolaringologista;1472;14720
+2019;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;225112 Médico neurologista;1830;18300
+2019;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;225120 Médico cardiologista;1880;18800
+2019;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;225125 Médico clínico;1694;16940
+2019;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;225250 Médico ginecologista e obstetra;1111;11110
+2019;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;225270 Médico ortopedista e traumatologista;2205;22050
+2019;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;225285 Médico urologista;1358;13580
+2019;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;225103 Médico infectologista;221;2210
+2019;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;225109 Médico nefrologista;2497;24970
+2019;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;225110 Médico alergista e imunologista;2151;21510
+2019;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;225112 Médico neurologista;3509;35090
+2019;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;225115 Médico angiologista;1151;11510
+2019;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;225120 Médico cardiologista;13057;130570
+2019;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;225125 Médico clínico;49;490
+2019;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;225127 Médico pneumologista;825;8250
+2019;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;225135 Médico dermatologista;7405;74050
+2019;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;225136 Médico reumatologista;2125;21250
+2019;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;225151 Médico anestesiologista;1863;18630
+2019;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;225155 Médico endocrinologista e metabologista;10352;103520
+2019;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;225165 Médico gastroenterologista;8008;80080
+2019;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;225180 Médico geriatra;1477;14770
+2019;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;225225 Médico cirurgião geral;2339;23390
+2019;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;225250 Médico ginecologista e obstetra;4966;49660
+2019;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;225255 Médico mastologista;3788;37880
+2019;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;225265 Médico oftalmologista;14852;148520
+2019;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;225275 Médico otorrinolaringologista;8926;89260
+2019;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;225280 Médico coloproctologista;652;6520
+2019;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;225285 Médico urologista;2930;29300
+2019;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;225112 Médico neurologista;1572;15720
+2019;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;225120 Médico cardiologista;2589;25890
+2019;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;225127 Médico pneumologista;589;5890
+2019;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;225135 Médico dermatologista;2708;27080
+2019;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;225155 Médico endocrinologista e metabologista;3489;34890
+2019;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;225165 Médico gastroenterologista;2631;26310
+2019;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;225250 Médico ginecologista e obstetra;1782;17820
+2019;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;225255 Médico mastologista;1468;14680
+2019;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;225265 Médico oftalmologista;1820;18200
+2019;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;225275 Médico otorrinolaringologista;1780;17800
+2019;OSS;7484860;UPAE DEPUTADO AUREO BRADLEY ARCOVERDE;Arcoverde;VI Região de Saúde - PE;225285 Médico urologista;1562;15620
+2019;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;225112 Médico neurologista;1172;11720
+2019;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;225115 Médico angiologista;441;4410
+2019;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;225120 Médico cardiologista;3008;30080
+2019;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;225135 Médico dermatologista;2212;22120
+2019;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;225136 Médico reumatologista;2564;25640
+2019;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;225155 Médico endocrinologista e metabologista;1894;18940
+2019;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;225165 Médico gastroenterologista;2474;24740
+2019;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;225250 Médico ginecologista e obstetra;1971;19710
+2019;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;225255 Médico mastologista;1018;10180
+2019;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;225265 Médico oftalmologista;3199;31990
+2019;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;225275 Médico otorrinolaringologista;2451;24510
+2019;OSS;7465386;UPAE DOM FRANCISCO DE MESQUITA FILHO AFOGADOS DA INGAZEIRA;Afogados da Ingazeira;X Região de Saúde - PE;225285 Médico urologista;2124;21240
+2019;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;225103 Médico infectologista;226;2260
+2019;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;225109 Médico nefrologista;1425;14250
+2019;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;225112 Médico neurologista;1538;15380
+2019;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;225120 Médico cardiologista;10370;103700
+2019;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;225127 Médico pneumologista;284;2840
+2019;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;225135 Médico dermatologista;8237;82370
+2019;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;225136 Médico reumatologista;6490;64900
+2019;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;225151 Médico anestesiologista;1520;15200
+2019;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;225155 Médico endocrinologista e metabologista;8516;85160
+2019;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;225165 Médico gastroenterologista;6960;69600
+2019;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;225185 Médico hematologista;453;4530
+2019;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;225203 Médico em cirurgia vascular;2502;25020
+2019;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;225225 Médico cirurgião geral;4799;47990
+2019;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;225265 Médico oftalmologista;8334;83340
+2019;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;225275 Médico otorrinolaringologista;5237;52370
+2019;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;225280 Médico coloproctologista;3286;32860
+2019;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;225285 Médico urologista;6502;65020
+2019;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;405;4050
+2019;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;225112 Médico neurologista;32;320
+2019;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;225115 Médico angiologista;889;8890
+2019;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;225120 Médico cardiologista;3065;30650
+2019;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;225135 Médico dermatologista;1816;18160
+2019;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;225136 Médico reumatologista;1129;11290
+2019;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;225155 Médico endocrinologista e metabologista;4004;40040
+2019;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;225165 Médico gastroenterologista;2148;21480
+2019;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;225250 Médico ginecologista e obstetra;3761;37610
+2019;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;225255 Médico mastologista;698;6980
+2019;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;225270 Médico ortopedista e traumatologista;3958;39580
+2019;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;225275 Médico otorrinolaringologista;2201;22010
+2019;OSS;7478364;UPAE DR ERICK ALVES RIBEIRO E SILVA SALGUEIRO;Salgueiro;VII Região de Saúde - PE;225285 Médico urologista;1107;11070
+2019;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;225110 Médico alergista e imunologista;2;20
+2019;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;225112 Médico neurologista;5371;53710
+2019;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;225115 Médico angiologista;946;9460
+2019;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;225120 Médico cardiologista;5404;54040
+2019;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;225127 Médico pneumologista;515;5150
+2019;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;225135 Médico dermatologista;2685;26850
+2019;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;225136 Médico reumatologista;5562;55620
+2019;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;225155 Médico endocrinologista e metabologista;3962;39620
+2019;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;225165 Médico gastroenterologista;3013;30130
+2019;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;225250 Médico ginecologista e obstetra;3945;39450
+2019;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;225255 Médico mastologista;2058;20580
+2019;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;225265 Médico oftalmologista;4119;41190
+2019;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;225275 Médico otorrinolaringologista;3162;31620
+2019;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;225285 Médico urologista;3287;32870
+2019;OSS;7472552;UPAE DR JOSE ALVES DE CARVALHO NUNES SERRA TALHADA;Serra Talhada;XI Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;2;20
+2019;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;225120 Médico cardiologista;3128;31280
+2019;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;225127 Médico pneumologista;927;9270
+2019;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;225135 Médico dermatologista;1165;11650
+2019;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;225136 Médico reumatologista;1473;14730
+2019;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;225155 Médico endocrinologista e metabologista;2564;25640
+2019;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;225165 Médico gastroenterologista;2097;20970
+2019;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;225275 Médico otorrinolaringologista;2867;28670
+2019;OSS;9620508;UPAE IRMA DUDA GRANDE RECIFE;Abreu e Lima;I Região de Saúde - PE;225285 Médico urologista;3292;32920
+2019;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;225109 Médico nefrologista;1143;11430
+2019;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;225120 Médico cardiologista;3758;37580
+2019;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;225135 Médico dermatologista;6929;69290
+2019;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;225155 Médico endocrinologista e metabologista;3794;37940
+2019;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;225165 Médico gastroenterologista;2987;29870
+2019;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;225250 Médico ginecologista e obstetra;1455;14550
+2019;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;225255 Médico mastologista;2835;28350
+2019;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;225265 Médico oftalmologista;10187;101870
+2019;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;225275 Médico otorrinolaringologista;5980;59800
+2019;OSS;7490569;UPAE JOSE NIVALDO BARBOSA DE SOUZA LIMOEIRO;Limoeiro;II Região de Saúde - PE;225285 Médico urologista;3260;32600
+2019;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;225109 Médico nefrologista;91;910
+2019;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;225110 Médico alergista e imunologista;1538;15380
+2019;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;225112 Médico neurologista;2740;27400
+2019;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;225120 Médico cardiologista;8600;86000
+2019;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;225127 Médico pneumologista;2369;23690
+2019;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;225135 Médico dermatologista;5371;53710
+2019;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;225136 Médico reumatologista;2481;24810
+2019;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;225155 Médico endocrinologista e metabologista;5240;52400
+2019;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;225165 Médico gastroenterologista;5007;50070
+2019;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;225185 Médico hematologista;54;540
+2019;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;225203 Médico em cirurgia vascular;1818;18180
+2019;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;225225 Médico cirurgião geral;3974;39740
+2019;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;225255 Médico mastologista;4252;42520
+2019;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;225265 Médico oftalmologista;5946;59460
+2019;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;225275 Médico otorrinolaringologista;9941;99410
+2019;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;225285 Médico urologista;3680;36800
+2019;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;225120 Médico cardiologista;3923;39230
+2019;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;225135 Médico dermatologista;4663;46630
+2019;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;225155 Médico endocrinologista e metabologista;3951;39510
+2019;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;225165 Médico gastroenterologista;1091;10910
+2019;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;225275 Médico otorrinolaringologista;810;8100
+2019;OSS;9229221;UPAE OURICURI;Ouricuri;IX Região de Saúde - PE;225285 Médico urologista;1014;10140
+2019;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;225112 Médico neurologista;2197;21970
+2019;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;225120 Médico cardiologista;2127;21270
+2019;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;225127 Médico pneumologista;246;2460
+2019;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;225135 Médico dermatologista;3611;36110
+2019;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;225155 Médico endocrinologista e metabologista;2890;28900
+2019;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;225165 Médico gastroenterologista;2993;29930
+2019;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;225250 Médico ginecologista e obstetra;930;9300
+2019;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;225255 Médico mastologista;1173;11730
+2019;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;225265 Médico oftalmologista;2773;27730
+2019;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;225275 Médico otorrinolaringologista;1882;18820
+2019;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;225285 Médico urologista;837;8370
+2019;Outro público;2639203;HOSPITAL MUNICIPAL EULINA DE NOVAES BIONE;Orocó;VIII Região de Saúde - PE;225125 Médico clínico;1255;12550
+2019;Rede própria;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;2231F9 Médico residente;12;120
+2019;Rede própria;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;225103 Médico infectologista;2386;23860
+2019;Rede própria;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;225112 Médico neurologista;1117;11170
+2019;Rede própria;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;225120 Médico cardiologista;683;6830
+2019;Rede própria;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;225124 Médico pediatra;2380;23800
+2019;Rede própria;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;225125 Médico clínico;394;3940
+2019;Rede própria;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;225127 Médico pneumologista;166;1660
+2019;Rede própria;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;225135 Médico dermatologista;7583;75830
+2019;Rede própria;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;225140 Médico do trabalho;237;2370
+2019;Rede própria;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;225148 Médico anatomopatologista;82;820
+2019;Rede própria;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;225150 Médico em medicina intensiva;29;290
+2019;Rede própria;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;400;4000
+2019;Rede própria;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;225155 Médico endocrinologista e metabologista;3223;32230
+2019;Rede própria;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;225175 Médico geneticista;2094;20940
+2019;Rede própria;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;225195 Médico homeopata;651;6510
+2019;Rede própria;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;17359;173590
+2019;Rede própria;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;225255 Médico mastologista;366;3660
+2019;Rede própria;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;94;940
+2019;Rede própria;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;225109 Médico nefrologista;32;320
+2019;Rede própria;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;225112 Médico neurologista;282;2820
+2019;Rede própria;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;225120 Médico cardiologista;540;5400
+2019;Rede própria;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;225124 Médico pediatra;3254;32540
+2019;Rede própria;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;225125 Médico clínico;72;720
+2019;Rede própria;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;225185 Médico hematologista;21744;217440
+2019;Rede própria;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;49;490
+2019;Rede própria;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;296;2960
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225112 Médico neurologista;522;5220
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225120 Médico cardiologista;7435;74350
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225124 Médico pediatra;2436;24360
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225125 Médico clínico;1809;18090
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225127 Médico pneumologista;648;6480
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225133 Médico psiquiatra;88;880
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225135 Médico dermatologista;667;6670
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225136 Médico reumatologista;874;8740
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225148 Médico anatomopatologista;134;1340
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225155 Médico endocrinologista e metabologista;11613;116130
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;2256;22560
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225210 Médico cirurgião cardiovascular;6;60
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;3;30
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225220 Médico cirurgião do aparelho digestivo;5;50
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;3676;36760
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;7;70
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225235 Médico cirurgião plástico;5790;57900
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;2780;27800
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225275 Médico otorrinolaringologista;11432;114320
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225285 Médico urologista;31;310
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225305 Médico citopatologista;1;10
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225310 Médico em endoscopia;1;10
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;1;10
+2019;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;225335 Médico patologista clínico / medicina laboratorial;3;30
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;2231F9 Médico residente;1;10
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225103 Médico infectologista;1018;10180
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225109 Médico nefrologista;3724;37240
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225110 Médico alergista e imunologista;288;2880
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225112 Médico neurologista;669;6690
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225120 Médico cardiologista;4846;48460
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225121 Médico oncologista clínico;11428;114280
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225124 Médico pediatra;3213;32130
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225125 Médico clínico;2280;22800
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225127 Médico pneumologista;326;3260
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225133 Médico psiquiatra;284;2840
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225135 Médico dermatologista;2012;20120
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225150 Médico em medicina intensiva;497;4970
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225155 Médico endocrinologista e metabologista;7502;75020
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;27;270
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225185 Médico hematologista;707;7070
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;2070;20700
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;636;6360
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;2864;28640
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;41;410
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225235 Médico cirurgião plástico;265;2650
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;10383;103830
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225255 Médico mastologista;9564;95640
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225280 Médico coloproctologista;6672;66720
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225285 Médico urologista;561;5610
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225290 Médico cancerologista cirurgíco;1417;14170
+2019;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;11;110
+2019;Rede própria;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;225103 Médico infectologista;17;170
+2019;Rede própria;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;225112 Médico neurologista;706;7060
+2019;Rede própria;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;225115 Médico angiologista;394;3940
+2019;Rede própria;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;225120 Médico cardiologista;724;7240
+2019;Rede própria;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;225124 Médico pediatra;156;1560
+2019;Rede própria;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;225125 Médico clínico;693;6930
+2019;Rede própria;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;225133 Médico psiquiatra;418;4180
+2019;Rede própria;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;225165 Médico gastroenterologista;418;4180
+2019;Rede própria;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;225225 Médico cirurgião geral;2653;26530
+2019;Rede própria;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;225250 Médico ginecologista e obstetra;315;3150
+2019;Rede própria;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;225255 Médico mastologista;653;6530
+2019;Rede própria;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;225270 Médico ortopedista e traumatologista;1595;15950
+2019;Rede própria;2711885;HOSPITAL BELARMINO CORREIA;Goiana;XII Região de Saúde - PE;225285 Médico urologista;615;6150
+2019;Rede própria;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;225103 Médico infectologista;19574;195740
+2019;Rede própria;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;225112 Médico neurologista;766;7660
+2019;Rede própria;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;225124 Médico pediatra;107;1070
+2019;Rede própria;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;225125 Médico clínico;599;5990
+2019;Rede própria;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;225133 Médico psiquiatra;1593;15930
+2019;Rede própria;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;225135 Médico dermatologista;1561;15610
+2019;Rede própria;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;225140 Médico do trabalho;155;1550
+2019;Rede própria;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;870;8700
+2019;Rede própria;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;225120 Médico cardiologista;2306;23060
+2019;Rede própria;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;225127 Médico pneumologista;329;3290
+2019;Rede própria;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;225133 Médico psiquiatra;2341;23410
+2019;Rede própria;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;225135 Médico dermatologista;3597;35970
+2019;Rede própria;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;225180 Médico geriatra;171;1710
+2019;Rede própria;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;225203 Médico em cirurgia vascular;1081;10810
+2019;Rede própria;2433044;HOSPITAL DA MIRUEIRA SANATORIO PADRE ANTONIO MANOEL;Paulista;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;1107;11070
+2019;Rede própria;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;2231F9 Médico residente;2036;20360
+2019;Rede própria;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;225112 Médico neurologista;18288;182880
+2019;Rede própria;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;225115 Médico angiologista;250;2500
+2019;Rede própria;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;225120 Médico cardiologista;295;2950
+2019;Rede própria;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;225124 Médico pediatra;38;380
+2019;Rede própria;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;225125 Médico clínico;3896;38960
+2019;Rede própria;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;225136 Médico reumatologista;1610;16100
+2019;Rede própria;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;225140 Médico do trabalho;45;450
+2019;Rede própria;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;225155 Médico endocrinologista e metabologista;313;3130
+2019;Rede própria;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;225185 Médico hematologista;3364;33640
+2019;Rede própria;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;1338;13380
+2019;Rede própria;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;225210 Médico cirurgião cardiovascular;496;4960
+2019;Rede própria;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;8487;84870
+2019;Rede própria;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;225235 Médico cirurgião plástico;56;560
+2019;Rede própria;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;225260 Médico neurocirurgião;9588;95880
+2019;Rede própria;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;8777;87770
+2019;Rede própria;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;2;20
+2019;Rede própria;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;225330 Médico radioterapeuta;1;10
+2019;Rede própria;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;225120 Médico cardiologista;211;2110
+2019;Rede própria;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;225124 Médico pediatra;1491;14910
+2019;Rede própria;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;225125 Médico clínico;156;1560
+2019;Rede própria;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;225250 Médico ginecologista e obstetra;5506;55060
+2019;Rede própria;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;225255 Médico mastologista;353;3530
+2019;Rede própria;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;225265 Médico oftalmologista;2758;27580
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225112 Médico neurologista;5745;57450
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225115 Médico angiologista;1277;12770
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225120 Médico cardiologista;5406;54060
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225125 Médico clínico;7549;75490
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225135 Médico dermatologista;2554;25540
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225136 Médico reumatologista;735;7350
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225148 Médico anatomopatologista;2;20
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225150 Médico em medicina intensiva;382;3820
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;1;10
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225155 Médico endocrinologista e metabologista;4653;46530
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;1945;19450
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225185 Médico hematologista;660;6600
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;9243;92430
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225210 Médico cirurgião cardiovascular;117;1170
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;18382;183820
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225235 Médico cirurgião plástico;921;9210
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225240 Médico cirurgião torácico;179;1790
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225260 Médico neurocirurgião;2106;21060
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;38274;382740
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225280 Médico coloproctologista;1199;11990
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225285 Médico urologista;16902;169020
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225295 Médico cirurgião da mão;3217;32170
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225310 Médico em endoscopia;4;40
+2019;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;2;20
+2019;Rede própria;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;225112 Médico neurologista;2241;22410
+2019;Rede própria;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;225120 Médico cardiologista;6354;63540
+2019;Rede própria;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;225124 Médico pediatra;95;950
+2019;Rede própria;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;225125 Médico clínico;265;2650
+2019;Rede própria;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;225133 Médico psiquiatra;4188;41880
+2019;Rede própria;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;225135 Médico dermatologista;2522;25220
+2019;Rede própria;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;225155 Médico endocrinologista e metabologista;2156;21560
+2019;Rede própria;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;225180 Médico geriatra;7443;74430
+2019;Rede própria;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;225225 Médico cirurgião geral;1673;16730
+2019;Rede própria;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;1426;14260
+2019;Rede própria;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;225265 Médico oftalmologista;3786;37860
+2019;Rede própria;2711990;HOSPITAL JABOATAO PRAZERES;Jaboatão dos Guararapes;I Região de Saúde - PE;225275 Médico otorrinolaringologista;2082;20820
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;2231F9 Médico residente;137;1370
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225103 Médico infectologista;11630;116300
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225109 Médico nefrologista;1914;19140
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225110 Médico alergista e imunologista;232;2320
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225112 Médico neurologista;12048;120480
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225120 Médico cardiologista;3910;39100
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225121 Médico oncologista clínico;16288;162880
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225122 Médico cancerologista pediátrico;1142;11420
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225124 Médico pediatra;712;7120
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225125 Médico clínico;3779;37790
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225127 Médico pneumologista;3745;37450
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225133 Médico psiquiatra;3028;30280
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225135 Médico dermatologista;11889;118890
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225136 Médico reumatologista;3544;35440
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225140 Médico do trabalho;1422;14220
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225150 Médico em medicina intensiva;1913;19130
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;295;2950
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225155 Médico endocrinologista e metabologista;5930;59300
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;5478;54780
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225180 Médico geriatra;2716;27160
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225185 Médico hematologista;1550;15500
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;1853;18530
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;1658;16580
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225220 Médico cirurgião do aparelho digestivo;3212;32120
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;5805;58050
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;933;9330
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225235 Médico cirurgião plástico;1438;14380
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225240 Médico cirurgião torácico;1142;11420
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;258;2580
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225255 Médico mastologista;4913;49130
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;2570;25700
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;2570;25700
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225275 Médico otorrinolaringologista;4322;43220
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225285 Médico urologista;8811;88110
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225290 Médico cancerologista cirurgíco;5219;52190
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225310 Médico em endoscopia;235;2350
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;74;740
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225325 Médico patologista;3;30
+2019;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;225330 Médico radioterapeuta;214;2140
+2019;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;225103 Médico infectologista;1486;14860
+2019;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;225112 Médico neurologista;713;7130
+2019;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;225120 Médico cardiologista;14;140
+2019;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;225124 Médico pediatra;3099;30990
+2019;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;225125 Médico clínico;4923;49230
+2019;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;225127 Médico pneumologista;7261;72610
+2019;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;225133 Médico psiquiatra;177;1770
+2019;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;225135 Médico dermatologista;7782;77820
+2019;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;225140 Médico do trabalho;174;1740
+2019;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;767;7670
+2019;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;2;20
+2019;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;4558;45580
+2019;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;225235 Médico cirurgião plástico;1161;11610
+2019;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;225240 Médico cirurgião torácico;478;4780
+2019;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;15470;154700
+2019;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;225285 Médico urologista;7798;77980
+2019;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;225310 Médico em endoscopia;1;10
+2019;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;225120 Médico cardiologista;215;2150
+2019;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;225124 Médico pediatra;84;840
+2019;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;225155 Médico endocrinologista e metabologista;408;4080
+2019;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;225165 Médico gastroenterologista;85;850
+2019;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;225225 Médico cirurgião geral;114;1140
+2019;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;225250 Médico ginecologista e obstetra;124;1240
+2019;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;225270 Médico ortopedista e traumatologista;1730;17300
+2019;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;225275 Médico otorrinolaringologista;224;2240
+2019;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;225285 Médico urologista;354;3540
+2019;Rede própria;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;225225 Médico cirurgião geral;1319;13190
+2019;Rede própria;2712032;HOSPITAL REGIONAL DE LIMOEIRO JOSE FERNANDES SALSA;Limoeiro;II Região de Saúde - PE;225270 Médico ortopedista e traumatologista;588;5880
+2019;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;2231F9 Médico residente;209;2090
+2019;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;225109 Médico nefrologista;7;70
+2019;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;225112 Médico neurologista;4;40
+2019;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;225120 Médico cardiologista;2;20
+2019;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;225121 Médico oncologista clínico;15560;155600
+2019;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;225124 Médico pediatra;244;2440
+2019;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;225125 Médico clínico;640;6400
+2019;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;225150 Médico em medicina intensiva;17;170
+2019;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;225151 Médico anestesiologista;4;40
+2019;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;225155 Médico endocrinologista e metabologista;75;750
+2019;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;225203 Médico em cirurgia vascular;358;3580
+2019;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;816;8160
+2019;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;225225 Médico cirurgião geral;3039;30390
+2019;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;225235 Médico cirurgião plástico;24;240
+2019;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;225260 Médico neurocirurgião;682;6820
+2019;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;225265 Médico oftalmologista;81;810
+2019;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;225270 Médico ortopedista e traumatologista;10261;102610
+2019;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;225275 Médico otorrinolaringologista;1528;15280
+2019;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;225290 Médico cancerologista cirurgíco;368;3680
+2019;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;225310 Médico em endoscopia;4;40
+2019;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;225330 Médico radioterapeuta;3553;35530
+2019;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;225112 Médico neurologista;1323;13230
+2019;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;225120 Médico cardiologista;1333;13330
+2019;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;225135 Médico dermatologista;1789;17890
+2019;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;225180 Médico geriatra;294;2940
+2019;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;225225 Médico cirurgião geral;97;970
+2019;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;225250 Médico ginecologista e obstetra;780;7800
+2019;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;225270 Médico ortopedista e traumatologista;1532;15320
+2019;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;225275 Médico otorrinolaringologista;731;7310
+2019;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;225285 Médico urologista;656;6560
+2019;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;3;30
+2019;Rede própria;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;225112 Médico neurologista;997;9970
+2019;Rede própria;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;225120 Médico cardiologista;109;1090
+2019;Rede própria;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;225250 Médico ginecologista e obstetra;57;570
+2019;Rede própria;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;225270 Médico ortopedista e traumatologista;2535;25350
+2019;Rede própria;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;225120 Médico cardiologista;89;890
+2019;Rede própria;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;225124 Médico pediatra;939;9390
+2019;Rede própria;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;225125 Médico clínico;99;990
+2019;Rede própria;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;225133 Médico psiquiatra;69;690
+2019;Rede própria;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;220;2200
+2019;Rede própria;2712105;LABORATORIO DA MULHER DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;625;6250
+2019;Rede própria;3983730;PROCAPE;Recife;I Região de Saúde - PE;2231G1 Médico Cardiologista Intervencionista;32;320
+2019;Rede própria;3983730;PROCAPE;Recife;I Região de Saúde - PE;225109 Médico nefrologista;756;7560
+2019;Rede própria;3983730;PROCAPE;Recife;I Região de Saúde - PE;225112 Médico neurologista;1011;10110
+2019;Rede própria;3983730;PROCAPE;Recife;I Região de Saúde - PE;225120 Médico cardiologista;61353;613530
+2019;Rede própria;3983730;PROCAPE;Recife;I Região de Saúde - PE;225124 Médico pediatra;580;5800
+2019;Rede própria;3983730;PROCAPE;Recife;I Região de Saúde - PE;225125 Médico clínico;450;4500
+2019;Rede própria;3983730;PROCAPE;Recife;I Região de Saúde - PE;225127 Médico pneumologista;1630;16300
+2019;Rede própria;3983730;PROCAPE;Recife;I Região de Saúde - PE;225140 Médico do trabalho;89;890
+2019;Rede própria;3983730;PROCAPE;Recife;I Região de Saúde - PE;225150 Médico em medicina intensiva;7;70
+2019;Rede própria;3983730;PROCAPE;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;5;50
+2019;Rede própria;3983730;PROCAPE;Recife;I Região de Saúde - PE;225155 Médico endocrinologista e metabologista;989;9890
+2019;Rede própria;3983730;PROCAPE;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;321;3210
+2019;Rede própria;3983730;PROCAPE;Recife;I Região de Saúde - PE;225185 Médico hematologista;15;150
+2019;Rede própria;3983730;PROCAPE;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;700;7000
+2019;Rede própria;3983730;PROCAPE;Recife;I Região de Saúde - PE;225210 Médico cirurgião cardiovascular;936;9360
+2019;Rede própria;3983730;PROCAPE;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;3;30
+2019;Rede própria;3983730;PROCAPE;Recife;I Região de Saúde - PE;225240 Médico cirurgião torácico;3;30
+2019;Rede própria;3983730;PROCAPE;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;483;4830
 2020;Complementar;6697461;C D C;Cabo de Santo Agostinho;I Região de Saúde - PE;225109 Médico nefrologista;3836;38360
 2020;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;225120 Médico cardiologista;1;10
 2020;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;225121 Médico oncologista clínico;1459;14590
