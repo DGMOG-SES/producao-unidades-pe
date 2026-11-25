@@ -565,8 +565,12 @@ main <- function() {
   # 07 Cuida PE ---------------------------------------------------------------------
   p339 <- ler_csv("referencias/portaria_339_cirurgias_eletivas.csv")$PROC
   upae <- sia[CNES %chin% UPAES_CUIDA & PA_PROC_ID == CONSULTA_MEDICA_ESPECIALIZADA & GESTAO == "Estadual"]
-  cir  <- sih[GRUPO == "04" & CAR_INT %chin% names(CARATER_CIR) & GESTAO %chin% c("Estadual", "Municipal")]
-  cir[, CARATER := CARATER_CIR[CAR_INT]]
+  # Cirurgias (grupo 04) por caráter e gestão: SIA + SIH
+  cir <- rbind(
+    sia[GRUPO == "04" & PA_CATEND %chin% names(CARATER_CIR) & GESTAO %chin% c("Estadual", "Municipal"),
+        .(CARATER = CARATER_CIR[PA_CATEND], FONTE = "Ambulatorial (SIA)", GESTAO, ANO, QTD, VALOR)],
+    sih[GRUPO == "04" & CAR_INT %chin% names(CARATER_CIR) & GESTAO %chin% c("Estadual", "Municipal"),
+        .(CARATER = CARATER_CIR[CAR_INT], FONTE = "Hospitalar (SIH)", GESTAO, ANO, QTD, VALOR)])
   img  <- sia[substr(PA_PROC_ID, 1, 4) %chin% names(SUBGRUPOS_IMAGEM) & PA_CATEND %chin% names(CARATER_CIR) &
                 GESTAO == "Estadual"]
   img[, SUBGRUPO := SUBGRUPOS_IMAGEM[substr(PA_PROC_ID, 1, 4)]]
@@ -595,7 +599,8 @@ main <- function() {
   se <- function(x, expr) if (nrow(x)) expr else NULL
   abas_cuida <- Filter(Negate(is.null), list(
     `Consultas UPAEs` = se(upae, unidades_ano(upae, unidades, anos, "Consultas")),
-    `Cirurgias por caráter` = se(cir, por_gestao(cir, "CARATER", NULL, anos, unname(CARATER_CIR), NULL, "Cirurgias", c(16, 12))),
+    `Cirurgias por caráter` = se(cir, por_gestao(cir, "CARATER", "FONTE", anos, unname(CARATER_CIR),
+                                                 c("Ambulatorial (SIA)", "Hospitalar (SIH)"), "Cirurgias", c(16, 20, 12))),
     `Proporção cirurgias` = se(cir, tabela(wp, c("GESTAO", "CARATER"), anos, NULL, which(wp$GESTAO == "Total"), c(12, 16),
                                            rotulos = c("Cirurgias", "% na gestão"), formatos = c("#,##0", "0.0%"))),
     `RNM e TC` = se(img, geral(img, "SUBGRUPO", anos, "Exames", 45)),
@@ -603,9 +608,10 @@ main <- function() {
                                              which(we$FONTE == "Total" | we$ANO_EXEC == "Total geral"), c(11, 20)))))
   gravar_planilha("07_cuida_pe", abas_cuida, "Indicadores do Cuida PE",
                   paste("Consultas UPAEs: SIA, 0301010072, gestão estadual (PA_CONDIC = E), nas 15 UPAEs do log da área.",
-                        "Cirurgias por caráter: SIH, grupo 04, caráter eletivo (01) ou urgência (02) (CARATEND.CNV),",
-                        "gestão estadual e municipal (campo GESTAO); número de AIH. Proporção: % de cada caráter no total",
-                        "de cirurgias eletivas + urgência da gestão. RNM e TC: SIA, subgrupos 0206 e 0207, caráter eletivo",
+                        "Cirurgias por caráter: SIA + SIH, grupo 04, caráter eletivo (01) ou urgência (02) (CARAT_AT.CNV e",
+                        "CARATEND.CNV), gestão estadual e municipal (PA_CONDIC / GESTAO); SIA = quantidade aprovada, SIH =",
+                        "número de AIH; linhas por fonte e total. Proporção: % de cada caráter no total de cirurgias",
+                        "eletivas + urgência (SIA + SIH) da gestão; acidentes (03 a 06) ficam fora. RNM e TC: SIA, subgrupos 0206 e 0207, caráter eletivo",
                         "ou urgência (PA_CATEND), gestão estadual. Eletivas Portaria 339: procedimentos da Portaria",
                         "Estadual 339/2023 (PORT339.DBF, 214 procedimentos), grupo 04, caráter eletivo, gestão estadual,",
                         "MAC e FAEC, no SIA (quantidade aprovada; PA_CATEND = 01) e no SIH (número de AIH; CAR_INT = 01),",
