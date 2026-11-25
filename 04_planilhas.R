@@ -381,11 +381,7 @@ leia_me <- function(titulo, regras, atualizacao, itens = NULL) {
 gravar_planilha <- function(nome, abas, titulo, regras, atualizacao, csv = NULL, itens = NULL) {
   dir.create(file.path(PLAN, "csv"), recursive = TRUE, showWarnings = FALSE)
   wb <- openxlsx::createWorkbook()
-  openxlsx::addWorksheet(wb, "Leia-me")
-  openxlsx::writeData(wb, "Leia-me", leia_me(titulo, regras, atualizacao, itens),
-                      headerStyle = openxlsx::createStyle(textDecoration = "bold"))
-  openxlsx::setColWidths(wb, "Leia-me", cols = 1:2, widths = c(16, 120))
-  openxlsx::addStyle(wb, "Leia-me", openxlsx::createStyle(wrapText = TRUE, valign = "top"), rows = 2:10, cols = 2)
+  # Sem aba Leia-me (pedido da área): as regras de cada tema ficam no README.
   for (nm in names(abas)) {
     openxlsx::addWorksheet(wb, nm)
     if (inherits(abas[[nm]], "tabela_anual")) escrever_tabela(wb, nm, abas[[nm]]) else {

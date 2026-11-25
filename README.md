@@ -13,7 +13,7 @@ saída são planilhas e não um painel.
 
 As regras seguem as tabulações do TabWin usadas pela SES (`T:\Tabaih08\RD_PE.DEF`
 e `T:\TabSia08\Prod_PE.def`), que leem os mesmos arquivos `.dbc` do FTP do
-DATASUS. Ficam em `planilhas/` (Excel, com aba **Leia-me** explicando a regra) e
+DATASUS. Ficam em `planilhas/` (Excel; as regras de cada tema estão neste README) e
 `planilhas/csv/` (base longa de cada tema: unidade × dimensão × ano, separada por
 `;` e com vírgula decimal). Em todas as tabelas: **para cada ano, produção e valor**,
 com subtotais e total geral.
