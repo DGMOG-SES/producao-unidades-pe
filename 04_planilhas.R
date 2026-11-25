@@ -2,73 +2,70 @@
 # ------------------------------------------------------------------------------
 # 04 - Planilhas de produção e valor por unidade de saúde (PE, 2019 a 2026)
 #
-# Junta as bases do SIA (02_sia.R) e do SIH (03_sih.R), classifica cada unidade
-# por tipo de rede e grava uma planilha Excel por tema, com uma aba "Leia-me",
-# mais o CSV completo de cada tema.
+# Lê as bases do SIA (02_sia.R) e do SIH (03_sih.R), classifica as unidades e
+# grava uma planilha Excel por tema, seguindo as tabulações do TabWin usadas
+# pela SES (RD_PE.DEF e Prod_PE.def). Em todas: produção | valor por ano.
 #
-# Tipo de rede (coluna TIPO_REDE):
-#   Rede própria  lista validada da SES, vínculo REDE_PROPRIA_ESTADUAL ou
-#                 ESTADUAL_ADM_INDIRETA, modelo de gestão diferente de OSS
-#                 (Gestão direta, 06 grandes, Administração indireta); mais os
-#                 estabelecimentos da administração pública estadual no CNES
-#                 que não estão na lista (modelo "Estadual fora da lista SES",
-#                 só a produção sob gestão estadual)
-#   OSS           lista validada, modelo de gestão OSS
-#   Complementar  prestador privado ou filantrópico (natureza jurídica do CNES
-#                 2xxx, exceto empresa pública 2011 e sociedade de economia mista
-#                 2038, 3xxx e 4xxx), e só a produção sob gestão estadual
-#                 (PA_GESTAO / UF_ZI = 260000)
-# A produção de rede própria e OSS entra com qualquer gestor. Estabelecimentos
-# públicos de fora da lista (municipais, federais) ficam de fora e aparecem
-# só no log.
+#   01_procedimentos_ambulatoriais   SIA, grupos SIGTAP 02 a 05: qtd. e valor aprovados
+#                                    abas Geral (grupo × ano) e Unidades
+#   02_internamentos                 SIH, grupo do procedimento realizado (02 a 05):
+#                                    AIH (normais e de longa permanência) e valor total
+#                                    abas Geral (grupo × ano) e uma por grupo (unidades)
+#   03_consultas_medicas_especializadas   SIA 0301010072: abas Geral (CBO) e Unidades
+#   04_consultas_multiprofissionais       SIA 0301010048: abas Geral (CBO) e Unidades
+#   05_partos                        SIH, procedimentos do PROCOBS2C.CNV, TODO O ESTADO,
+#                                    por gestão: abas Geral (tipo e subtipo × gestão)
+#                                    e Parto normal / Parto cesáreo (unidades por gestão)
+#   00_unidades                      cadastro das unidades que aparecem nas planilhas
 #
-# Período: mês de processamento (SIA: movimento PA_MVM; SIH: ANO/MES_CMPT),
-# de 01/2019 a 12/2026. Os últimos meses são parciais (reapresentações).
+# Unidades dos temas 01 a 04 (rede estadual):
+#   Rede própria / OSS   lista validada (REDE_PROPRIA_ESTADUAL, ESTADUAL_ADM_INDIRETA),
+#                        toda a produção, qualquer gestão
+#   Rede própria         estabelecimentos da administração pública estadual no CNES
+#   ("Estadual fora da   fora da lista, só a produção sob gestão estadual
+#    lista SES")
+#   Complementar         referências fora da rede da lista validada (ex.: Hospital
+#                        das Clínicas) e prestadores privados/filantrópicos, só a
+#                        produção sob gestão estadual
+# Gestão, como no TabWin: SIH campo GESTAO (E/2 estadual, M/1 municipal); SIA
+# PA_CONDIC (E estadual, P municipal, D dupla).
 #
-# Saídas em planilhas/ (Excel) e planilhas/csv/ (CSV separado por ";"):
-#   01_producao_geral                 abas Ambulatorial, Hospitalar e Total (uma linha por
-#                                     unidade, produção | valor por ano); resumo anual,
-#                                     mensal e por grupo SIGTAP
-#   02_procedimentos_ambulatoriais_AAAA   SIA por procedimento (um arquivo por ano)
-#   03_internamentos_AAAA             SIH por procedimento realizado, leito e caráter (um arquivo por ano)
-#   04_transplantes                   subgrupo SIGTAP 05.05 (SIA + SIH)
-#   05_consultas_medicas_especializadas   SIGTAP 0301010072, por CBO
-#   06_consultas_nivel_superior       SIGTAP 0301010048 (exceto médico), por CBO
-#   07_partos                         AIH de parto normal e cesáreo
-#   00_consolidado_geral              uma aba por tipo de produção (geral, internações,
-#                                     ambulatoriais, transplantes, consultas, partos):
-#                                     uma linha por unidade, Produção | Valor por ano
-#   00_unidades                       cadastro das unidades com produção
-#
+# Período: competência = mês de processamento (SIH ANO_CMPT/MES_CMPT; SIA PA_MVM).
 # Só regera as planilhas quando alguma entrada mudou.
 # Uso: Rscript 04_planilhas.R [--forcar]
 # ------------------------------------------------------------------------------
 
 source("utils.R")
 
-SAIDA   <- file.path(CFG$dir_dados, "saida")
-REF     <- file.path(CFG$dir_dados, "referencias")
-PLAN    <- CFG$dir_planilhas
-LIMITE_LINHAS_EXCEL <- 1000000
+SAIDA <- file.path(CFG$dir_dados, "saida")
+REF   <- file.path(CFG$dir_dados, "referencias")
+PLAN  <- CFG$dir_planilhas
 
 # ---- Regras de cada tema (editar aqui) ----------------------------------------
 
-CONSULTA_MEDICA_ESPECIALIZADA <- "0301010072"   # consulta médica em atenção especializada
-CONSULTA_NIVEL_SUPERIOR       <- "0301010048"   # consulta de profissionais de nível superior na atenção especializada (exceto médico)
-SUBGRUPO_TRANSPLANTE          <- "0505"         # transplante de órgãos, tecidos e células
+GRUPOS_PROC <- c("02", "03", "04", "05")
+ABA_GRUPO   <- c("02" = "02 Diagnóstico", "03" = "03 Clínicos", "04" = "04 Cirúrgicos", "05" = "05 Transplantes")
 
+# Rótulos do cabeçalho das tabelas
+ROTULOS <- c(GRUPO_PROC = "Grupo de procedimento", ESPECIALIDADE = "Especialidade (CBO)",
+             TIPO_DE_PARTO = "Tipo de parto", PROCEDIMENTO = "Procedimento", GESTAO = "Gestão",
+             TIPO_REDE = "Tipo de rede", MODELO_GESTAO = "Modelo de gestão", CNES = "CNES", UNIDADE = "Unidade",
+             MUNICIPIO = "Município", REGIAO_SAUDE = "Região de saúde")
+CONSULTA_MEDICA_ESPECIALIZADA <- "0301010072"
+CONSULTA_MULTIPROFISSIONAL    <- "0301010048"
+
+# Igual ao PROCOBS2C.CNV do TabWin da SES (variável "Proced obst")
 PARTOS <- data.table(
-  PROC = c("0310010039", "0310010055", "0310010047", "0411010034", "0411010026", "0411010042"),
-  TIPO_PARTO = c("Parto normal", "Parto normal", "Parto normal", "Parto cesáreo", "Parto cesáreo", "Parto cesáreo"),
-  DETALHE = c("Risco habitual", "Centro de parto normal", "Alto risco", "Risco habitual", "Alto risco", "Com laqueadura tubária")
-)
+  PROC = c("0310010039", "0310010047", "0310010055", "0411010034", "0411010026", "0411010042"),
+  TIPO_PARTO = rep(c("Parto normal", "Parto cesáreo"), each = 3),
+  SUBTIPO = c("Parto normal", "Parto normal em gestação de alto risco", "Parto normal em centro de parto normal",
+              "Cirurgia cesariana", "Cirurgia cesariana em gestação de alto risco",
+              "Cirurgia cesariana c/ laqueadura tubária"))
 
-NAT_JUR_PUBLICA_EMPRESARIAL <- c("2011", "2038")   # empresa pública, sociedade de economia mista
-
-# Naturezas jurídicas da administração pública estadual (órgão do Executivo,
-# Legislativo e Judiciário estadual, autarquia, fundação pública, órgão autônomo,
-# Estado, fundação de direito privado e fundos públicos estaduais).
 NAT_JUR_ESTADUAL <- c("1023", "1058", "1082", "1112", "1147", "1171", "1236", "1260", "1295", "1325")
+NAT_JUR_PUBLICA_EMPRESARIAL <- c("2011", "2038")
+ORDEM_REDE <- c("Rede própria", "OSS", "Complementar", "Outro público", "Não identificado")
+ORDEM_MODELO <- c("06 grandes", "Gestão direta", "Administração indireta", "Estadual fora da lista SES", "OSS")
 
 TIPOS_CNES <- c("01" = "Posto de saúde", "02" = "Centro de saúde/Unidade básica", "04" = "Policlínica",
                 "05" = "Hospital geral", "07" = "Hospital especializado", "15" = "Unidade mista",
@@ -86,20 +83,8 @@ TIPOS_CNES <- c("01" = "Posto de saúde", "02" = "Centro de saúde/Unidade bási
                 "82" = "Central de notificação, captação e distribuição de órgãos",
                 "83" = "Polo de prevenção e promoção da saúde", "85" = "Centro de imunização")
 
-CARATER <- c("01" = "Eletivo", "02" = "Urgência", "03" = "Acidente no local de trabalho",
-             "04" = "Acidente no trajeto para o trabalho", "05" = "Outros acidentes de trânsito",
-             "06" = "Outras lesões/envenenamentos por agentes químicos ou físicos")
 
-ESPEC_LEITO <- c("01" = "Cirúrgico", "02" = "Obstétrico", "03" = "Clínico", "04" = "Crônicos",
-                 "05" = "Psiquiatria", "06" = "Pneumologia sanitária (tisiologia)", "07" = "Pediátrico",
-                 "08" = "Reabilitação", "09" = "Leito dia/cirúrgico", "10" = "Leito dia/AIDS",
-                 "11" = "Leito dia/fibrose cística", "12" = "Leito dia/intercorrência pós-transplante",
-                 "13" = "Leito dia/geriatria", "14" = "Leito dia/saúde mental", "87" = "Saúde mental (clínico)",
-                 "88" = "Saúde mental (reabilitação psicossocial)")
-
-MESES <- c("jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez")
-
-# ---- SIGTAP (nomes de procedimentos, grupos e ocupações) -----------------------
+# ---- SIGTAP e nomes dos estabelecimentos -----------------------------------------
 
 ler_sigtap <- function(dir, tabela) {
   lay <- fread(file.path(dir, paste0(tabela, "_layout.txt")), colClasses = "character")
@@ -169,8 +154,6 @@ nomes_cnes <- function(cnes) {
   cache[CNES %chin% cnes, .(CNES, NOME_FANTASIA, RAZAO_SOCIAL)]
 }
 
-# ---- Classificação das unidades -------------------------------------------------
-
 natureza <- function(nat_jur, esfera) {
   nat_jur <- fcoalesce(nat_jur, ""); esfera <- fcoalesce(esfera, "")
   fcase(nat_jur %chin% NAT_JUR_PUBLICA_EMPRESARIAL, "Pública",
@@ -182,219 +165,208 @@ natureza <- function(nat_jur, esfera) {
         default = "Não identificada")
 }
 
-montar_unidades <- function(cnes_com_producao) {
+
+# ---- Classificação -------------------------------------------------------------
+
+gestao_sih <- function(x) fcase(x %chin% c("E", "2"), "Estadual", x %chin% c("M", "1"), "Municipal",
+                                default = "Não definida")
+gestao_sia <- function(x) fcase(x == "E", "Estadual", x == "P", "Municipal", x == "D", "Dupla",
+                                default = "Não informada")
+
+# Classifica os CNES. mun_prod: município do estabelecimento tirado da produção,
+# usado quando o CNES não está no cadastro (CNES-ST).
+montar_unidades <- function(mun_prod) {
   val <- ler_validados()
   st  <- if (file.exists(file.path(REF, "cnes_st_pe.csv"))) ler_csv(file.path(REF, "cnes_st_pe.csv")) else
     data.table(CNES = character(), CODUFMUN = character(), TP_UNID = character(), NAT_JUR = character(), ESFERA_A = character())
-  mun <- ler_csv("referencias/municipios_regiao_saude_pe.csv")
-
-  u <- data.table(CNES = unique(cnes_com_producao))
+  u <- unique(mun_prod, by = "CNES")
   u <- merge(u, st[, .(CNES, CODUFMUN, TP_UNID, NAT_JUR, ESFERA_A)], by = "CNES", all.x = TRUE)
+  u[, CODUFMUN := fcoalesce(CODUFMUN, MUN_PROD)]
   u <- merge(u, val[, .(CNES, NOME_LISTA = NOME_FANTASIA, TIPO_LISTA = TIPO, VINCULO, MODELO_GESTAO)],
              by = "CNES", all.x = TRUE)
   u[, NATUREZA := natureza(NAT_JUR, ESFERA_A)]
+  u[, LISTA_PROPRIA := VINCULO %chin% c("REDE_PROPRIA_ESTADUAL", "ESTADUAL_ADM_INDIRETA")]
   u[, TIPO_REDE := fcase(
-    VINCULO %chin% c("REDE_PROPRIA_ESTADUAL", "ESTADUAL_ADM_INDIRETA") & MODELO_GESTAO == "OSS", "OSS",
-    VINCULO %chin% c("REDE_PROPRIA_ESTADUAL", "ESTADUAL_ADM_INDIRETA"), "Rede própria",
-    # Estabelecimento estadual que não está na lista validada (assistência
-    # farmacêutica, laboratórios, unidades móveis etc.): rede própria
+    LISTA_PROPRIA & MODELO_GESTAO == "OSS", "OSS",
+    LISTA_PROPRIA, "Rede própria",
+    VINCULO == "REFERENCIA_FORA_DA_REDE", "Complementar",
     NAT_JUR %chin% NAT_JUR_ESTADUAL, "Rede própria",
     NATUREZA == "Privada/filantrópica", "Complementar",
     NATUREZA == "Pública", "Outro público",
     default = "Não identificado")]
+  u[!LISTA_PROPRIA & TIPO_REDE == "Rede própria", MODELO_GESTAO := "Estadual fora da lista SES"]
   u[TIPO_REDE == "Complementar", MODELO_GESTAO := "Complementar"]
-  u[TIPO_REDE == "Rede própria" & is.na(VINCULO), MODELO_GESTAO := "Estadual fora da lista SES"]
+  u[TIPO_REDE %chin% c("Outro público", "Não identificado"), MODELO_GESTAO := NATUREZA]
   u[, NA_LISTA_SES := fifelse(is.na(VINCULO), "Não", "Sim")]
-
-  # Nomes: lista validada; demais pela API do CNES
-  fora <- u[is.na(NOME_LISTA) & TIPO_REDE %chin% c("Complementar", "Rede própria")]$CNES
-  nomes <- tryCatch(nomes_cnes(fora), error = function(e) {
-    log_msg("API CNES indisponível: %s", conditionMessage(e)); data.table(CNES = character(), NOME_FANTASIA = character(), RAZAO_SOCIAL = character()) })
-  u <- merge(u, nomes, by = "CNES", all.x = TRUE)
-  u[, UNIDADE := fcoalesce(NOME_LISTA, NOME_FANTASIA, RAZAO_SOCIAL, paste("CNES", CNES))]
   u[, TIPO_UNIDADE := fcoalesce(TIPO_LISTA, unname(TIPOS_CNES[TP_UNID]),
                                 fifelse(is.na(TP_UNID), "Não informado", paste("Tipo", TP_UNID)))]
-  u <- merge(u, mun[, .(CODUFMUN = CO_MUNICIPIO, MUNICIPIO, REGIAO_SAUDE, MACRORREGIAO)],
-             by = "CODUFMUN", all.x = TRUE)
-  u[, .(CNES, UNIDADE, TIPO_REDE, MODELO_GESTAO = fcoalesce(MODELO_GESTAO, ""), TIPO_UNIDADE,
+  mun <- ler_csv("referencias/municipios_regiao_saude_pe.csv")
+  u <- merge(u, mun[, .(CODUFMUN = CO_MUNICIPIO, MUNICIPIO, REGIAO_SAUDE, MACRORREGIAO)], by = "CODUFMUN", all.x = TRUE)
+  u[, .(CNES, NOME_LISTA, TIPO_REDE, MODELO_GESTAO = fcoalesce(MODELO_GESTAO, ""), LISTA_PROPRIA, TIPO_UNIDADE,
         NATUREZA, NAT_JUR = fcoalesce(NAT_JUR, ""), NA_LISTA_SES, MUNICIPIO = fcoalesce(MUNICIPIO, ""),
         REGIAO_SAUDE = fcoalesce(REGIAO_SAUDE, ""), MACRORREGIAO = fcoalesce(MACRORREGIAO, ""))]
 }
 
-# Mantém as unidades da lista validada (rede própria e OSS) com qualquer gestor;
-# complementar e estaduais fora da lista, só a produção sob gestão estadual.
-filtrar_rede <- function(dt, col_gestor, unidades) {
-  dt <- merge(dt, unidades[, .(CNES, TIPO_REDE, NA_LISTA_SES)], by = "CNES")
-  # Rede própria e OSS da lista: toda a produção. Complementar (na lista como
-  # referência ou não) e estaduais fora da lista: só sob gestão estadual.
-  dt[, LISTA_PROPRIA_ := TIPO_REDE %chin% c("Rede própria", "OSS") & NA_LISTA_SES == "Sim"]
-  dt[LISTA_PROPRIA_ |
-       (TIPO_REDE %chin% c("Rede própria", "Complementar") & get(col_gestor) == CFG$gestor_estadual)][
-    , c("TIPO_REDE", "NA_LISTA_SES", "LISTA_PROPRIA_") := NULL][]
+# Nomes: da lista validada; os demais pela API do CNES (com cache)
+nomear <- function(u) {
+  falta <- u[is.na(NOME_LISTA)]$CNES
+  nomes <- tryCatch(nomes_cnes(falta), error = function(e) {
+    log_msg("API CNES indisponível: %s", conditionMessage(e))
+    data.table(CNES = character(), NOME_FANTASIA = character(), RAZAO_SOCIAL = character())
+  })
+  u <- merge(u, nomes, by = "CNES", all.x = TRUE)
+  u[, UNIDADE := fcoalesce(NOME_LISTA, NOME_FANTASIA, RAZAO_SOCIAL, paste("CNES", CNES))]
+  u[, c("NOME_LISTA", "NOME_FANTASIA", "RAZAO_SOCIAL") := NULL][]
 }
 
-# ---- Gravação -------------------------------------------------------------------
-
-COLS_UNIDADE <- c("TIPO_REDE", "MODELO_GESTAO", "CNES", "UNIDADE", "TIPO_UNIDADE", "MUNICIPIO", "REGIAO_SAUDE")
-
-# Acrescenta as colunas da unidade e ANO/MES, e ordena.
-com_unidade <- function(dt, unidades) {
-  dt <- merge(unidades[, ..COLS_UNIDADE], dt, by = "CNES")
-  if ("COMPETENCIA" %in% names(dt)) {
-    dt[, `:=`(ANO = as.integer(substr(COMPETENCIA, 1, 4)),
-              MES = paste0(substr(COMPETENCIA, 5, 6), "-", MESES[as.integer(substr(COMPETENCIA, 5, 6))]))]
-    setcolorder(dt, c("ANO", "MES", "COMPETENCIA", COLS_UNIDADE))
-  } else if ("ANO" %in% names(dt)) {
-    setcolorder(dt, c("ANO", COLS_UNIDADE))
-  }
-  # Ordem: Rede própria, OSS, Complementar
-  dt[, ORDEM_REDE_ := match(TIPO_REDE, c("Rede própria", "OSS", "Complementar"))]
-  setorderv(dt, intersect(c("ANO", "COMPETENCIA", "ORDEM_REDE_", "UNIDADE"), names(dt)))
-  dt[, ORDEM_REDE_ := NULL]
-  num <- names(dt)[vapply(dt, is.double, logical(1))]
-  for (cl in grep("^VALOR", num, value = TRUE)) set(dt, j = cl, value = round(dt[[cl]], 2))
-  dt
+# Rede estadual (temas 01 a 04): unidades da lista (rede própria e OSS) com toda a
+# produção; complementar e estaduais fora da lista, só sob gestão estadual.
+rede_estadual <- function(dt, unidades) {
+  dt <- merge(dt, unidades[, .(CNES, TIPO_REDE, LISTA_PROPRIA)], by = "CNES")
+  dt[LISTA_PROPRIA | (TIPO_REDE %chin% c("Rede própria", "Complementar") & GESTAO == "Estadual")][
+    , c("TIPO_REDE", "LISTA_PROPRIA") := NULL][]
 }
 
-# Divide uma tabela em abas por ano (e em partes, se passar do limite do Excel).
-abas_por_ano <- function(dt, prefixo = "") {
-  abas <- list()
-  for (a in sort(unique(dt$ANO))) {
-    x <- dt[ANO == a]
-    n_partes <- ceiling(nrow(x) / LIMITE_LINHAS_EXCEL)
-    for (p in seq_len(n_partes)) {
-      nome <- paste0(prefixo, a, if (n_partes > 1) paste0(" (", p, ")") else "")
-      abas[[nome]] <- x[((p - 1) * LIMITE_LINHAS_EXCEL + 1):min(p * LIMITE_LINHAS_EXCEL, nrow(x))]
-    }
-  }
-  abas
+# ---- Tabelas no formato "produção | valor por ano" ------------------------------
+
+# ag: colunas ids + ANO + QTD + VALOR. Devolve ids + QTD_aaaa, VALOR_aaaa por ano.
+largo <- function(ag, ids, anos) {
+  ag <- ag[, .(QTD = sum(QTD), VALOR = round(sum(VALOR), 2)), by = c(ids, "ANO")]
+  w <- dcast(ag, as.formula(paste(paste0("`", ids, "`", collapse = " + "), "~ ANO")),
+             value.var = c("QTD", "VALOR"), fill = 0, sep = "_")
+  for (a in anos) for (m in c("QTD", "VALOR")) if (!paste0(m, "_", a) %in% names(w)) set(w, j = paste0(m, "_", a), value = 0)
+  setcolorder(w, c(ids, as.vector(rbind(paste0("QTD_", anos), paste0("VALOR_", anos)))))
+  w
 }
 
-leia_me <- function(titulo, regras, atualizacao) {
-  x <- data.table(Item = c("Tema", "Regra", "Período", "Unidades", "Quantidade", "Valor",
-                      "Meses recentes", "Fonte", "Atualizado em"),
-             Descricao = c(
-               titulo, regras,
-               sprintf("Mês de processamento, de %s a %s (dados disponíveis até %s)",
-                       paste0(substr(CFG$inicio, 5, 6), "/", substr(CFG$inicio, 1, 4)),
-                       paste0(substr(CFG$fim, 5, 6), "/", substr(CFG$fim, 1, 4)), atualizacao$ultimo),
-               paste("Rede própria (gestão direta, 06 grandes, administração indireta) e OSS: lista validada pela SES,",
-                     "qualquer gestor. Rede própria também inclui estabelecimentos estaduais no CNES fora da lista",
-                     "(modelo 'Estadual fora da lista SES'), só sob gestão estadual. Complementar: prestadores privados",
-                     "e filantrópicos (natureza jurídica no CNES), só a produção sob gestão estadual."),
-               "SIA: quantidade aprovada (e apresentada). SIH: AIH aprovadas do tipo normal (IDENT 1); AIH_TOTAL inclui longa permanência.",
-               paste("Valores da tabela SUS (SIGTAP) registrados no SIA (aprovado) e no SIH (VAL_TOT), em R$.",
-                     "Não incluem complementos estaduais, incentivos nem repasses de contrato de gestão das OSS."),
-               "Os últimos 3 a 4 meses ainda recebem produção apresentada com atraso; leia-os como parciais.",
-               "DATASUS (SIA-PA, SIH-RD, CNES-ST e SIGTAP), FTP público",
-               atualizacao$em))
-  setnames(x, "Descricao", "Descri\u00e7\u00e3o")
+somar_linha <- function(w, cols_val, rotulos) {
+  t <- w[, lapply(.SD, sum), .SDcols = cols_val]
+  for (nm in names(rotulos)) set(t, j = nm, value = rotulos[[nm]])
+  t
 }
 
-# Temas grandes (procedimentos e internamentos) saem com um arquivo por ano:
-# um arquivo único passaria do limite de 100 MB do GitHub e ficaria lento no Excel.
-gravar_tema_por_ano <- function(nome, dt, titulo, regras, atualizacao) {
-  antigos <- c(file.path(PLAN, paste0(nome, ".xlsx")), file.path(PLAN, "csv", paste0(nome, ".csv")))
-  unlink(antigos[file.exists(antigos)])
-  for (a in sort(unique(dt$ANO))) {
-    x <- dt[ANO == a]
-    gravar_tema(paste0(nome, "_", a), abas_por_ano(x), paste0(titulo, " - ", a), regras, atualizacao, csv = x)
-  }
+tabela <- function(dados, ids, anos, rotulo_qtd, linhas_total, larguras) {
+  for (cl in ids) set(dados, which(is.na(dados[[cl]])), cl, "")
+  structure(list(dados = dados, ids = ids, anos = anos, rotulo_qtd = rotulo_qtd,
+                 linhas_total = linhas_total, larguras = larguras), class = "tabela_anual")
 }
 
-# ---- Resumo por unidade: uma linha por unidade, "Produção | Valor" por ano ------
-#
-# dt precisa das colunas CNES, ANO e as medidas. Devolve um objeto "resumo_largo"
-# que gravar_tema escreve com cabeçalho em duas linhas (ano mesclado sobre
-# Produção e Valor), subtotal por tipo de rede e total geral.
-COLS_RESUMO <- c("TIPO_REDE", "MODELO_GESTAO", "CNES", "UNIDADE", "MUNICIPIO", "REGIAO_SAUDE")
+# Geral: uma linha por categoria (grupo, CBO...), total geral ao final.
+geral <- function(dt, dims, anos, rotulo_qtd, larguras) {
+  w <- largo(dt, dims, anos)
+  setorderv(w, dims)
+  cols_val <- setdiff(names(w), dims)
+  w <- rbind(w, somar_linha(w, cols_val, setNames(list("Total geral"), dims[1])), fill = TRUE)
+  tabela(w, dims, anos, rotulo_qtd, nrow(w), larguras)
+}
 
-resumo_largo <- function(dt, unidades, col_qtd = NULL, col_valor = "VALOR", rotulo_qtd = "Produção") {
-  medidas <- c(col_qtd, col_valor)
-  ag <- dt[, lapply(.SD, sum), by = .(CNES, ANO), .SDcols = medidas]
-  anos <- sort(unique(ag$ANO))
-  largo <- dcast(ag, CNES ~ ANO, value.var = medidas, fill = 0, sep = "_")
-  if (length(medidas) == 1) setnames(largo, as.character(anos), paste0(medidas, "_", anos))
-  cols_val <- unlist(lapply(anos, function(a) paste0(medidas, "_", a)))
-  largo <- merge(unidades[, ..COLS_RESUMO], largo, by = "CNES")
-  setcolorder(largo, c(COLS_RESUMO, cols_val))
-  # Tira unidades sem nenhuma produção nem valor neste tema (ex.: só hospitalar na aba Ambulatorial)
-  largo <- largo[rowSums(abs(as.matrix(largo[, ..cols_val]))) > 0]
-  for (cl in cols_val) set(largo, j = cl, value = round(largo[[cl]], 2))
-  largo[, ORDEM_ := match(TIPO_REDE, c("Rede própria", "OSS", "Complementar"))]
-  largo[, ORDEM_MODELO_ := match(MODELO_GESTAO, c("06 grandes", "Gestão direta", "Administração indireta",
-                                                  "Estadual fora da lista SES"), nomatch = 9L)]
-  setorder(largo, ORDEM_, ORDEM_MODELO_, UNIDADE)
-  largo[, ORDEM_MODELO_ := NULL]
-  # Subtotal ao fim de cada tipo de rede e total geral no final
-  partes <- lapply(split(largo, by = "ORDEM_", sorted = TRUE), function(x) {
-    st <- x[, lapply(.SD, sum), .SDcols = cols_val]
-    st[, `:=`(TIPO_REDE = x$TIPO_REDE[1], UNIDADE = paste("Subtotal", x$TIPO_REDE[1]))]
+# Unidades: uma linha por unidade (e por valor de 'agrupar', quando ele vem da
+# produção, como a gestão nos partos), subtotal por grupo e total geral.
+COLS_UNID <- c("TIPO_REDE", "MODELO_GESTAO", "CNES", "UNIDADE", "MUNICIPIO", "REGIAO_SAUDE")
+unidades_ano <- function(dt, unidades, anos, rotulo_qtd, agrupar = "TIPO_REDE") {
+  chave <- unique(c(if (agrupar %in% names(dt)) agrupar, "CNES"))
+  w <- largo(dt, chave, anos)
+  cols_val <- setdiff(names(w), chave)
+  w <- w[rowSums(abs(as.matrix(w[, ..cols_val]))) > 0]
+  w <- merge(unidades[, c(COLS_UNID), with = FALSE], w, by = "CNES")
+  ids <- unique(c(agrupar, COLS_UNID))
+  setcolorder(w, c(ids, cols_val))
+  ordem_grupo <- if (agrupar == "TIPO_REDE") ORDEM_REDE else c("Estadual", "Municipal", "Dupla", "Não definida", "Não informada")
+  w[, `:=`(O1_ = match(get(agrupar), ordem_grupo, nomatch = 99L),
+           O2_ = match(TIPO_REDE, ORDEM_REDE, nomatch = 99L),
+           O3_ = match(MODELO_GESTAO, ORDEM_MODELO, nomatch = 99L))]
+  setorder(w, O1_, O2_, O3_, UNIDADE)
+  partes <- lapply(split(w, by = "O1_", sorted = TRUE), function(x) {
+    st <- somar_linha(x, cols_val, setNames(list(x[[agrupar]][1], paste("Subtotal", x[[agrupar]][1])),
+                                            c(agrupar, "UNIDADE")))
     rbind(x, st, fill = TRUE)
   })
-  tot <- largo[, lapply(.SD, sum), .SDcols = cols_val][, UNIDADE := "Total geral"]
-  out <- rbind(rbindlist(partes, fill = TRUE), tot, fill = TRUE)[, ORDEM_ := NULL]
-  for (cl in COLS_RESUMO) set(out, which(is.na(out[[cl]])), cl, "")
-  structure(list(dados = out, anos = anos, medidas = medidas, rotulo_qtd = rotulo_qtd,
-                 linhas_total = which(startsWith(out$UNIDADE, "Subtotal") | out$UNIDADE == "Total geral")),
-            class = "resumo_largo")
+  out <- rbindlist(partes, fill = TRUE)
+  out <- rbind(out, somar_linha(w, cols_val, list(UNIDADE = "Total geral")), fill = TRUE)
+  out[, c("O1_", "O2_", "O3_") := NULL]
+  setcolorder(out, c(ids, cols_val))
+  tot <- which(startsWith(fcoalesce(out$UNIDADE, ""), "Subtotal") | out$UNIDADE == "Total geral")
+  larg <- c(TIPO_REDE = 14, GESTAO = 12, MODELO_GESTAO = 22, CNES = 10, UNIDADE = 45, MUNICIPIO = 20, REGIAO_SAUDE = 26)
+  tabela(out, ids, anos, rotulo_qtd, tot, unname(larg[ids]))
 }
 
-escrever_resumo <- function(wb, aba, r) {
-  n_id <- length(COLS_RESUMO); n_med <- length(r$medidas)
-  rotulos <- c(r$rotulo_qtd, "Valor (R$)")[if (n_med == 2) 1:2 else 2]
-  cab1 <- c(COLS_RESUMO, unlist(lapply(r$anos, function(a) c(as.character(a), rep("", n_med - 1)))))
-  cab2 <- c(rep("", n_id), rep(rotulos, length(r$anos)))
+# ---- Excel -----------------------------------------------------------------------
+
+escrever_tabela <- function(wb, aba, r) {
+  n_id <- length(r$ids); n_anos <- length(r$anos)
+  cab1 <- c(fcoalesce(unname(ROTULOS[r$ids]), r$ids), as.vector(rbind(as.character(r$anos), "")))
+  cab2 <- c(rep("", n_id), rep(c(r$rotulo_qtd, "Valor (R$)"), n_anos))
   openxlsx::writeData(wb, aba, t(cab1), startRow = 1, colNames = FALSE)
   openxlsx::writeData(wb, aba, t(cab2), startRow = 2, colNames = FALSE)
   for (i in seq_len(n_id)) openxlsx::mergeCells(wb, aba, cols = i, rows = 1:2)
-  if (n_med == 2) for (k in seq_along(r$anos)) {
-    c0 <- n_id + (k - 1) * 2 + 1
-    openxlsx::mergeCells(wb, aba, cols = c0:(c0 + 1), rows = 1)
-  }
+  for (k in seq_len(n_anos)) { c0 <- n_id + (k - 1) * 2 + 1; openxlsx::mergeCells(wb, aba, cols = c0:(c0 + 1), rows = 1) }
   openxlsx::writeData(wb, aba, r$dados, startRow = 3, colNames = FALSE)
   ncol <- ncol(r$dados); nlin <- nrow(r$dados)
-  cab <- openxlsx::createStyle(textDecoration = "bold", halign = "center", valign = "center",
-                               fgFill = "#DCE6F1", border = "TopBottomLeftRight", wrapText = TRUE)
-  openxlsx::addStyle(wb, aba, cab, rows = 1:2, cols = 1:ncol, gridExpand = TRUE)
+  openxlsx::addStyle(wb, aba, openxlsx::createStyle(textDecoration = "bold", halign = "center", valign = "center",
+                                                    fgFill = "#DCE6F1", border = "TopBottomLeftRight", wrapText = TRUE),
+                     rows = 1:2, cols = 1:ncol, gridExpand = TRUE)
   cols_num <- (n_id + 1):ncol
-  fmt <- rep(if (n_med == 2) c("#,##0", "#,##0.00") else "#,##0.00", length(r$anos))
-  for (j in seq_along(cols_num)) openxlsx::addStyle(wb, aba, openxlsx::createStyle(numFmt = fmt[j]),
+  for (j in seq_along(cols_num)) openxlsx::addStyle(wb, aba, openxlsx::createStyle(numFmt = if (j %% 2) "#,##0" else "#,##0.00"),
                                                      rows = 3:(nlin + 2), cols = cols_num[j], stack = TRUE)
   if (length(r$linhas_total)) openxlsx::addStyle(wb, aba, openxlsx::createStyle(textDecoration = "bold", fgFill = "#F2F2F2"),
                                                  rows = r$linhas_total + 2, cols = 1:ncol, gridExpand = TRUE, stack = TRUE)
-  openxlsx::setColWidths(wb, aba, cols = 1:n_id, widths = c(14, 22, 10, 45, 20, 26))
-  openxlsx::setColWidths(wb, aba, cols = cols_num, widths = 16)
+  openxlsx::setColWidths(wb, aba, cols = 1:n_id, widths = r$larguras)
+  openxlsx::setColWidths(wb, aba, cols = cols_num, widths = 15)
   openxlsx::freezePane(wb, aba, firstActiveRow = 3, firstActiveCol = n_id + 1)
 }
 
-# Excel: com writexl (rápido) quando só há tabelas simples; com openxlsx quando
-# alguma aba é um resumo por unidade, que precisa de cabeçalho mesclado.
-escrever_xlsx <- function(abas, arquivo) {
-  if (!any(vapply(abas, inherits, logical(1), "resumo_largo"))) return(writexl::write_xlsx(abas, arquivo))
+leia_me <- function(titulo, regras, atualizacao) {
+  x <- data.table(
+    Item = c("Tema", "Regra", "Formato", "Período", "Unidades", "Valor", "Meses recentes", "Fonte", "Atualizado em"),
+    Texto = c(titulo, regras,
+              "Para cada ano: produção (quantidade) e valor (R$). Subtotais e total geral em negrito.",
+              sprintf("Competência (mês de processamento) de %s/%s a %s/%s; dados até %s.",
+                      substr(CFG$inicio, 5, 6), substr(CFG$inicio, 1, 4), substr(CFG$fim, 5, 6), substr(CFG$fim, 1, 4),
+                      atualizacao$ultimo),
+              paste("Rede estadual: rede própria e OSS da lista validada pela SES (toda a produção);",
+                    "estabelecimentos estaduais fora da lista e rede complementar (referências fora da rede da lista e",
+                    "prestadores privados/filantrópicos), só a produção sob gestão estadual. Gestão como no TabWin da SES:",
+                    "campo GESTAO da AIH (SIH) e PA_CONDIC (SIA)."),
+              paste("Tabela SUS (SIGTAP): valor aprovado no SIA e valor total da AIH no SIH. Não inclui complementos",
+                    "estaduais, incentivos nem repasses de contratos de gestão das OSS."),
+              "Os últimos 3 a 4 meses ainda recebem produção com atraso; leia-os como parciais.",
+              "DATASUS (SIA-PA, SIH-RD, CNES-ST e SIGTAP), FTP público. Mesmos arquivos do TabWin (T:\\TabSia08, T:\\Tabaih08).",
+              atualizacao$em))
+  setnames(x, "Texto", "Descrição")
+}
+
+gravar_planilha <- function(nome, abas, titulo, regras, atualizacao, csv = NULL) {
+  dir.create(file.path(PLAN, "csv"), recursive = TRUE, showWarnings = FALSE)
   wb <- openxlsx::createWorkbook()
+  openxlsx::addWorksheet(wb, "Leia-me")
+  openxlsx::writeData(wb, "Leia-me", leia_me(titulo, regras, atualizacao),
+                      headerStyle = openxlsx::createStyle(textDecoration = "bold"))
+  openxlsx::setColWidths(wb, "Leia-me", cols = 1:2, widths = c(16, 120))
+  openxlsx::addStyle(wb, "Leia-me", openxlsx::createStyle(wrapText = TRUE, valign = "top"), rows = 2:10, cols = 2)
   for (nm in names(abas)) {
     openxlsx::addWorksheet(wb, nm)
-    if (inherits(abas[[nm]], "resumo_largo")) escrever_resumo(wb, nm, abas[[nm]]) else {
+    if (inherits(abas[[nm]], "tabela_anual")) escrever_tabela(wb, nm, abas[[nm]]) else {
       openxlsx::writeData(wb, nm, abas[[nm]], headerStyle = openxlsx::createStyle(textDecoration = "bold"))
       openxlsx::freezePane(wb, nm, firstRow = TRUE)
     }
   }
-  openxlsx::saveWorkbook(wb, arquivo, overwrite = TRUE)
-}
-
-gravar_tema <- function(nome, abas, titulo, regras, atualizacao, csv = NULL) {
-  dir.create(file.path(PLAN, "csv"), recursive = TRUE, showWarnings = FALSE)
-  abas <- c(list(`Leia-me` = leia_me(titulo, regras, atualizacao)), abas)
-  gravar_atomico(function(f) escrever_xlsx(abas, f), file.path(PLAN, paste0(nome, ".xlsx")))
-  # CSV no padrão do Excel em português: ";" entre colunas e vírgula decimal
+  gravar_atomico(function(f) openxlsx::saveWorkbook(wb, f, overwrite = TRUE), file.path(PLAN, paste0(nome, ".xlsx")))
   if (!is.null(csv)) gravar_atomico(function(f) fwrite(csv, f, sep = ";", dec = ",", bom = TRUE),
                                     file.path(PLAN, "csv", paste0(nome, ".csv")))
-  linhas <- vapply(abas, function(a) if (inherits(a, "resumo_largo")) nrow(a$dados) else nrow(a), 1L)
+  linhas <- vapply(abas, function(a) if (inherits(a, "tabela_anual")) nrow(a$dados) else nrow(a), 1L)
   log_msg("%s.xlsx: %s", nome, paste(sprintf("%s (%s)", names(abas), linhas), collapse = "; "))
 }
 
-# ---- Temas ----------------------------------------------------------------------
+# Base longa (CSV) de um tema: uma linha por unidade, dimensão e ano
+csv_tema <- function(dt, unidades, dims) {
+  x <- dt[, .(QTD = sum(QTD), VALOR = round(sum(VALOR), 2)), by = c("ANO", "CNES", dims)]
+  x <- merge(unidades[, ..COLS_UNID], x, by = "CNES")
+  setcolorder(x, c("ANO", COLS_UNID, dims))
+  setorderv(x, c("ANO", "TIPO_REDE", "UNIDADE", dims))
+  x
+}
+
+# ---- Principal ---------------------------------------------------------------------
 
 main <- function() {
   arq_sia <- file.path(SAIDA, "sia_unidades.parquet")
@@ -403,184 +375,134 @@ main <- function() {
     log_msg("Planilhas não geradas: faltam as bases do SIA e/ou do SIH (rode 02_sia.R e 03_sih.R)")
     return(invisible(NULL))
   }
-
-  # Só regera quando alguma entrada mudou
   entradas <- c(arq_sia, arq_sih, file.path(REF, "cnes_st_pe.csv"), "referencias/estabelecimentos_validados.csv",
                 "referencias/municipios_regiao_saude_pe.csv", "04_planilhas.R")
   hash <- paste(tools::md5sum(entradas[file.exists(entradas)]), collapse = "")
   arq_hash <- file.path(CFG$dir_dados, "controle", "planilhas_hash.txt")
   if (!tem_flag("forcar") && file.exists(arq_hash) && identical(readLines(arq_hash), hash) &&
-      file.exists(file.path(PLAN, "01_producao_geral.xlsx"))) {
+      file.exists(file.path(PLAN, "02_internamentos.xlsx"))) {
     log_msg("Entradas sem mudança; planilhas mantidas.")
     return(invisible(NULL))
   }
 
   sia <- ler_parquet(arq_sia)[PA_MVM >= CFG$inicio & PA_MVM <= CFG$fim]
   sih <- ler_parquet(arq_sih)[COMPETENCIA >= CFG$inicio & COMPETENCIA <= CFG$fim]
-  sia[, COMPETENCIA := PA_MVM]
+  for (cl in c("PA_CONDIC", "PA_UFMUN")) if (!cl %in% names(sia)) set(sia, j = cl, value = NA_character_)
+  for (cl in c("TP_GESTAO", "MUNIC_MOV")) if (!cl %in% names(sih)) set(sih, j = cl, value = NA_character_)
+  sia[, `:=`(ANO = as.integer(substr(PA_MVM, 1, 4)), GESTAO = gestao_sia(PA_CONDIC),
+             GRUPO = substr(PA_PROC_ID, 1, 2), QTD = QTD_APROVADA, VALOR = VALOR_APROVADO)]
+  sih[, `:=`(ANO = as.integer(substr(COMPETENCIA, 1, 4)), GESTAO = gestao_sih(TP_GESTAO),
+             GRUPO = substr(PROC_REA, 1, 2), QTD = N_AIH, VALOR = VALOR_TOTAL)]
+  log_msg("Gestão (registros) SIA: %s | SIH: %s",
+          paste(sia[, .N, by = GESTAO][, paste(GESTAO, N, sep = "=")], collapse = ", "),
+          paste(sih[, .N, by = GESTAO][, paste(GESTAO, N, sep = "=")], collapse = ", "))
+  anos <- seq(as.integer(substr(CFG$inicio, 1, 4)), max(c(sia$ANO, sih$ANO)))
 
-  unidades <- montar_unidades(c(sia$CNES, sih$CNES))
-  resumo_cl <- unidades[, .N, by = TIPO_REDE]
-  log_msg("Unidades com produção por tipo de rede: %s",
-          paste(sprintf("%s = %d", resumo_cl$TIPO_REDE, resumo_cl$N), collapse = "; "))
-  sia <- filtrar_rede(sia, "PA_GESTAO", unidades)
-  sih <- filtrar_rede(sih, "GESTOR", unidades)
-  unidades <- unidades[CNES %chin% c(sia$CNES, sih$CNES)]
-  unidades[, ORDEM_ := match(TIPO_REDE, c("Rede própria", "OSS", "Complementar"))]
-  setorder(unidades, ORDEM_, MODELO_GESTAO, UNIDADE)[, ORDEM_ := NULL]
+  mun_prod <- rbind(sia[, .(CNES, MUN_PROD = PA_UFMUN)], sih[, .(CNES, MUN_PROD = MUNIC_MOV)])
+  unidades <- montar_unidades(mun_prod)
 
   sig <- sigtap()
-  proc <- sig$proc
-  sih[, INTERNACAO := IDENT == "1"]
+  grupos <- unique(sig$proc[, .(GRUPO = CO_GRUPO, NO_GRUPO)])
+  nome_grupo <- function(g) fcoalesce(grupos$NO_GRUPO[match(g, grupos$GRUPO)], paste("Grupo", g))
+
+  # Bases de cada tema (já filtradas)
+  amb  <- rede_estadual(sia[GRUPO %chin% GRUPOS_PROC], unidades)
+  int  <- rede_estadual(sih[GRUPO %chin% GRUPOS_PROC], unidades)
+  cons <- function(cod) {
+    x <- rede_estadual(sia[PA_PROC_ID == cod], unidades)
+    x <- merge(x, sig$ocup, by = "CBO", all.x = TRUE)
+    x[, ESPECIALIDADE := fifelse(!is.na(NO_OCUPACAO), paste(CBO, NO_OCUPACAO),
+                                 fifelse(is.na(CBO) | CBO == "", "CBO não informado", paste("CBO", CBO)))]
+    x
+  }
+  cm <- cons(CONSULTA_MEDICA_ESPECIALIZADA)
+  cs <- cons(CONSULTA_MULTIPROFISSIONAL)
+  pt <- merge(sih[PROC_REA %chin% PARTOS$PROC], PARTOS, by.x = "PROC_REA", by.y = "PROC")
+
+  # Nomes só das unidades que aparecem em algum tema
+  usados <- unique(c(amb$CNES, int$CNES, cm$CNES, cs$CNES, pt$CNES))
+  unidades <- nomear(unidades[CNES %chin% usados])
+  unidades[, O_ := match(TIPO_REDE, ORDEM_REDE, nomatch = 99L)]
+  setorder(unidades, O_, MODELO_GESTAO, UNIDADE)[, O_ := NULL]
 
   atualizacao <- list(
-    ultimo = sprintf("SIA %s, SIH %s",
-                     format(as.Date(paste0(max(sia$PA_MVM), "01"), "%Y%m%d"), "%m/%Y"),
-                     format(as.Date(paste0(max(sih$COMPETENCIA), "01"), "%Y%m%d"), "%m/%Y")),
+    ultimo = sprintf("SIA %s/%s, SIH %s/%s", substr(max(sia$PA_MVM), 5, 6), substr(max(sia$PA_MVM), 1, 4),
+                     substr(max(sih$COMPETENCIA), 5, 6), substr(max(sih$COMPETENCIA), 1, 4)),
     em = format(Sys.time(), "%d/%m/%Y %H:%M", tz = "America/Recife"))
 
-  # 00 Unidades
-  gravar_tema("00_unidades", list(Unidades = unidades), "Cadastro das unidades com produção no período",
-              "Uma linha por CNES com produção. TIPO_REDE define a rede usada em todas as planilhas.",
-              atualizacao, csv = unidades)
+  # Recomeça a pasta: só ficam as planilhas desta versão
+  unlink(list.files(PLAN, recursive = TRUE, full.names = TRUE))
 
-  # 01 Produção geral -------------------------------------------------------------
-  amb_m <- sia[, .(QTD_AMBULATORIAL = sum(QTD_APROVADA), VALOR_AMBULATORIAL = sum(VALOR_APROVADO)),
-               by = .(COMPETENCIA, CNES)]
-  hosp_m <- sih[, .(INTERNACOES = sum(N_AIH[INTERNACAO]), AIH_TOTAL = sum(N_AIH), DIARIAS = sum(DIARIAS),
-                    VALOR_HOSPITALAR = sum(VALOR_TOTAL)), by = .(COMPETENCIA, CNES)]
-  geral_m <- merge(amb_m, hosp_m, by = c("COMPETENCIA", "CNES"), all = TRUE)
-  for (cl in setdiff(names(geral_m), c("COMPETENCIA", "CNES"))) set(geral_m, which(is.na(geral_m[[cl]])), cl, 0)
-  geral_m[, VALOR_TOTAL := VALOR_AMBULATORIAL + VALOR_HOSPITALAR]
-  geral_a <- geral_m[, lapply(.SD, sum), by = .(ANO = as.integer(substr(COMPETENCIA, 1, 4)), CNES),
-                     .SDcols = setdiff(names(geral_m), c("COMPETENCIA", "CNES"))]
+  larg_grupo <- c(48)
+  # 01 Procedimentos ambulatoriais
+  amb[, GRUPO_PROC := paste(GRUPO, nome_grupo(GRUPO))]
+  gravar_planilha("01_procedimentos_ambulatoriais",
+                  list(Geral = geral(amb, "GRUPO_PROC", anos, "Quantidade", larg_grupo),
+                       Unidades = unidades_ano(amb, unidades, anos, "Quantidade")),
+                  "Procedimentos ambulatoriais",
+                  paste("SIA, grupos SIGTAP", paste(GRUPOS_PROC, collapse = ", "),
+                        "(diagnóstico, clínicos, cirúrgicos e transplantes). Produção = quantidade aprovada (PA_QTDAPR,",
+                        "a Freqüência do Prod_PE.def); valor = valor aprovado."),
+                  atualizacao, csv = csv_tema(amb, unidades, "GRUPO_PROC"))
 
-  grupo_amb <- sia[, .(QUANTIDADE = sum(QTD_APROVADA), VALOR = sum(VALOR_APROVADO)),
-                   by = .(ANO = as.integer(substr(COMPETENCIA, 1, 4)), CNES, CO_GRUPO = substr(PA_PROC_ID, 1, 2))]
-  grupo_amb[, ORIGEM := "Ambulatorial (SIA)"]
-  grupo_hosp <- sih[, .(QUANTIDADE = sum(N_AIH[INTERNACAO]), VALOR = sum(VALOR_TOTAL)),
-                    by = .(ANO = as.integer(substr(COMPETENCIA, 1, 4)), CNES, CO_GRUPO = substr(PROC_REA, 1, 2))]
-  grupo_hosp[, ORIGEM := "Hospitalar (SIH, procedimento principal)"]
-  grupos <- rbind(grupo_amb, grupo_hosp)
-  grupos <- merge(grupos, unique(proc[, .(CO_GRUPO, NO_GRUPO)]), by = "CO_GRUPO", all.x = TRUE)
-  setcolorder(grupos, c("ANO", "CNES", "ORIGEM", "CO_GRUPO", "NO_GRUPO", "QUANTIDADE", "VALOR"))
-
-  geral_m_u <- com_unidade(geral_m, unidades)
-  gravar_tema("01_producao_geral",
-              list(`Resumo anual` = com_unidade(geral_a, unidades),
-                   Mensal = geral_m_u,
-                   `Por grupo SIGTAP` = com_unidade(grupos, unidades)),
-              "Produção geral por unidade",
-              paste("Ambulatorial: quantidade e valor aprovados no SIA. Hospitalar: internações (AIH normal),",
-                    "AIH totais, diárias e valor total das AIH no SIH. VALOR_TOTAL = ambulatorial + hospitalar.",
-                    "Por grupo SIGTAP: o grupo da AIH é o do procedimento realizado (principal)."),
-              atualizacao, csv = geral_m_u)
-
-  # 02 Procedimentos ambulatoriais -----------------------------------------------
-  amb <- sia[, .(QTD_APRESENTADA = sum(QTD_APRESENTADA), QTD_APROVADA = sum(QTD_APROVADA),
-                 VALOR_APRESENTADO = sum(VALOR_APRESENTADO), VALOR_APROVADO = sum(VALOR_APROVADO)),
-             by = .(COMPETENCIA, CNES, PROC = PA_PROC_ID)]
-  amb <- merge(amb, proc[, .(PROC, NO_PROCEDIMENTO, CO_GRUPO, NO_GRUPO, CO_SUB_GRUPO, NO_SUB_GRUPO)],
-               by = "PROC", all.x = TRUE)
-  setcolorder(amb, c("COMPETENCIA", "CNES", "CO_GRUPO", "NO_GRUPO", "CO_SUB_GRUPO", "NO_SUB_GRUPO", "PROC", "NO_PROCEDIMENTO"))
-  amb <- com_unidade(amb, unidades)
-  gravar_tema_por_ano("02_procedimentos_ambulatoriais", amb, "Procedimentos ambulatoriais (SIA) por unidade",
-              "Todos os procedimentos do SIA-PA, por mês de processamento (movimento), unidade e procedimento SIGTAP.",
-              atualizacao)
-
-  # 03 Internamentos ----------------------------------------------------------------
-  int <- sih[, .(INTERNACOES = sum(N_AIH[INTERNACAO]), AIH_TOTAL = sum(N_AIH), DIARIAS = sum(DIARIAS),
-                 OBITOS = sum(OBITOS[INTERNACAO]), VALOR_TOTAL = sum(VALOR_TOTAL),
-                 VALOR_SH = sum(VALOR_SH), VALOR_SP = sum(VALOR_SP)),
-             by = .(COMPETENCIA, CNES, PROC = PROC_REA, ESPEC, CAR_INT, COMPLEX)]
-  int[, `:=`(LEITO = fcoalesce(unname(ESPEC_LEITO[ESPEC]), paste("Especialidade", ESPEC)),
-             CARATER = fcoalesce(unname(CARATER[CAR_INT]), paste("Caráter", CAR_INT)),
-             COMPLEXIDADE = fifelse(COMPLEX == "02", "Média", fifelse(COMPLEX == "03", "Alta", COMPLEX)))]
-  int <- merge(int, proc[, .(PROC, NO_PROCEDIMENTO, CO_GRUPO, NO_GRUPO)], by = "PROC", all.x = TRUE)
-  int[, c("ESPEC", "CAR_INT", "COMPLEX") := NULL]
-  setcolorder(int, c("COMPETENCIA", "CNES", "LEITO", "CARATER", "COMPLEXIDADE", "CO_GRUPO", "NO_GRUPO", "PROC", "NO_PROCEDIMENTO"))
-  int <- com_unidade(int, unidades)
-  gravar_tema_por_ano("03_internamentos", int, "Internamentos (SIH) por unidade",
-              paste("AIH aprovadas por mês de processamento, unidade, especialidade do leito, caráter,",
-                    "complexidade e procedimento realizado. INTERNACOES e OBITOS contam só AIH normal (IDENT 1);",
-                    "AIH_TOTAL e os valores incluem as de longa permanência (IDENT 5)."),
-              atualizacao)
-
-  # 04 Transplantes ---------------------------------------------------------------
-  tx_amb <- sia[substr(PA_PROC_ID, 1, 4) == SUBGRUPO_TRANSPLANTE,
-                .(QUANTIDADE = sum(QTD_APROVADA), VALOR = sum(VALOR_APROVADO)),
-                by = .(COMPETENCIA, CNES, PROC = PA_PROC_ID)][, ORIGEM := "Ambulatorial (SIA)"]
-  tx_hosp <- sih[substr(PROC_REA, 1, 4) == SUBGRUPO_TRANSPLANTE,
-                 .(QUANTIDADE = sum(N_AIH[INTERNACAO]), VALOR = sum(VALOR_TOTAL)),
-                 by = .(COMPETENCIA, CNES, PROC = PROC_REA)][, ORIGEM := "Hospitalar (SIH)"]
-  tx <- merge(rbind(tx_amb, tx_hosp), proc[, .(PROC, NO_PROCEDIMENTO)], by = "PROC", all.x = TRUE)
-  setcolorder(tx, c("COMPETENCIA", "CNES", "ORIGEM", "PROC", "NO_PROCEDIMENTO"))
-  tx <- com_unidade(tx, unidades)
-  gravar_tema("04_transplantes", list(Mensal = tx), "Órgãos e tecidos transplantados",
-              paste("Procedimentos do subgrupo SIGTAP 05.05 (transplante de órgãos, tecidos e células),",
-                    "no SIA (quantidade aprovada) e no SIH (AIH normal pelo procedimento realizado)."),
-              atualizacao, csv = tx)
-
-  # 05 e 06 Consultas -----------------------------------------------------------
-  consultas <- function(cod) {
-    x <- sia[PA_PROC_ID == cod, .(QTD_APRESENTADA = sum(QTD_APRESENTADA), QTD_APROVADA = sum(QTD_APROVADA),
-                                  VALOR_APROVADO = sum(VALOR_APROVADO)),
-             by = .(COMPETENCIA, CNES, CBO)]
-    x <- merge(x, sig$ocup, by = "CBO", all.x = TRUE)
-    x[, NO_OCUPACAO := fcoalesce(NO_OCUPACAO, fifelse(CBO == "", "CBO não informado", paste("CBO", CBO)))]
-    setcolorder(x, c("COMPETENCIA", "CNES", "CBO", "NO_OCUPACAO"))
-    x <- com_unidade(x, unidades)
-    por_unidade <- x[, .(QTD_APROVADA = sum(QTD_APROVADA), VALOR_APROVADO = sum(VALOR_APROVADO)),
-                     by = c("ANO", "MES", "COMPETENCIA", COLS_UNIDADE)]
-    list(detalhe = x, abas = c(list(`Por unidade` = por_unidade), abas_por_ano(x, "Por CBO ")))
+  # 02 Internamentos por grupo de procedimento
+  int[, GRUPO_PROC := paste(GRUPO, nome_grupo(GRUPO))]
+  abas_int <- list(Geral = geral(int, "GRUPO_PROC", anos, "AIH", larg_grupo))
+  for (g in GRUPOS_PROC) {
+    x <- int[GRUPO == g]
+    if (nrow(x)) abas_int[[ABA_GRUPO[[g]]]] <- unidades_ano(x, unidades, anos, "AIH")
   }
-  cm <- consultas(CONSULTA_MEDICA_ESPECIALIZADA)
-  gravar_tema("05_consultas_medicas_especializadas", cm$abas, "Consultas médicas especializadas",
-              sprintf("SIA, procedimento SIGTAP %s (consulta médica em atenção especializada), por unidade e CBO do profissional.",
-                      CONSULTA_MEDICA_ESPECIALIZADA), atualizacao, csv = cm$detalhe)
-  cs <- consultas(CONSULTA_NIVEL_SUPERIOR)
-  gravar_tema("06_consultas_nivel_superior", cs$abas, "Consultas de nível superior (exceto médico)",
-              sprintf(paste("SIA, procedimento SIGTAP %s (consulta de profissionais de nível superior na atenção",
-                            "especializada, exceto médico), por unidade e CBO do profissional."),
-                      CONSULTA_NIVEL_SUPERIOR), atualizacao, csv = cs$detalhe)
+  gravar_planilha("02_internamentos", abas_int, "Internamentos por grupo de procedimento",
+                  paste("SIH (AIH reduzida), grupo do procedimento realizado (PROC_REA), grupos",
+                        paste(GRUPOS_PROC, collapse = ", "), ". Produção = número de AIH, incluindo as de longa",
+                        "permanência (Freqüência do RD_PE.DEF, padrão da área); valor = valor total da AIH (VAL_TOT)."),
+                  atualizacao, csv = csv_tema(int, unidades, "GRUPO_PROC"))
 
-  # 07 Partos ----------------------------------------------------------------------
-  pt <- merge(sih[PROC_REA %chin% PARTOS$PROC], PARTOS, by.x = "PROC_REA", by.y = "PROC")
-  pt <- pt[, .(PARTOS = sum(N_AIH[INTERNACAO]), VALOR_TOTAL = sum(VALOR_TOTAL)),
-           by = .(COMPETENCIA, CNES, TIPO_PARTO, DETALHE, PROC = PROC_REA)]
-  pt <- merge(pt, proc[, .(PROC, NO_PROCEDIMENTO)], by = "PROC", all.x = TRUE)
-  setcolorder(pt, c("COMPETENCIA", "CNES", "TIPO_PARTO", "DETALHE", "PROC", "NO_PROCEDIMENTO"))
-  pt <- com_unidade(pt, unidades)
-  pt_tipo <- dcast(pt, ANO + MES + COMPETENCIA + TIPO_REDE + MODELO_GESTAO + CNES + UNIDADE + TIPO_UNIDADE +
-                     MUNICIPIO + REGIAO_SAUDE ~ TIPO_PARTO, value.var = "PARTOS", fun.aggregate = sum)
-  tipos_pt <- intersect(c("Parto normal", "Parto cesáreo"), names(pt_tipo))
-  pt_tipo[, PARTOS_TOTAL := rowSums(.SD), .SDcols = tipos_pt]
-  if ("Parto cesáreo" %in% names(pt_tipo)) pt_tipo[, PERC_CESAREO := round(100 * `Parto cesáreo` / PARTOS_TOTAL, 1)]
-  pt_tipo[, ORDEM_ := match(TIPO_REDE, c("Rede própria", "OSS", "Complementar"))]
-  setorder(pt_tipo, ANO, COMPETENCIA, ORDEM_, UNIDADE)[, ORDEM_ := NULL]
-  gravar_tema("07_partos", list(`Por tipo de parto` = pt_tipo, Detalhe = pt), "Partos realizados",
-              paste("AIH normal (IDENT 1) pelo procedimento realizado:", paste(sprintf("%s (%s, %s)", PARTOS$PROC,
-                    tolower(PARTOS$TIPO_PARTO), tolower(PARTOS$DETALHE)), collapse = "; ")),
-              atualizacao, csv = pt)
+  # 03 e 04 Consultas
+  for (tema in list(list("03_consultas_medicas_especializadas", cm, CONSULTA_MEDICA_ESPECIALIZADA,
+                         "Consultas médicas especializadas", "consulta médica em atenção especializada"),
+                    list("04_consultas_multiprofissionais", cs, CONSULTA_MULTIPROFISSIONAL,
+                         "Consultas multiprofissionais na atenção especializada",
+                         "consulta de profissionais de nível superior na atenção especializada, exceto médico"))) {
+    x <- tema[[2]]
+    gravar_planilha(tema[[1]],
+                    list(Geral = geral(x, "ESPECIALIDADE", anos, "Consultas", 55),
+                         Unidades = unidades_ano(x, unidades, anos, "Consultas")),
+                    tema[[4]],
+                    sprintf(paste("SIA, procedimento %s (%s). Aba Geral por ocupação do profissional (CBO), como a linha",
+                                  "Profissional-CBO do TabWin. Produção = quantidade aprovada; valor = valor aprovado."),
+                            tema[[3]], tema[[5]]),
+                    atualizacao, csv = csv_tema(x, unidades, "ESPECIALIDADE"))
+  }
 
-  # 00 Consolidado geral: uma aba por tipo de produção, uma linha por unidade,
-  # Produção | Valor por ano --------------------------------------------------
-  gravar_tema("00_consolidado_geral", list(
-    `1. Geral` = resumo_largo(geral_a, unidades, NULL, "VALOR_TOTAL"),
-    `2. Internações` = resumo_largo(geral_a, unidades, "INTERNACOES", "VALOR_HOSPITALAR", "Internações"),
-    `3. Ambulatoriais` = resumo_largo(geral_a, unidades, "QTD_AMBULATORIAL", "VALOR_AMBULATORIAL", "Procedimentos"),
-    `4. Transplantes` = resumo_largo(tx, unidades, "QUANTIDADE", "VALOR", "Transplantes"),
-    `5. Consultas médicas espec.` = resumo_largo(cm$detalhe, unidades, "QTD_APROVADA", "VALOR_APROVADO", "Consultas"),
-    `6. Consultas nível superior` = resumo_largo(cs$detalhe, unidades, "QTD_APROVADA", "VALOR_APROVADO", "Consultas"),
-    `7. Partos` = resumo_largo(pt, unidades, "PARTOS", "VALOR_TOTAL", "Partos")),
-    "Consolidado geral por unidade",
-    paste("Uma aba por tipo de produção; uma linha por unidade; para cada ano, Produção e Valor (R$), com",
-          "subtotal por tipo de rede e total geral. 1. Geral: só o valor total (ambulatorial + hospitalar), pois",
-          "procedimentos e internações não se somam. 2. Internações: AIH normal (IDENT 1) e valor total das AIH (SIH).",
-          "3. Ambulatoriais: quantidade e valor aprovados de todos os procedimentos do SIA. 4. Transplantes: subgrupo",
-          "SIGTAP 05.05 no SIA e no SIH. 5. Consultas médicas especializadas: 0301010072. 6. Consultas de nível",
-          "superior (exceto médico): 0301010048. 7. Partos: AIH de parto normal e cesáreo. Detalhes nas planilhas 01 a 07."),
-    atualizacao)
+  # 05 Partos (todo o estado, por gestão)
+  pt_ger <- rbind(
+    pt[, .(QTD = sum(QTD), VALOR = sum(VALOR)), by = .(TIPO_PARTO, SUBTIPO, GESTAO, ANO)],
+    pt[, .(SUBTIPO = "Total do tipo", QTD = sum(QTD), VALOR = sum(VALOR)), by = .(TIPO_PARTO, GESTAO, ANO)],
+    pt[, .(TIPO_PARTO = "Total geral", SUBTIPO = "", QTD = sum(QTD), VALOR = sum(VALOR)), by = .(GESTAO, ANO)])
+  pt_ger <- rbind(pt_ger, pt_ger[, .(GESTAO = "Total", QTD = sum(QTD), VALOR = sum(VALOR)), by = .(TIPO_PARTO, SUBTIPO, ANO)])
+  w <- largo(pt_ger, c("TIPO_PARTO", "SUBTIPO", "GESTAO"), anos)
+  w[, `:=`(O1_ = match(TIPO_PARTO, c("Parto normal", "Parto cesáreo", "Total geral")),
+           O2_ = fifelse(SUBTIPO == "Total do tipo", 99L, match(SUBTIPO, PARTOS$SUBTIPO, nomatch = 0L)),
+           O3_ = match(GESTAO, c("Estadual", "Municipal", "Não definida", "Total"), nomatch = 50L))]
+  setorder(w, O1_, O2_, O3_)
+  tot <- which(w$SUBTIPO == "Total do tipo" | w$TIPO_PARTO == "Total geral" | w$GESTAO == "Total")
+  w[, c("O1_", "O2_", "O3_") := NULL]
+  setnames(w, c("TIPO_PARTO", "SUBTIPO", "GESTAO"), c("TIPO_DE_PARTO", "PROCEDIMENTO", "GESTAO"))
+  abas_pt <- list(Geral = tabela(w, c("TIPO_DE_PARTO", "PROCEDIMENTO", "GESTAO"), anos, "Partos", tot, c(16, 42, 12)))
+  for (tp in c("Parto normal", "Parto cesáreo")) abas_pt[[tp]] <- unidades_ano(pt[TIPO_PARTO == tp], unidades, anos, "Partos", "GESTAO")
+  gravar_planilha("05_partos", abas_pt, "Partos por tipo de parto e gestão",
+                  paste("SIH, procedimento realizado entre os 6 do PROCOBS2C.CNV (Proced obst do TabWin): parto normal",
+                        "(0310010039, 0310010047, 0310010055) e cesáreo (0411010034, 0411010026, 0411010042).",
+                        "TODO O ESTADO, por gestão (campo GESTAO da AIH: Estadual/Municipal). Produção = número de AIH;",
+                        "valor = valor total da AIH. Nas abas por tipo, as unidades estão agrupadas por gestão."),
+                  atualizacao, csv = csv_tema(pt, unidades, c("GESTAO", "TIPO_PARTO", "SUBTIPO")))
+
+  # 00 Unidades
+  gravar_planilha("00_unidades", list(Unidades = unidades[, .(CNES, UNIDADE, TIPO_REDE, MODELO_GESTAO, TIPO_UNIDADE,
+                                                               NATUREZA, NAT_JUR, NA_LISTA_SES, MUNICIPIO, REGIAO_SAUDE,
+                                                               MACRORREGIAO)]),
+                  "Cadastro das unidades", "Uma linha por CNES que aparece em alguma planilha.", atualizacao)
 
   gravar_csv(data.table(FONTE = c("SIA", "SIH"), ULTIMO_MES = c(max(sia$PA_MVM), max(sih$COMPETENCIA)),
                         GERADO_EM = atualizacao$em), file.path(PLAN, "atualizacao.csv"))

@@ -11,39 +11,39 @@ saída são planilhas e não um painel.
 
 ## Planilhas
 
-Ficam em `planilhas/` (Excel, com aba **Leia-me** explicando a regra) e
-`planilhas/csv/` (o mesmo conteúdo, separado por `;` e com vírgula decimal).
+As regras seguem as tabulações do TabWin usadas pela SES (`T:\Tabaih08\RD_PE.DEF`
+e `T:\TabSia08\Prod_PE.def`), que leem os mesmos arquivos `.dbc` do FTP do
+DATASUS. Ficam em `planilhas/` (Excel, com aba **Leia-me** explicando a regra) e
+`planilhas/csv/` (base longa de cada tema: unidade × dimensão × ano, separada por
+`;` e com vírgula decimal). Em todas as tabelas: **para cada ano, produção e valor**,
+com subtotais e total geral.
 
-| Arquivo | Conteúdo | Fonte e regra |
-|---|---|---|
-| `00_consolidado_geral` | **Consolidado em formato de relatório**: uma aba por tipo de produção (1. Geral, 2. Internações, 3. Ambulatoriais, 4. Transplantes, 5. Consultas médicas especializadas, 6. Consultas de nível superior, 7. Partos). Uma linha por unidade; para cada ano, Produção e Valor (R$); subtotal por tipo de rede e total geral. Na aba Geral só há valor, porque procedimentos e internações não se somam | Planilhas 01 a 07 |
-| `00_unidades` | Cadastro das unidades com produção: tipo de rede, modelo de gestão, tipo, natureza jurídica, município, região de saúde | Lista validada da SES + CNES-ST |
-| `01_producao_geral` | Abas **Resumo anual**, **Mensal** e **Por grupo SIGTAP**: quantidade e valor ambulatorial, internações, AIH, diárias, valor hospitalar e valor total | SIA (aprovado) + SIH |
-| `02_procedimentos_ambulatoriais_AAAA` | Um arquivo por ano: unidade × mês × procedimento, com quantidade e valor apresentados e aprovados | SIA-PA, todos os procedimentos |
-| `03_internamentos_AAAA` | Um arquivo por ano: unidade × mês × especialidade do leito × caráter × complexidade × procedimento realizado; internações, AIH, diárias, óbitos e valores (total, SH, SP) | SIH-RD |
-| `04_transplantes` | Órgãos e tecidos transplantados, por unidade, mês e procedimento | Subgrupo SIGTAP 05.05, no SIA e no SIH |
-| `05_consultas_medicas_especializadas` | Aba **Por unidade** e abas **Por CBO** (especialidade do médico) | SIA, procedimento 0301010072 |
-| `06_consultas_nivel_superior` | Idem, por CBO do profissional | SIA, procedimento 0301010048 (exceto médico) |
-| `07_partos` | Aba **Por tipo de parto** (normal, cesáreo, total e % cesáreo) e **Detalhe** por procedimento | SIH, AIH 0310010039, 0310010055, 0310010047, 0411010034, 0411010026, 0411010042 |
-| `atualizacao.csv` | Último mês disponível de cada fonte e data da geração | |
-
-Colunas comuns: `ANO`, `MES`, `COMPETENCIA` (AAAAMM), `TIPO_REDE`,
-`MODELO_GESTAO`, `CNES`, `UNIDADE`, `TIPO_UNIDADE`, `MUNICIPIO`, `REGIAO_SAUDE`.
+| Arquivo | Abas | Produção | Valor |
+|---|---|---|---|
+| `01_procedimentos_ambulatoriais` | **Geral** (grupo de procedimento × ano) e **Unidades** | SIA, quantidade aprovada, grupos SIGTAP 02 a 05 | Valor aprovado |
+| `02_internamentos` | **Geral** (grupo × ano) e uma aba por grupo: **02 Diagnóstico**, **03 Clínicos**, **04 Cirúrgicos**, **05 Transplantes** (unidades × ano) | SIH, número de AIH pelo grupo do procedimento realizado, **incluindo as de longa permanência** (Freqüência do TabWin, padrão da área) | Valor total da AIH |
+| `03_consultas_medicas_especializadas` | **Geral** (especialidade/CBO × ano) e **Unidades** | SIA, procedimento 0301010072, quantidade aprovada | Valor aprovado |
+| `04_consultas_multiprofissionais` | **Geral** (CBO × ano) e **Unidades** | SIA, procedimento 0301010048 (nível superior, exceto médico) | Valor aprovado |
+| `05_partos` | **Geral** (tipo e procedimento × gestão × ano) e **Parto normal** / **Parto cesáreo** (unidades agrupadas por gestão) | SIH, AIH dos 6 procedimentos do `PROCOBS2C.CNV`: normal (0310010039, 0310010047, 0310010055) e cesáreo (0411010034, 0411010026, 0411010042). **Todo o estado**, gestão estadual e municipal | Valor total da AIH |
+| `00_unidades` | Cadastro das unidades que aparecem nas planilhas | | |
+| `atualizacao.csv` | Último mês disponível de cada fonte e data da geração | | |
 
 ## Regras
 
-**Tipo de rede**
+**Unidades dos temas 01 a 04 (rede estadual)**
 
-| TIPO_REDE | Quem entra | Produção considerada |
+| Tipo de rede | Quem entra | Produção considerada |
 |---|---|---|
-| Rede própria | Lista validada (`referencias/estabelecimentos_validados.csv`), vínculo `REDE_PROPRIA_ESTADUAL` ou `ESTADUAL_ADM_INDIRETA`, modelo de gestão Gestão direta, 06 grandes ou Administração indireta | Toda, qualquer gestor |
-| OSS | Lista validada, modelo de gestão `OSS` | Toda, qualquer gestor |
-| Complementar | Prestadores privados e filantrópicos: natureza jurídica do CNES começando por 2 (exceto empresa pública 2011 e sociedade de economia mista 2038), 3 ou 4 | Só a faturada pelo gestor estadual (`PA_GESTAO` / `UF_ZI` = 260000) |
-| Rede própria – "Estadual fora da lista SES" | Estabelecimentos da administração pública estadual no CNES (natureza jurídica 102-3, 111-2, 114-7 etc.) que não estão na lista validada: assistência farmacêutica, laboratórios, unidades móveis | Só a faturada pelo gestor estadual |
+| Rede própria | Lista validada (`referencias/estabelecimentos_validados.csv`), vínculo `REDE_PROPRIA_ESTADUAL` ou `ESTADUAL_ADM_INDIRETA`, modelo 06 grandes, Gestão direta ou Administração indireta | Toda, qualquer gestão |
+| OSS | Lista validada, modelo `OSS` | Toda, qualquer gestão |
+| Rede própria – "Estadual fora da lista SES" | Estabelecimentos da administração pública estadual no CNES (natureza jurídica 102-3, 111-2 etc.) fora da lista: laboratórios, unidades móveis, assistência farmacêutica | Só sob gestão estadual |
+| Complementar | Referências fora da rede da lista validada (inclui o Hospital das Clínicas) e prestadores privados/filantrópicos (natureza jurídica 2xxx, exceto empresa pública e sociedade de economia mista, 3xxx e 4xxx) | Só sob gestão estadual |
 
-Estabelecimentos públicos municipais e federais (como o HC/EBSERH) ficam de fora. A coluna `NA_LISTA_SES` em `00_unidades` mostra quais
-unidades estão na lista validada (para a complementar, as que constam como
-"Referência fora da rede").
+Os partos (tema 05) incluem **todas** as unidades de PE, com a gestão separada.
+
+**Gestão**, como no TabWin da SES: no SIH, campo `GESTAO` da AIH (E/2 estadual,
+M/1 municipal, `GESTAO.CNV`); no SIA, `PA_CONDIC` (E estadual, P municipal, D
+dupla, `TPGESTAO.CNV`). A seleção "Gestão: Estadual" dos logs da área é E.
 
 **Período e competência.** Mês de processamento: no SIA, o movimento
 (`PA_MVM`); no SIH, `ANO_CMPT`/`MES_CMPT`. Vai de 01/2019 até 12/2026 (ou o
@@ -51,10 +51,9 @@ unidades estão na lista validada (para a complementar, as que constam como
 anteriores, então **os últimos 3 a 4 meses são parciais**. A base do SIA guarda
 também `PA_CMP` (competência de atendimento) para quem precisar dessa visão.
 
-**Quantidade.** SIA: quantidade aprovada (`PA_QTDAPR`); a apresentada
-(`PA_QTDPRO`) aparece ao lado nas planilhas de procedimentos e consultas.
-SIH: internações = AIH normal (`IDENT` 1); `AIH_TOTAL` inclui as de longa
-permanência (`IDENT` 5).
+**Quantidade.** SIA: quantidade aprovada (`PA_QTDAPR`), que é a Freqüência do
+`Prod_PE.def` (linha `GPA_QTDAPR`). SIH: número de AIH, incluindo as de longa
+permanência (`IDENT` 5), como a Freqüência do `RD_PE.DEF`.
 
 **Valor.** Valor aprovado do SIA (`PA_VALAPR`) e valor total da AIH no SIH
 (`VAL_TOT`), em R$, pela tabela SUS. **Não** inclui complementos estaduais,
@@ -68,10 +67,10 @@ início do `04_planilhas.R`. Para mudar o período, edite `inicio` e `fim` em `u
 
 | Script | O que faz | Saída |
 |---|---|---|
-| `01_unidades.R` | Baixa o CNES-ST de PE (último mês de cada ano) e guarda natureza jurídica, tipo e município de cada CNES | `dados/referencias/cnes_st_pe.csv` |
+| `01_unidades.R` | Baixa o CNES-ST de PE (primeiro e último mês de cada ano) e guarda natureza jurídica, tipo e município de cada CNES | `dados/referencias/cnes_st_pe.csv` |
 | `02_sia.R` | SIA-PA de PE por movimento, toda a produção do estado; agrega por movimento, competência, CNES, gestor, procedimento, CBO (só nas consultas 0301), município, tipo de unidade e de prestador, natureza jurídica, financiamento e instrumento de registro | `dados/sia/*.parquet` → `dados/saida/sia_unidades.parquet` |
 | `03_sih.R` | SIH-RD de PE por mês, todas as AIH do estado; agrega por competência, CNES, gestor, procedimento, leito, caráter, complexidade, tipo de AIH, natureza jurídica, município e financiamento | `dados/sih/*.parquet` → `dados/saida/sih_unidades.parquet` |
-| `04_planilhas.R` | Classifica as unidades, baixa o SIGTAP para os nomes e grava as planilhas | `planilhas/` |
+| `04_planilhas.R` | Classifica as unidades, baixa o SIGTAP para os nomes e grava as cinco planilhas temáticas | `planilhas/` |
 | `utils.R` | Funções comuns (FTP, leitura de .dbc, controle do que já foi processado) e configuração | |
 | `instalar_pacotes.R` | Instala os pacotes (rodar uma vez) | |
 
