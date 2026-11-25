@@ -1,4 +1,174 @@
 ﻿ANO;TIPO_REDE;MODELO_GESTAO;CNES;UNIDADE;MUNICIPIO;REGIAO_SAUDE;GRUPO_PROC;QTD;VALOR
+2023;Complementar;Complementar;2711303;AACD;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;53365;1100494,23
+2023;Complementar;Complementar;7323646;ARCOVERDE CENTRO DE DIAGNOSTICO LTDA;Arcoverde;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1117;300193,75
+2023;Complementar;Complementar;6697461;C D C;Cabo de Santo Agostinho;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;54392;255551,52
+2023;Complementar;Complementar;6697461;C D C;Cabo de Santo Agostinho;I Região de Saúde - PE;03 Procedimentos clínicos;55827;11583946,14
+2023;Complementar;Complementar;6697461;C D C;Cabo de Santo Agostinho;I Região de Saúde - PE;04 Procedimentos cirúrgicos;424;173260,97
+2023;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;77023;711031,81
+2023;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;59681;14182701,99
+2023;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;323;118186,75
+2023;Complementar;Complementar;6292275;CED;Carpina;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;8321;118480,12
+2023;Complementar;Complementar;3274780;CEDOC;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;667;116244,89
+2023;Complementar;Complementar;3722678;CEMUPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1527;459750,79
+2023;Complementar;Complementar;7951981;CENTRO DE MEDICINA NUCLEAR DE PETROLINA LTDA ME;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1021;333864,62
+2023;Complementar;Complementar;9138730;CENTRO DE NEFROLOGIA DO ARARIPE;Araripina;IX Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;24605;130849,58
+2023;Complementar;Complementar;9138730;CENTRO DE NEFROLOGIA DO ARARIPE;Araripina;IX Região de Saúde - PE;03 Procedimentos clínicos;23969;5466573,94
+2023;Complementar;Complementar;9138730;CENTRO DE NEFROLOGIA DO ARARIPE;Araripina;IX Região de Saúde - PE;04 Procedimentos cirúrgicos;187;50840,13
+2023;Complementar;Complementar;4018834;CENTRO DE TRATAMENTO RENAL;Jaboatão dos Guararapes;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;64533;408728,25
+2023;Complementar;Complementar;4018834;CENTRO DE TRATAMENTO RENAL;Jaboatão dos Guararapes;I Região de Saúde - PE;03 Procedimentos clínicos;59095;12561468,49
+2023;Complementar;Complementar;4018834;CENTRO DE TRATAMENTO RENAL;Jaboatão dos Guararapes;I Região de Saúde - PE;04 Procedimentos cirúrgicos;566;236694,14
+2023;Complementar;Complementar;0028118;CENTRO DIAGNOSTICO BORIS BERENSTEIN SA LTDA;Cabo de Santo Agostinho;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2997;691108,87
+2023;Complementar;Complementar;2429438;CENTRO HOSPITALAR DR JOSE EVOIDE DE MOURA;Afogados da Ingazeira;X Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1919;292415,49
+2023;Complementar;Complementar;6919138;CITOLAC LABORATORIO DE CITOLOGIA ANALISE CLINICA;Arcoverde;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;12344;175924,03
+2023;Complementar;Complementar;6428436;CITOMAXX;Escada;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;15973;227566,41
+2023;Complementar;Complementar;7936052;CITOMAXX;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;25279;360474,63
+2023;Complementar;Complementar;2351641;CLIMATIN;Serra Talhada;XI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;194;10689,4
+2023;Complementar;Complementar;9861483;CLINICA BORIS BERENSTEIN;Paulista;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1216;326800
+2023;Complementar;Complementar;7642458;CLINICA BORIS BERENSTEIN OLINDA;Olinda;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1778;357812,75
+2023;Complementar;Complementar;5660378;CLINICA DA IMAGEM;Vitória de Santo Antão;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;198;8910
+2023;Complementar;Complementar;2517000;CLINICA DIOCLECIO COUTINHO;Carpina;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3755;623507,07
+2023;Complementar;Complementar;2636808;CLINICA DO RIM;Carpina;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;33678;245964,29
+2023;Complementar;Complementar;2636808;CLINICA DO RIM;Carpina;II Região de Saúde - PE;03 Procedimentos clínicos;30886;6678157,16
+2023;Complementar;Complementar;2636808;CLINICA DO RIM;Carpina;II Região de Saúde - PE;04 Procedimentos cirúrgicos;202;63565,32
+2023;Complementar;Complementar;2434067;CLINICA DO RIM DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;70102;432133,57
+2023;Complementar;Complementar;2434067;CLINICA DO RIM DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;60345;12824644,93
+2023;Complementar;Complementar;2434067;CLINICA DO RIM DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;04 Procedimentos cirúrgicos;467;134122,35
+2023;Complementar;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;84561;608323,29
+2023;Complementar;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;03 Procedimentos clínicos;74591;15905913,95
+2023;Complementar;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;04 Procedimentos cirúrgicos;752;275352,95
+2023;Complementar;Complementar;2711699;CLINICA SANTA PAULA;Palmares;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2021;480330,65
+2023;Complementar;Complementar;3546039;COPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;347762;3761895,61
+2023;Complementar;Complementar;3546039;COPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;39519;395190
+2023;Complementar;Complementar;3546039;COPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;12661;6337886,13
+2023;Complementar;Complementar;5789656;CTRMS;Palmares;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;58500;340764,28
+2023;Complementar;Complementar;5789656;CTRMS;Palmares;III Região de Saúde - PE;03 Procedimentos clínicos;44802;9566866,46
+2023;Complementar;Complementar;5789656;CTRMS;Palmares;III Região de Saúde - PE;04 Procedimentos cirúrgicos;332;121455,95
+2023;Complementar;Complementar;2785242;CUPER;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;8907;1467848
+2023;Complementar;Complementar;6340512;DANIEL SALES DIAGNOSTICOS;Garanhuns;V Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;888;100164,44
+2023;Complementar;Complementar;0001449;DAVITA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;74738;370211,34
+2023;Complementar;Complementar;2708019;DAVITA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;42871;204041,3
+2023;Complementar;Complementar;3240509;DAVITA;Olinda;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;15302;73732,96
+2023;Complementar;Complementar;0001449;DAVITA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;73856;15771164,82
+2023;Complementar;Complementar;2708019;DAVITA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;41338;9052226,46
+2023;Complementar;Complementar;3240509;DAVITA;Olinda;I Região de Saúde - PE;03 Procedimentos clínicos;16727;3548511,71
+2023;Complementar;Complementar;0001449;DAVITA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;803;366476,82
+2023;Complementar;Complementar;2708019;DAVITA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;316;148933,52
+2023;Complementar;Complementar;3240509;DAVITA;Olinda;I Região de Saúde - PE;04 Procedimentos cirúrgicos;87;49695,51
+2023;Complementar;Complementar;2349833;DAVITA PETROLINA;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;17546;82231,92
+2023;Complementar;Complementar;2349833;DAVITA PETROLINA;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;20622;4743062,86
+2023;Complementar;Complementar;2349833;DAVITA PETROLINA;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;137;52305,79
+2023;Complementar;Complementar;0002038;DAVITA RECIFE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;57235;273664,36
+2023;Complementar;Complementar;0002038;DAVITA RECIFE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;57721;12444800,51
+2023;Complementar;Complementar;0002038;DAVITA RECIFE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;522;239275,95
+2023;Complementar;Complementar;9841199;DIA MEDICINA NUCLEAR;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1749;622193,7
+2023;Complementar;Complementar;6939651;DIAGIMAGEM;Vitória de Santo Antão;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;490;23588,92
+2023;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1197505;19111588,56
+2023;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;574429;3367758,99
+2023;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;41081;9723507,49
+2023;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;1214;612720
+2023;Complementar;Complementar;3481506;FUNDACAO ALTINO VENTURA 2;Salgueiro;VII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;26612;273792,93
+2023;Complementar;Complementar;3481506;FUNDACAO ALTINO VENTURA 2;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;3813;38130
+2023;Complementar;Complementar;3481506;FUNDACAO ALTINO VENTURA 2;Salgueiro;VII Região de Saúde - PE;04 Procedimentos cirúrgicos;981;314193,88
+2023;Complementar;Complementar;7962312;GOIANA DIAGNOSTICO POR IMAGEM;Goiana;XII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;215;19767
+2023;Complementar;Complementar;2711842;HLA DIAGNOSTICO;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;21893;14883349,32
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;557634;9041045,76
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;319937;12700437,34
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;14179;739198,01
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;1988;312590,64
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;724524;12395645,51
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;358583;48678366,26
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;7198;187622,98
+2023;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;64809;1143042,47
+2023;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;16486;523278,1
+2023;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;6099;1428592,44
+2023;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;18;37260
+2023;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;149954;1732564,9
+2023;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;51594;11318910,34
+2023;Complementar;Complementar;2703041;HOSPITAL E MATERNIDADE ALCIDES CURSINO;Buíque;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2091;15423,57
+2023;Complementar;Complementar;2703041;HOSPITAL E MATERNIDADE ALCIDES CURSINO;Buíque;VI Região de Saúde - PE;03 Procedimentos clínicos;4030;34105,1
+2023;Complementar;Complementar;2703041;HOSPITAL E MATERNIDADE ALCIDES CURSINO;Buíque;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;19;275,72
+2023;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;47214;285788,09
+2023;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;37169;7406351,63
+2023;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;290;94939,28
+2023;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;9470;252868,16
+2023;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;25454;3948764,4
+2023;Complementar;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3985;493272,07
+2023;Complementar;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;736;126076
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;232469;3288847,43
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;67300;13946316,09
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;404;163224,58
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;17130;4456703,37
+2023;Complementar;Complementar;2777460;HOSPITAL SANTO AMARO;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;600;57333,44
+2023;Complementar;Complementar;2354551;HOSPITAL SAO LUIZ;Surubim;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;371;20442,1
+2023;Complementar;Complementar;9166297;HUMANA DIAGNOSTICOS;Santa Cruz do Capibaribe;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;647;71693,02
+2023;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;86014;1230593,28
+2023;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;12615;106625,1
+2023;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;7;208,88
+2023;Complementar;Complementar;2516802;IHENE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;97759;3286935,67
+2023;Complementar;Complementar;2516802;IHENE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;57934;888340
+2023;Complementar;Complementar;9197184;IMAG;Vitória de Santo Antão;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1662;342278,85
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1261187;18659977,15
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;806176;42575345,45
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;10420;422659,71
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;20289;3557322,97
+2023;Complementar;Complementar;6218458;IMIP SALGUEIRO;Salgueiro;VII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;26169;137634,24
+2023;Complementar;Complementar;6218458;IMIP SALGUEIRO;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;24608;5178389,02
+2023;Complementar;Complementar;6218458;IMIP SALGUEIRO;Salgueiro;VII Região de Saúde - PE;04 Procedimentos cirúrgicos;214;51602,66
+2023;Complementar;Complementar;6984703;INCITO DIAGNOSTICO LTDA;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;23963;341704,76
+2023;Complementar;Complementar;7204523;INSTITUTO DE DIAGNOSTICO JOSE ROCHA DE SA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3959;702331,3
+2023;Complementar;Complementar;9337474;INSTITUTO DE DIAGNOSTICO JOSE ROCHA DE SA LTDA EPP;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2076;493189,05
+2023;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;573;160143,19
+2023;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;519;5624,72
+2023;Complementar;Complementar;2345889;INSTITUTO PERNAMBUCANO I P;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;9980;1405681,5
+2023;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;47536;737277,29
+2023;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;11495;115229,7
+2023;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1917;855420,46
+2023;Complementar;Complementar;2430843;IRWAM;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;459;2179069
+2023;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;20070;104353,96
+2023;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;18540;3950904,87
+2023;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;131;28161,55
+2023;Complementar;Complementar;9115641;LABORATORIO EXAMES;Sertânia;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;8359;119170,48
+2023;Complementar;Complementar;5530032;LABORATORIO LUIZ CELSO;Surubim;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3833;54651,86
+2023;Complementar;Complementar;2351609;LACLIM;Limoeiro;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;6062;86366,69
+2023;Complementar;Complementar;3141020;LUCILO MARANHAO DIAGNOSTICOS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;409;18405
+2023;Complementar;Complementar;9013822;MAIS SAUDE;Ouricuri;IX Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2513;359908,01
+2023;Complementar;Complementar;2427397;MANOEL FLORENCIO DIAGNOSTICOS;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;557;1173721,54
+2023;Complementar;Complementar;3036219;MEDILAB;Limoeiro;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;5483;78168,01
+2023;Complementar;Complementar;7254237;MEDIMAGEM;Ouricuri;IX Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;219;21165,58
+2023;Complementar;Complementar;6629717;MG SERVICOS DE IMAGENS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;13609;2797866,52
+2023;Complementar;Complementar;3384748;MONTE SINAI DIAGNOSTICOS;Garanhuns;V Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;475;54846,84
+2023;Complementar;Complementar;0002003;MULTIMAGEM;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2786;661279,43
+2023;Complementar;Complementar;2350505;MULTLAB;Limoeiro;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;10235;145907,6
+2023;Complementar;Complementar;0002119;NEFROCENTRO;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;58043;372437,18
+2023;Complementar;Complementar;0002119;NEFROCENTRO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;54176;11528441,45
+2023;Complementar;Complementar;0002119;NEFROCENTRO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;336;133539,28
+2023;Complementar;Complementar;9641823;NEFROVIDA;Paulista;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;48202;292793,28
+2023;Complementar;Complementar;9641823;NEFROVIDA;Paulista;I Região de Saúde - PE;03 Procedimentos clínicos;39661;8445756,18
+2023;Complementar;Complementar;9641823;NEFROVIDA;Paulista;I Região de Saúde - PE;04 Procedimentos cirúrgicos;380;145525,88
+2023;Complementar;Complementar;9601554;NEPHRONCARE;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3083;10550,92
+2023;Complementar;Complementar;9601554;NEPHRONCARE;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;5772;1238252,04
+2023;Complementar;Complementar;9601554;NEPHRONCARE;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;92;18018,55
+2023;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;611683;6258939,41
+2023;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;81402;1476100,57
+2023;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;24494;9454986,69
+2023;Complementar;Complementar;3122573;PREVIMAGEM;Paulista;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;177;9752,7
+2023;Complementar;Complementar;2713497;PRONTO SOCORRO SAO FRANCISCO LTDA;Salgueiro;VII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;108;11298,64
+2023;Complementar;Complementar;3043568;R M SANTA EFIGENIA LTDA;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2871;610010,62
+2023;Complementar;Complementar;3293858;RADIODERME;Salgueiro;VII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1637;73665
+2023;Complementar;Complementar;5459605;SEDIMED;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1198;368976,12
+2023;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;114668;1486740,85
+2023;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;12950;135779,8
+2023;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;3860;1734943,9
+2023;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;6;12420
+2023;Complementar;Complementar;2428407;SERVICOS DE IMAGENS RADIOGRAFICAS DO RECIFE LTDA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;27584;5139265,43
+2023;Complementar;Complementar;3660710;SOS RIM;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;50387;249793,15
+2023;Complementar;Complementar;3660710;SOS RIM;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;76542;16395161,49
+2023;Complementar;Complementar;3660710;SOS RIM;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;599;147781,93
+2023;Complementar;Complementar;5315654;SOS RIM ARCOVERDE;Arcoverde;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;69758;438474,21
+2023;Complementar;Complementar;5315654;SOS RIM ARCOVERDE;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;50182;10612707,07
+2023;Complementar;Complementar;5315654;SOS RIM ARCOVERDE;Arcoverde;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;473;178569,54
+2023;Complementar;Complementar;5225000;UNIMAGEM;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3658;630026,77
+2023;Complementar;Complementar;7155735;UNINEURO GRACAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;6537;1756818,75
 2023;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;209279;1252065,31
 2023;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;03 Procedimentos clínicos;83453;397708,65
 2023;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2818;98597,93
@@ -118,6 +288,14 @@
 2023;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;177;2220,63
 2023;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;22009;360348,64
 2023;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;03 Procedimentos clínicos;29698;244664,06
+2023;Rede própria;Estadual fora da lista SES;2861135;1 GRUPAMENTO DE BOMBEIROS;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;161;3189,41
+2023;Rede própria;Estadual fora da lista SES;2836793;2 GRUPAMENTO DE BOMBEIROS;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;816;16164,96
+2023;Rede própria;Estadual fora da lista SES;0972096;3 GRUPAMENTO DE BOMBEIROS;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;1083;21454,23
+2023;Rede própria;Estadual fora da lista SES;0971545;4 GRUPAMENTO DE BOMBEIROS;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;1345;23511,85
+2023;Rede própria;Estadual fora da lista SES;2841274;5 GRUPAMENTO DE BOMBEIROS;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;1469;29100,89
+2023;Rede própria;Estadual fora da lista SES;2866366;6 GRUPAMENTO DE BOMBEIROS;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;761;15075,41
+2023;Rede própria;Estadual fora da lista SES;2876167;7 GRUPAMENTO DE BOMBEIROS;Carpina;II Região de Saúde - PE;03 Procedimentos clínicos;502;9944,62
+2023;Rede própria;Estadual fora da lista SES;2840758;9 GRUPAMENTO DE BOMBEIROS;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;822;16283,82
 2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;155091;945015,61
 2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;78514;611172,54
 2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1970;28265,25
@@ -125,6 +303,7 @@
 2023;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;375357;11083945,72
 2023;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;168;1879,34
 2023;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;5746;515163,6
+2023;Rede própria;Estadual fora da lista SES;2435608;GRUPAMENTO DE BOMBEIROS DE MEDICINA PREHOSPITALAR;Olinda;I Região de Saúde - PE;03 Procedimentos clínicos;20844;345879,9
 2023;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;532065;3048879,03
 2023;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;359432;2253501,93
 2023;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1539;58722,6
@@ -179,10 +358,205 @@
 2023;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;48696;182172,6
 2023;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;03 Procedimentos clínicos;57554;319682,4
 2023;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;04 Procedimentos cirúrgicos;48;237,08
+2023;Rede própria;Estadual fora da lista SES;2712075;LAB CENTRAL DE SAUDE PUB DR MILTON BEZERRA SOBRAL LACEN;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;91543;1002018,49
+2023;Rede própria;Estadual fora da lista SES;2632268;LABORATORIO CENTRAL V GERES;Garanhuns;V Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;22108;126600,59
+2023;Rede própria;Estadual fora da lista SES;2712105;LABORATORIO DA MULHER DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;19767;333476,94
+2023;Rede própria;Estadual fora da lista SES;2712105;LABORATORIO DA MULHER DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;1349;13490
+2023;Rede própria;Estadual fora da lista SES;2712105;LABORATORIO DA MULHER DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;68;1538,16
+2023;Rede própria;Estadual fora da lista SES;6772854;LABORATORIO DE SAUDE PUBLICA DA IV GERES;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;9469;24659,33
+2023;Rede própria;Estadual fora da lista SES;7708068;LABORATORIO DE SAUDE PUBLICA DA X GERES;Afogados da Ingazeira;X Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;258;0
+2023;Rede própria;Estadual fora da lista SES;7703597;LABORATORIO DE SAUDE PUBLICA DA XI GERES;Serra Talhada;XI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;4417;26964,86
+2023;Rede própria;Estadual fora da lista SES;2947080;LABORATORIO DE SAUDE PUBLICA III GERES;Palmares;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3065;5050,65
+2023;Rede própria;Estadual fora da lista SES;7703589;LABORATORIO DE SAUDE PUBLICA VII GERES;Salgueiro;VII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;654;5456,25
+2023;Rede própria;Estadual fora da lista SES;7731086;LABORATORIO DE SAUDE PUBLICA VIII GERES;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1951;10073,75
+2023;Rede própria;Estadual fora da lista SES;3840581;LABORATORIO DE SAUDE PUBLICA XII GERES;Goiana;XII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;408;0
+2023;Rede própria;Estadual fora da lista SES;2636379;LABORATORIO REGIONAL DE SAUDE;Limoeiro;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;113551;466291,46
 2023;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;277335;3985822,69
 2023;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;91055;718891,49
 2023;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;755;16585,69
 2023;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;9;10467,65
+2023;Rede própria;Estadual fora da lista SES;7408641;SAMU FERNANDO DE NORONHA;Fernando de Noronha;I Região de Saúde - PE;03 Procedimentos clínicos;210;0
+2024;Complementar;Complementar;2711303;AACD;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;57298;1187681,34
+2024;Complementar;Complementar;7323646;ARCOVERDE CENTRO DE DIAGNOSTICO LTDA;Arcoverde;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2676;719175
+2024;Complementar;Complementar;6850766;BARROS E CALAZANS CENTRO DE DIAGNOSTICOS LTDA;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;53;2920,3
+2024;Complementar;Complementar;6697461;C D C;Cabo de Santo Agostinho;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;61106;346345,93
+2024;Complementar;Complementar;6697461;C D C;Cabo de Santo Agostinho;I Região de Saúde - PE;03 Procedimentos clínicos;60243;13167974,62
+2024;Complementar;Complementar;6697461;C D C;Cabo de Santo Agostinho;I Região de Saúde - PE;04 Procedimentos cirúrgicos;418;175926,83
+2024;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;77871;1077861,94
+2024;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;58894;15309873,75
+2024;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;293;94863,32
+2024;Complementar;Complementar;6292275;CED;Carpina;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;5545;78975,1
+2024;Complementar;Complementar;3274780;CEDOC;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1861;282464,71
+2024;Complementar;Complementar;3722678;CEMUPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1177;325441,02
+2024;Complementar;Complementar;7951981;CENTRO DE MEDICINA NUCLEAR DE PETROLINA LTDA ME;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1049;338635,35
+2024;Complementar;Complementar;9138730;CENTRO DE NEFROLOGIA DO ARARIPE;Araripina;IX Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;25613;132905,74
+2024;Complementar;Complementar;9138730;CENTRO DE NEFROLOGIA DO ARARIPE;Araripina;IX Região de Saúde - PE;03 Procedimentos clínicos;25905;6256864,56
+2024;Complementar;Complementar;9138730;CENTRO DE NEFROLOGIA DO ARARIPE;Araripina;IX Região de Saúde - PE;04 Procedimentos cirúrgicos;225;75419,03
+2024;Complementar;Complementar;4018834;CENTRO DE TRATAMENTO RENAL;Jaboatão dos Guararapes;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;73381;468731,19
+2024;Complementar;Complementar;4018834;CENTRO DE TRATAMENTO RENAL;Jaboatão dos Guararapes;I Região de Saúde - PE;03 Procedimentos clínicos;64174;14537713,6
+2024;Complementar;Complementar;4018834;CENTRO DE TRATAMENTO RENAL;Jaboatão dos Guararapes;I Região de Saúde - PE;04 Procedimentos cirúrgicos;635;264003,15
+2024;Complementar;Complementar;0028118;CENTRO DIAGNOSTICO BORIS BERENSTEIN SA LTDA;Cabo de Santo Agostinho;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;971;220133,87
+2024;Complementar;Complementar;2429438;CENTRO HOSPITALAR DR JOSE EVOIDE DE MOURA;Afogados da Ingazeira;X Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3276;530889,3
+2024;Complementar;Complementar;7979304;CENTRO MEDICO ARMINDO MOURA;Moreno;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;88;10607,58
+2024;Complementar;Complementar;6919138;CITOLAC LABORATORIO DE CITOLOGIA ANALISE CLINICA;Arcoverde;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;12248;174613,41
+2024;Complementar;Complementar;6428436;CITOMAXX;Escada;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2598;37001,11
+2024;Complementar;Complementar;7936052;CITOMAXX;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;22920;326841,65
+2024;Complementar;Complementar;2351641;CLIMATIN;Serra Talhada;XI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;276;15207,6
+2024;Complementar;Complementar;9861483;CLINICA BORIS BERENSTEIN;Paulista;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1011;271706,25
+2024;Complementar;Complementar;7642458;CLINICA BORIS BERENSTEIN OLINDA;Olinda;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1239;307129,6
+2024;Complementar;Complementar;5660378;CLINICA DA IMAGEM;Vitória de Santo Antão;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1451;65295
+2024;Complementar;Complementar;2517000;CLINICA DIOCLECIO COUTINHO;Carpina;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;4006;655847,28
+2024;Complementar;Complementar;6727786;CLINICA DO CORACAO;Araripina;IX Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;33;3241,65
+2024;Complementar;Complementar;6727786;CLINICA DO CORACAO;Araripina;IX Região de Saúde - PE;03 Procedimentos clínicos;1;10
+2024;Complementar;Complementar;2636808;CLINICA DO RIM;Carpina;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;34897;252358,3
+2024;Complementar;Complementar;2636808;CLINICA DO RIM;Carpina;II Região de Saúde - PE;03 Procedimentos clínicos;31540;7302611,76
+2024;Complementar;Complementar;2636808;CLINICA DO RIM;Carpina;II Região de Saúde - PE;04 Procedimentos cirúrgicos;184;75619,47
+2024;Complementar;Complementar;2434067;CLINICA DO RIM DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;70153;435589,94
+2024;Complementar;Complementar;2434067;CLINICA DO RIM DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;62416;14078247,66
+2024;Complementar;Complementar;2434067;CLINICA DO RIM DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;04 Procedimentos cirúrgicos;342;145988,25
+2024;Complementar;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;85935;621891,22
+2024;Complementar;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;03 Procedimentos clínicos;76105;17157612,17
+2024;Complementar;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;04 Procedimentos cirúrgicos;639;225868,95
+2024;Complementar;Complementar;2711699;CLINICA SANTA PAULA;Palmares;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2003;473570,3
+2024;Complementar;Complementar;3546039;COPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;216717;2843625,68
+2024;Complementar;Complementar;3546039;COPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;27110;271100
+2024;Complementar;Complementar;3546039;COPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;14554;6630062,03
+2024;Complementar;Complementar;5789656;CTRMS;Palmares;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;65755;391273,34
+2024;Complementar;Complementar;5789656;CTRMS;Palmares;III Região de Saúde - PE;03 Procedimentos clínicos;59385;11253864,89
+2024;Complementar;Complementar;5789656;CTRMS;Palmares;III Região de Saúde - PE;04 Procedimentos cirúrgicos;446;189330,78
+2024;Complementar;Complementar;2785242;CUPER;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;8676;1466988
+2024;Complementar;Complementar;6340512;DANIEL SALES DIAGNOSTICOS;Garanhuns;V Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1008;128193,15
+2024;Complementar;Complementar;0001449;DAVITA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;73337;344427,92
+2024;Complementar;Complementar;2708019;DAVITA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;48987;235142,62
+2024;Complementar;Complementar;3240509;DAVITA;Olinda;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;18610;88584,34
+2024;Complementar;Complementar;0001449;DAVITA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;74094;16885170,9
+2024;Complementar;Complementar;2708019;DAVITA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;46153;10579424,55
+2024;Complementar;Complementar;3240509;DAVITA;Olinda;I Região de Saúde - PE;03 Procedimentos clínicos;17970;4050348,27
+2024;Complementar;Complementar;0001449;DAVITA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;665;303263,96
+2024;Complementar;Complementar;2708019;DAVITA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;403;199249,51
+2024;Complementar;Complementar;3240509;DAVITA;Olinda;I Região de Saúde - PE;04 Procedimentos cirúrgicos;162;64448,09
+2024;Complementar;Complementar;2349833;DAVITA PETROLINA;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;16200;69650,39
+2024;Complementar;Complementar;2349833;DAVITA PETROLINA;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;20737;5039216
+2024;Complementar;Complementar;2349833;DAVITA PETROLINA;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;133;46811,38
+2024;Complementar;Complementar;0002038;DAVITA RECIFE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;56034;268740,4
+2024;Complementar;Complementar;0002038;DAVITA RECIFE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;55969;12763355,89
+2024;Complementar;Complementar;0002038;DAVITA RECIFE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;521;224606,5
+2024;Complementar;Complementar;9841199;DIA MEDICINA NUCLEAR;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1345;476673,91
+2024;Complementar;Complementar;6939651;DIAGIMAGEM;Vitória de Santo Antão;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1048;77708,3
+2024;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1423148;21087492,94
+2024;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;669437;4809876,54
+2024;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;51112;13011565,25
+2024;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;1343;754630
+2024;Complementar;Complementar;3481506;FUNDACAO ALTINO VENTURA 2;Salgueiro;VII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;62628;827901,95
+2024;Complementar;Complementar;3481506;FUNDACAO ALTINO VENTURA 2;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;14730;83657
+2024;Complementar;Complementar;3481506;FUNDACAO ALTINO VENTURA 2;Salgueiro;VII Região de Saúde - PE;04 Procedimentos cirúrgicos;3217;1091967,45
+2024;Complementar;Complementar;7962312;GOIANA DIAGNOSTICO POR IMAGEM;Goiana;XII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1951;337558,36
+2024;Complementar;Complementar;2711842;HLA DIAGNOSTICO;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;24796;17438188,61
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;589795;10118576,99
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;351934;14126054,76
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;14326;661530,92
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;2282;268711,16
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;803625;14163120,95
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;398364;54004474,45
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;9890;259892,29
+2024;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;77571;1426901,85
+2024;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;17931;749802,48
+2024;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;7429;1924158,94
+2024;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;5;7763,6
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;184010;2567711,4
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;69157;12540222,69
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;56;1814,4
+2024;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;45255;276555,24
+2024;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;37359;8166105,92
+2024;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;259;97394,74
+2024;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;11229;266878,41
+2024;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;26825;4723878,25
+2024;Complementar;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3428;410645,87
+2024;Complementar;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;548;93998
+2024;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;235695;3494199,8
+2024;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;66801;14633970,03
+2024;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;409;172926,18
+2024;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;16568;5329355,39
+2024;Complementar;Complementar;2777460;HOSPITAL SANTO AMARO;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;74;8464,78
+2024;Complementar;Complementar;2354551;HOSPITAL SAO LUIZ;Surubim;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2330;239433,41
+2024;Complementar;Complementar;9166297;HUMANA DIAGNOSTICOS;Santa Cruz do Capibaribe;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;853;94696,65
+2024;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;126019;1469619,43
+2024;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;11337;98163,4
+2024;Complementar;Complementar;2516802;IHENE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;98453;3315377,69
+2024;Complementar;Complementar;2516802;IHENE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;58606;896920
+2024;Complementar;Complementar;9197184;IMAG;Vitória de Santo Antão;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1488;294219,14
+2024;Complementar;Complementar;0956724;IMEDIATA SAUDE SERVICOS DE RESSONANCIA MAGNETICA LTDA;Araripina;IX Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;664;178450
+2024;Complementar;Complementar;0956724;IMEDIATA SAUDE SERVICOS DE RESSONANCIA MAGNETICA LTDA;Araripina;IX Região de Saúde - PE;03 Procedimentos clínicos;1;10
+2024;Complementar;Complementar;7642288;IMEPE;Olinda;I Região de Saúde - PE;04 Procedimentos cirúrgicos;54;49999,68
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1438772;21417348,58
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;976249;47384653,52
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;14194;457189,91
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;22497;5104196,18
+2024;Complementar;Complementar;6218458;IMIP SALGUEIRO;Salgueiro;VII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;27656;146071,63
+2024;Complementar;Complementar;6218458;IMIP SALGUEIRO;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;26479;5978538,72
+2024;Complementar;Complementar;6218458;IMIP SALGUEIRO;Salgueiro;VII Região de Saúde - PE;04 Procedimentos cirúrgicos;158;35929,73
+2024;Complementar;Complementar;6984703;INCITO DIAGNOSTICO LTDA;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;20755;295948,35
+2024;Complementar;Complementar;7204523;INSTITUTO DE DIAGNOSTICO JOSE ROCHA DE SA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3855;698926,67
+2024;Complementar;Complementar;9337474;INSTITUTO DE DIAGNOSTICO JOSE ROCHA DE SA LTDA EPP;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1859;468627
+2024;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;982;293445,02
+2024;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;1132;12152,39
+2024;Complementar;Complementar;2345889;INSTITUTO PERNAMBUCANO I P;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;7549;995938,92
+2024;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;62252;1121274,43
+2024;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;12972;461002,49
+2024;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2345;1164480,05
+2024;Complementar;Complementar;2430843;IRWAM;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;522;2677072
+2024;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;22284;109087,48
+2024;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;22941;5136085,42
+2024;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;134;52885,06
+2024;Complementar;Complementar;9115641;LABORATORIO EXAMES;Sertânia;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;7972;113679,49
+2024;Complementar;Complementar;5530032;LABORATORIO LUIZ CELSO;Surubim;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3911;55787,67
+2024;Complementar;Complementar;2351609;LACLIM;Limoeiro;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;4677;66650,14
+2024;Complementar;Complementar;3141020;LUCILO MARANHAO DIAGNOSTICOS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;291;13123
+2024;Complementar;Complementar;9867600;LUCILO MARANHAO DIAGNOSTICOS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;169;35360,72
+2024;Complementar;Complementar;9013822;MAIS SAUDE;Ouricuri;IX Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;4863;658978,71
+2024;Complementar;Complementar;2427397;MANOEL FLORENCIO DIAGNOSTICOS;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;522;1099968,84
+2024;Complementar;Complementar;5333504;MAX DAY HOSPITAL;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;101;44262,24
+2024;Complementar;Complementar;3036219;MEDILAB;Limoeiro;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;6932;98855,59
+2024;Complementar;Complementar;7254237;MEDIMAGEM;Ouricuri;IX Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1673;144506,61
+2024;Complementar;Complementar;6629717;MG SERVICOS DE IMAGENS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;17064;3915681,59
+2024;Complementar;Complementar;3384748;MONTE SINAI DIAGNOSTICOS;Garanhuns;V Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;812;95623,16
+2024;Complementar;Complementar;0002003;MULTIMAGEM;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;876;172839,89
+2024;Complementar;Complementar;2350505;MULTLAB;Limoeiro;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;8447;120463,64
+2024;Complementar;Complementar;0002119;NEFROCENTRO;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;57731;376216,69
+2024;Complementar;Complementar;0002119;NEFROCENTRO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;54117;12203796,65
+2024;Complementar;Complementar;0002119;NEFROCENTRO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;406;158979,31
+2024;Complementar;Complementar;9641823;NEFROVIDA;Paulista;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;57629;400621,09
+2024;Complementar;Complementar;9641823;NEFROVIDA;Paulista;I Região de Saúde - PE;03 Procedimentos clínicos;44257;10025334,26
+2024;Complementar;Complementar;9641823;NEFROVIDA;Paulista;I Região de Saúde - PE;04 Procedimentos cirúrgicos;376;147294,73
+2024;Complementar;Complementar;9601554;NEPHRONCARE;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;10222;49892,79
+2024;Complementar;Complementar;9601554;NEPHRONCARE;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;12805;2946100,57
+2024;Complementar;Complementar;9601554;NEPHRONCARE;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;226;71553,59
+2024;Complementar;Complementar;3484599;NEURO IMAGEM;Arcoverde;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2805;311979,72
+2024;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;611123;6652324,06
+2024;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;89438;2512308,79
+2024;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;27960;11251603,23
+2024;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;2;4140
+2024;Complementar;Complementar;3122573;PREVIMAGEM;Paulista;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1342;81210,75
+2024;Complementar;Complementar;2713497;PRONTO SOCORRO SAO FRANCISCO LTDA;Salgueiro;VII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;350;36488,18
+2024;Complementar;Complementar;3043568;R M SANTA EFIGENIA LTDA;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2470;528158,53
+2024;Complementar;Complementar;3293858;RADIODERME;Salgueiro;VII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;289;13005
+2024;Complementar;Complementar;7884710;S B LABORATORIO DE ANALISE CLINICA;Serra Talhada;XI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3;165,3
+2024;Complementar;Complementar;9487158;SAUDE MAIS GRAVATA;Gravatá;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;308;36690,23
+2024;Complementar;Complementar;5459605;SEDIMED;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1296;397334,51
+2024;Complementar;Complementar;5459605;SEDIMED;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;108;54759,6
+2024;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;140818;1766524,75
+2024;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;14870;182728,4
+2024;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;3979;1854922,79
+2024;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;20;19895
+2024;Complementar;Complementar;2428407;SERVICOS DE IMAGENS RADIOGRAFICAS DO RECIFE LTDA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;28033;5593926,11
+2024;Complementar;Complementar;3660710;SOS RIM;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;46783;223959,24
+2024;Complementar;Complementar;3660710;SOS RIM;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;65538;14824417,59
+2024;Complementar;Complementar;3660710;SOS RIM;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;257;97300,56
+2024;Complementar;Complementar;5315654;SOS RIM ARCOVERDE;Arcoverde;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;65536;427352,85
+2024;Complementar;Complementar;5315654;SOS RIM ARCOVERDE;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;50714;11188682,95
+2024;Complementar;Complementar;5315654;SOS RIM ARCOVERDE;Arcoverde;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;527;182726,56
+2024;Complementar;Complementar;5225000;UNIMAGEM;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3709;608438,87
+2024;Complementar;Complementar;7155735;UNINEURO GRACAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;9140;2456375
 2024;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;218990;1281164,13
 2024;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;03 Procedimentos clínicos;90467;483691,76
 2024;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;04 Procedimentos cirúrgicos;4044;143726,6
@@ -304,6 +678,15 @@
 2024;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;34290;466460,8
 2024;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;03 Procedimentos clínicos;47409;383089,04
 2024;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;04 Procedimentos cirúrgicos;1;22,62
+2024;Rede própria;Estadual fora da lista SES;2861135;1 GRUPAMENTO DE BOMBEIROS;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;371;7349,51
+2024;Rede própria;Estadual fora da lista SES;2836793;2 GRUPAMENTO DE BOMBEIROS;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;1182;23415,42
+2024;Rede própria;Estadual fora da lista SES;0972096;3 GRUPAMENTO DE BOMBEIROS;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;1458;28882,98
+2024;Rede própria;Estadual fora da lista SES;0971545;4 GRUPAMENTO DE BOMBEIROS;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;1637;27335,09
+2024;Rede própria;Estadual fora da lista SES;2841274;5 GRUPAMENTO DE BOMBEIROS;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;1842;36490,02
+2024;Rede própria;Estadual fora da lista SES;2866366;6 GRUPAMENTO DE BOMBEIROS;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;656;12995,36
+2024;Rede própria;Estadual fora da lista SES;2876167;7 GRUPAMENTO DE BOMBEIROS;Carpina;II Região de Saúde - PE;03 Procedimentos clínicos;624;12361,44
+2024;Rede própria;Estadual fora da lista SES;2840758;9 GRUPAMENTO DE BOMBEIROS;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;1505;29814,05
+2024;Rede própria;Estadual fora da lista SES;7227000;CENTRO DE REFERENCIA EM SAUDE DO TRABALHADOR CEREST PE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;53;0
 2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;175329;1174402,46
 2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;82905;635295,37
 2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;3050;38998,4
@@ -311,6 +694,7 @@
 2024;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;381432;12111580,19
 2024;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;302;3696
 2024;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;5159;358319,9
+2024;Rede própria;Estadual fora da lista SES;2435608;GRUPAMENTO DE BOMBEIROS DE MEDICINA PREHOSPITALAR;Olinda;I Região de Saúde - PE;03 Procedimentos clínicos;19640;326044,31
 2024;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;475006;2916203,15
 2024;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;290593;2034169,83
 2024;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1602;61294,25
@@ -365,10 +749,202 @@
 2024;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;55182;208164,36
 2024;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;03 Procedimentos clínicos;66175;356771,77
 2024;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;04 Procedimentos cirúrgicos;14;0
+2024;Rede própria;Estadual fora da lista SES;2712075;LAB CENTRAL DE SAUDE PUB DR MILTON BEZERRA SOBRAL LACEN;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;101011;1455983,81
+2024;Rede própria;Estadual fora da lista SES;2632268;LABORATORIO CENTRAL V GERES;Garanhuns;V Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;5366;36762,82
+2024;Rede própria;Estadual fora da lista SES;2712105;LABORATORIO DA MULHER DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;17587;291096,65
+2024;Rede própria;Estadual fora da lista SES;2712105;LABORATORIO DA MULHER DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;1353;13530
+2024;Rede própria;Estadual fora da lista SES;2712105;LABORATORIO DA MULHER DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;51;1153,62
+2024;Rede própria;Estadual fora da lista SES;6772854;LABORATORIO DE SAUDE PUBLICA DA IV GERES;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;10010;46212,48
+2024;Rede própria;Estadual fora da lista SES;2947080;LABORATORIO DE SAUDE PUBLICA III GERES;Palmares;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;177;288,75
+2024;Rede própria;Estadual fora da lista SES;7703589;LABORATORIO DE SAUDE PUBLICA VII GERES;Salgueiro;VII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1929;31249,5
+2024;Rede própria;Estadual fora da lista SES;7731086;LABORATORIO DE SAUDE PUBLICA VIII GERES;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1434;767,5
+2024;Rede própria;Estadual fora da lista SES;3840581;LABORATORIO DE SAUDE PUBLICA XII GERES;Goiana;XII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1395;13520
+2024;Rede própria;Estadual fora da lista SES;2636379;LABORATORIO REGIONAL DE SAUDE;Limoeiro;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;130117;534610,2
 2024;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;335873;6719739,26
 2024;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;88670;701670,85
 2024;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1935;41096,2
 2024;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;17;23299,47
+2024;Rede própria;Estadual fora da lista SES;7408641;SAMU FERNANDO DE NORONHA;Fernando de Noronha;I Região de Saúde - PE;03 Procedimentos clínicos;242;0
+2025;Complementar;Complementar;2711303;AACD;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;60224;1243604,1
+2025;Complementar;Complementar;2711303;AACD;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;41;1328,4
+2025;Complementar;Complementar;7323646;ARCOVERDE CENTRO DE DIAGNOSTICO LTDA;Arcoverde;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2171;583456,25
+2025;Complementar;Complementar;6850766;BARROS E CALAZANS CENTRO DE DIAGNOSTICOS LTDA;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;168;9256,8
+2025;Complementar;Complementar;6697461;C D C;Cabo de Santo Agostinho;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;64973;367545,44
+2025;Complementar;Complementar;6697461;C D C;Cabo de Santo Agostinho;I Região de Saúde - PE;03 Procedimentos clínicos;59110;13517838,41
+2025;Complementar;Complementar;6697461;C D C;Cabo de Santo Agostinho;I Região de Saúde - PE;04 Procedimentos cirúrgicos;563;241491,83
+2025;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;69847;1227650,58
+2025;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;69527;15709530,42
+2025;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;362;116195,28
+2025;Complementar;Complementar;6292275;CED;Carpina;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3557;50693,54
+2025;Complementar;Complementar;3274780;CEDOC;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;4811;857923,35
+2025;Complementar;Complementar;3722678;CEMUPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;302;82967,57
+2025;Complementar;Complementar;7951981;CENTRO DE MEDICINA NUCLEAR DE PETROLINA LTDA ME;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1021;342475,29
+2025;Complementar;Complementar;9138730;CENTRO DE NEFROLOGIA DO ARARIPE;Araripina;IX Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;26137;134549,48
+2025;Complementar;Complementar;9138730;CENTRO DE NEFROLOGIA DO ARARIPE;Araripina;IX Região de Saúde - PE;03 Procedimentos clínicos;26299;6353081,89
+2025;Complementar;Complementar;9138730;CENTRO DE NEFROLOGIA DO ARARIPE;Araripina;IX Região de Saúde - PE;04 Procedimentos cirúrgicos;161;50686,82
+2025;Complementar;Complementar;4018834;CENTRO DE TRATAMENTO RENAL;Jaboatão dos Guararapes;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;77029;490734,22
+2025;Complementar;Complementar;4018834;CENTRO DE TRATAMENTO RENAL;Jaboatão dos Guararapes;I Região de Saúde - PE;03 Procedimentos clínicos;69897;15952994,37
+2025;Complementar;Complementar;4018834;CENTRO DE TRATAMENTO RENAL;Jaboatão dos Guararapes;I Região de Saúde - PE;04 Procedimentos cirúrgicos;657;247121,39
+2025;Complementar;Complementar;2429438;CENTRO HOSPITALAR DR JOSE EVOIDE DE MOURA;Afogados da Ingazeira;X Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;5784;1000686,61
+2025;Complementar;Complementar;7979304;CENTRO MEDICO ARMINDO MOURA;Moreno;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;469;51441,51
+2025;Complementar;Complementar;6919138;CITOLAC LABORATORIO DE CITOLOGIA ANALISE CLINICA;Arcoverde;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;7143;101915,61
+2025;Complementar;Complementar;7936052;CITOMAXX;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;22177;316301,89
+2025;Complementar;Complementar;2351641;CLIMATIN;Serra Talhada;XI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;221;12177,1
+2025;Complementar;Complementar;9861483;CLINICA BORIS BERENSTEIN;Paulista;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;46;12362,5
+2025;Complementar;Complementar;7642458;CLINICA BORIS BERENSTEIN OLINDA;Olinda;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;182;45707,75
+2025;Complementar;Complementar;5660378;CLINICA DA IMAGEM;Vitória de Santo Antão;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;948;42660
+2025;Complementar;Complementar;2517000;CLINICA DIOCLECIO COUTINHO;Carpina;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3217;579152,17
+2025;Complementar;Complementar;6727786;CLINICA DO CORACAO;Araripina;IX Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;236;24384,99
+2025;Complementar;Complementar;2636808;CLINICA DO RIM;Carpina;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;34116;245402,33
+2025;Complementar;Complementar;2636808;CLINICA DO RIM;Carpina;II Região de Saúde - PE;03 Procedimentos clínicos;30309;7087466,63
+2025;Complementar;Complementar;2636808;CLINICA DO RIM;Carpina;II Região de Saúde - PE;04 Procedimentos cirúrgicos;237;94904,21
+2025;Complementar;Complementar;2434067;CLINICA DO RIM DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;72324;453724,55
+2025;Complementar;Complementar;2434067;CLINICA DO RIM DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;67025;14175253,73
+2025;Complementar;Complementar;2434067;CLINICA DO RIM DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;04 Procedimentos cirúrgicos;318;131238,46
+2025;Complementar;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;85349;614020,24
+2025;Complementar;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;03 Procedimentos clínicos;71758;16697026,38
+2025;Complementar;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;04 Procedimentos cirúrgicos;528;201166,52
+2025;Complementar;Complementar;2711699;CLINICA SANTA PAULA;Palmares;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3550;840400,7
+2025;Complementar;Complementar;3546039;COPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;280190;3543328,05
+2025;Complementar;Complementar;3546039;COPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;27328;645499,84
+2025;Complementar;Complementar;3546039;COPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;19087;9147942,02
+2025;Complementar;Complementar;5789656;CTRMS;Palmares;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;66150;392840,25
+2025;Complementar;Complementar;5789656;CTRMS;Palmares;III Região de Saúde - PE;03 Procedimentos clínicos;49588;11342315,03
+2025;Complementar;Complementar;5789656;CTRMS;Palmares;III Região de Saúde - PE;04 Procedimentos cirúrgicos;388;165201,39
+2025;Complementar;Complementar;2785242;CUPER;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;10400;1636816,5
+2025;Complementar;Complementar;6340512;DANIEL SALES DIAGNOSTICOS;Garanhuns;V Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1646;323979,47
+2025;Complementar;Complementar;0001449;DAVITA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;75412;363294,68
+2025;Complementar;Complementar;2708019;DAVITA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;52742;250831,56
+2025;Complementar;Complementar;3240509;DAVITA;Olinda;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;25076;105215,07
+2025;Complementar;Complementar;0001449;DAVITA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;73296;16644666,6
+2025;Complementar;Complementar;2708019;DAVITA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;50326;11406003,41
+2025;Complementar;Complementar;3240509;DAVITA;Olinda;I Região de Saúde - PE;03 Procedimentos clínicos;24360;5489778,95
+2025;Complementar;Complementar;0001449;DAVITA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;690;284881,88
+2025;Complementar;Complementar;2708019;DAVITA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;345;177816,53
+2025;Complementar;Complementar;3240509;DAVITA;Olinda;I Região de Saúde - PE;04 Procedimentos cirúrgicos;251;137226,74
+2025;Complementar;Complementar;2349833;DAVITA PETROLINA;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;16455;70575,61
+2025;Complementar;Complementar;2349833;DAVITA PETROLINA;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;21383;5068755,34
+2025;Complementar;Complementar;2349833;DAVITA PETROLINA;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;114;45342,57
+2025;Complementar;Complementar;0002038;DAVITA RECIFE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;53985;259243,85
+2025;Complementar;Complementar;0002038;DAVITA RECIFE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;54703;12425437,27
+2025;Complementar;Complementar;0002038;DAVITA RECIFE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;492;229883,14
+2025;Complementar;Complementar;9841199;DIA MEDICINA NUCLEAR;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;510;201830
+2025;Complementar;Complementar;6939651;DIAGIMAGEM;Vitória de Santo Antão;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2172;300624,12
+2025;Complementar;Complementar;3541126;FBO;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;718;8605,51
+2025;Complementar;Complementar;3541126;FBO;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;70;700
+2025;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1465978;21080221,08
+2025;Complementar;Complementar;9460144;FUNDACAO ALTINO VENTURA;Serra Talhada;XI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;137471;1951453,23
+2025;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;736161;5753787,36
+2025;Complementar;Complementar;9460144;FUNDACAO ALTINO VENTURA;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;18728;280453,64
+2025;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;50689;13534354,45
+2025;Complementar;Complementar;9460144;FUNDACAO ALTINO VENTURA;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;8062;2618407,06
+2025;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;1532;824608,6
+2025;Complementar;Complementar;3481506;FUNDACAO ALTINO VENTURA 2;Salgueiro;VII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;112020;1481408,8
+2025;Complementar;Complementar;3481506;FUNDACAO ALTINO VENTURA 2;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;15215;127954,67
+2025;Complementar;Complementar;3481506;FUNDACAO ALTINO VENTURA 2;Salgueiro;VII Região de Saúde - PE;04 Procedimentos cirúrgicos;4782;1719227,93
+2025;Complementar;Complementar;7962312;GOIANA DIAGNOSTICO POR IMAGEM;Goiana;XII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;4875;872576,57
+2025;Complementar;Complementar;2711842;HLA DIAGNOSTICO;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;27752;18616982,9
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;811277;11774678,45
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;456150;14099748,8
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;17922;679058,61
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;2507;424997,1
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;836260;14597908,39
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;415978;60722085,49
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;8728;233758,92
+2025;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;89589;1638424,06
+2025;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;31364;1258966,24
+2025;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;8397;2319947,91
+2025;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;42;44591,8
+2025;Complementar;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;904;104419,69
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;154754;2278448,74
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;88670;15301631,36
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;127;4094,67
+2025;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;44377;249402,67
+2025;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;38352;7843842,92
+2025;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;265;112053,48
+2025;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;12199;264621,75
+2025;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;26732;5013510,34
+2025;Complementar;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2977;377075,6
+2025;Complementar;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;552;94686
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;254568;3059874,17
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;65163;16006490,86
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;346;132363,73
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;18844;5782644,36
+2025;Complementar;Complementar;2354551;HOSPITAL SAO LUIZ;Surubim;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2048;204558,35
+2025;Complementar;Complementar;9166297;HUMANA DIAGNOSTICOS;Santa Cruz do Capibaribe;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;971;107205,74
+2025;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;165466;1798833,43
+2025;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;25746;193492,4
+2025;Complementar;Complementar;2516802;IHENE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;106495;3589258,33
+2025;Complementar;Complementar;2516802;IHENE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;63094;966676
+2025;Complementar;Complementar;9197184;IMAG;Vitória de Santo Antão;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2352;552574,31
+2025;Complementar;Complementar;0956724;IMEDIATA SAUDE SERVICOS DE RESSONANCIA MAGNETICA LTDA;Araripina;IX Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1008;270900
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1503763;23444625,06
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;967106;50301816,82
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;14501;493829,23
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;25018;5327282
+2025;Complementar;Complementar;6218458;IMIP SALGUEIRO;Salgueiro;VII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;26675;129156,26
+2025;Complementar;Complementar;6218458;IMIP SALGUEIRO;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;26671;5913806,89
+2025;Complementar;Complementar;6218458;IMIP SALGUEIRO;Salgueiro;VII Região de Saúde - PE;04 Procedimentos cirúrgicos;149;31437,38
+2025;Complementar;Complementar;6984703;INCITO DIAGNOSTICO LTDA;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;20349;290272,08
+2025;Complementar;Complementar;7204523;INSTITUTO DE DIAGNOSTICO JOSE ROCHA DE SA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;4879;991838,19
+2025;Complementar;Complementar;9337474;INSTITUTO DE DIAGNOSTICO JOSE ROCHA DE SA LTDA EPP;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3271;805799,3
+2025;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1516;421799,71
+2025;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;1699;17838,99
+2025;Complementar;Complementar;2345889;INSTITUTO PERNAMBUCANO I P;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;13656;2705601,32
+2025;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;123297;1839138,27
+2025;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;11056;694292,07
+2025;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2251;1209256,59
+2025;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;22435;112183,52
+2025;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;46571;5254538,57
+2025;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;117;50769,25
+2025;Complementar;Complementar;9115641;LABORATORIO EXAMES;Sertânia;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;6563;93642,11
+2025;Complementar;Complementar;5530032;LABORATORIO LUIZ CELSO;Surubim;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3633;51904,61
+2025;Complementar;Complementar;2351609;LACLIM;Limoeiro;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;4038;57540,51
+2025;Complementar;Complementar;3141020;LUCILO MARANHAO DIAGNOSTICOS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;163;7587,5
+2025;Complementar;Complementar;9867600;LUCILO MARANHAO DIAGNOSTICOS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;91;20275,93
+2025;Complementar;Complementar;9013822;MAIS SAUDE;Ouricuri;IX Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;6200;1031182
+2025;Complementar;Complementar;2427397;MANOEL FLORENCIO DIAGNOSTICOS;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;290;611093,8
+2025;Complementar;Complementar;3036219;MEDILAB;Limoeiro;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;7415;105834
+2025;Complementar;Complementar;7254237;MEDIMAGEM;Ouricuri;IX Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2856;244432,18
+2025;Complementar;Complementar;6629717;MG SERVICOS DE IMAGENS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;18958;4574229,31
+2025;Complementar;Complementar;3384748;MONTE SINAI DIAGNOSTICOS;Garanhuns;V Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;757;88142,98
+2025;Complementar;Complementar;0002003;MULTIMAGEM;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2251;548622,86
+2025;Complementar;Complementar;2350505;MULTLAB;Limoeiro;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3670;52352,45
+2025;Complementar;Complementar;0002119;NEFROCENTRO;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;58249;373847,06
+2025;Complementar;Complementar;0002119;NEFROCENTRO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;53822;12157316,85
+2025;Complementar;Complementar;0002119;NEFROCENTRO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;323;131423
+2025;Complementar;Complementar;9641823;NEFROVIDA;Paulista;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;55270;382122,13
+2025;Complementar;Complementar;9641823;NEFROVIDA;Paulista;I Região de Saúde - PE;03 Procedimentos clínicos;45579;9661306,44
+2025;Complementar;Complementar;9641823;NEFROVIDA;Paulista;I Região de Saúde - PE;04 Procedimentos cirúrgicos;257;109354,5
+2025;Complementar;Complementar;9601554;NEPHRONCARE;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;12128;61442,89
+2025;Complementar;Complementar;9601554;NEPHRONCARE;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;14727;3339670,23
+2025;Complementar;Complementar;9601554;NEPHRONCARE;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;207;82551,52
+2025;Complementar;Complementar;3484599;NEURO IMAGEM;Arcoverde;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3850;426202,23
+2025;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;705780;7732900,32
+2025;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;104575;3299848,84
+2025;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;26878;10917244,11
+2025;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;41;84870
+2025;Complementar;Complementar;3122573;PREVIMAGEM;Paulista;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1054;61137,24
+2025;Complementar;Complementar;2713497;PRONTO SOCORRO SAO FRANCISCO LTDA;Salgueiro;VII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;389;42443,12
+2025;Complementar;Complementar;3043568;R M SANTA EFIGENIA LTDA;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2902;642125,76
+2025;Complementar;Complementar;7884710;S B LABORATORIO DE ANALISE CLINICA;Serra Talhada;XI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;156;8595,6
+2025;Complementar;Complementar;9487158;SAUDE MAIS GRAVATA;Gravatá;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1280;151467,3
+2025;Complementar;Complementar;5459605;SEDIMED;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;78;39396,6
+2025;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;179144;2253446,84
+2025;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;19286;218905,76
+2025;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;4918;1951276,08
+2025;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;5;10350
+2025;Complementar;Complementar;2428407;SERVICOS DE IMAGENS RADIOGRAFICAS DO RECIFE LTDA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;28973;6205422,12
+2025;Complementar;Complementar;3660710;SOS RIM;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;52239;247114,15
+2025;Complementar;Complementar;3660710;SOS RIM;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;62424;14272908,61
+2025;Complementar;Complementar;3660710;SOS RIM;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;442;178182,29
+2025;Complementar;Complementar;5315654;SOS RIM ARCOVERDE;Arcoverde;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;73931;487215,23
+2025;Complementar;Complementar;5315654;SOS RIM ARCOVERDE;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;57080;12717068,94
+2025;Complementar;Complementar;5315654;SOS RIM ARCOVERDE;Arcoverde;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;631;245282,77
+2025;Complementar;Complementar;0519499;UNIDADE EINSTEIN RECIFE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;4805;2126426,36
+2025;Complementar;Complementar;5225000;UNIMAGEM;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;4584;901714,05
+2025;Complementar;Complementar;7155735;UNINEURO GRACAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;7707;2071256,25
+2025;Complementar;Complementar;3426483;UP IMAGEM CENTRO DE DIAGNOSTICO LTDA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;84;4628,4
 2025;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;38145;363442,52
 2025;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;31000;311774,87
 2025;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;1;32,4
@@ -493,6 +1069,23 @@
 2025;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;105;1398,39
 2025;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;85692;850270,03
 2025;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;03 Procedimentos clínicos;75235;568746,42
+2025;Rede própria;Estadual fora da lista SES;2861135;1 GRUPAMENTO DE BOMBEIROS;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;472;9350,32
+2025;Rede própria;Estadual fora da lista SES;2836793;2 GRUPAMENTO DE BOMBEIROS;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;1344;26624,64
+2025;Rede própria;Estadual fora da lista SES;0972096;3 GRUPAMENTO DE BOMBEIROS;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;1630;32290,3
+2025;Rede própria;Estadual fora da lista SES;0971545;4 GRUPAMENTO DE BOMBEIROS;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;2108;32634,08
+2025;Rede própria;Estadual fora da lista SES;2841274;5 GRUPAMENTO DE BOMBEIROS;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;2468;48891,08
+2025;Rede própria;Estadual fora da lista SES;2866366;6 GRUPAMENTO DE BOMBEIROS;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;827;16382,87
+2025;Rede própria;Estadual fora da lista SES;2876167;7 GRUPAMENTO DE BOMBEIROS;Carpina;II Região de Saúde - PE;03 Procedimentos clínicos;777;15392,37
+2025;Rede própria;Estadual fora da lista SES;2840758;9 GRUPAMENTO DE BOMBEIROS;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;1712;33914,72
+2025;Rede própria;Estadual fora da lista SES;5283698;CARRETA DA MULHER PERNAMBUCANA 01 TKX 4C43;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;9299;369397,59
+2025;Rede própria;Estadual fora da lista SES;5283698;CARRETA DA MULHER PERNAMBUCANA 01 TKX 4C43;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;3291;32850
+2025;Rede própria;Estadual fora da lista SES;5283701;CARRETA DA MULHER PERNAMBUCANA 02 TKV 2J12;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;5921;195350,16
+2025;Rede própria;Estadual fora da lista SES;5283701;CARRETA DA MULHER PERNAMBUCANA 02 TKV 2J12;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;2988;29880
+2025;Rede própria;Estadual fora da lista SES;5283728;CARRETA DA MULHER PERNAMBUCANA 03 TKP 5G96;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3822;119545,63
+2025;Rede própria;Estadual fora da lista SES;5283728;CARRETA DA MULHER PERNAMBUCANA 03 TKP 5G96;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;2016;20160
+2025;Rede própria;Estadual fora da lista SES;5283736;CARRETA DA MULHER PERNAMBUCANA 04 TKB 6I07;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3800;133681,12
+2025;Rede própria;Estadual fora da lista SES;5283736;CARRETA DA MULHER PERNAMBUCANA 04 TKB 6I07;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;1794;17942
+2025;Rede própria;Estadual fora da lista SES;7227000;CENTRO DE REFERENCIA EM SAUDE DO TRABALHADOR CEREST PE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;13;0
 2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;164777;1098913,12
 2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;85522;594938,58
 2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2295;26600,62
@@ -500,6 +1093,7 @@
 2025;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;371625;13459521,26
 2025;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;191;2324
 2025;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;4643;196896
+2025;Rede própria;Estadual fora da lista SES;2435608;GRUPAMENTO DE BOMBEIROS DE MEDICINA PREHOSPITALAR;Olinda;I Região de Saúde - PE;03 Procedimentos clínicos;20338;341597,88
 2025;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;435724;2756753,34
 2025;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;259530;1531473,65
 2025;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2302;75630,84
@@ -554,10 +1148,207 @@
 2025;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;49530;187794,9
 2025;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;03 Procedimentos clínicos;68498;360916,53
 2025;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;04 Procedimentos cirúrgicos;252;96,48
+2025;Rede própria;Estadual fora da lista SES;2712075;LAB CENTRAL DE SAUDE PUB DR MILTON BEZERRA SOBRAL LACEN;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;118134;1768006,66
+2025;Rede própria;Estadual fora da lista SES;2712105;LABORATORIO DA MULHER DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;14392;248947,1
+2025;Rede própria;Estadual fora da lista SES;2712105;LABORATORIO DA MULHER DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;576;5760
+2025;Rede própria;Estadual fora da lista SES;2712105;LABORATORIO DA MULHER DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;11;248,82
+2025;Rede própria;Estadual fora da lista SES;6772854;LABORATORIO DE SAUDE PUBLICA DA IV GERES;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;8709;30829,72
+2025;Rede própria;Estadual fora da lista SES;7703589;LABORATORIO DE SAUDE PUBLICA VII GERES;Salgueiro;VII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;537;5728,35
+2025;Rede própria;Estadual fora da lista SES;7731086;LABORATORIO DE SAUDE PUBLICA VIII GERES;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1535;666
+2025;Rede própria;Estadual fora da lista SES;3840581;LABORATORIO DE SAUDE PUBLICA XII GERES;Goiana;XII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;968;2420
+2025;Rede própria;Estadual fora da lista SES;2636379;LABORATORIO REGIONAL DE SAUDE;Limoeiro;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;137620;518119,09
 2025;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;330256;6865176,98
 2025;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;90727;714043,52
 2025;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1724;40853,54
 2025;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;54;35295,96
+2025;Rede própria;Estadual fora da lista SES;7408641;SAMU FERNANDO DE NORONHA;Fernando de Noronha;I Região de Saúde - PE;03 Procedimentos clínicos;301;0
+2026;Complementar;Complementar;2711303;AACD;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;43995;905930,43
+2026;Complementar;Complementar;2711303;AACD;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;14;453,6
+2026;Complementar;Complementar;7323646;ARCOVERDE CENTRO DE DIAGNOSTICO LTDA;Arcoverde;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1712;477906,25
+2026;Complementar;Complementar;6850766;BARROS E CALAZANS CENTRO DE DIAGNOSTICOS LTDA;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;494;27219,4
+2026;Complementar;Complementar;6697461;C D C;Cabo de Santo Agostinho;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;48218;252329,11
+2026;Complementar;Complementar;6697461;C D C;Cabo de Santo Agostinho;I Região de Saúde - PE;03 Procedimentos clínicos;105110;11218882,4
+2026;Complementar;Complementar;6697461;C D C;Cabo de Santo Agostinho;I Região de Saúde - PE;04 Procedimentos cirúrgicos;356;180085,45
+2026;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;53808;895392,66
+2026;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;47761;12224550,1
+2026;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;296;98544,45
+2026;Complementar;Complementar;6292275;CED;Carpina;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2227;31744,59
+2026;Complementar;Complementar;3274780;CEDOC;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;4098;737183,07
+2026;Complementar;Complementar;7951981;CENTRO DE MEDICINA NUCLEAR DE PETROLINA LTDA ME;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;620;208352,91
+2026;Complementar;Complementar;9138730;CENTRO DE NEFROLOGIA DO ARARIPE;Araripina;IX Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;20017;98199,67
+2026;Complementar;Complementar;9138730;CENTRO DE NEFROLOGIA DO ARARIPE;Araripina;IX Região de Saúde - PE;03 Procedimentos clínicos;19824;4955068,76
+2026;Complementar;Complementar;9138730;CENTRO DE NEFROLOGIA DO ARARIPE;Araripina;IX Região de Saúde - PE;04 Procedimentos cirúrgicos;92;26831,11
+2026;Complementar;Complementar;4018834;CENTRO DE TRATAMENTO RENAL;Jaboatão dos Guararapes;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;58185;379725,72
+2026;Complementar;Complementar;4018834;CENTRO DE TRATAMENTO RENAL;Jaboatão dos Guararapes;I Região de Saúde - PE;03 Procedimentos clínicos;76617;12311245,53
+2026;Complementar;Complementar;4018834;CENTRO DE TRATAMENTO RENAL;Jaboatão dos Guararapes;I Região de Saúde - PE;04 Procedimentos cirúrgicos;467;176413,13
+2026;Complementar;Complementar;2429438;CENTRO HOSPITALAR DR JOSE EVOIDE DE MOURA;Afogados da Ingazeira;X Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3406;612893,89
+2026;Complementar;Complementar;7979304;CENTRO MEDICO ARMINDO MOURA;Moreno;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;122;13071,38
+2026;Complementar;Complementar;6919138;CITOLAC LABORATORIO DE CITOLOGIA ANALISE CLINICA;Arcoverde;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2445;34916,9
+2026;Complementar;Complementar;7936052;CITOMAXX;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;13286;189659,47
+2026;Complementar;Complementar;2351641;CLIMATIN;Serra Talhada;XI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;155;8540,5
+2026;Complementar;Complementar;5660378;CLINICA DA IMAGEM;Vitória de Santo Antão;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;609;27405
+2026;Complementar;Complementar;2517000;CLINICA DIOCLECIO COUTINHO;Carpina;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2177;400706,68
+2026;Complementar;Complementar;6727786;CLINICA DO CORACAO;Araripina;IX Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;206;26371,62
+2026;Complementar;Complementar;2636808;CLINICA DO RIM;Carpina;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;25872;186216,85
+2026;Complementar;Complementar;2636808;CLINICA DO RIM;Carpina;II Região de Saúde - PE;03 Procedimentos clínicos;22737;5467514,26
+2026;Complementar;Complementar;2636808;CLINICA DO RIM;Carpina;II Região de Saúde - PE;04 Procedimentos cirúrgicos;158;61957,52
+2026;Complementar;Complementar;2434067;CLINICA DO RIM DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;58659;398575,09
+2026;Complementar;Complementar;2434067;CLINICA DO RIM DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;144411;12558036,59
+2026;Complementar;Complementar;2434067;CLINICA DO RIM DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;04 Procedimentos cirúrgicos;245;113591,66
+2026;Complementar;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;65747;470974,36
+2026;Complementar;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;03 Procedimentos clínicos;106096;13357784,05
+2026;Complementar;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;04 Procedimentos cirúrgicos;450;163746,7
+2026;Complementar;Complementar;2711699;CLINICA SANTA PAULA;Palmares;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2810;692502,95
+2026;Complementar;Complementar;3546039;COPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;215849;2690712
+2026;Complementar;Complementar;3546039;COPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;22105;558702,16
+2026;Complementar;Complementar;3546039;COPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;13804;6268763,82
+2026;Complementar;Complementar;5789656;CTRMS;Palmares;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;46260;277099,86
+2026;Complementar;Complementar;5789656;CTRMS;Palmares;III Região de Saúde - PE;03 Procedimentos clínicos;82814;9123146,28
+2026;Complementar;Complementar;5789656;CTRMS;Palmares;III Região de Saúde - PE;04 Procedimentos cirúrgicos;233;106975,91
+2026;Complementar;Complementar;2785242;CUPER;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;4490;542758
+2026;Complementar;Complementar;2785242;CUPER;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;327;7282,29
+2026;Complementar;Complementar;6340512;DANIEL SALES DIAGNOSTICOS;Garanhuns;V Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1298;245765,81
+2026;Complementar;Complementar;0001449;DAVITA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;56883;279372,43
+2026;Complementar;Complementar;2708019;DAVITA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;38825;189669,9
+2026;Complementar;Complementar;3240509;DAVITA;Olinda;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;17867;70324,28
+2026;Complementar;Complementar;0001449;DAVITA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;54767;12956583,06
+2026;Complementar;Complementar;2708019;DAVITA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;37766;8841097,64
+2026;Complementar;Complementar;3240509;DAVITA;Olinda;I Região de Saúde - PE;03 Procedimentos clínicos;23855;5048533,61
+2026;Complementar;Complementar;0001449;DAVITA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;516;209542,88
+2026;Complementar;Complementar;2708019;DAVITA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;168;84105,22
+2026;Complementar;Complementar;3240509;DAVITA;Olinda;I Região de Saúde - PE;04 Procedimentos cirúrgicos;135;71295,75
+2026;Complementar;Complementar;2349833;DAVITA PETROLINA;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;12583;60565,3
+2026;Complementar;Complementar;2349833;DAVITA PETROLINA;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;16144;3814280,83
+2026;Complementar;Complementar;2349833;DAVITA PETROLINA;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;74;27853,12
+2026;Complementar;Complementar;0002038;DAVITA RECIFE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;45779;237674,79
+2026;Complementar;Complementar;0002038;DAVITA RECIFE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;42945;10051841,33
+2026;Complementar;Complementar;0002038;DAVITA RECIFE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;447;168166,65
+2026;Complementar;Complementar;9841199;DIA MEDICINA NUCLEAR;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1355;500686,59
+2026;Complementar;Complementar;6939651;DIAGIMAGEM;Vitória de Santo Antão;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1982;279240,23
+2026;Complementar;Complementar;3541126;FBO;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;98656;1206233,75
+2026;Complementar;Complementar;3541126;FBO;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;9536;95360
+2026;Complementar;Complementar;3541126;FBO;Petrolina;VIII Região de Saúde - PE;04 Procedimentos cirúrgicos;1833;299882,92
+2026;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1272353;17614086,63
+2026;Complementar;Complementar;9460144;FUNDACAO ALTINO VENTURA;Serra Talhada;XI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;157350;1922084,75
+2026;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;530095;4285859,56
+2026;Complementar;Complementar;9460144;FUNDACAO ALTINO VENTURA;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;23181;312684,68
+2026;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;42014;11074505,93
+2026;Complementar;Complementar;9460144;FUNDACAO ALTINO VENTURA;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;6327;1960155,01
+2026;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;1263;691351,8
+2026;Complementar;Complementar;3481506;FUNDACAO ALTINO VENTURA 2;Salgueiro;VII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;110176;1343436,16
+2026;Complementar;Complementar;3481506;FUNDACAO ALTINO VENTURA 2;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;9384;77978
+2026;Complementar;Complementar;3481506;FUNDACAO ALTINO VENTURA 2;Salgueiro;VII Região de Saúde - PE;04 Procedimentos cirúrgicos;2298;652783,84
+2026;Complementar;Complementar;7962312;GOIANA DIAGNOSTICO POR IMAGEM;Goiana;XII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;3788;713356,59
+2026;Complementar;Complementar;2711842;HLA DIAGNOSTICO;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;17874;10629904,18
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;540544;6491837,1
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;276163;11064142,54
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;12456;565700,6
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;2673;449391,61
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;689872;12342659,71
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;325705;51722486,93
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;10504;301572,28
+2026;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;63881;1156166,68
+2026;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;21850;1000950,34
+2026;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;4156;1102978,1
+2026;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;28;32545
+2026;Complementar;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;498;58286,1
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;108134;1708239,81
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;63949;12670361,59
+2026;Complementar;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;128;100035,95
+2026;Complementar;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;03 Procedimentos clínicos;188;1162,47
+2026;Complementar;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;04 Procedimentos cirúrgicos;1;23,16
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;34149;183020,08
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;30749;6474152,82
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;210;91519,29
+2026;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;11348;181528,01
+2026;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;24525;4133175,22
+2026;Complementar;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1222;221771,84
+2026;Complementar;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;232;39904
+2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;173589;1990189,4
+2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;45404;15742906,94
+2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;289;115495,95
+2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;14155;3879329,25
+2026;Complementar;Complementar;2354551;HOSPITAL SAO LUIZ;Surubim;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2009;202392,76
+2026;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;156541;1792175,18
+2026;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;21975;167550,4
+2026;Complementar;Complementar;2516802;IHENE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;82991;2806541,48
+2026;Complementar;Complementar;2516802;IHENE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;49060;752596
+2026;Complementar;Complementar;9197184;IMAG;Vitória de Santo Antão;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1211;294183,27
+2026;Complementar;Complementar;0956724;IMEDIATA SAUDE SERVICOS DE RESSONANCIA MAGNETICA LTDA;Araripina;IX Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;994;284712,5
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1198157;19239168,04
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;719470;41032992,44
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;12367;442099,14
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;18375;4028253,46
+2026;Complementar;Complementar;6218458;IMIP SALGUEIRO;Salgueiro;VII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;20136;104228,22
+2026;Complementar;Complementar;6218458;IMIP SALGUEIRO;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;19980;4638843,86
+2026;Complementar;Complementar;6218458;IMIP SALGUEIRO;Salgueiro;VII Região de Saúde - PE;04 Procedimentos cirúrgicos;102;34157,28
+2026;Complementar;Complementar;6984703;INCITO DIAGNOSTICO LTDA;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;17593;251044,71
+2026;Complementar;Complementar;7204523;INSTITUTO DE DIAGNOSTICO JOSE ROCHA DE SA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2519;524274,3
+2026;Complementar;Complementar;9337474;INSTITUTO DE DIAGNOSTICO JOSE ROCHA DE SA LTDA EPP;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2738;598246,9
+2026;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1557;282077,14
+2026;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;1047;10748
+2026;Complementar;Complementar;2345889;INSTITUTO PERNAMBUCANO I P;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;10435;2323597,33
+2026;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;114840;1654569,23
+2026;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;9916;610563,84
+2026;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1703;893377,87
+2026;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;17213;88694,02
+2026;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;53251;4358016,01
+2026;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;04 Procedimentos cirúrgicos;95;25700,9
+2026;Complementar;Complementar;9115641;LABORATORIO EXAMES;Sertânia;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1964;28052,38
+2026;Complementar;Complementar;2351609;LACLIM;Limoeiro;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2948;42073,51
+2026;Complementar;Complementar;3141020;LUCILO MARANHAO DIAGNOSTICOS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1;45
+2026;Complementar;Complementar;9867600;LUCILO MARANHAO DIAGNOSTICOS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;723;154677,3
+2026;Complementar;Complementar;9013822;MAIS SAUDE;Ouricuri;IX Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;4895;867094,98
+2026;Complementar;Complementar;9013822;MAIS SAUDE;Ouricuri;IX Região de Saúde - PE;04 Procedimentos cirúrgicos;9;1350
+2026;Complementar;Complementar;2427397;MANOEL FLORENCIO DIAGNOSTICOS;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;338;712240,36
+2026;Complementar;Complementar;5333504;MAX DAY HOSPITAL;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;648;0
+2026;Complementar;Complementar;5333504;MAX DAY HOSPITAL;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;162;0
+2026;Complementar;Complementar;5333504;MAX DAY HOSPITAL;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;15;23148
+2026;Complementar;Complementar;3036219;MEDILAB;Limoeiro;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;4679;66792,63
+2026;Complementar;Complementar;7254237;MEDIMAGEM;Ouricuri;IX Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2076;194907,7
+2026;Complementar;Complementar;6629717;MG SERVICOS DE IMAGENS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;13521;3221451,64
+2026;Complementar;Complementar;3384748;MONTE SINAI DIAGNOSTICOS;Garanhuns;V Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;727;83559,15
+2026;Complementar;Complementar;0002003;MULTIMAGEM;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1251;267688,33
+2026;Complementar;Complementar;2350505;MULTLAB;Limoeiro;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2924;41744,23
+2026;Complementar;Complementar;0002119;NEFROCENTRO;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;43904;280402,81
+2026;Complementar;Complementar;0002119;NEFROCENTRO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;81527;9380628,99
+2026;Complementar;Complementar;0002119;NEFROCENTRO;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;225;96459,11
+2026;Complementar;Complementar;9641823;NEFROVIDA;Paulista;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;44154;317824,26
+2026;Complementar;Complementar;9641823;NEFROVIDA;Paulista;I Região de Saúde - PE;03 Procedimentos clínicos;87276;8091089,08
+2026;Complementar;Complementar;9641823;NEFROVIDA;Paulista;I Região de Saúde - PE;04 Procedimentos cirúrgicos;236;112454,98
+2026;Complementar;Complementar;9601554;NEPHRONCARE;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;6599;30856,3
+2026;Complementar;Complementar;9601554;NEPHRONCARE;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;9028;2150751,1
+2026;Complementar;Complementar;9601554;NEPHRONCARE;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;203;121422,34
+2026;Complementar;Complementar;3484599;NEURO IMAGEM;Arcoverde;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2637;286042,61
+2026;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;571039;6226168,51
+2026;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;89691;3282922,96
+2026;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;04 Procedimentos cirúrgicos;21501;8911615,92
+2026;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;3;6210
+2026;Complementar;Complementar;3122573;PREVIMAGEM;Paulista;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1563;136406,65
+2026;Complementar;Complementar;2713497;PRONTO SOCORRO SAO FRANCISCO LTDA;Salgueiro;VII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;304;32414,87
+2026;Complementar;Complementar;3043568;R M SANTA EFIGENIA LTDA;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1991;440136,71
+2026;Complementar;Complementar;7884710;S B LABORATORIO DE ANALISE CLINICA;Serra Talhada;XI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;63;3471,3
+2026;Complementar;Complementar;9487158;SAUDE MAIS GRAVATA;Gravatá;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1340;159283,95
+2026;Complementar;Complementar;5459605;SEDIMED;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;573;175661,07
+2026;Complementar;Complementar;5459605;SEDIMED;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;58;27444,6
+2026;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;141460;1830442,3
+2026;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;14365;167776,92
+2026;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;3191;1261965,14
+2026;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;6;12420
+2026;Complementar;Complementar;2428407;SERVICOS DE IMAGENS RADIOGRAFICAS DO RECIFE LTDA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;22808;4862604,84
+2026;Complementar;Complementar;2428407;SERVICOS DE IMAGENS RADIOGRAFICAS DO RECIFE LTDA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;44;6600
+2026;Complementar;Complementar;3660710;SOS RIM;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;45378;236711,03
+2026;Complementar;Complementar;3660710;SOS RIM;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;67015;12775792,97
+2026;Complementar;Complementar;3660710;SOS RIM;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;547;300271,59
+2026;Complementar;Complementar;5315654;SOS RIM ARCOVERDE;Arcoverde;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;56189;377437,4
+2026;Complementar;Complementar;5315654;SOS RIM ARCOVERDE;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;65076;10931284,51
+2026;Complementar;Complementar;5315654;SOS RIM ARCOVERDE;Arcoverde;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;415;159444,91
+2026;Complementar;Complementar;6672884;T GALVAO ANALISES MEDICAS;Palmares;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;479;6831,88
+2026;Complementar;Complementar;6840701;UNIDADE DE TRATAMENTO RENAL;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;1273;320248,61
+2026;Complementar;Complementar;0519499;UNIDADE EINSTEIN RECIFE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;7738;4073202,42
+2026;Complementar;Complementar;5225000;UNIMAGEM;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2762;520865,18
+2026;Complementar;Complementar;7155735;UNINEURO GRACAS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2985;802218,75
+2026;Complementar;Complementar;3426483;UP IMAGEM CENTRO DE DIAGNOSTICO LTDA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;72;3967,2
 2026;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;111789;981686,23
 2026;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;50853;519901,26
 2026;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;2;39,58
@@ -683,6 +1474,23 @@
 2026;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;254;3277,16
 2026;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;56067;560553,33
 2026;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;03 Procedimentos clínicos;46353;328727,86
+2026;Rede própria;Estadual fora da lista SES;2861135;1 GRUPAMENTO DE BOMBEIROS;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;570;11291,7
+2026;Rede própria;Estadual fora da lista SES;2836793;2 GRUPAMENTO DE BOMBEIROS;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;1304;25832,24
+2026;Rede própria;Estadual fora da lista SES;0972096;3 GRUPAMENTO DE BOMBEIROS;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;1879;37222,99
+2026;Rede própria;Estadual fora da lista SES;0971545;4 GRUPAMENTO DE BOMBEIROS;Petrolina;VIII Região de Saúde - PE;03 Procedimentos clínicos;1323;20883,21
+2026;Rede própria;Estadual fora da lista SES;2841274;5 GRUPAMENTO DE BOMBEIROS;Salgueiro;VII Região de Saúde - PE;03 Procedimentos clínicos;1892;37480,52
+2026;Rede própria;Estadual fora da lista SES;2866366;6 GRUPAMENTO DE BOMBEIROS;Garanhuns;V Região de Saúde - PE;03 Procedimentos clínicos;1101;21810,81
+2026;Rede própria;Estadual fora da lista SES;2876167;7 GRUPAMENTO DE BOMBEIROS;Carpina;II Região de Saúde - PE;03 Procedimentos clínicos;806;15966,86
+2026;Rede própria;Estadual fora da lista SES;2840758;9 GRUPAMENTO DE BOMBEIROS;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;1609;31874,29
+2026;Rede própria;Estadual fora da lista SES;5283698;CARRETA DA MULHER PERNAMBUCANA 01 TKX 4C43;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;19320;677874,17
+2026;Rede própria;Estadual fora da lista SES;5283698;CARRETA DA MULHER PERNAMBUCANA 01 TKX 4C43;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;4515;45150
+2026;Rede própria;Estadual fora da lista SES;5283701;CARRETA DA MULHER PERNAMBUCANA 02 TKV 2J12;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;18799;644925,74
+2026;Rede própria;Estadual fora da lista SES;5283701;CARRETA DA MULHER PERNAMBUCANA 02 TKV 2J12;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;3044;30440
+2026;Rede própria;Estadual fora da lista SES;5283728;CARRETA DA MULHER PERNAMBUCANA 03 TKP 5G96;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;16023;486834,01
+2026;Rede própria;Estadual fora da lista SES;5283728;CARRETA DA MULHER PERNAMBUCANA 03 TKP 5G96;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;4271;42710
+2026;Rede própria;Estadual fora da lista SES;5283736;CARRETA DA MULHER PERNAMBUCANA 04 TKB 6I07;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;16023;547625,57
+2026;Rede própria;Estadual fora da lista SES;5283736;CARRETA DA MULHER PERNAMBUCANA 04 TKB 6I07;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;3283;32830
+2026;Rede própria;Estadual fora da lista SES;7227000;CENTRO DE REFERENCIA EM SAUDE DO TRABALHADOR CEREST PE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;5;0
 2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;131794;740029,41
 2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;66816;461019,23
 2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;690;9121,96
@@ -690,6 +1498,7 @@
 2026;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;287586;9916910,74
 2026;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;101;1525,12
 2026;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;2820;334689,78
+2026;Rede própria;Estadual fora da lista SES;2435608;GRUPAMENTO DE BOMBEIROS DE MEDICINA PREHOSPITALAR;Olinda;I Região de Saúde - PE;03 Procedimentos clínicos;16813;275606,33
 2026;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;291380;1995155,46
 2026;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;152188;1051224,75
 2026;Rede própria;06 grandes;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1292;77256,72
@@ -743,7 +1552,17 @@
 2026;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;37869;153703,03
 2026;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;03 Procedimentos clínicos;55318;292703,51
 2026;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;04 Procedimentos cirúrgicos;443;2276,33
+2026;Rede própria;Estadual fora da lista SES;2712075;LAB CENTRAL DE SAUDE PUB DR MILTON BEZERRA SOBRAL LACEN;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;102115;1414798,48
+2026;Rede própria;Estadual fora da lista SES;2712105;LABORATORIO DA MULHER DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;7976;135319,92
+2026;Rede própria;Estadual fora da lista SES;2712105;LABORATORIO DA MULHER DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;460;4600
+2026;Rede própria;Estadual fora da lista SES;2712105;LABORATORIO DA MULHER DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;17;384,54
+2026;Rede própria;Estadual fora da lista SES;6772854;LABORATORIO DE SAUDE PUBLICA DA IV GERES;Caruaru;IV Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;6842;30078,36
+2026;Rede própria;Estadual fora da lista SES;7731086;LABORATORIO DE SAUDE PUBLICA VIII GERES;Petrolina;VIII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1075;333
+2026;Rede própria;Estadual fora da lista SES;3840581;LABORATORIO DE SAUDE PUBLICA XII GERES;Goiana;XII Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;429;1240
+2026;Rede própria;Estadual fora da lista SES;2636379;LABORATORIO REGIONAL DE SAUDE;Limoeiro;II Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;104849;285180,64
 2026;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;274050;5763849,32
 2026;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;70734;534677,99
 2026;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2406;56085,41
 2026;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;05 Transplantes de orgãos, tecidos e células;12;13494,35
+2026;Rede própria;Estadual fora da lista SES;7408641;SAMU FERNANDO DE NORONHA;Fernando de Noronha;I Região de Saúde - PE;03 Procedimentos clínicos;295;0
+2026;Rede própria;Estadual fora da lista SES;6471188;SECRETARIA DE SAUDE DO ESTADO DE PERNAMBUCO;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;905;0

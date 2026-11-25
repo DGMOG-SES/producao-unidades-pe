@@ -182,8 +182,10 @@ natureza <- function(nat_jur, esfera) {
 
 gestao_sih <- function(x) fcase(x %chin% c("E", "2"), "Estadual", x %chin% c("M", "1"), "Municipal",
                                 default = "Não definida")
-gestao_sia <- function(x) fcase(x == "E", "Estadual", x == "P", "Municipal", x == "D", "Dupla",
-                                default = "Não informada")
+# PA_CONDIC vem com 2 letras (ex.: "EP", "PG"); o Prod_PE.def lê só a 1ª (TPGESTAO.CNV).
+gestao_sia <- function(x) { x <- substr(x, 1, 1)
+  fcase(x == "E", "Estadual", x == "P", "Municipal", x == "D", "Dupla",
+                                default = "Não informada") }
 
 # Classifica os CNES. mun_prod: município do estabelecimento tirado da produção,
 # usado quando o CNES não está no cadastro (CNES-ST).

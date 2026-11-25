@@ -1,4 +1,200 @@
 ﻿ANO;TIPO_REDE;MODELO_GESTAO;CNES;UNIDADE;MUNICIPIO;REGIAO_SAUDE;ESPECIALIDADE;QTD;VALOR
+2023;Complementar;Complementar;6697461;C D C;Cabo de Santo Agostinho;I Região de Saúde - PE;225109 Médico nefrologista;5652;56520
+2023;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;225109 Médico nefrologista;3;30
+2023;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;225120 Médico cardiologista;2;20
+2023;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;225121 Médico oncologista clínico;3335;33350
+2023;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;225290 Médico cancerologista cirurgíco;199;1990
+2023;Complementar;Complementar;4018834;CENTRO DE TRATAMENTO RENAL;Jaboatão dos Guararapes;I Região de Saúde - PE;225109 Médico nefrologista;4431;44310
+2023;Complementar;Complementar;2636808;CLINICA DO RIM;Carpina;II Região de Saúde - PE;225109 Médico nefrologista;2068;20680
+2023;Complementar;Complementar;2636808;CLINICA DO RIM;Carpina;II Região de Saúde - PE;225203 Médico em cirurgia vascular;124;1240
+2023;Complementar;Complementar;2434067;CLINICA DO RIM DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;225109 Médico nefrologista;4429;44290
+2023;Complementar;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;225109 Médico nefrologista;5313;53130
+2023;Complementar;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;225203 Médico em cirurgia vascular;150;1500
+2023;Complementar;Complementar;3546039;COPE;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;39519;395190
+2023;Complementar;Complementar;5789656;CTRMS;Palmares;III Região de Saúde - PE;225109 Médico nefrologista;3398;33980
+2023;Complementar;Complementar;0001449;DAVITA;Recife;I Região de Saúde - PE;225109 Médico nefrologista;5604;56040
+2023;Complementar;Complementar;2708019;DAVITA;Recife;I Região de Saúde - PE;225109 Médico nefrologista;2124;21240
+2023;Complementar;Complementar;3240509;DAVITA;Olinda;I Região de Saúde - PE;225109 Médico nefrologista;1236;12360
+2023;Complementar;Complementar;0002038;DAVITA RECIFE;Recife;I Região de Saúde - PE;225109 Médico nefrologista;3480;34800
+2023;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225112 Médico neurologista;1120;11200
+2023;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225120 Médico cardiologista;11586;115860
+2023;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;138090;1380900
+2023;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;1142;11420
+2023;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225275 Médico otorrinolaringologista;1649;16490
+2023;Complementar;Complementar;3481506;FUNDACAO ALTINO VENTURA 2;Salgueiro;VII Região de Saúde - PE;225265 Médico oftalmologista;3813;38130
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225103 Médico infectologista;16170;161700
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225105 Médico acupunturista;1136;11360
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225109 Médico nefrologista;6853;68530
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225110 Médico alergista e imunologista;2397;23970
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225112 Médico neurologista;4661;46610
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225120 Médico cardiologista;7701;77010
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225121 Médico oncologista clínico;4804;48040
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225124 Médico pediatra;9586;95860
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225125 Médico clínico;29046;290460
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225127 Médico pneumologista;3160;31600
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225130 Médico de família e comunidade;43;430
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225133 Médico psiquiatra;4231;42310
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225135 Médico dermatologista;5709;57090
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225136 Médico reumatologista;8670;86700
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225140 Médico do trabalho;209;2090
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225150 Médico em medicina intensiva;1735;17350
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;1810;18100
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225155 Médico endocrinologista e metabologista;5575;55750
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;2801;28010
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225170 Médico generalista;3528;35280
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225180 Médico geriatra;268;2680
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225185 Médico hematologista;3011;30110
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;1963;19630
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225210 Médico cirurgião cardiovascular;5;50
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;219;2190
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225220 Médico cirurgião do aparelho digestivo;2671;26710
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;7965;79650
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;1259;12590
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225235 Médico cirurgião plástico;2726;27260
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225240 Médico cirurgião torácico;339;3390
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;16950;169500
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225255 Médico mastologista;892;8920
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225260 Médico neurocirurgião;667;6670
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;14809;148090
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;4033;40330
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225275 Médico otorrinolaringologista;7499;74990
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225280 Médico coloproctologista;1164;11640
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225285 Médico urologista;2078;20780
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225290 Médico cancerologista cirurgíco;762;7620
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225295 Médico cirurgião da mão;389;3890
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225305 Médico citopatologista;459;4590
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225310 Médico em endoscopia;825;8250
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225315 Médico em medicina nuclear;143;1430
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;1087;10870
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225350 Médico neurofisiologista clínico;424;4240
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225120 Médico cardiologista;102;1020
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225121 Médico oncologista clínico;47206;472060
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225122 Médico cancerologista pediátrico;3539;35390
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225125 Médico clínico;2253;22530
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225135 Médico dermatologista;658;6580
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225148 Médico anatomopatologista;6;60
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;1386;13860
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225185 Médico hematologista;4931;49310
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;4;40
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;16411;164110
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;357;3570
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;147;1470
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225235 Médico cirurgião plástico;2944;29440
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225240 Médico cirurgião torácico;821;8210
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;7682;76820
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225255 Médico mastologista;11929;119290
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225260 Médico neurocirurgião;5326;53260
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;6578;65780
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225275 Médico otorrinolaringologista;6;60
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225285 Médico urologista;5037;50370
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225290 Médico cancerologista cirurgíco;15651;156510
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;2;20
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225330 Médico radioterapeuta;10760;107600
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225340 Médico hemoterapeuta;24;240
+2023;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;11976;119760
+2023;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225120 Médico cardiologista;708;7080
+2023;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225121 Médico oncologista clínico;10874;108740
+2023;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225122 Médico cancerologista pediátrico;1770;17700
+2023;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225125 Médico clínico;6614;66140
+2023;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225185 Médico hematologista;2045;20450
+2023;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;1043;10430
+2023;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225225 Médico cirurgião geral;406;4060
+2023;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225255 Médico mastologista;2690;26900
+2023;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225260 Médico neurocirurgião;64;640
+2023;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225285 Médico urologista;984;9840
+2023;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225290 Médico cancerologista cirurgíco;48;480
+2023;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;1;10
+2023;Complementar;Complementar;2703041;HOSPITAL E MATERNIDADE ALCIDES CURSINO;Buíque;VI Região de Saúde - PE;225124 Médico pediatra;864;8640
+2023;Complementar;Complementar;2703041;HOSPITAL E MATERNIDADE ALCIDES CURSINO;Buíque;VI Região de Saúde - PE;225125 Médico clínico;1868;18680
+2023;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225109 Médico nefrologista;2577;25770
+2023;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225112 Médico neurologista;989;9890
+2023;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225120 Médico cardiologista;397;3970
+2023;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225124 Médico pediatra;19;190
+2023;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225127 Médico pneumologista;271;2710
+2023;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;143;1430
+2023;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225175 Médico geneticista;1;10
+2023;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225185 Médico hematologista;338;3380
+2023;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;98;980
+2023;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;10;100
+2023;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;542;5420
+2023;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225275 Médico otorrinolaringologista;1;10
+2023;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225121 Médico oncologista clínico;4304;43040
+2023;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;599;5990
+2023;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225255 Médico mastologista;1749;17490
+2023;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225285 Médico urologista;733;7330
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225109 Médico nefrologista;3737;37370
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225112 Médico neurologista;1;10
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225120 Médico cardiologista;1014;10140
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;7;70
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;194;1940
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;1263;12630
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225210 Médico cirurgião cardiovascular;282;2820
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225220 Médico cirurgião do aparelho digestivo;39;390
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;503;5030
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225260 Médico neurocirurgião;1;10
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225285 Médico urologista;298;2980
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225290 Médico cancerologista cirurgíco;1;10
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;2;20
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225330 Médico radioterapeuta;1073;10730
+2023;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;225124 Médico pediatra;330;3300
+2023;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;7008;70080
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225103 Médico infectologista;3022;30220
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225109 Médico nefrologista;21397;213970
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225110 Médico alergista e imunologista;1990;19900
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225112 Médico neurologista;4528;45280
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225120 Médico cardiologista;15906;159060
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225121 Médico oncologista clínico;29697;296970
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225122 Médico cancerologista pediátrico;13994;139940
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225124 Médico pediatra;14727;147270
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225125 Médico clínico;9524;95240
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225127 Médico pneumologista;6039;60390
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225133 Médico psiquiatra;6170;61700
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225135 Médico dermatologista;7026;70260
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225136 Médico reumatologista;2395;23950
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225140 Médico do trabalho;11;110
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225148 Médico anatomopatologista;370;3700
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225150 Médico em medicina intensiva;356;3560
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;666;6660
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225155 Médico endocrinologista e metabologista;5480;54800
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;7908;79080
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225175 Médico geneticista;777;7770
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225180 Médico geriatra;2499;24990
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225185 Médico hematologista;6540;65400
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;2263;22630
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225210 Médico cirurgião cardiovascular;1119;11190
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;3706;37060
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225220 Médico cirurgião do aparelho digestivo;75;750
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;2366;23660
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;3330;33300
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225235 Médico cirurgião plástico;6865;68650
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225240 Médico cirurgião torácico;477;4770
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;29300;293000
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225255 Médico mastologista;4444;44440
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225260 Médico neurocirurgião;1548;15480
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;7102;71020
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;8208;82080
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225275 Médico otorrinolaringologista;4751;47510
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225280 Médico coloproctologista;156;1560
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225285 Médico urologista;2815;28150
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225290 Médico cancerologista cirurgíco;1333;13330
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225305 Médico citopatologista;133;1330
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225315 Médico em medicina nuclear;246;2460
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;4;40
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225325 Médico patologista;229;2290
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225330 Médico radioterapeuta;5232;52320
+2023;Complementar;Complementar;6218458;IMIP SALGUEIRO;Salgueiro;VII Região de Saúde - PE;225109 Médico nefrologista;2058;20580
+2023;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;225120 Médico cardiologista;125;1250
+2023;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;225210 Médico cirurgião cardiovascular;218;2180
+2023;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;11138;111380
+2023;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;225109 Médico nefrologista;1444;14440
+2023;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;225203 Médico em cirurgia vascular;2;20
+2023;Complementar;Complementar;0002119;NEFROCENTRO;Recife;I Região de Saúde - PE;225109 Médico nefrologista;3960;39600
+2023;Complementar;Complementar;9641823;NEFROVIDA;Paulista;I Região de Saúde - PE;225109 Médico nefrologista;2907;29070
+2023;Complementar;Complementar;9601554;NEPHRONCARE;Caruaru;IV Região de Saúde - PE;225109 Médico nefrologista;647;6470
+2023;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;225265 Médico oftalmologista;68324;683240
+2023;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;12833;128330
+2023;Complementar;Complementar;3660710;SOS RIM;Caruaru;IV Região de Saúde - PE;225109 Médico nefrologista;4799;47990
+2023;Complementar;Complementar;5315654;SOS RIM ARCOVERDE;Arcoverde;VI Região de Saúde - PE;225109 Médico nefrologista;3576;35760
 2023;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;225112 Médico neurologista;255;2550
 2023;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;225120 Médico cardiologista;829;8290
 2023;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;225125 Médico clínico;388;3880
@@ -622,6 +818,7 @@
 2023;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;225125 Médico clínico;1158;11580
 2023;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;225135 Médico dermatologista;452;4520
 2023;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;407;4070
+2023;Rede própria;Estadual fora da lista SES;2712105;LABORATORIO DA MULHER DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;1349;13490
 2023;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;2231G1 Médico Cardiologista Intervencionista;577;5770
 2023;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;225109 Médico nefrologista;636;6360
 2023;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;225112 Médico neurologista;1258;12580
@@ -637,6 +834,206 @@
 2023;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;225210 Médico cirurgião cardiovascular;1338;13380
 2023;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;5;50
 2023;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;316;3160
+2024;Complementar;Complementar;6697461;C D C;Cabo de Santo Agostinho;I Região de Saúde - PE;225109 Médico nefrologista;6377;63770
+2024;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;225109 Médico nefrologista;10;100
+2024;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;225120 Médico cardiologista;1;10
+2024;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;225121 Médico oncologista clínico;2675;26750
+2024;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;225290 Médico cancerologista cirurgíco;638;6380
+2024;Complementar;Complementar;4018834;CENTRO DE TRATAMENTO RENAL;Jaboatão dos Guararapes;I Região de Saúde - PE;225109 Médico nefrologista;4684;46840
+2024;Complementar;Complementar;6727786;CLINICA DO CORACAO;Araripina;IX Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;1;10
+2024;Complementar;Complementar;2636808;CLINICA DO RIM;Carpina;II Região de Saúde - PE;225109 Médico nefrologista;1739;17390
+2024;Complementar;Complementar;2636808;CLINICA DO RIM;Carpina;II Região de Saúde - PE;225203 Médico em cirurgia vascular;167;1670
+2024;Complementar;Complementar;2434067;CLINICA DO RIM DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;225109 Médico nefrologista;4431;44310
+2024;Complementar;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;225109 Médico nefrologista;5550;55500
+2024;Complementar;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;225203 Médico em cirurgia vascular;35;350
+2024;Complementar;Complementar;3546039;COPE;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;27110;271100
+2024;Complementar;Complementar;5789656;CTRMS;Palmares;III Região de Saúde - PE;225109 Médico nefrologista;13835;138350
+2024;Complementar;Complementar;0001449;DAVITA;Recife;I Região de Saúde - PE;225109 Médico nefrologista;3267;32670
+2024;Complementar;Complementar;2708019;DAVITA;Recife;I Região de Saúde - PE;225109 Médico nefrologista;2832;28320
+2024;Complementar;Complementar;3240509;DAVITA;Olinda;I Região de Saúde - PE;225109 Médico nefrologista;1352;13520
+2024;Complementar;Complementar;0001449;DAVITA;Recife;I Região de Saúde - PE;225125 Médico clínico;1836;18360
+2024;Complementar;Complementar;0002038;DAVITA RECIFE;Recife;I Região de Saúde - PE;225109 Médico nefrologista;3552;35520
+2024;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225112 Médico neurologista;750;7500
+2024;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225120 Médico cardiologista;11172;111720
+2024;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;164859;1648590
+2024;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;812;8120
+2024;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225275 Médico otorrinolaringologista;1532;15320
+2024;Complementar;Complementar;3481506;FUNDACAO ALTINO VENTURA 2;Salgueiro;VII Região de Saúde - PE;225265 Médico oftalmologista;7857;78570
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225103 Médico infectologista;21850;218500
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225105 Médico acupunturista;1109;11090
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225109 Médico nefrologista;7147;71470
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225110 Médico alergista e imunologista;4476;44760
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225112 Médico neurologista;4339;43390
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225120 Médico cardiologista;7169;71690
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225121 Médico oncologista clínico;5587;55870
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225124 Médico pediatra;18505;185050
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225125 Médico clínico;22493;224930
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225127 Médico pneumologista;3493;34930
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225133 Médico psiquiatra;4768;47680
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225135 Médico dermatologista;5428;54280
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225136 Médico reumatologista;6750;67500
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225140 Médico do trabalho;33;330
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225150 Médico em medicina intensiva;1800;18000
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;2780;27800
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225155 Médico endocrinologista e metabologista;8437;84370
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;3051;30510
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225170 Médico generalista;2979;29790
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225180 Médico geriatra;496;4960
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225185 Médico hematologista;3671;36710
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;2102;21020
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225210 Médico cirurgião cardiovascular;36;360
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;152;1520
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225220 Médico cirurgião do aparelho digestivo;1243;12430
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;7896;78960
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;1414;14140
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225235 Médico cirurgião plástico;2631;26310
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225240 Médico cirurgião torácico;445;4450
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;17699;176990
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225255 Médico mastologista;999;9990
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225260 Médico neurocirurgião;6113;61130
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;7657;76570
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;4058;40580
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225275 Médico otorrinolaringologista;7656;76560
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225280 Médico coloproctologista;1204;12040
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225285 Médico urologista;1411;14110
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225290 Médico cancerologista cirurgíco;1175;11750
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225295 Médico cirurgião da mão;300;3000
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225305 Médico citopatologista;534;5340
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225310 Médico em endoscopia;865;8650
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225315 Médico em medicina nuclear;300;3000
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;1208;12080
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225350 Médico neurofisiologista clínico;5933;59330
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;2231F9 Médico residente;41;410
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225120 Médico cardiologista;6322;63220
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225121 Médico oncologista clínico;52365;523650
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225122 Médico cancerologista pediátrico;3379;33790
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225125 Médico clínico;2170;21700
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225135 Médico dermatologista;623;6230
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225150 Médico em medicina intensiva;2;20
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;1047;10470
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225185 Médico hematologista;4829;48290
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;5;50
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;19409;194090
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;457;4570
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;156;1560
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225235 Médico cirurgião plástico;2829;28290
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225240 Médico cirurgião torácico;909;9090
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;6477;64770
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225255 Médico mastologista;13193;131930
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225260 Médico neurocirurgião;5751;57510
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;6915;69150
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225275 Médico otorrinolaringologista;1;10
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225285 Médico urologista;4703;47030
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225290 Médico cancerologista cirurgíco;15277;152770
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;1;10
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225330 Médico radioterapeuta;11935;119350
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225340 Médico hemoterapeuta;64;640
+2024;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;12998;129980
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225103 Médico infectologista;46;460
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225120 Médico cardiologista;1047;10470
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225121 Médico oncologista clínico;12271;122710
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225122 Médico cancerologista pediátrico;1580;15800
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225125 Médico clínico;6558;65580
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225180 Médico geriatra;10;100
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225185 Médico hematologista;2286;22860
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225203 Médico em cirurgia vascular;143;1430
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;1424;14240
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225225 Médico cirurgião geral;570;5700
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225235 Médico cirurgião plástico;26;260
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225255 Médico mastologista;3602;36020
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225260 Médico neurocirurgião;296;2960
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225270 Médico ortopedista e traumatologista;61;610
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225285 Médico urologista;1380;13800
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225290 Médico cancerologista cirurgíco;1002;10020
+2024;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225109 Médico nefrologista;2160;21600
+2024;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225112 Médico neurologista;834;8340
+2024;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225120 Médico cardiologista;224;2240
+2024;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225124 Médico pediatra;106;1060
+2024;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225127 Médico pneumologista;247;2470
+2024;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;103;1030
+2024;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225185 Médico hematologista;187;1870
+2024;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;63;630
+2024;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;9;90
+2024;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;466;4660
+2024;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225121 Médico oncologista clínico;4637;46370
+2024;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;584;5840
+2024;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225225 Médico cirurgião geral;1;10
+2024;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225255 Médico mastologista;1782;17820
+2024;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225265 Médico oftalmologista;1;10
+2024;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225285 Médico urologista;558;5580
+2024;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;2231G1 Médico Cardiologista Intervencionista;2;20
+2024;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225109 Médico nefrologista;3404;34040
+2024;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225120 Médico cardiologista;895;8950
+2024;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225125 Médico clínico;16;160
+2024;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;152;1520
+2024;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;1114;11140
+2024;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225210 Médico cirurgião cardiovascular;551;5510
+2024;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225220 Médico cirurgião do aparelho digestivo;149;1490
+2024;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;378;3780
+2024;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225285 Médico urologista;395;3950
+2024;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225330 Médico radioterapeuta;1867;18670
+2024;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;225124 Médico pediatra;439;4390
+2024;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;7229;72290
+2024;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;225180 Médico geriatra;33;330
+2024;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;225310 Médico em endoscopia;25;250
+2024;Complementar;Complementar;0956724;IMEDIATA SAUDE SERVICOS DE RESSONANCIA MAGNETICA LTDA;Araripina;IX Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;1;10
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225103 Médico infectologista;3410;34100
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225109 Médico nefrologista;23751;237510
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225110 Médico alergista e imunologista;2238;22380
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225112 Médico neurologista;4543;45430
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225120 Médico cardiologista;14765;147650
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225121 Médico oncologista clínico;32458;324580
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225122 Médico cancerologista pediátrico;13021;130210
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225124 Médico pediatra;11660;116600
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225125 Médico clínico;9486;94860
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225127 Médico pneumologista;7224;72240
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225133 Médico psiquiatra;5981;59810
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225135 Médico dermatologista;12443;124430
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225136 Médico reumatologista;4477;44770
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225140 Médico do trabalho;23;230
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225148 Médico anatomopatologista;1040;10400
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225150 Médico em medicina intensiva;683;6830
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;698;6980
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225155 Médico endocrinologista e metabologista;7136;71360
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;8194;81940
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225175 Médico geneticista;737;7370
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225180 Médico geriatra;2696;26960
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225185 Médico hematologista;6939;69390
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;3109;31090
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225210 Médico cirurgião cardiovascular;1351;13510
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;4049;40490
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225220 Médico cirurgião do aparelho digestivo;143;1430
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;6295;62950
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;2964;29640
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225235 Médico cirurgião plástico;9167;91670
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225240 Médico cirurgião torácico;517;5170
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;30623;306230
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225255 Médico mastologista;5071;50710
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225260 Médico neurocirurgião;1966;19660
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;6916;69160
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;9037;90370
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225275 Médico otorrinolaringologista;6299;62990
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225280 Médico coloproctologista;872;8720
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225285 Médico urologista;4254;42540
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225290 Médico cancerologista cirurgíco;2193;21930
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225295 Médico cirurgião da mão;48;480
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225305 Médico citopatologista;74;740
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225315 Médico em medicina nuclear;239;2390
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225330 Médico radioterapeuta;5819;58190
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225335 Médico patologista clínico / medicina laboratorial;13;130
+2024;Complementar;Complementar;6218458;IMIP SALGUEIRO;Salgueiro;VII Região de Saúde - PE;225109 Médico nefrologista;1791;17910
+2024;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;225120 Médico cardiologista;541;5410
+2024;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;225210 Médico cirurgião cardiovascular;254;2540
+2024;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;12020;120200
+2024;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;225109 Médico nefrologista;1728;17280
+2024;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;225203 Médico em cirurgia vascular;87;870
+2024;Complementar;Complementar;0002119;NEFROCENTRO;Recife;I Região de Saúde - PE;225109 Médico nefrologista;3981;39810
+2024;Complementar;Complementar;9641823;NEFROVIDA;Paulista;I Região de Saúde - PE;225109 Médico nefrologista;3134;31340
+2024;Complementar;Complementar;9601554;NEPHRONCARE;Caruaru;IV Região de Saúde - PE;225109 Médico nefrologista;667;6670
+2024;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;225265 Médico oftalmologista;71614;716140
+2024;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;14737;147370
+2024;Complementar;Complementar;3660710;SOS RIM;Caruaru;IV Região de Saúde - PE;225109 Médico nefrologista;4349;43490
+2024;Complementar;Complementar;5315654;SOS RIM ARCOVERDE;Arcoverde;VI Região de Saúde - PE;225109 Médico nefrologista;4596;45960
 2024;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;225112 Médico neurologista;212;2120
 2024;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;225120 Médico cardiologista;2330;23300
 2024;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;225125 Médico clínico;1639;16390
@@ -1283,6 +1680,7 @@
 2024;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;225125 Médico clínico;335;3350
 2024;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;225135 Médico dermatologista;486;4860
 2024;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;476;4760
+2024;Rede própria;Estadual fora da lista SES;2712105;LABORATORIO DA MULHER DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;1353;13530
 2024;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;2231G1 Médico Cardiologista Intervencionista;1505;15050
 2024;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;225109 Médico nefrologista;768;7680
 2024;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;225112 Médico neurologista;1396;13960
@@ -1300,6 +1698,210 @@
 2024;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;225210 Médico cirurgião cardiovascular;1506;15060
 2024;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;379;3790
 2024;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;63;630
+2025;Complementar;Complementar;6697461;C D C;Cabo de Santo Agostinho;I Região de Saúde - PE;225109 Médico nefrologista;3710;37100
+2025;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;225109 Médico nefrologista;7;70
+2025;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;225120 Médico cardiologista;0;0
+2025;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;225121 Médico oncologista clínico;2502;25020
+2025;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;225290 Médico cancerologista cirurgíco;859;8590
+2025;Complementar;Complementar;4018834;CENTRO DE TRATAMENTO RENAL;Jaboatão dos Guararapes;I Região de Saúde - PE;225109 Médico nefrologista;4705;47050
+2025;Complementar;Complementar;2636808;CLINICA DO RIM;Carpina;II Região de Saúde - PE;225109 Médico nefrologista;1265;12650
+2025;Complementar;Complementar;2434067;CLINICA DO RIM DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;225109 Médico nefrologista;8849;88490
+2025;Complementar;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;225109 Médico nefrologista;3027;30270
+2025;Complementar;Complementar;3546039;COPE;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;26725;267250
+2025;Complementar;Complementar;5789656;CTRMS;Palmares;III Região de Saúde - PE;225109 Médico nefrologista;3377;33770
+2025;Complementar;Complementar;0001449;DAVITA;Recife;I Região de Saúde - PE;225109 Médico nefrologista;2031;20310
+2025;Complementar;Complementar;2708019;DAVITA;Recife;I Região de Saúde - PE;225109 Médico nefrologista;3551;35510
+2025;Complementar;Complementar;3240509;DAVITA;Olinda;I Região de Saúde - PE;225109 Médico nefrologista;1915;19150
+2025;Complementar;Complementar;0001449;DAVITA;Recife;I Região de Saúde - PE;225125 Médico clínico;3167;31670
+2025;Complementar;Complementar;2349833;DAVITA PETROLINA;Petrolina;VIII Região de Saúde - PE;225109 Médico nefrologista;537;5370
+2025;Complementar;Complementar;0002038;DAVITA RECIFE;Recife;I Região de Saúde - PE;225109 Médico nefrologista;3819;38190
+2025;Complementar;Complementar;3541126;FBO;Petrolina;VIII Região de Saúde - PE;225265 Médico oftalmologista;70;700
+2025;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225112 Médico neurologista;809;8090
+2025;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225120 Médico cardiologista;12890;128900
+2025;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;1;10
+2025;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;177072;1757220
+2025;Complementar;Complementar;9460144;FUNDACAO ALTINO VENTURA;Serra Talhada;XI Região de Saúde - PE;225265 Médico oftalmologista;18014;180140
+2025;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;850;8500
+2025;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225275 Médico otorrinolaringologista;1599;15990
+2025;Complementar;Complementar;3481506;FUNDACAO ALTINO VENTURA 2;Salgueiro;VII Região de Saúde - PE;225265 Médico oftalmologista;12346;120340
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225103 Médico infectologista;6569;65690
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225105 Médico acupunturista;1015;10150
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225109 Médico nefrologista;7221;72210
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225110 Médico alergista e imunologista;2554;25540
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225112 Médico neurologista;4177;41770
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225120 Médico cardiologista;8884;88840
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225121 Médico oncologista clínico;3625;36250
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225124 Médico pediatra;10636;106360
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225125 Médico clínico;77774;777740
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225127 Médico pneumologista;3201;32010
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225133 Médico psiquiatra;5928;59280
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225135 Médico dermatologista;3821;38210
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225136 Médico reumatologista;6428;64280
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225140 Médico do trabalho;1;10
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225150 Médico em medicina intensiva;2773;27730
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;3540;35400
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225155 Médico endocrinologista e metabologista;9914;99140
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;3059;30590
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225170 Médico generalista;660;6600
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225180 Médico geriatra;802;8020
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225185 Médico hematologista;3872;38720
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;2953;29530
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225210 Médico cirurgião cardiovascular;116;1160
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;80;800
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225220 Médico cirurgião do aparelho digestivo;956;9560
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;6975;69750
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;1333;13330
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225235 Médico cirurgião plástico;3079;30790
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225240 Médico cirurgião torácico;609;6090
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;17650;176500
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225255 Médico mastologista;1680;16800
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225260 Médico neurocirurgião;904;9040
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;6903;68870
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;4081;40810
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225275 Médico otorrinolaringologista;4782;47820
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225280 Médico coloproctologista;1129;11250
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225285 Médico urologista;2316;23160
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225290 Médico cancerologista cirurgíco;972;9720
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225295 Médico cirurgião da mão;311;3110
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225305 Médico citopatologista;551;5510
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225310 Médico em endoscopia;368;3680
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225315 Médico em medicina nuclear;219;2190
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;1891;18910
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225340 Médico hemoterapeuta;112;1120
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225350 Médico neurofisiologista clínico;381;3810
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;2231F9 Médico residente;727;7270
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225120 Médico cardiologista;6251;62510
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225121 Médico oncologista clínico;53330;533300
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225122 Médico cancerologista pediátrico;2842;28420
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225125 Médico clínico;4894;48940
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225135 Médico dermatologista;423;4230
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;761;7610
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225185 Médico hematologista;4216;42160
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;4;40
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;20112;201120
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;1640;16400
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;124;1240
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225235 Médico cirurgião plástico;2875;28750
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225240 Médico cirurgião torácico;976;9760
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;5089;50890
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225255 Médico mastologista;13183;131830
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225260 Médico neurocirurgião;5769;57690
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;6596;65960
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225285 Médico urologista;3425;34250
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225290 Médico cancerologista cirurgíco;16154;161540
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;3;30
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225330 Médico radioterapeuta;14499;144990
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225340 Médico hemoterapeuta;13;130
+2025;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;25214;252140
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225103 Médico infectologista;27;270
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225120 Médico cardiologista;1106;11060
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225121 Médico oncologista clínico;11531;115310
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225122 Médico cancerologista pediátrico;1581;15810
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225125 Médico clínico;3210;32100
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225180 Médico geriatra;107;1070
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225185 Médico hematologista;2642;26420
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225203 Médico em cirurgia vascular;194;1940
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;1840;18400
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225225 Médico cirurgião geral;241;2410
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225235 Médico cirurgião plástico;112;1120
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225255 Médico mastologista;3766;37660
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225260 Médico neurocirurgião;218;2180
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225270 Médico ortopedista e traumatologista;72;720
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225285 Médico urologista;1304;13040
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225290 Médico cancerologista cirurgíco;2553;25530
+2025;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225109 Médico nefrologista;1558;15580
+2025;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225112 Médico neurologista;694;6940
+2025;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225120 Médico cardiologista;148;1480
+2025;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225124 Médico pediatra;227;2270
+2025;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225127 Médico pneumologista;237;2370
+2025;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;110;1100
+2025;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225185 Médico hematologista;34;340
+2025;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;22;220
+2025;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;150;1500
+2025;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;752;7520
+2025;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225260 Médico neurocirurgião;6;60
+2025;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;2101;21010
+2025;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225285 Médico urologista;130;1300
+2025;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225121 Médico oncologista clínico;4526;45260
+2025;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;414;4140
+2025;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225225 Médico cirurgião geral;2;20
+2025;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225255 Médico mastologista;1094;10940
+2025;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225275 Médico otorrinolaringologista;1;10
+2025;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225285 Médico urologista;330;3300
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;2231G1 Médico Cardiologista Intervencionista;3;30
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225109 Médico nefrologista;3678;36780
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225120 Médico cardiologista;1119;11190
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225125 Médico clínico;4;40
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;115;1150
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;1091;10910
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225210 Médico cirurgião cardiovascular;653;6530
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225220 Médico cirurgião do aparelho digestivo;240;2400
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;346;3460
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;22;220
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225285 Médico urologista;434;4340
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225330 Médico radioterapeuta;2133;21330
+2025;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;225124 Médico pediatra;301;3010
+2025;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;7139;71390
+2025;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;225180 Médico geriatra;193;1930
+2025;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;225185 Médico hematologista;1138;11380
+2025;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;225310 Médico em endoscopia;27;270
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225103 Médico infectologista;2842;28420
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225109 Médico nefrologista;23547;235470
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225110 Médico alergista e imunologista;2310;23100
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225112 Médico neurologista;4509;45090
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225120 Médico cardiologista;15417;154130
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225121 Médico oncologista clínico;33661;336610
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225122 Médico cancerologista pediátrico;11662;116620
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225124 Médico pediatra;13463;134630
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225125 Médico clínico;11730;116880
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225127 Médico pneumologista;7108;71080
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225133 Médico psiquiatra;5864;58640
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225135 Médico dermatologista;15434;154340
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225136 Médico reumatologista;4598;45980
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225140 Médico do trabalho;46;460
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225148 Médico anatomopatologista;1030;10300
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225150 Médico em medicina intensiva;5;50
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;686;6860
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225155 Médico endocrinologista e metabologista;7502;75020
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;7962;79620
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225175 Médico geneticista;1610;16100
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225180 Médico geriatra;2628;26280
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225185 Médico hematologista;8210;82100
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;3487;34870
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225210 Médico cirurgião cardiovascular;1861;18610
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;4335;43350
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225220 Médico cirurgião do aparelho digestivo;464;4620
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;7544;75200
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;3144;31440
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225235 Médico cirurgião plástico;8882;88820
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225240 Médico cirurgião torácico;551;5510
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;29781;297770
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225255 Médico mastologista;5052;50340
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225260 Médico neurocirurgião;1930;19300
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;5991;59910
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;10816;108160
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225275 Médico otorrinolaringologista;7501;74990
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225280 Médico coloproctologista;488;4880
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225285 Médico urologista;4514;45060
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225290 Médico cancerologista cirurgíco;1997;19970
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225295 Médico cirurgião da mão;15;150
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225305 Médico citopatologista;3;30
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225315 Médico em medicina nuclear;222;2220
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225330 Médico radioterapeuta;6008;60080
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225335 Médico patologista clínico / medicina laboratorial;13;130
+2025;Complementar;Complementar;6218458;IMIP SALGUEIRO;Salgueiro;VII Região de Saúde - PE;225109 Médico nefrologista;2277;22770
+2025;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;225120 Médico cardiologista;998;9980
+2025;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;225210 Médico cirurgião cardiovascular;318;3180
+2025;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;9710;97100
+2025;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;225109 Médico nefrologista;11439;114390
+2025;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;225203 Médico em cirurgia vascular;56;560
+2025;Complementar;Complementar;0002119;NEFROCENTRO;Recife;I Região de Saúde - PE;225109 Médico nefrologista;3919;39190
+2025;Complementar;Complementar;9641823;NEFROVIDA;Paulista;I Região de Saúde - PE;225109 Médico nefrologista;6040;60400
+2025;Complementar;Complementar;9601554;NEPHRONCARE;Caruaru;IV Região de Saúde - PE;225109 Médico nefrologista;1000;10000
+2025;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;225265 Médico oftalmologista;81993;819930
+2025;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;19124;191240
+2025;Complementar;Complementar;3660710;SOS RIM;Caruaru;IV Região de Saúde - PE;225109 Médico nefrologista;3513;35130
+2025;Complementar;Complementar;5315654;SOS RIM ARCOVERDE;Arcoverde;VI Região de Saúde - PE;225109 Médico nefrologista;4640;46400
 2025;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;225120 Médico cardiologista;491;4910
 2025;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;225124 Médico pediatra;1313;13130
 2025;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;225125 Médico clínico;267;2670
@@ -1662,6 +2264,12 @@
 2025;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;225275 Médico otorrinolaringologista;2194;21940
 2025;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;225280 Médico coloproctologista;92;920
 2025;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;225285 Médico urologista;2087;20870
+2025;Rede própria;Estadual fora da lista SES;5283698;CARRETA DA MULHER PERNAMBUCANA 01 TKX 4C43;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;3059;30590
+2025;Rede própria;Estadual fora da lista SES;5283698;CARRETA DA MULHER PERNAMBUCANA 01 TKX 4C43;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;1;10
+2025;Rede própria;Estadual fora da lista SES;5283701;CARRETA DA MULHER PERNAMBUCANA 02 TKV 2J12;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;2692;26920
+2025;Rede própria;Estadual fora da lista SES;5283728;CARRETA DA MULHER PERNAMBUCANA 03 TKP 5G96;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;1808;18080
+2025;Rede própria;Estadual fora da lista SES;5283728;CARRETA DA MULHER PERNAMBUCANA 03 TKP 5G96;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;1;10
+2025;Rede própria;Estadual fora da lista SES;5283736;CARRETA DA MULHER PERNAMBUCANA 04 TKB 6I07;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;1623;16230
 2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;2231F9 Médico residente;494;4940
 2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;225103 Médico infectologista;959;9590
 2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;225109 Médico nefrologista;82;820
@@ -1973,6 +2581,7 @@
 2025;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;225125 Médico clínico;442;4420
 2025;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;225135 Médico dermatologista;552;5520
 2025;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;567;5670
+2025;Rede própria;Estadual fora da lista SES;2712105;LABORATORIO DA MULHER DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;576;5760
 2025;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;2231G1 Médico Cardiologista Intervencionista;740;7400
 2025;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;225103 Médico infectologista;1;10
 2025;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;225109 Médico nefrologista;939;9390
@@ -1989,6 +2598,209 @@
 2025;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;225210 Médico cirurgião cardiovascular;1300;13000
 2025;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;260;2600
 2025;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;225315 Médico em medicina nuclear;7;70
+2026;Complementar;Complementar;6697461;C D C;Cabo de Santo Agostinho;I Região de Saúde - PE;225109 Médico nefrologista;33953;339530
+2026;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;225109 Médico nefrologista;2;20
+2026;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;225121 Médico oncologista clínico;1678;16780
+2026;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;225290 Médico cancerologista cirurgíco;1090;10900
+2026;Complementar;Complementar;4018834;CENTRO DE TRATAMENTO RENAL;Jaboatão dos Guararapes;I Região de Saúde - PE;225109 Médico nefrologista;14627;146270
+2026;Complementar;Complementar;2636808;CLINICA DO RIM;Carpina;II Região de Saúde - PE;225109 Médico nefrologista;1050;10500
+2026;Complementar;Complementar;2434067;CLINICA DO RIM DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;225109 Médico nefrologista;49863;498630
+2026;Complementar;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;225109 Médico nefrologista;22421;224210
+2026;Complementar;Complementar;3546039;COPE;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;21558;215580
+2026;Complementar;Complementar;5789656;CTRMS;Palmares;III Região de Saúde - PE;225109 Médico nefrologista;27139;271390
+2026;Complementar;Complementar;2785242;CUPER;Recife;I Região de Saúde - PE;225285 Médico urologista;1102;11020
+2026;Complementar;Complementar;0001449;DAVITA;Recife;I Região de Saúde - PE;225109 Médico nefrologista;4136;41360
+2026;Complementar;Complementar;2708019;DAVITA;Recife;I Região de Saúde - PE;225109 Médico nefrologista;2853;28530
+2026;Complementar;Complementar;3240509;DAVITA;Olinda;I Região de Saúde - PE;225109 Médico nefrologista;2771;27710
+2026;Complementar;Complementar;2349833;DAVITA PETROLINA;Petrolina;VIII Região de Saúde - PE;225109 Médico nefrologista;1185;11850
+2026;Complementar;Complementar;0002038;DAVITA RECIFE;Recife;I Região de Saúde - PE;225109 Médico nefrologista;3276;32760
+2026;Complementar;Complementar;3541126;FBO;Petrolina;VIII Região de Saúde - PE;225265 Médico oftalmologista;9536;95360
+2026;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225112 Médico neurologista;547;5470
+2026;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225120 Médico cardiologista;8764;87640
+2026;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;130765;1251400
+2026;Complementar;Complementar;9460144;FUNDACAO ALTINO VENTURA;Serra Talhada;XI Região de Saúde - PE;225265 Médico oftalmologista;23039;230390
+2026;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;873;8730
+2026;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;225275 Médico otorrinolaringologista;1093;10930
+2026;Complementar;Complementar;3481506;FUNDACAO ALTINO VENTURA 2;Salgueiro;VII Região de Saúde - PE;225265 Médico oftalmologista;8856;72170
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225103 Médico infectologista;1253;12530
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225105 Médico acupunturista;623;6230
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225109 Médico nefrologista;5052;50520
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225110 Médico alergista e imunologista;2882;28820
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225112 Médico neurologista;2804;28040
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225120 Médico cardiologista;4858;48470
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225121 Médico oncologista clínico;3417;34170
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225124 Médico pediatra;11158;111580
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225125 Médico clínico;40376;403760
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225127 Médico pneumologista;2289;22890
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225133 Médico psiquiatra;3792;37920
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225135 Médico dermatologista;2790;27900
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225136 Médico reumatologista;5481;54810
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225150 Médico em medicina intensiva;1493;14930
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;1570;15700
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225155 Médico endocrinologista e metabologista;7784;77840
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;2045;20450
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225170 Médico generalista;9;90
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225175 Médico geneticista;74;740
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225180 Médico geriatra;634;6340
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225185 Médico hematologista;3206;32060
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;1921;19210
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225210 Médico cirurgião cardiovascular;72;720
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;159;1590
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225220 Médico cirurgião do aparelho digestivo;1084;10840
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;5259;52590
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;1089;10890
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225235 Médico cirurgião plástico;1808;18080
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225240 Médico cirurgião torácico;514;5140
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;11826;118230
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225255 Médico mastologista;836;8330
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225260 Médico neurocirurgião;553;5530
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;5607;50200
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;2530;25300
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225275 Médico otorrinolaringologista;2937;28830
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225280 Médico coloproctologista;857;8570
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225285 Médico urologista;1818;18180
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225290 Médico cancerologista cirurgíco;991;9910
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225295 Médico cirurgião da mão;392;3920
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225305 Médico citopatologista;308;3080
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225310 Médico em endoscopia;241;2410
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225315 Médico em medicina nuclear;160;1600
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;5464;54640
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225340 Médico hemoterapeuta;372;3720
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;225350 Médico neurofisiologista clínico;203;2030
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;2231F9 Médico residente;3700;37000
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225120 Médico cardiologista;3681;36810
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225121 Médico oncologista clínico;43828;438280
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225122 Médico cancerologista pediátrico;1981;19810
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225125 Médico clínico;9005;90050
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225135 Médico dermatologista;3;30
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225148 Médico anatomopatologista;1;10
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;265;2650
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225185 Médico hematologista;2182;21820
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;12956;129560
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;5442;54420
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;64;640
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225235 Médico cirurgião plástico;1167;11670
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225240 Médico cirurgião torácico;817;8170
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;374;3740
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225255 Médico mastologista;7805;78050
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225260 Médico neurocirurgião;3269;32690
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;4880;48800
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225285 Médico urologista;2051;20510
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225290 Médico cancerologista cirurgíco;11418;114180
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;5;50
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;225330 Médico radioterapeuta;12429;124290
+2026;Complementar;Complementar;2354888;HOSPITAL DE OLHOS SANTA LUZIA;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;17380;173800
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225120 Médico cardiologista;796;7960
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225121 Médico oncologista clínico;8478;84780
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225122 Médico cancerologista pediátrico;1065;10650
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225125 Médico clínico;1283;12830
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225180 Médico geriatra;48;480
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225185 Médico hematologista;1632;16320
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225203 Médico em cirurgia vascular;163;1630
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;1351;13510
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225225 Médico cirurgião geral;181;1810
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225235 Médico cirurgião plástico;65;650
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225250 Médico ginecologista e obstetra;44;440
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225255 Médico mastologista;2651;26510
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225260 Médico neurocirurgião;20;200
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225285 Médico urologista;1019;10190
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225290 Médico cancerologista cirurgíco;2126;21260
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225320 Médico em radiologia e diagnóstico por imagem;1;10
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;225330 Médico radioterapeuta;522;5220
+2026;Complementar;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;225120 Médico cardiologista;178;1060
+2026;Complementar;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;225151 Médico anestesiologista;4;40
+2026;Complementar;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;225203 Médico em cirurgia vascular;5;50
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225109 Médico nefrologista;1938;19380
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225112 Médico neurologista;343;3430
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225120 Médico cardiologista;172;1720
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225124 Médico pediatra;194;1940
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225127 Médico pneumologista;132;1320
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;128;1280
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225185 Médico hematologista;10;100
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;340;3400
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;877;8770
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;2012;20120
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225275 Médico otorrinolaringologista;15;150
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;225285 Médico urologista;2;20
+2026;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225121 Médico oncologista clínico;4154;41540
+2026;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;501;5010
+2026;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225255 Médico mastologista;1579;15790
+2026;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;225285 Médico urologista;354;3540
+2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225109 Médico nefrologista;1391;13910
+2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225120 Médico cardiologista;467;4670
+2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225125 Médico clínico;12;120
+2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;27;270
+2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;426;4260
+2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225210 Médico cirurgião cardiovascular;249;2490
+2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225220 Médico cirurgião do aparelho digestivo;41;410
+2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;292;2920
+2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;5;50
+2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225285 Médico urologista;142;1420
+2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;225330 Médico radioterapeuta;875;8750
+2026;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;225124 Médico pediatra;396;3960
+2026;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;7151;71510
+2026;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;225180 Médico geriatra;186;1860
+2026;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;225185 Médico hematologista;134;1340
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225103 Médico infectologista;2303;23030
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225109 Médico nefrologista;18057;180560
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225110 Médico alergista e imunologista;1506;15060
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225112 Médico neurologista;3566;35660
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225120 Médico cardiologista;11886;118740
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225121 Médico oncologista clínico;24210;242100
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225122 Médico cancerologista pediátrico;10086;100860
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225124 Médico pediatra;9978;99780
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225125 Médico clínico;8047;78650
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225127 Médico pneumologista;5498;54980
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225133 Médico psiquiatra;4326;43260
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225135 Médico dermatologista;11569;115690
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225136 Médico reumatologista;3505;35050
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225140 Médico do trabalho;4;40
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225148 Médico anatomopatologista;494;4920
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225150 Médico em medicina intensiva;7;70
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225151 Médico anestesiologista;415;4150
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225155 Médico endocrinologista e metabologista;6258;62580
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225165 Médico gastroenterologista;6144;61440
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225170 Médico generalista;416;4160
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225175 Médico geneticista;1298;12980
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225180 Médico geriatra;1505;15050
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225185 Médico hematologista;6941;69270
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225203 Médico em cirurgia vascular;2582;25820
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225210 Médico cirurgião cardiovascular;1836;18360
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225215 Médico cirurgião de cabeça e pescoço;3297;32960
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225220 Médico cirurgião do aparelho digestivo;1132;11120
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225225 Médico cirurgião geral;6438;62630
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225230 Médico cirurgião pediátrico;2303;23030
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225235 Médico cirurgião plástico;6357;63570
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225240 Médico cirurgião torácico;337;3370
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;19719;197000
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225255 Médico mastologista;3992;39470
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225260 Médico neurocirurgião;1410;14100
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;4126;41210
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;8271;82710
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225275 Médico otorrinolaringologista;5885;58620
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225280 Médico coloproctologista;664;6640
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225285 Médico urologista;3541;35090
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225290 Médico cancerologista cirurgíco;1258;12580
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225295 Médico cirurgião da mão;49;490
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225315 Médico em medicina nuclear;185;1850
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225330 Médico radioterapeuta;4775;47750
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;225335 Médico patologista clínico / medicina laboratorial;2;20
+2026;Complementar;Complementar;6218458;IMIP SALGUEIRO;Salgueiro;VII Região de Saúde - PE;225109 Médico nefrologista;1676;16760
+2026;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;225120 Médico cardiologista;504;5040
+2026;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;225121 Médico oncologista clínico;4;40
+2026;Complementar;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;225210 Médico cirurgião cardiovascular;261;2610
+2026;Complementar;Complementar;2319187;IOR;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;8792;87920
+2026;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;225109 Médico nefrologista;11350;113500
+2026;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;225125 Médico clínico;4637;46370
+2026;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;225203 Médico em cirurgia vascular;48;480
+2026;Complementar;Complementar;5333504;MAX DAY HOSPITAL;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;162;0
+2026;Complementar;Complementar;0002119;NEFROCENTRO;Recife;I Região de Saúde - PE;225109 Médico nefrologista;25837;258370
+2026;Complementar;Complementar;9641823;NEFROVIDA;Paulista;I Região de Saúde - PE;225109 Médico nefrologista;30722;307220
+2026;Complementar;Complementar;9601554;NEPHRONCARE;Caruaru;IV Região de Saúde - PE;225109 Médico nefrologista;440;4400
+2026;Complementar;Complementar;0422207;OFTALMO PE FILIAL;Garanhuns;V Região de Saúde - PE;225265 Médico oftalmologista;67450;674500
+2026;Complementar;Complementar;2354942;SEOPE;Recife;I Região de Saúde - PE;225265 Médico oftalmologista;14273;142730
+2026;Complementar;Complementar;3660710;SOS RIM;Caruaru;IV Região de Saúde - PE;225109 Médico nefrologista;13756;137560
+2026;Complementar;Complementar;5315654;SOS RIM ARCOVERDE;Arcoverde;VI Região de Saúde - PE;225109 Médico nefrologista;3089;30890
 2026;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;225120 Médico cardiologista;5501;55010
 2026;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;225124 Médico pediatra;1082;10820
 2026;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;225125 Médico clínico;132;1320
@@ -2346,6 +3158,10 @@
 2026;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;225265 Médico oftalmologista;1079;10790
 2026;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;225275 Médico otorrinolaringologista;1309;13090
 2026;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;225285 Médico urologista;890;8900
+2026;Rede própria;Estadual fora da lista SES;5283698;CARRETA DA MULHER PERNAMBUCANA 01 TKX 4C43;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;4030;40300
+2026;Rede própria;Estadual fora da lista SES;5283701;CARRETA DA MULHER PERNAMBUCANA 02 TKV 2J12;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;2542;25420
+2026;Rede própria;Estadual fora da lista SES;5283728;CARRETA DA MULHER PERNAMBUCANA 03 TKP 5G96;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;3878;38780
+2026;Rede própria;Estadual fora da lista SES;5283736;CARRETA DA MULHER PERNAMBUCANA 04 TKB 6I07;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;2960;29600
 2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;2231F9 Médico residente;441;4410
 2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;225103 Médico infectologista;711;7110
 2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;225109 Médico nefrologista;157;1570
@@ -2644,6 +3460,7 @@
 2026;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;225135 Médico dermatologista;416;4160
 2026;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;550;5500
 2026;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;225270 Médico ortopedista e traumatologista;410;4100
+2026;Rede própria;Estadual fora da lista SES;2712105;LABORATORIO DA MULHER DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;225250 Médico ginecologista e obstetra;460;4600
 2026;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;225109 Médico nefrologista;787;7870
 2026;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;225112 Médico neurologista;972;9720
 2026;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;225120 Médico cardiologista;28759;282510

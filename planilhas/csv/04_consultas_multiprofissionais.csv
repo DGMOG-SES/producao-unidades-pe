@@ -1,4 +1,76 @@
 ﻿ANO;TIPO_REDE;MODELO_GESTAO;CNES;UNIDADE;MUNICIPIO;REGIAO_SAUDE;ESPECIALIDADE;QTD;VALOR
+2023;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;223505 Enfermeiro;46385;292225,5
+2023;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;6184;38959,2
+2023;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;5123;32274,9
+2023;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;2195;13828,5
+2023;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;224140 Profissional de educação física na saúde;699;4403,7
+2023;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;239425 Psicopedagogo;7667;48302,1
+2023;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;6089;38360,7
+2023;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;251605 Assistente social;37400;235620
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;4062;25590,6
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223505 Enfermeiro;38965;245479,5
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223535 Enfermeiro nefrologista;1;6,3
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;3764;23713,2
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223710 Nutricionista;3209;20216,7
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;2533;15957,9
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;1114;7018,2
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;224140 Profissional de educação física na saúde;5475;34492,5
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;2224;14011,2
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;2003;12618,9
+2023;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;251605 Assistente social;7883;49662,9
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;6287;39608,1
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223220 Cirurgião dentista - estomatologista;4222;26598,6
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223232 Cirurgião dentista - odontologista legal;32;201,6
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223256 Cirurgião dentista - protesista;894;5632,2
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;1;6,3
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223280 Cirurgião dentista - dentística;15;94,5
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223505 Enfermeiro;43154;271870,2
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223510 Enfermeiro auditor;1;6,3
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;12885;81175,5
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223710 Nutricionista;828;5216,4
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;3444;21697,2
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;6094;38392,2
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;184;1159,2
+2023;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;251605 Assistente social;11576;72928,8
+2023;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;223505 Enfermeiro;2429;15302,7
+2023;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;223605 Fisioterapeuta geral;477;3005,1
+2023;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;223710 Nutricionista;154;970,2
+2023;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;251510 Psicólogo clínico;175;1102,5
+2023;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;251605 Assistente social;409;2576,7
+2023;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;223505 Enfermeiro;3656;23032,8
+2023;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;223710 Nutricionista;327;2060,1
+2023;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;251510 Psicólogo clínico;71;447,3
+2023;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;251605 Assistente social;5442;34284,6
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;223505 Enfermeiro;823;5184,9
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;223535 Enfermeiro nefrologista;40;252
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;363;2286,9
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;207;1304,1
+2023;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;251605 Assistente social;1;6,3
+2023;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;223505 Enfermeiro;187;1178,1
+2023;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;1095;6898,5
+2023;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;251605 Assistente social;3995;25168,5
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;16156;101782,8
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223212 Cirurgião dentista - endodontista;361;2274,3
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223236 Cirurgião dentista - odontopediatra;4974;31336,2
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223240 Cirurgião dentista - ortopedista e ortodontista;4894;30832,2
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223248 Cirurgião dentista - periodontista;929;5852,7
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223256 Cirurgião dentista - protesista;161;1014,3
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;706;4447,8
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223405 Farmacêutico;15;94,5
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223505 Enfermeiro;150020;945126
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223525 Enfermeiro de terapia intensiva;31;195,3
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223530 Enfermeiro do trabalho;1821;11472,3
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223535 Enfermeiro nefrologista;1;6,3
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223540 Enfermeiro neonatologista;250;1575
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223545 Enfermeiro obstétrico;2577;16235,1
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223555 Enfermeiro puericultor e pediátrico;68;428,4
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;24401;153726,3
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223710 Nutricionista;9912;62445,6
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;28334;178504,2
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;5676;35758,8
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;19271;121407,3
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;651;4101,3
+2023;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;251605 Assistente social;20404;128545,2
 2023;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;223505 Enfermeiro;1554;9790,2
 2023;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;223605 Fisioterapeuta geral;493;3105,9
 2023;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;223710 Nutricionista;514;3238,2
@@ -358,6 +430,77 @@
 2023;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;5;31,5
 2023;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;18;113,4
 2023;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;251605 Assistente social;49;308,7
+2024;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;223505 Enfermeiro;58076;365878,8
+2024;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;6693;42165,9
+2024;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;4332;27291,6
+2024;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;1769;11144,7
+2024;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;239425 Psicopedagogo;6941;43728,3
+2024;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;8669;54614,7
+2024;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;251605 Assistente social;56783;357732,9
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;1419;8939,7
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223415 Farmacêutico analista clínico;53;333,9
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223505 Enfermeiro;46847;295136,1
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;5172;32583,6
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223710 Nutricionista;4427;27890,1
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;2650;16695
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;1822;11478,6
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;224140 Profissional de educação física na saúde;6334;39904,2
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;1884;11869,2
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;1901;11976,3
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;251540 Psicólogo do trabalho;112;705,6
+2024;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;251605 Assistente social;3189;20090,7
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;5998;37787,4
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223220 Cirurgião dentista - estomatologista;4275;26932,5
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223232 Cirurgião dentista - odontologista legal;68;428,4
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223256 Cirurgião dentista - protesista;1156;7282,8
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;109;686,7
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223280 Cirurgião dentista - dentística;109;686,7
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223505 Enfermeiro;46240;291312
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;12950;81585
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223710 Nutricionista;1834;11554,2
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;2897;18251,1
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;5892;37119,6
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;792;4989,6
+2024;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;251605 Assistente social;10495;66118,5
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;223505 Enfermeiro;11084;69829,2
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;223605 Fisioterapeuta geral;374;2356,2
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;223710 Nutricionista;581;3660,3
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;251510 Psicólogo clínico;524;3301,2
+2024;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;251605 Assistente social;2124;13381,2
+2024;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;223505 Enfermeiro;3557;22409,1
+2024;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;223710 Nutricionista;167;1052,1
+2024;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;251510 Psicólogo clínico;221;1392,3
+2024;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;251605 Assistente social;5276;33238,8
+2024;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;223505 Enfermeiro;312;1965,6
+2024;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;223535 Enfermeiro nefrologista;486;3061,8
+2024;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;462;2910,6
+2024;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;223505 Enfermeiro;561;3534,3
+2024;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;223710 Nutricionista;164;1033,2
+2024;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;521;3282,3
+2024;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;251605 Assistente social;2072;13053,6
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;221105 Biólogo;2;12,6
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;8796;55414,8
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223212 Cirurgião dentista - endodontista;365;2299,5
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223236 Cirurgião dentista - odontopediatra;4806;30277,8
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223240 Cirurgião dentista - ortopedista e ortodontista;3516;22150,8
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223248 Cirurgião dentista - periodontista;991;6243,3
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223256 Cirurgião dentista - protesista;193;1215,9
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;939;5915,7
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223505 Enfermeiro;137625;867037,5
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223525 Enfermeiro de terapia intensiva;2193;13815,9
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223530 Enfermeiro do trabalho;1703;10728,9
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223540 Enfermeiro neonatologista;948;5972,4
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223545 Enfermeiro obstétrico;3149;19838,7
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223580 Enfermeiro estomaterapeuta;113;711,9
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;23616;148780,8
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223625 Fisioterapeuta respiratória;388;2444,4
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223635 Fisioterapeuta traumato-ortopédica funcional;34;214,2
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223710 Nutricionista;11173;70389,9
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;25026;157663,8
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;4060;25578
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;18385;115825,5
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;1208;7610,4
+2024;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;251605 Assistente social;21191;133503,3
 2024;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;221205 Biomédico;4;25,2
 2024;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;223505 Enfermeiro;4332;27291,6
 2024;OSS;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;223605 Fisioterapeuta geral;558;3515,4
@@ -755,6 +898,91 @@
 2024;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;251605 Assistente social;1516;9550,8
 2024;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;223505 Enfermeiro;3507;22094,1
 2024;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;251605 Assistente social;44;277,2
+2025;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;223710 Nutricionista;3269;20594,7
+2025;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;251510 Psicólogo clínico;3335;21010,5
+2025;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;251605 Assistente social;4128;26006,4
+2025;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;223505 Enfermeiro;62190;391797
+2025;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;13127;82700,1
+2025;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;6188;38984,4
+2025;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;2349;14798,7
+2025;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;239425 Psicopedagogo;7510;47313
+2025;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;11778;74201,4
+2025;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;251605 Assistente social;43672;275133,6
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;669;4214,7
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223405 Farmacêutico;512;3225,6
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223415 Farmacêutico analista clínico;4008;25250,4
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223505 Enfermeiro;50296;316864,8
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223535 Enfermeiro nefrologista;6;37,8
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223545 Enfermeiro obstétrico;1;6,3
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;5038;31739,4
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223710 Nutricionista;3785;23845,5
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;2172;13683,6
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;1968;12398,4
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;224140 Profissional de educação física na saúde;6698;42197,4
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;2093;13185,9
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;2743;17280,9
+2025;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;251605 Assistente social;4124;25981,2
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;4999;31493,7
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223220 Cirurgião dentista - estomatologista;4295;27058,5
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223232 Cirurgião dentista - odontologista legal;53;333,9
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223252 Cirurgião dentista - protesiólogo bucomaxilofacial;131;825,3
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223256 Cirurgião dentista - protesista;888;5594,4
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;154;970,2
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223280 Cirurgião dentista - dentística;51;321,3
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223505 Enfermeiro;53100;334530
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;13237;83393,1
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223710 Nutricionista;2442;15384,6
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;2892;18219,6
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;7267;45782,1
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;91;573,3
+2025;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;251605 Assistente social;10364;65293,2
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;74;466,2
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;223505 Enfermeiro;18721;117942,3
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;223605 Fisioterapeuta geral;172;1083,6
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;223710 Nutricionista;351;2211,3
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;251510 Psicólogo clínico;425;2677,5
+2025;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;251605 Assistente social;2382;15006,6
+2025;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;223505 Enfermeiro;4294;27052,2
+2025;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;223710 Nutricionista;146;919,8
+2025;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;251510 Psicólogo clínico;203;1278,9
+2025;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;251605 Assistente social;4370;27531
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;223535 Enfermeiro nefrologista;854;5380,2
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;223710 Nutricionista;7;44,1
+2025;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;603;3798,9
+2025;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;223405 Farmacêutico;1699;10703,7
+2025;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;223710 Nutricionista;598;3767,4
+2025;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;487;3068,1
+2025;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;251605 Assistente social;13964;87973,2
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;221105 Biólogo;12;75,6
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;7793;49095,9
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223212 Cirurgião dentista - endodontista;767;4832,1
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223236 Cirurgião dentista - odontopediatra;4187;26378,1
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223240 Cirurgião dentista - ortopedista e ortodontista;3542;22314,6
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223248 Cirurgião dentista - periodontista;940;5922
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223256 Cirurgião dentista - protesista;165;1039,5
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;920;5796
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223505 Enfermeiro;135229;851942,7
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223525 Enfermeiro de terapia intensiva;1286;8101,8
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223530 Enfermeiro do trabalho;614;3868,2
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223535 Enfermeiro nefrologista;129;812,7
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223540 Enfermeiro neonatologista;1604;10105,2
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223545 Enfermeiro obstétrico;4918;30983,4
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223555 Enfermeiro puericultor e pediátrico;3;18,9
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223580 Enfermeiro estomaterapeuta;11;69,3
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;19444;122497,2
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223625 Fisioterapeuta respiratória;644;4057,2
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223635 Fisioterapeuta traumato-ortopédica funcional;1;6,3
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223710 Nutricionista;13029;82082,7
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;5909;37226,7
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;4367;27512,1
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;226305 Musicoterapeuta;556;3502,8
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;18425;116077,5
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;1892;11919,6
+2025;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;251605 Assistente social;22590;142317
+2025;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;223535 Enfermeiro nefrologista;872;5493,6
+2025;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;223710 Nutricionista;872;5493,6
+2025;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;251510 Psicólogo clínico;872;5493,6
+2025;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;251605 Assistente social;872;5493,6
 2025;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;223545 Enfermeiro obstétrico;639;4025,7
 2025;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;223710 Nutricionista;2457;15479,1
 2025;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;251510 Psicólogo clínico;1866;11755,8
@@ -1151,6 +1379,133 @@
 2025;Rede própria;Gestão direta;2429586;HOSPITAL SAO LUCAS;Fernando de Noronha;I Região de Saúde - PE;251605 Assistente social;1281;8070,3
 2025;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;223505 Enfermeiro;3492;21999,6
 2025;Rede própria;Administração indireta;3983730;PROCAPE;Recife;I Região de Saúde - PE;251605 Assistente social;8;50,4
+2026;Complementar;Complementar;6697461;C D C;Cabo de Santo Agostinho;I Região de Saúde - PE;223505 Enfermeiro;2149;13538,7
+2026;Complementar;Complementar;6697461;C D C;Cabo de Santo Agostinho;I Região de Saúde - PE;223710 Nutricionista;2274;14326,2
+2026;Complementar;Complementar;6697461;C D C;Cabo de Santo Agostinho;I Região de Saúde - PE;251510 Psicólogo clínico;1805;11371,5
+2026;Complementar;Complementar;6697461;C D C;Cabo de Santo Agostinho;I Região de Saúde - PE;251605 Assistente social;2132;13431,6
+2026;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;223710 Nutricionista;622;3918,6
+2026;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;251510 Psicólogo clínico;1500;9450
+2026;Complementar;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;251605 Assistente social;1799;11333,7
+2026;Complementar;Complementar;4018834;CENTRO DE TRATAMENTO RENAL;Jaboatão dos Guararapes;I Região de Saúde - PE;223505 Enfermeiro;779;4907,7
+2026;Complementar;Complementar;4018834;CENTRO DE TRATAMENTO RENAL;Jaboatão dos Guararapes;I Região de Saúde - PE;223710 Nutricionista;825;5197,5
+2026;Complementar;Complementar;4018834;CENTRO DE TRATAMENTO RENAL;Jaboatão dos Guararapes;I Região de Saúde - PE;251510 Psicólogo clínico;837;5273,1
+2026;Complementar;Complementar;4018834;CENTRO DE TRATAMENTO RENAL;Jaboatão dos Guararapes;I Região de Saúde - PE;251605 Assistente social;842;5304,6
+2026;Complementar;Complementar;2434067;CLINICA DO RIM DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;223505 Enfermeiro;1224;7711,2
+2026;Complementar;Complementar;2434067;CLINICA DO RIM DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;223535 Enfermeiro nefrologista;1297;8171,1
+2026;Complementar;Complementar;2434067;CLINICA DO RIM DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;223710 Nutricionista;2885;18175,5
+2026;Complementar;Complementar;2434067;CLINICA DO RIM DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;251510 Psicólogo clínico;2744;17287,2
+2026;Complementar;Complementar;2434067;CLINICA DO RIM DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;251605 Assistente social;1895;11938,5
+2026;Complementar;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;223505 Enfermeiro;411;2589,3
+2026;Complementar;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;223710 Nutricionista;2025;12757,5
+2026;Complementar;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;251510 Psicólogo clínico;1500;9450
+2026;Complementar;Complementar;6501826;CLINICA DO RIM DO CARPINA UNIDADE II;Carpina;II Região de Saúde - PE;251605 Assistente social;1986;12511,8
+2026;Complementar;Complementar;5789656;CTRMS;Palmares;III Região de Saúde - PE;223505 Enfermeiro;1228;7736,4
+2026;Complementar;Complementar;5789656;CTRMS;Palmares;III Região de Saúde - PE;223710 Nutricionista;1218;7673,4
+2026;Complementar;Complementar;5789656;CTRMS;Palmares;III Região de Saúde - PE;251510 Psicólogo clínico;581;3660,3
+2026;Complementar;Complementar;5789656;CTRMS;Palmares;III Região de Saúde - PE;251605 Assistente social;1216;7660,8
+2026;Complementar;Complementar;3240509;DAVITA;Olinda;I Região de Saúde - PE;223535 Enfermeiro nefrologista;268;1688,4
+2026;Complementar;Complementar;3240509;DAVITA;Olinda;I Região de Saúde - PE;223710 Nutricionista;78;491,4
+2026;Complementar;Complementar;3240509;DAVITA;Olinda;I Região de Saúde - PE;251605 Assistente social;574;3616,2
+2026;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;223505 Enfermeiro;41738;262949,4
+2026;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;7978;50261,4
+2026;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;3722;23448,6
+2026;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;1624;10231,2
+2026;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;239425 Psicopedagogo;4366;27505,8
+2026;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;7442;46884,6
+2026;Complementar;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;251605 Assistente social;30288;190814,4
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;169;1064,7
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223415 Farmacêutico analista clínico;4808;30290,4
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223505 Enfermeiro;31435;198036
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223525 Enfermeiro de terapia intensiva;16;100,8
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;4130;26019
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223710 Nutricionista;2691;16953,3
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;1230;7749
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223820 Fonoaudiólogo em audiologia;22;138,6
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;1416;8920,8
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;224140 Profissional de educação física na saúde;3271;20607,3
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;849;5348,7
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;1286;8101,8
+2026;Complementar;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;251605 Assistente social;1944;12247,2
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;5511;34719,3
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223220 Cirurgião dentista - estomatologista;2022;12738,6
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223232 Cirurgião dentista - odontologista legal;80;504
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223256 Cirurgião dentista - protesista;24;151,2
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;2;12,6
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223280 Cirurgião dentista - dentística;3;18,9
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223505 Enfermeiro;43261;272536,8
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;9655;60826,5
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223710 Nutricionista;2144;13507,2
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;2316;14590,8
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;4861;30624,3
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;833;5247,9
+2026;Complementar;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;251605 Assistente social;7192;45309,6
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;223505 Enfermeiro;13103;82548,9
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;223605 Fisioterapeuta geral;87;548,1
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;223710 Nutricionista;311;1959,3
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;251510 Psicólogo clínico;785;4945,5
+2026;Complementar;Complementar;9262407;HOSPITAL DOM TOMAS;Petrolina;VIII Região de Saúde - PE;251605 Assistente social;1833;11547,9
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;223505 Enfermeiro;11;69,3
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;48;302,4
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;223710 Nutricionista;26;163,8
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;30;189
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;46;289,8
+2026;Complementar;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;251605 Assistente social;55;346,5
+2026;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;223505 Enfermeiro;3694;23272,2
+2026;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;223710 Nutricionista;210;1323
+2026;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;251510 Psicólogo clínico;300;1890
+2026;Complementar;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;251605 Assistente social;4307;27134,1
+2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;223535 Enfermeiro nefrologista;380;2394
+2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;223710 Nutricionista;18;113,4
+2026;Complementar;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;203;1278,9
+2026;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;221105 Biólogo;1;6,3
+2026;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;223405 Farmacêutico;2353;14823,9
+2026;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;223505 Enfermeiro;5282;33276,6
+2026;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;32;201,6
+2026;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;223710 Nutricionista;761;4794,3
+2026;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;582;3666,6
+2026;Complementar;Complementar;5671965;IFP;Recife;I Região de Saúde - PE;251605 Assistente social;5097;32111,1
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;2707;17054,1
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223212 Cirurgião dentista - endodontista;209;1316,7
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223236 Cirurgião dentista - odontopediatra;2838;17879,4
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223240 Cirurgião dentista - ortopedista e ortodontista;1555;9796,5
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223248 Cirurgião dentista - periodontista;390;2457
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223256 Cirurgião dentista - protesista;108;680,4
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;770;4851
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223505 Enfermeiro;106039;668045,7
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223525 Enfermeiro de terapia intensiva;318;2003,4
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223530 Enfermeiro do trabalho;246;1549,8
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223535 Enfermeiro nefrologista;1126;7093,8
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223540 Enfermeiro neonatologista;255;1606,5
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223545 Enfermeiro obstétrico;3948;24872,4
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223555 Enfermeiro puericultor e pediátrico;4;25,2
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223580 Enfermeiro estomaterapeuta;203;1278,9
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223605 Fisioterapeuta geral;13135;82750,5
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223625 Fisioterapeuta respiratória;423;2664,9
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223710 Nutricionista;7301;45996,3
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223810 Fonoaudiólogo geral;2193;13815,9
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;223905 Terapeuta ocupacional;3018;19013,4
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;226305 Musicoterapeuta;725;4567,5
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;10295;64858,5
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;251520 Psicólogo hospitalar;1524;9601,2
+2026;Complementar;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;251605 Assistente social;13086;82441,8
+2026;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;223535 Enfermeiro nefrologista;1312;8265,6
+2026;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;223710 Nutricionista;1312;8265,6
+2026;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;251510 Psicólogo clínico;1312;8265,6
+2026;Complementar;Complementar;0926167;ITR ALICE TORRES PEREIRA DE CARVALHO;Serra Talhada;XI Região de Saúde - PE;251605 Assistente social;1312;8265,6
+2026;Complementar;Complementar;0002119;NEFROCENTRO;Recife;I Região de Saúde - PE;223505 Enfermeiro;1733;10917,9
+2026;Complementar;Complementar;0002119;NEFROCENTRO;Recife;I Região de Saúde - PE;223535 Enfermeiro nefrologista;108;680,4
+2026;Complementar;Complementar;0002119;NEFROCENTRO;Recife;I Região de Saúde - PE;223710 Nutricionista;1760;11088
+2026;Complementar;Complementar;0002119;NEFROCENTRO;Recife;I Região de Saúde - PE;251510 Psicólogo clínico;2028;12776,4
+2026;Complementar;Complementar;0002119;NEFROCENTRO;Recife;I Região de Saúde - PE;251605 Assistente social;1692;10659,6
+2026;Complementar;Complementar;9641823;NEFROVIDA;Paulista;I Região de Saúde - PE;223505 Enfermeiro;2089;13160,7
+2026;Complementar;Complementar;9641823;NEFROVIDA;Paulista;I Região de Saúde - PE;223710 Nutricionista;2026;12763,8
+2026;Complementar;Complementar;9641823;NEFROVIDA;Paulista;I Região de Saúde - PE;251510 Psicólogo clínico;1743;10980,9
+2026;Complementar;Complementar;9641823;NEFROVIDA;Paulista;I Região de Saúde - PE;251605 Assistente social;1616;10180,8
+2026;Complementar;Complementar;3660710;SOS RIM;Caruaru;IV Região de Saúde - PE;223710 Nutricionista;475;2992,5
+2026;Complementar;Complementar;5315654;SOS RIM ARCOVERDE;Arcoverde;VI Região de Saúde - PE;223535 Enfermeiro nefrologista;1586;9991,8
+2026;Complementar;Complementar;5315654;SOS RIM ARCOVERDE;Arcoverde;VI Região de Saúde - PE;223710 Nutricionista;1860;11718
+2026;Complementar;Complementar;5315654;SOS RIM ARCOVERDE;Arcoverde;VI Região de Saúde - PE;251510 Psicólogo clínico;1777;11195,1
+2026;Complementar;Complementar;5315654;SOS RIM ARCOVERDE;Arcoverde;VI Região de Saúde - PE;251605 Assistente social;1777;11195,1
 2026;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;223505 Enfermeiro;1526;9613,8
 2026;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;223545 Enfermeiro obstétrico;570;3591
 2026;OSS;OSS;4306945;HOSPITAL DA MULHER DO AGRESTE;Caruaru;IV Região de Saúde - PE;223710 Nutricionista;2031;12795,3
