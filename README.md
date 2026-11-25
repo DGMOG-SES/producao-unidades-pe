@@ -38,10 +38,11 @@ Colunas comuns: `ANO`, `MES`, `COMPETENCIA` (AAAAMM), `TIPO_REDE`,
 | Rede própria | Lista validada (`referencias/estabelecimentos_validados.csv`), vínculo `REDE_PROPRIA_ESTADUAL` ou `ESTADUAL_ADM_INDIRETA`, modelo de gestão Gestão direta, 06 grandes ou Administração indireta | Toda, qualquer gestor |
 | OSS | Lista validada, modelo de gestão `OSS` | Toda, qualquer gestor |
 | Complementar | Prestadores privados e filantrópicos: natureza jurídica do CNES começando por 2 (exceto empresa pública 2011 e sociedade de economia mista 2038), 3 ou 4 | Só a faturada pelo gestor estadual (`PA_GESTAO` / `UF_ZI` = 260000) |
+| Rede própria – "Estadual fora da lista SES" | Estabelecimentos da administração pública estadual no CNES (natureza jurídica 102-3, 111-2, 114-7 etc.) que não estão na lista validada: assistência farmacêutica, laboratórios, unidades móveis | Só a faturada pelo gestor estadual |
 
-Estabelecimentos públicos fora da lista (municipais, federais, como o HC/EBSERH)
-ficam de fora. A coluna `NA_LISTA_SES` em `00_unidades` mostra quais
-complementares já estavam na lista validada como "Referência fora da rede".
+Estabelecimentos públicos municipais e federais (como o HC/EBSERH) ficam de fora. A coluna `NA_LISTA_SES` em `00_unidades` mostra quais
+unidades estão na lista validada (para a complementar, as que constam como
+"Referência fora da rede").
 
 **Período e competência.** Mês de processamento: no SIA, o movimento
 (`PA_MVM`); no SIH, `ANO_CMPT`/`MES_CMPT`. Vai de 01/2023 até 12/2026 (ou o

@@ -9,7 +9,10 @@
 # Tipo de rede (coluna TIPO_REDE):
 #   Rede própria  lista validada da SES, vínculo REDE_PROPRIA_ESTADUAL ou
 #                 ESTADUAL_ADM_INDIRETA, modelo de gestão diferente de OSS
-#                 (Gestão direta, 06 grandes, Administração indireta)
+#                 (Gestão direta, 06 grandes, Administração indireta); mais os
+#                 estabelecimentos da administração pública estadual no CNES
+#                 que não estão na lista (modelo "Estadual fora da lista SES",
+#                 só a produção sob gestão estadual)
 #   OSS           lista validada, modelo de gestão OSS
 #   Complementar  prestador privado ou filantrópico (natureza jurídica do CNES
 #                 2xxx, exceto empresa pública 2011 e sociedade de economia mista
@@ -57,11 +60,17 @@ PARTOS <- data.table(
 
 NAT_JUR_PUBLICA_EMPRESARIAL <- c("2011", "2038")   # empresa pública, sociedade de economia mista
 
+# Naturezas jurídicas da administração pública estadual (órgão do Executivo,
+# Legislativo e Judiciário estadual, autarquia, fundação pública, órgão autônomo,
+# Estado, fundação de direito privado e fundos públicos estaduais).
+NAT_JUR_ESTADUAL <- c("1023", "1058", "1082", "1112", "1147", "1171", "1236", "1260", "1295", "1325")
+
 TIPOS_CNES <- c("01" = "Posto de saúde", "02" = "Centro de saúde/Unidade básica", "04" = "Policlínica",
                 "05" = "Hospital geral", "07" = "Hospital especializado", "15" = "Unidade mista",
                 "20" = "Pronto-socorro geral", "21" = "Pronto-socorro especializado",
                 "22" = "Consultório isolado", "36" = "Clínica/Centro de especialidade",
-                "39" = "Unidade de apoio diagnose e terapia (SADT)", "42" = "Unidade móvel de urgência",
+                "39" = "Unidade de apoio diagnose e terapia (SADT)", "40" = "Unidade móvel terrestre",
+                "42" = "Unidade móvel de urgência",
                 "43" = "Farmácia", "50" = "Unidade de vigilância em saúde", "61" = "Centro de parto normal",
                 "62" = "Hospital/Dia", "64" = "Central de regulação", "68" = "Central de gestão em saúde",
                 "69" = "Centro de atenção hemoterápica/hematológica", "70" = "Centro de Atenção Psicossocial",
@@ -182,14 +191,18 @@ montar_unidades <- function(cnes_com_producao) {
   u[, TIPO_REDE := fcase(
     VINCULO %chin% c("REDE_PROPRIA_ESTADUAL", "ESTADUAL_ADM_INDIRETA") & MODELO_GESTAO == "OSS", "OSS",
     VINCULO %chin% c("REDE_PROPRIA_ESTADUAL", "ESTADUAL_ADM_INDIRETA"), "Rede própria",
+    # Estabelecimento estadual que não está na lista validada (assistência
+    # farmacêutica, laboratórios, unidades móveis etc.): rede própria
+    NAT_JUR %chin% NAT_JUR_ESTADUAL, "Rede própria",
     NATUREZA == "Privada/filantrópica", "Complementar",
     NATUREZA == "Pública", "Outro público",
     default = "Não identificado")]
   u[TIPO_REDE == "Complementar", MODELO_GESTAO := "Complementar"]
+  u[TIPO_REDE == "Rede própria" & is.na(VINCULO), MODELO_GESTAO := "Estadual fora da lista SES"]
   u[, NA_LISTA_SES := fifelse(is.na(VINCULO), "Não", "Sim")]
 
   # Nomes: lista validada; demais pela API do CNES
-  fora <- u[is.na(NOME_LISTA) & TIPO_REDE == "Complementar"]$CNES
+  fora <- u[is.na(NOME_LISTA) & TIPO_REDE %chin% c("Complementar", "Rede própria")]$CNES
   nomes <- tryCatch(nomes_cnes(fora), error = function(e) {
     log_msg("API CNES indisponível: %s", conditionMessage(e)); data.table(CNES = character(), NOME_FANTASIA = character(), RAZAO_SOCIAL = character()) })
   u <- merge(u, nomes, by = "CNES", all.x = TRUE)
@@ -203,11 +216,13 @@ montar_unidades <- function(cnes_com_producao) {
         REGIAO_SAUDE = fcoalesce(REGIAO_SAUDE, ""), MACRORREGIAO = fcoalesce(MACRORREGIAO, ""))]
 }
 
-# Mantém rede própria e OSS (qualquer gestor) e complementar só sob gestão estadual.
+# Mantém as unidades da lista validada (rede própria e OSS) com qualquer gestor;
+# complementar e estaduais fora da lista, só a produção sob gestão estadual.
 filtrar_rede <- function(dt, col_gestor, unidades) {
-  dt <- merge(dt, unidades[, .(CNES, TIPO_REDE)], by = "CNES")
-  dt[TIPO_REDE %chin% c("Rede própria", "OSS") |
-       (TIPO_REDE == "Complementar" & get(col_gestor) == CFG$gestor_estadual)][, TIPO_REDE := NULL][]
+  dt <- merge(dt, unidades[, .(CNES, TIPO_REDE, NA_LISTA_SES)], by = "CNES")
+  dt[(TIPO_REDE %chin% c("Rede própria", "OSS") & NA_LISTA_SES == "Sim") |
+       (TIPO_REDE %chin% c("Rede própria", "Complementar") & NA_LISTA_SES == "Não" &
+          get(col_gestor) == CFG$gestor_estadual)][, c("TIPO_REDE", "NA_LISTA_SES") := NULL][]
 }
 
 # ---- Gravação -------------------------------------------------------------------
@@ -255,8 +270,9 @@ leia_me <- function(titulo, regras, atualizacao) {
                sprintf("Mês de processamento, de %s a %s (dados disponíveis até %s)",
                        "01/2023", "12/2026", atualizacao$ultimo),
                paste("Rede própria (gestão direta, 06 grandes, administração indireta) e OSS: lista validada pela SES,",
-                     "qualquer gestor. Complementar: prestadores privados e filantrópicos (natureza jurídica no CNES),",
-                     "só a produção sob gestão estadual."),
+                     "qualquer gestor. Rede própria também inclui estabelecimentos estaduais no CNES fora da lista",
+                     "(modelo 'Estadual fora da lista SES'), só sob gestão estadual. Complementar: prestadores privados",
+                     "e filantrópicos (natureza jurídica no CNES), só a produção sob gestão estadual."),
                "SIA: quantidade aprovada (e apresentada). SIH: AIH aprovadas do tipo normal (IDENT 1); AIH_TOTAL inclui longa permanência.",
                paste("Valores da tabela SUS (SIGTAP) registrados no SIA (aprovado) e no SIH (VAL_TOT), em R$.",
                      "Não incluem complementos estaduais, incentivos nem repasses de contrato de gestão das OSS."),
