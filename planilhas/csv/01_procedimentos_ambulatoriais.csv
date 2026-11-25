@@ -242,7 +242,7 @@
 2023;OSS;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;04 Procedimentos cirúrgicos;430;11724,15
 2023;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;01 Ações de promoção e prevenção em saúde;16;37,8
 2023;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;141810;783191,97
-2023;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;363205;1424226,24
+2023;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;358429;1424226,24
 2023;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;04 Procedimentos cirúrgicos;1509;37712,91
 2023;OSS;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;07 Órteses, próteses e materiais especiais;8;58,4
 2023;OSS;OSS;6562205;UPA BARRA DE JANGADA;Jaboatão dos Guararapes;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;167901;564734,28
@@ -336,6 +336,18 @@
 2023;OSS;OSS;7490534;UPAE PADRE ASSIS NEVES BELO JARDIM;Belo Jardim;IV Região de Saúde - PE;04 Procedimentos cirúrgicos;177;2220,63
 2023;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;22009;360348,64
 2023;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;03 Procedimentos clínicos;29698;244664,06
+2023;Outro público;Municipal sob gestão estadual;2500078;CASA DE SAUDE E MATERNIDADE ELZA MS BARROS DINIZ;Maraial;III Região de Saúde - PE;01 Ações de promoção e prevenção em saúde;770;0
+2023;Outro público;Municipal sob gestão estadual;2500078;CASA DE SAUDE E MATERNIDADE ELZA MS BARROS DINIZ;Maraial;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;11602;30557,03
+2023;Outro público;Municipal sob gestão estadual;2500078;CASA DE SAUDE E MATERNIDADE ELZA MS BARROS DINIZ;Maraial;III Região de Saúde - PE;03 Procedimentos clínicos;114149;697353,15
+2023;Outro público;Municipal sob gestão estadual;2500078;CASA DE SAUDE E MATERNIDADE ELZA MS BARROS DINIZ;Maraial;III Região de Saúde - PE;04 Procedimentos cirúrgicos;888;28771,2
+2023;Outro público;Municipal sob gestão estadual;2500078;CASA DE SAUDE E MATERNIDADE ELZA MS BARROS DINIZ;Maraial;III Região de Saúde - PE;08 Ações complementares da atenção à saúde;768;3801,6
+2023;Outro público;Municipal sob gestão estadual;2711540;CNES 2711540;Jaqueira;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;10711;40203,14
+2023;Outro público;Municipal sob gestão estadual;2711540;CNES 2711540;Jaqueira;III Região de Saúde - PE;03 Procedimentos clínicos;1247;11639,64
+2023;Outro público;Municipal sob gestão estadual;7288263;HOSPITAL MUNICIPAL DE JAQUEIRA MARIA HELENA SILVA DE ANDRADE;Jaqueira;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;11071;44650,34
+2023;Outro público;Municipal sob gestão estadual;7288263;HOSPITAL MUNICIPAL DE JAQUEIRA MARIA HELENA SILVA DE ANDRADE;Jaqueira;III Região de Saúde - PE;03 Procedimentos clínicos;19401;186956,11
+2023;Outro público;Municipal sob gestão estadual;7288263;HOSPITAL MUNICIPAL DE JAQUEIRA MARIA HELENA SILVA DE ANDRADE;Jaqueira;III Região de Saúde - PE;04 Procedimentos cirúrgicos;536;15124,64
+2023;Outro público;Municipal sob gestão estadual;7288263;HOSPITAL MUNICIPAL DE JAQUEIRA MARIA HELENA SILVA DE ANDRADE;Jaqueira;III Região de Saúde - PE;07 Órteses, próteses e materiais especiais;55;8250
+2023;Outro público;Municipal sob gestão estadual;7288263;HOSPITAL MUNICIPAL DE JAQUEIRA MARIA HELENA SILVA DE ANDRADE;Jaqueira;III Região de Saúde - PE;08 Ações complementares da atenção à saúde;829;6963,6
 2023;Rede própria;Estadual fora da lista SES;2861135;1 GRUPAMENTO DE BOMBEIROS;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;161;3189,41
 2023;Rede própria;Estadual fora da lista SES;2836793;2 GRUPAMENTO DE BOMBEIROS;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;816;16164,96
 2023;Rede própria;Estadual fora da lista SES;0972096;3 GRUPAMENTO DE BOMBEIROS;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;1083;21454,23
@@ -346,10 +358,10 @@
 2023;Rede própria;Estadual fora da lista SES;2840758;9 GRUPAMENTO DE BOMBEIROS;Arcoverde;VI Região de Saúde - PE;03 Procedimentos clínicos;822;16283,82
 2023;Rede própria;Estadual fora da lista SES;2429594;AMBULATORIO SANTO ANTONIO;Fernando de Noronha;I Região de Saúde - PE;08 Ações complementares da atenção à saúde;3007;545770,5
 2023;Rede própria;Estadual fora da lista SES;7227000;CENTRO DE REFERENCIA EM SAUDE DO TRABALHADOR CEREST PE;Recife;I Região de Saúde - PE;01 Ações de promoção e prevenção em saúde;354;0
-2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;01 Ações de promoção e prevenção em saúde;1425;815,4
-2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;155091;945015,61
-2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;78514;611172,54
-2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1970;28265,25
+2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;01 Ações de promoção e prevenção em saúde;355;815,4
+2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;151868;945015,61
+2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;75003;608633,38
+2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;1724;25977,54
 2023;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;01 Ações de promoção e prevenção em saúde;216;0
 2023;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1364766;25558552,19
 2023;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;375357;11083945,72
@@ -798,6 +810,11 @@
 2024;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;34290;466460,8
 2024;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;03 Procedimentos clínicos;47409;383089,04
 2024;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;04 Procedimentos cirúrgicos;1;22,62
+2024;Outro público;Municipal sob gestão estadual;2500078;CASA DE SAUDE E MATERNIDADE ELZA MS BARROS DINIZ;Maraial;III Região de Saúde - PE;01 Ações de promoção e prevenção em saúde;323;0
+2024;Outro público;Municipal sob gestão estadual;2500078;CASA DE SAUDE E MATERNIDADE ELZA MS BARROS DINIZ;Maraial;III Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;2880;7152,82
+2024;Outro público;Municipal sob gestão estadual;2500078;CASA DE SAUDE E MATERNIDADE ELZA MS BARROS DINIZ;Maraial;III Região de Saúde - PE;03 Procedimentos clínicos;29421;151544,71
+2024;Outro público;Municipal sob gestão estadual;2500078;CASA DE SAUDE E MATERNIDADE ELZA MS BARROS DINIZ;Maraial;III Região de Saúde - PE;04 Procedimentos cirúrgicos;243;7873,2
+2024;Outro público;Municipal sob gestão estadual;2500078;CASA DE SAUDE E MATERNIDADE ELZA MS BARROS DINIZ;Maraial;III Região de Saúde - PE;08 Ações complementares da atenção à saúde;192;950,4
 2024;Rede própria;Estadual fora da lista SES;2861135;1 GRUPAMENTO DE BOMBEIROS;Vitória de Santo Antão;I Região de Saúde - PE;03 Procedimentos clínicos;371;7349,51
 2024;Rede própria;Estadual fora da lista SES;2836793;2 GRUPAMENTO DE BOMBEIROS;Caruaru;IV Região de Saúde - PE;03 Procedimentos clínicos;1182;23415,42
 2024;Rede própria;Estadual fora da lista SES;0972096;3 GRUPAMENTO DE BOMBEIROS;Serra Talhada;XI Região de Saúde - PE;03 Procedimentos clínicos;1458;28882,98
@@ -809,10 +826,10 @@
 2024;Rede própria;Estadual fora da lista SES;2429594;AMBULATORIO SANTO ANTONIO;Fernando de Noronha;I Região de Saúde - PE;08 Ações complementares da atenção à saúde;4050;735075
 2024;Rede própria;Estadual fora da lista SES;7227000;CENTRO DE REFERENCIA EM SAUDE DO TRABALHADOR CEREST PE;Recife;I Região de Saúde - PE;01 Ações de promoção e prevenção em saúde;397;0
 2024;Rede própria;Estadual fora da lista SES;7227000;CENTRO DE REFERENCIA EM SAUDE DO TRABALHADOR CEREST PE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;53;0
-2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;01 Ações de promoção e prevenção em saúde;2573;4414,5
-2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;175329;1174402,46
-2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;82905;635295,37
-2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;3050;38998,4
+2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;01 Ações de promoção e prevenção em saúde;1635;4414,5
+2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;172129;1174402,46
+2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;79423;634653,76
+2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2675;33653,25
 2024;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;01 Ações de promoção e prevenção em saúde;599;1055,7
 2024;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1398564;25564271,46
 2024;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;381432;12111580,19
@@ -1297,10 +1314,10 @@
 2025;Rede própria;Estadual fora da lista SES;5283736;CARRETA DA MULHER PERNAMBUCANA 04 TKB 6I07;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;1794;17942
 2025;Rede própria;Estadual fora da lista SES;7227000;CENTRO DE REFERENCIA EM SAUDE DO TRABALHADOR CEREST PE;Recife;I Região de Saúde - PE;01 Ações de promoção e prevenção em saúde;161;0
 2025;Rede própria;Estadual fora da lista SES;7227000;CENTRO DE REFERENCIA EM SAUDE DO TRABALHADOR CEREST PE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;13;0
-2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;01 Ações de promoção e prevenção em saúde;2495;1258,2
-2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;164777;1098913,12
-2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;85522;594938,58
-2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2295;26600,62
+2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;01 Ações de promoção e prevenção em saúde;825;1258,2
+2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;161916;1098913,12
+2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;82927;594774,15
+2025;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;2103;26447,64
 2025;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;01 Ações de promoção e prevenção em saúde;356;545,4
 2025;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1522591;26276164,98
 2025;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;371625;13459521,26
@@ -1802,10 +1819,10 @@
 2026;Rede própria;Estadual fora da lista SES;5283736;CARRETA DA MULHER PERNAMBUCANA 04 TKB 6I07;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;3283;32830
 2026;Rede própria;Estadual fora da lista SES;7227000;CENTRO DE REFERENCIA EM SAUDE DO TRABALHADOR CEREST PE;Recife;I Região de Saúde - PE;01 Ações de promoção e prevenção em saúde;118;0
 2026;Rede própria;Estadual fora da lista SES;7227000;CENTRO DE REFERENCIA EM SAUDE DO TRABALHADOR CEREST PE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;5;0
-2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;01 Ações de promoção e prevenção em saúde;1449;656,1
-2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;131794;740029,41
-2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;66816;461019,23
-2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;690;9121,96
+2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;01 Ações de promoção e prevenção em saúde;620;656,1
+2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;130812;740029,41
+2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;65280;460584,2
+2026;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;04 Procedimentos cirúrgicos;556;7679,16
 2026;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;01 Ações de promoção e prevenção em saúde;59;10,8
 2026;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;02 Procedimentos com finalidade diagnóstica;1449802;19411786,57
 2026;Rede própria;Administração indireta;0000809;FUNDACAO HEMOPE;Recife;I Região de Saúde - PE;03 Procedimentos clínicos;287586;9916910,74

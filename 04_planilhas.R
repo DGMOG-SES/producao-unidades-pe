@@ -22,15 +22,14 @@
 #                                    da Portaria 339 por mês
 #   00_unidades                      cadastro das unidades que aparecem nas planilhas
 #
-# Unidades dos temas 01 a 04 (rede estadual):
-#   Rede própria / OSS   lista validada (REDE_PROPRIA_ESTADUAL, ESTADUAL_ADM_INDIRETA),
-#                        toda a produção, qualquer gestão
-#   Rede própria         estabelecimentos da administração pública estadual no CNES
-#   ("Estadual fora da   fora da lista, só a produção sob gestão estadual
-#    lista SES")
+# Temas 01 a 04: toda a produção sob GESTÃO ESTADUAL (como o filtro "Gestao:
+# ESTADUAL" do TabWin; os totais batem com ele). As unidades são classificadas em:
+#   Rede própria / OSS   lista validada (REDE_PROPRIA_ESTADUAL, ESTADUAL_ADM_INDIRETA)
+#   Rede própria         administração pública estadual no CNES fora da lista
+#                        ("Estadual fora da lista SES")
 #   Complementar         referências fora da rede da lista validada (ex.: Hospital
-#                        das Clínicas) e prestadores privados/filantrópicos, só a
-#                        produção sob gestão estadual
+#                        das Clínicas) e prestadores privados/filantrópicos
+#   Outro público        públicos não estaduais (ex.: "Municipal sob gestão estadual")
 # Gestão, como no TabWin: SIH campo GESTAO (E/2 estadual, M/1 municipal); SIA
 # PA_CONDIC (E estadual, P municipal, D dupla).
 #
@@ -211,6 +210,8 @@ montar_unidades <- function(mun_prod) {
   u[!LISTA_PROPRIA & TIPO_REDE == "Rede própria", MODELO_GESTAO := "Estadual fora da lista SES"]
   u[TIPO_REDE == "Complementar", MODELO_GESTAO := "Complementar"]
   u[TIPO_REDE %chin% c("Outro público", "Não identificado"), MODELO_GESTAO := NATUREZA]
+  u[TIPO_REDE == "Outro público" & ESFERA_A %chin% "M", MODELO_GESTAO := "Municipal sob gestão estadual"]
+  u[TIPO_REDE == "Outro público" & ESFERA_A %chin% "F", MODELO_GESTAO := "Federal sob gestão estadual"]
   u[, NA_LISTA_SES := fifelse(is.na(VINCULO), "Não", "Sim")]
   u[, TIPO_UNIDADE := fcoalesce(TIPO_LISTA, unname(TIPOS_CNES[TP_UNID]),
                                 fifelse(is.na(TP_UNID), "Não informado", paste("Tipo", TP_UNID)))]
@@ -236,9 +237,8 @@ nomear <- function(u) {
 # Rede estadual (temas 01 a 04): unidades da lista (rede própria e OSS) com toda a
 # produção; complementar e estaduais fora da lista, só sob gestão estadual.
 rede_estadual <- function(dt, unidades) {
-  dt <- merge(dt, unidades[, .(CNES, TIPO_REDE, LISTA_PROPRIA)], by = "CNES")
-  dt[LISTA_PROPRIA | (TIPO_REDE %chin% c("Rede própria", "Complementar") & GESTAO == "Estadual")][
-    , c("TIPO_REDE", "LISTA_PROPRIA") := NULL][]
+  # Toda a produção sob gestão estadual, de qualquer unidade (= filtro do TabWin)
+  dt[GESTAO == "Estadual"][CNES %chin% unidades$CNES]
 }
 
 # ---- Tabelas no formato "produção | valor por ano" ------------------------------
@@ -365,10 +365,10 @@ leia_me <- function(titulo, regras, atualizacao, itens = NULL) {
                             "vai de %s; anos ainda não carregados entram automaticamente."),
                       atualizacao$desde, paste0(substr(CFG$fim, 5, 6), "/", substr(CFG$fim, 1, 4)), atualizacao$ultimo,
                       paste0(substr(CFG$inicio, 5, 6), "/", substr(CFG$inicio, 1, 4))),
-              paste("Rede estadual: rede própria e OSS da lista validada pela SES (toda a produção);",
-                    "estabelecimentos estaduais fora da lista e rede complementar (referências fora da rede da lista e",
-                    "prestadores privados/filantrópicos), só a produção sob gestão estadual. Gestão como no TabWin da SES:",
-                    "campo GESTAO da AIH (SIH) e PA_CONDIC (SIA)."),
+              paste("Toda a produção sob gestão estadual (igual ao filtro Gestao: ESTADUAL do TabWin da SES; campo",
+                    "GESTAO da AIH no SIH e PA_CONDIC no SIA). Unidades classificadas em rede própria e OSS (lista",
+                    "validada pela SES), rede própria fora da lista, complementar (referências fora da rede e",
+                    "privados/filantrópicos) e outro público (ex.: municipal sob gestão estadual)."),
               paste("Tabela SUS (SIGTAP): valor aprovado no SIA e valor total da AIH no SIH. Não inclui complementos",
                     "estaduais, incentivos nem repasses de contratos de gestão das OSS."),
               "Os últimos 3 a 4 meses ainda recebem produção com atraso; leia-os como parciais.",

@@ -32,14 +32,15 @@ com subtotais e total geral.
 
 ## Regras
 
-**Unidades dos temas 01 a 04 (rede estadual)**
+**Temas 01 a 04: toda a produção sob gestão estadual**, igual ao filtro `Gestao: ESTADUAL` do TabWin (os totais batem com ele). As unidades são classificadas assim:
 
-| Tipo de rede | Quem entra | Produção considerada |
-|---|---|---|
-| Rede própria | Lista validada (`referencias/estabelecimentos_validados.csv`), vínculo `REDE_PROPRIA_ESTADUAL` ou `ESTADUAL_ADM_INDIRETA`, modelo 06 grandes, Gestão direta ou Administração indireta | Toda, qualquer gestão |
-| OSS | Lista validada, modelo `OSS` | Toda, qualquer gestão |
-| Rede própria – "Estadual fora da lista SES" | Estabelecimentos da administração pública estadual no CNES (natureza jurídica 102-3, 111-2 etc.) fora da lista: laboratórios, unidades móveis, assistência farmacêutica | Só sob gestão estadual |
-| Complementar | Referências fora da rede da lista validada (inclui o Hospital das Clínicas) e prestadores privados/filantrópicos (natureza jurídica 2xxx, exceto empresa pública e sociedade de economia mista, 3xxx e 4xxx) | Só sob gestão estadual |
+| Tipo de rede | Quem entra |
+|---|---|
+| Rede própria | Lista validada (`referencias/estabelecimentos_validados.csv`), vínculo `REDE_PROPRIA_ESTADUAL` ou `ESTADUAL_ADM_INDIRETA`, modelo 06 grandes, Gestão direta ou Administração indireta |
+| OSS | Lista validada, modelo `OSS` |
+| Rede própria – "Estadual fora da lista SES" | Estabelecimentos da administração pública estadual no CNES (natureza jurídica 102-3, 111-2 etc.) fora da lista: laboratórios, unidades móveis, assistência farmacêutica |
+| Complementar | Referências fora da rede da lista validada (inclui o Hospital das Clínicas) e prestadores privados/filantrópicos (natureza jurídica 2xxx, exceto empresa pública e sociedade de economia mista, 3xxx e 4xxx) |
+| Outro público | Públicos não estaduais que faturam sob gestão estadual (ex.: "Municipal sob gestão estadual") |
 
 Os partos (tema 05) incluem **todas** as unidades de PE, com a gestão separada.
 
