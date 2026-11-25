@@ -19,7 +19,7 @@ CFG <- list(
   uf         = "PE",
   # Código do gestor estadual de PE no SIA (PA_GESTAO) e no SIH (UF_ZI)
   gestor_estadual = "260000",
-  tentativas = 4,
+  tentativas = 6,
   ftp_sia    = "ftp://ftp.datasus.gov.br/dissemin/publicos/SIASUS/200801_/Dados/",
   ftp_sih    = "ftp://ftp.datasus.gov.br/dissemin/publicos/SIHSUS/200801_/Dados/",
   ftp_st     = "ftp://ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST/",
@@ -68,7 +68,9 @@ com_tentativas <- function(f, descricao) {
     if (!inherits(res, "error")) return(res)
     log_msg("Falha em %s (tentativa %d/%d): %s",
             descricao, i, CFG$tentativas, conditionMessage(res))
-    if (i < CFG$tentativas) Sys.sleep(2^i * 5)
+    # Espera crescente (10 s, 20 s, 40 s... até 5 min): o FTP do DATASUS costuma
+    # recusar conexões por alguns minutos quando está sobrecarregado.
+    if (i < CFG$tentativas) Sys.sleep(min(2^i * 5, 300))
   }
   stop("Desisti de ", descricao, " após ", CFG$tentativas, " tentativas")
 }
