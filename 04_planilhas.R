@@ -302,13 +302,14 @@ por_gestao <- function(dt, n1, n2 = NULL, anos, ordem1, ordem2 = NULL, rotulo_qt
 
 # Unidades: uma linha por unidade (e por valor de 'agrupar', quando ele vem da
 # produção, como a gestão nos partos), subtotal por grupo e total geral.
-COLS_UNID <- c("TIPO_REDE", "MODELO_GESTAO", "CNES", "UNIDADE", "MUNICIPIO", "REGIAO_SAUDE")
+# Sem a coluna Modelo de gestão nas planilhas (pedido da área); ela só ordena as linhas.
+COLS_UNID <- c("TIPO_REDE", "CNES", "UNIDADE", "MUNICIPIO", "REGIAO_SAUDE")
 unidades_ano <- function(dt, unidades, anos, rotulo_qtd, agrupar = "TIPO_REDE", ...) {
   chave <- unique(c(if (agrupar %in% names(dt)) agrupar, "CNES"))
   w <- largo(dt, chave, anos)
   cols_val <- setdiff(names(w), chave)
   w <- w[rowSums(abs(as.matrix(w[, ..cols_val]))) > 0]
-  w <- merge(unidades[, c(COLS_UNID), with = FALSE], w, by = "CNES")
+  w <- merge(unidades[, c(COLS_UNID, "MODELO_GESTAO"), with = FALSE], w, by = "CNES")
   ids <- unique(c(agrupar, COLS_UNID))
   setcolorder(w, c(ids, cols_val))
   ordem_grupo <- if (agrupar == "TIPO_REDE") ORDEM_REDE else
@@ -324,7 +325,7 @@ unidades_ano <- function(dt, unidades, anos, rotulo_qtd, agrupar = "TIPO_REDE", 
   })
   out <- rbindlist(partes, fill = TRUE)
   out <- rbind(out, somar_linha(w, cols_val, list(UNIDADE = "Total geral")), fill = TRUE)
-  out[, c("O1_", "O2_", "O3_") := NULL]
+  out[, c("O1_", "O2_", "O3_", "MODELO_GESTAO") := NULL]
   setcolorder(out, c(ids, cols_val))
   tot <- which(startsWith(fcoalesce(out$UNIDADE, ""), "Subtotal") | out$UNIDADE == "Total geral")
   larg <- c(TIPO_REDE = 14, GESTAO = 12, MODELO_GESTAO = 22, CNES = 10, UNIDADE = 45, MUNICIPIO = 20, REGIAO_SAUDE = 26)
@@ -522,11 +523,15 @@ main <- function() {
 
   # 02 Internamentos por grupo de procedimento
   int[, GRUPO_PROC := paste(GRUPO, nome_grupo(GRUPO))]
+  # Geral (grupo × ano); Rede própria e OSS (unidades × ano, todos os grupos somados);
+  # Rede complementar (grupo × ano, só as unidades complementares)
+  int <- merge(int, unidades[, .(CNES, TIPO_REDE)], by = "CNES")
   abas_int <- list(Geral = geral(int, "GRUPO_PROC", anos, "AIH", larg_grupo))
-  for (g in GRUPOS_PROC) {
-    x <- int[GRUPO == g]
-    if (nrow(x)) abas_int[[ABA_GRUPO[[g]]]] <- unidades_ano(x, unidades, anos, "AIH")
-  }
+  x <- int[TIPO_REDE %chin% c("Rede própria", "OSS")]
+  if (nrow(x)) abas_int[["Rede própria e OSS"]] <- unidades_ano(x[, !"TIPO_REDE"], unidades, anos, "AIH")
+  x <- int[TIPO_REDE == "Complementar"]
+  if (nrow(x)) abas_int[["Rede complementar"]] <- geral(x, "GRUPO_PROC", anos, "AIH", larg_grupo)
+  int[, TIPO_REDE := NULL]
   gravar_planilha("02_internamentos", abas_int, "Internamentos por grupo de procedimento",
                   paste("SIH (AIH reduzida), grupo do procedimento realizado (PROC_REA), grupos",
                         paste(GRUPOS_PROC, collapse = ", "), ". Produção = número de AIH, incluindo as de longa",
@@ -653,7 +658,7 @@ main <- function() {
                                              "RNM/TC e eletivas da Portaria 339: toda a produção sob gestão estadual.")))
 
   # 00 Unidades
-  gravar_planilha("00_unidades", list(Unidades = unidades[, .(CNES, UNIDADE, TIPO_REDE, MODELO_GESTAO, TIPO_UNIDADE,
+  gravar_planilha("00_unidades", list(Unidades = unidades[, .(CNES, UNIDADE, TIPO_REDE, TIPO_UNIDADE,
                                                                NATUREZA, NAT_JUR, NA_LISTA_SES, MUNICIPIO, REGIAO_SAUDE,
                                                                MACRORREGIAO)]),
                   "Cadastro das unidades", "Uma linha por CNES que aparece em alguma planilha.", atualizacao)
