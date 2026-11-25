@@ -12,7 +12,8 @@
 #   do leito), CAR_INT (caráter: 01 eletivo, 02 urgência...), COMPLEX
 #   (02 média, 03 alta complexidade), IDENT (1 = AIH normal, 5 = longa permanência),
 #   NAT_JUR (natureza jurídica), MUNIC_MOV (município do estabelecimento) e
-#   FINANC (tipo de financiamento).
+#   FINANC (tipo de financiamento) e TP_GESTAO (campo GESTAO da AIH: 2/E
+#   estadual, 1/M municipal; é a "Gestao" do RD_PE.DEF usado no TabWin da SES).
 # Medidas: N_AIH, DIARIAS (QT_DIARIAS), OBITOS (MORTE = 1),
 #   VALOR_TOTAL (VAL_TOT), VALOR_SH (serviços hospitalares), VALOR_SP (serviços profissionais).
 #
@@ -26,9 +27,10 @@ SIH <- list(
   max_por_execucao = as.integer(argumento("max") %||% "60"),
   dir      = file.path(CFG$dir_dados, "sih"),
   saida    = file.path(CFG$dir_dados, "saida", "sih_unidades.parquet"),
-  controle = file.path(CFG$dir_dados, "controle", "sih_processados.csv"),
+  # v2: layout com GESTAO; meses do layout anterior são refeitos
+  controle = file.path(CFG$dir_dados, "controle", "sih_processados_v2.csv"),
   texto    = c("ANO_CMPT", "MES_CMPT", "CNES", "UF_ZI", "PROC_REA", "ESPEC", "CAR_INT",
-               "COMPLEX", "IDENT", "MORTE", "NAT_JUR", "MUNIC_MOV", "FINANC"),
+               "COMPLEX", "IDENT", "MORTE", "NAT_JUR", "MUNIC_MOV", "FINANC", "GESTAO"),
   numero   = c("QT_DIARIAS", "VAL_TOT", "VAL_SH", "VAL_SP")
 )
 
@@ -56,7 +58,7 @@ processar_rd <- function(nome) {
                 VALOR_SH = sum(VAL_SH, na.rm = TRUE),
                 VALOR_SP = sum(VAL_SP, na.rm = TRUE)),
             by = .(COMPETENCIA = paste0(ANO_CMPT, MES_CMPT), CNES, GESTOR = UF_ZI, PROC_REA,
-                   ESPEC, CAR_INT, COMPLEX, IDENT, NAT_JUR, MUNIC_MOV, FINANC)]
+                   ESPEC, CAR_INT, COMPLEX, IDENT, NAT_JUR, MUNIC_MOV, FINANC, TP_GESTAO = GESTAO)]
   log_msg("  %s: %s AIH no arquivo (%s sob gestão estadual); %d linhas agregadas",
           nome, format(n, big.mark = "."), format(n_estadual, big.mark = "."), nrow(out))
   out
