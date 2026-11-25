@@ -26,7 +26,9 @@
 # de 01/2023 a 12/2026. Os últimos meses são parciais (reapresentações).
 #
 # Saídas em planilhas/ (Excel) e planilhas/csv/ (CSV separado por ";"):
-#   01_producao_geral                 resumo anual, mensal e por grupo SIGTAP
+#   01_producao_geral                 abas Ambulatorial, Hospitalar e Total (uma linha por
+#                                     unidade, produção | valor por ano); resumo anual,
+#                                     mensal e por grupo SIGTAP
 #   02_procedimentos_ambulatoriais_AAAA   SIA por procedimento (um arquivo por ano)
 #   03_internamentos_AAAA             SIH por procedimento realizado, leito e caráter (um arquivo por ano)
 #   04_transplantes                   subgrupo SIGTAP 05.05 (SIA + SIH)
@@ -293,14 +295,96 @@ gravar_tema_por_ano <- function(nome, dt, titulo, regras, atualizacao) {
   }
 }
 
+# ---- Resumo por unidade: uma linha por unidade, "Produção | Valor" por ano ------
+#
+# dt precisa das colunas CNES, ANO e as medidas. Devolve um objeto "resumo_largo"
+# que gravar_tema escreve com cabeçalho em duas linhas (ano mesclado sobre
+# Produção e Valor), subtotal por tipo de rede e total geral.
+COLS_RESUMO <- c("TIPO_REDE", "MODELO_GESTAO", "CNES", "UNIDADE", "MUNICIPIO", "REGIAO_SAUDE")
+
+resumo_largo <- function(dt, unidades, col_qtd = NULL, col_valor = "VALOR", rotulo_qtd = "Produção") {
+  medidas <- c(col_qtd, col_valor)
+  ag <- dt[, lapply(.SD, sum), by = .(CNES, ANO), .SDcols = medidas]
+  anos <- sort(unique(ag$ANO))
+  largo <- dcast(ag, CNES ~ ANO, value.var = medidas, fill = 0, sep = "_")
+  if (length(medidas) == 1) setnames(largo, as.character(anos), paste0(medidas, "_", anos))
+  cols_val <- unlist(lapply(anos, function(a) paste0(medidas, "_", a)))
+  largo <- merge(unidades[, ..COLS_RESUMO], largo, by = "CNES")
+  setcolorder(largo, c(COLS_RESUMO, cols_val))
+  # Tira unidades sem nenhuma produção nem valor neste tema (ex.: só hospitalar na aba Ambulatorial)
+  largo <- largo[rowSums(abs(as.matrix(largo[, ..cols_val]))) > 0]
+  for (cl in cols_val) set(largo, j = cl, value = round(largo[[cl]], 2))
+  largo[, ORDEM_ := match(TIPO_REDE, c("Rede própria", "OSS", "Complementar"))]
+  largo[, ORDEM_MODELO_ := match(MODELO_GESTAO, c("06 grandes", "Gestão direta", "Administração indireta",
+                                                  "Estadual fora da lista SES"), nomatch = 9L)]
+  setorder(largo, ORDEM_, ORDEM_MODELO_, UNIDADE)
+  largo[, ORDEM_MODELO_ := NULL]
+  # Subtotal ao fim de cada tipo de rede e total geral no final
+  partes <- lapply(split(largo, by = "ORDEM_", sorted = TRUE), function(x) {
+    st <- x[, lapply(.SD, sum), .SDcols = cols_val]
+    st[, `:=`(TIPO_REDE = x$TIPO_REDE[1], UNIDADE = paste("Subtotal", x$TIPO_REDE[1]))]
+    rbind(x, st, fill = TRUE)
+  })
+  tot <- largo[, lapply(.SD, sum), .SDcols = cols_val][, UNIDADE := "Total geral"]
+  out <- rbind(rbindlist(partes, fill = TRUE), tot, fill = TRUE)[, ORDEM_ := NULL]
+  for (cl in COLS_RESUMO) set(out, which(is.na(out[[cl]])), cl, "")
+  structure(list(dados = out, anos = anos, medidas = medidas, rotulo_qtd = rotulo_qtd,
+                 linhas_total = which(startsWith(out$UNIDADE, "Subtotal") | out$UNIDADE == "Total geral")),
+            class = "resumo_largo")
+}
+
+escrever_resumo <- function(wb, aba, r) {
+  n_id <- length(COLS_RESUMO); n_med <- length(r$medidas)
+  rotulos <- c(r$rotulo_qtd, "Valor (R$)")[if (n_med == 2) 1:2 else 2]
+  cab1 <- c(COLS_RESUMO, unlist(lapply(r$anos, function(a) c(as.character(a), rep("", n_med - 1)))))
+  cab2 <- c(rep("", n_id), rep(rotulos, length(r$anos)))
+  openxlsx::writeData(wb, aba, t(cab1), startRow = 1, colNames = FALSE)
+  openxlsx::writeData(wb, aba, t(cab2), startRow = 2, colNames = FALSE)
+  for (i in seq_len(n_id)) openxlsx::mergeCells(wb, aba, cols = i, rows = 1:2)
+  if (n_med == 2) for (k in seq_along(r$anos)) {
+    c0 <- n_id + (k - 1) * 2 + 1
+    openxlsx::mergeCells(wb, aba, cols = c0:(c0 + 1), rows = 1)
+  }
+  openxlsx::writeData(wb, aba, r$dados, startRow = 3, colNames = FALSE)
+  ncol <- ncol(r$dados); nlin <- nrow(r$dados)
+  cab <- openxlsx::createStyle(textDecoration = "bold", halign = "center", valign = "center",
+                               fgFill = "#DCE6F1", border = "TopBottomLeftRight", wrapText = TRUE)
+  openxlsx::addStyle(wb, aba, cab, rows = 1:2, cols = 1:ncol, gridExpand = TRUE)
+  cols_num <- (n_id + 1):ncol
+  fmt <- rep(if (n_med == 2) c("#,##0", "#,##0.00") else "#,##0.00", length(r$anos))
+  for (j in seq_along(cols_num)) openxlsx::addStyle(wb, aba, openxlsx::createStyle(numFmt = fmt[j]),
+                                                     rows = 3:(nlin + 2), cols = cols_num[j], stack = TRUE)
+  if (length(r$linhas_total)) openxlsx::addStyle(wb, aba, openxlsx::createStyle(textDecoration = "bold", fgFill = "#F2F2F2"),
+                                                 rows = r$linhas_total + 2, cols = 1:ncol, gridExpand = TRUE, stack = TRUE)
+  openxlsx::setColWidths(wb, aba, cols = 1:n_id, widths = c(14, 22, 10, 45, 20, 26))
+  openxlsx::setColWidths(wb, aba, cols = cols_num, widths = 16)
+  openxlsx::freezePane(wb, aba, firstActiveRow = 3, firstActiveCol = n_id + 1)
+}
+
+# Excel: com writexl (rápido) quando só há tabelas simples; com openxlsx quando
+# alguma aba é um resumo por unidade, que precisa de cabeçalho mesclado.
+escrever_xlsx <- function(abas, arquivo) {
+  if (!any(vapply(abas, inherits, logical(1), "resumo_largo"))) return(writexl::write_xlsx(abas, arquivo))
+  wb <- openxlsx::createWorkbook()
+  for (nm in names(abas)) {
+    openxlsx::addWorksheet(wb, nm)
+    if (inherits(abas[[nm]], "resumo_largo")) escrever_resumo(wb, nm, abas[[nm]]) else {
+      openxlsx::writeData(wb, nm, abas[[nm]], headerStyle = openxlsx::createStyle(textDecoration = "bold"))
+      openxlsx::freezePane(wb, nm, firstRow = TRUE)
+    }
+  }
+  openxlsx::saveWorkbook(wb, arquivo, overwrite = TRUE)
+}
+
 gravar_tema <- function(nome, abas, titulo, regras, atualizacao, csv = NULL) {
   dir.create(file.path(PLAN, "csv"), recursive = TRUE, showWarnings = FALSE)
   abas <- c(list(`Leia-me` = leia_me(titulo, regras, atualizacao)), abas)
-  gravar_atomico(function(f) writexl::write_xlsx(abas, f), file.path(PLAN, paste0(nome, ".xlsx")))
+  gravar_atomico(function(f) escrever_xlsx(abas, f), file.path(PLAN, paste0(nome, ".xlsx")))
   # CSV no padrão do Excel em português: ";" entre colunas e vírgula decimal
   if (!is.null(csv)) gravar_atomico(function(f) fwrite(csv, f, sep = ";", dec = ",", bom = TRUE),
                                     file.path(PLAN, "csv", paste0(nome, ".csv")))
-  log_msg("%s.xlsx: %s", nome, paste(sprintf("%s (%s)", names(abas), vapply(abas, nrow, 1L)), collapse = "; "))
+  linhas <- vapply(abas, function(a) if (inherits(a, "resumo_largo")) nrow(a$dados) else nrow(a), 1L)
+  log_msg("%s.xlsx: %s", nome, paste(sprintf("%s (%s)", names(abas), linhas), collapse = "; "))
 }
 
 # ---- Temas ----------------------------------------------------------------------
@@ -376,11 +460,17 @@ main <- function() {
 
   geral_m_u <- com_unidade(geral_m, unidades)
   gravar_tema("01_producao_geral",
-              list(`Resumo anual` = com_unidade(geral_a, unidades),
+              list(Ambulatorial = resumo_largo(geral_a, unidades, "QTD_AMBULATORIAL", "VALOR_AMBULATORIAL",
+                                               "Produção (qtd. aprovada)"),
+                   Hospitalar = resumo_largo(geral_a, unidades, "INTERNACOES", "VALOR_HOSPITALAR", "Internações"),
+                   `Total (valor)` = resumo_largo(geral_a, unidades, NULL, "VALOR_TOTAL"),
+                   `Resumo anual` = com_unidade(geral_a, unidades),
                    Mensal = geral_m_u,
                    `Por grupo SIGTAP` = com_unidade(grupos, unidades)),
               "Produção geral por unidade",
-              paste("Ambulatorial: quantidade e valor aprovados no SIA. Hospitalar: internações (AIH normal),",
+              paste("Abas Ambulatorial, Hospitalar e Total: uma linha por unidade, produção e valor por ano,",
+                    "com subtotal por tipo de rede.",
+                    "Ambulatorial: quantidade e valor aprovados no SIA. Hospitalar: internações (AIH normal),",
                     "AIH totais, diárias e valor total das AIH no SIH. VALOR_TOTAL = ambulatorial + hospitalar.",
                     "Por grupo SIGTAP: o grupo da AIH é o do procedimento realizado (principal)."),
               atualizacao, csv = geral_m_u)
@@ -425,7 +515,8 @@ main <- function() {
   tx <- merge(rbind(tx_amb, tx_hosp), proc[, .(PROC, NO_PROCEDIMENTO)], by = "PROC", all.x = TRUE)
   setcolorder(tx, c("COMPETENCIA", "CNES", "ORIGEM", "PROC", "NO_PROCEDIMENTO"))
   tx <- com_unidade(tx, unidades)
-  gravar_tema("04_transplantes", list(Mensal = tx), "Órgãos e tecidos transplantados",
+  gravar_tema("04_transplantes", list(`Resumo por unidade` = resumo_largo(tx, unidades, "QUANTIDADE", "VALOR",
+                                                                           "Transplantes"), Mensal = tx), "Órgãos e tecidos transplantados",
               paste("Procedimentos do subgrupo SIGTAP 05.05 (transplante de órgãos, tecidos e células),",
                     "no SIA (quantidade aprovada) e no SIH (AIH normal pelo procedimento realizado)."),
               atualizacao, csv = tx)
@@ -441,7 +532,9 @@ main <- function() {
     x <- com_unidade(x, unidades)
     por_unidade <- x[, .(QTD_APROVADA = sum(QTD_APROVADA), VALOR_APROVADO = sum(VALOR_APROVADO)),
                      by = c("ANO", "MES", "COMPETENCIA", COLS_UNIDADE)]
-    list(detalhe = x, abas = c(list(`Por unidade` = por_unidade), abas_por_ano(x, "Por CBO ")))
+    resumo <- resumo_largo(x, unidades, "QTD_APROVADA", "VALOR_APROVADO", "Consultas")
+    list(detalhe = x, abas = c(list(`Resumo por unidade` = resumo, `Por unidade` = por_unidade),
+                               abas_por_ano(x, "Por CBO ")))
   }
   cm <- consultas(CONSULTA_MEDICA_ESPECIALIZADA)
   gravar_tema("05_consultas_medicas_especializadas", cm$abas, "Consultas médicas especializadas",
@@ -467,7 +560,8 @@ main <- function() {
   if ("Parto cesáreo" %in% names(pt_tipo)) pt_tipo[, PERC_CESAREO := round(100 * `Parto cesáreo` / PARTOS_TOTAL, 1)]
   pt_tipo[, ORDEM_ := match(TIPO_REDE, c("Rede própria", "OSS", "Complementar"))]
   setorder(pt_tipo, ANO, COMPETENCIA, ORDEM_, UNIDADE)[, ORDEM_ := NULL]
-  gravar_tema("07_partos", list(`Por tipo de parto` = pt_tipo, Detalhe = pt), "Partos realizados",
+  gravar_tema("07_partos", list(`Resumo por unidade` = resumo_largo(pt, unidades, "PARTOS", "VALOR_TOTAL", "Partos"),
+                                `Por tipo de parto` = pt_tipo, Detalhe = pt), "Partos realizados",
               paste("AIH normal (IDENT 1) pelo procedimento realizado:", paste(sprintf("%s (%s, %s)", PARTOS$PROC,
                     tolower(PARTOS$TIPO_PARTO), tolower(PARTOS$DETALHE)), collapse = "; ")),
               atualizacao, csv = pt)

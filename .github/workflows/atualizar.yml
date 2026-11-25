@@ -53,6 +53,7 @@ jobs:
             any::remotes
             any::jsonlite
             any::writexl
+            any::openxlsx
 
       - name: Instalar leitor de .dbc
         env:

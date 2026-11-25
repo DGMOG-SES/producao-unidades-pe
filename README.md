@@ -17,7 +17,7 @@ Ficam em `planilhas/` (Excel, com aba **Leia-me** explicando a regra) e
 | Arquivo | Conteúdo | Fonte e regra |
 |---|---|---|
 | `00_unidades` | Cadastro das unidades com produção: tipo de rede, modelo de gestão, tipo, natureza jurídica, município, região de saúde | Lista validada da SES + CNES-ST |
-| `01_producao_geral` | Abas **Resumo anual**, **Mensal** e **Por grupo SIGTAP**: quantidade e valor ambulatorial, internações, AIH, diárias, valor hospitalar e valor total | SIA (aprovado) + SIH |
+| `01_producao_geral` | Abas **Ambulatorial**, **Hospitalar** e **Total (valor)** no formato de relatório (uma linha por unidade; para cada ano, Produção e Valor; subtotal por tipo de rede e total geral). Abas **Resumo anual**, **Mensal** e **Por grupo SIGTAP** em formato de tabela: quantidade e valor ambulatorial, internações, AIH, diárias, valor hospitalar e valor total | SIA (aprovado) + SIH |
 | `02_procedimentos_ambulatoriais_AAAA` | Um arquivo por ano: unidade × mês × procedimento, com quantidade e valor apresentados e aprovados | SIA-PA, todos os procedimentos |
 | `03_internamentos_AAAA` | Um arquivo por ano: unidade × mês × especialidade do leito × caráter × complexidade × procedimento realizado; internações, AIH, diárias, óbitos e valores (total, SH, SP) | SIH-RD |
 | `04_transplantes` | Órgãos e tecidos transplantados, por unidade, mês e procedimento | Subgrupo SIGTAP 05.05, no SIA e no SIH |
@@ -25,6 +25,11 @@ Ficam em `planilhas/` (Excel, com aba **Leia-me** explicando a regra) e
 | `06_consultas_nivel_superior` | Idem, por CBO do profissional | SIA, procedimento 0301010048 (exceto médico) |
 | `07_partos` | Aba **Por tipo de parto** (normal, cesáreo, total e % cesáreo) e **Detalhe** por procedimento | SIH, AIH 0310010039, 0310010055, 0310010047, 0411010034, 0411010026, 0411010042 |
 | `atualizacao.csv` | Último mês disponível de cada fonte e data da geração | |
+
+As planilhas 04, 05, 06 e 07 também têm a aba **Resumo por unidade** no
+formato de relatório (unidade × ano, Produção | Valor). Procedimentos e
+internamentos por unidade e ano já estão nas abas Ambulatorial e Hospitalar
+da `01_producao_geral`.
 
 Colunas comuns: `ANO`, `MES`, `COMPETENCIA` (AAAAMM), `TIPO_REDE`,
 `MODELO_GESTAO`, `CNES`, `UNIDADE`, `TIPO_UNIDADE`, `MUNICIPIO`, `REGIAO_SAUDE`.

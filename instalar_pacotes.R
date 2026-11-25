@@ -5,7 +5,7 @@
 repos <- getOption("repos")
 if (is.null(repos) || identical(unname(repos["CRAN"]), "@CRAN@")) repos <- "https://cloud.r-project.org"
 
-for (p in c("data.table", "curl", "arrow", "jsonlite", "writexl")) {
+for (p in c("data.table", "curl", "arrow", "jsonlite", "writexl", "openxlsx")) {
   if (!requireNamespace(p, quietly = TRUE)) install.packages(p, repos = repos)
 }
 
