@@ -87,7 +87,7 @@ arquivo no FTP: arquivo republicado pelo DATASUS é refeito automaticamente.
 
 ## Atualização automática (GitHub Actions)
 
-O workflow `.github/workflows/atualizar.yml` roda todo dia às 09h23 (Brasília),
+O workflow `.github/workflows/atualizar.yml` roda toda segunda-feira às 06h17 (Recife),
 a cada mudança em script e quando disparado à mão em **Actions → Atualizar
 planilhas… → Run workflow**. No disparo manual dá para passar, por exemplo,
 `--reprocessar-tudo` ou `--forcar=202503`.
