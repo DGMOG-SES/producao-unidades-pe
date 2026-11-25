@@ -35,6 +35,9 @@
 #   05_consultas_medicas_especializadas   SIGTAP 0301010072, por CBO
 #   06_consultas_nivel_superior       SIGTAP 0301010048 (exceto médico), por CBO
 #   07_partos                         AIH de parto normal e cesáreo
+#   00_consolidado_geral              uma aba por tipo de produção (geral, internações,
+#                                     ambulatoriais, transplantes, consultas, partos):
+#                                     uma linha por unidade, Produção | Valor por ano
 #   00_unidades                       cadastro das unidades com produção
 #
 # Só regera as planilhas quando alguma entrada mudou.
@@ -463,17 +466,11 @@ main <- function() {
 
   geral_m_u <- com_unidade(geral_m, unidades)
   gravar_tema("01_producao_geral",
-              list(Ambulatorial = resumo_largo(geral_a, unidades, "QTD_AMBULATORIAL", "VALOR_AMBULATORIAL",
-                                               "Produção (qtd. aprovada)"),
-                   Hospitalar = resumo_largo(geral_a, unidades, "INTERNACOES", "VALOR_HOSPITALAR", "Internações"),
-                   `Total (valor)` = resumo_largo(geral_a, unidades, NULL, "VALOR_TOTAL"),
-                   `Resumo anual` = com_unidade(geral_a, unidades),
+              list(`Resumo anual` = com_unidade(geral_a, unidades),
                    Mensal = geral_m_u,
                    `Por grupo SIGTAP` = com_unidade(grupos, unidades)),
               "Produção geral por unidade",
-              paste("Abas Ambulatorial, Hospitalar e Total: uma linha por unidade, produção e valor por ano,",
-                    "com subtotal por tipo de rede.",
-                    "Ambulatorial: quantidade e valor aprovados no SIA. Hospitalar: internações (AIH normal),",
+              paste("Ambulatorial: quantidade e valor aprovados no SIA. Hospitalar: internações (AIH normal),",
                     "AIH totais, diárias e valor total das AIH no SIH. VALOR_TOTAL = ambulatorial + hospitalar.",
                     "Por grupo SIGTAP: o grupo da AIH é o do procedimento realizado (principal)."),
               atualizacao, csv = geral_m_u)
@@ -518,8 +515,7 @@ main <- function() {
   tx <- merge(rbind(tx_amb, tx_hosp), proc[, .(PROC, NO_PROCEDIMENTO)], by = "PROC", all.x = TRUE)
   setcolorder(tx, c("COMPETENCIA", "CNES", "ORIGEM", "PROC", "NO_PROCEDIMENTO"))
   tx <- com_unidade(tx, unidades)
-  gravar_tema("04_transplantes", list(`Resumo por unidade` = resumo_largo(tx, unidades, "QUANTIDADE", "VALOR",
-                                                                           "Transplantes"), Mensal = tx), "Órgãos e tecidos transplantados",
+  gravar_tema("04_transplantes", list(Mensal = tx), "Órgãos e tecidos transplantados",
               paste("Procedimentos do subgrupo SIGTAP 05.05 (transplante de órgãos, tecidos e células),",
                     "no SIA (quantidade aprovada) e no SIH (AIH normal pelo procedimento realizado)."),
               atualizacao, csv = tx)
@@ -535,9 +531,7 @@ main <- function() {
     x <- com_unidade(x, unidades)
     por_unidade <- x[, .(QTD_APROVADA = sum(QTD_APROVADA), VALOR_APROVADO = sum(VALOR_APROVADO)),
                      by = c("ANO", "MES", "COMPETENCIA", COLS_UNIDADE)]
-    resumo <- resumo_largo(x, unidades, "QTD_APROVADA", "VALOR_APROVADO", "Consultas")
-    list(detalhe = x, abas = c(list(`Resumo por unidade` = resumo, `Por unidade` = por_unidade),
-                               abas_por_ano(x, "Por CBO ")))
+    list(detalhe = x, abas = c(list(`Por unidade` = por_unidade), abas_por_ano(x, "Por CBO ")))
   }
   cm <- consultas(CONSULTA_MEDICA_ESPECIALIZADA)
   gravar_tema("05_consultas_medicas_especializadas", cm$abas, "Consultas médicas especializadas",
@@ -563,11 +557,29 @@ main <- function() {
   if ("Parto cesáreo" %in% names(pt_tipo)) pt_tipo[, PERC_CESAREO := round(100 * `Parto cesáreo` / PARTOS_TOTAL, 1)]
   pt_tipo[, ORDEM_ := match(TIPO_REDE, c("Rede própria", "OSS", "Complementar"))]
   setorder(pt_tipo, ANO, COMPETENCIA, ORDEM_, UNIDADE)[, ORDEM_ := NULL]
-  gravar_tema("07_partos", list(`Resumo por unidade` = resumo_largo(pt, unidades, "PARTOS", "VALOR_TOTAL", "Partos"),
-                                `Por tipo de parto` = pt_tipo, Detalhe = pt), "Partos realizados",
+  gravar_tema("07_partos", list(`Por tipo de parto` = pt_tipo, Detalhe = pt), "Partos realizados",
               paste("AIH normal (IDENT 1) pelo procedimento realizado:", paste(sprintf("%s (%s, %s)", PARTOS$PROC,
                     tolower(PARTOS$TIPO_PARTO), tolower(PARTOS$DETALHE)), collapse = "; ")),
               atualizacao, csv = pt)
+
+  # 00 Consolidado geral: uma aba por tipo de produção, uma linha por unidade,
+  # Produção | Valor por ano --------------------------------------------------
+  gravar_tema("00_consolidado_geral", list(
+    `1. Geral` = resumo_largo(geral_a, unidades, NULL, "VALOR_TOTAL"),
+    `2. Internações` = resumo_largo(geral_a, unidades, "INTERNACOES", "VALOR_HOSPITALAR", "Internações"),
+    `3. Ambulatoriais` = resumo_largo(geral_a, unidades, "QTD_AMBULATORIAL", "VALOR_AMBULATORIAL", "Procedimentos"),
+    `4. Transplantes` = resumo_largo(tx, unidades, "QUANTIDADE", "VALOR", "Transplantes"),
+    `5. Consultas médicas espec.` = resumo_largo(cm$detalhe, unidades, "QTD_APROVADA", "VALOR_APROVADO", "Consultas"),
+    `6. Consultas nível superior` = resumo_largo(cs$detalhe, unidades, "QTD_APROVADA", "VALOR_APROVADO", "Consultas"),
+    `7. Partos` = resumo_largo(pt, unidades, "PARTOS", "VALOR_TOTAL", "Partos")),
+    "Consolidado geral por unidade",
+    paste("Uma aba por tipo de produção; uma linha por unidade; para cada ano, Produção e Valor (R$), com",
+          "subtotal por tipo de rede e total geral. 1. Geral: só o valor total (ambulatorial + hospitalar), pois",
+          "procedimentos e internações não se somam. 2. Internações: AIH normal (IDENT 1) e valor total das AIH (SIH).",
+          "3. Ambulatoriais: quantidade e valor aprovados de todos os procedimentos do SIA. 4. Transplantes: subgrupo",
+          "SIGTAP 05.05 no SIA e no SIH. 5. Consultas médicas especializadas: 0301010072. 6. Consultas de nível",
+          "superior (exceto médico): 0301010048. 7. Partos: AIH de parto normal e cesáreo. Detalhes nas planilhas 01 a 07."),
+    atualizacao)
 
   gravar_csv(data.table(FONTE = c("SIA", "SIH"), ULTIMO_MES = c(max(sia$PA_MVM), max(sih$COMPETENCIA)),
                         GERADO_EM = atualizacao$em), file.path(PLAN, "atualizacao.csv"))
