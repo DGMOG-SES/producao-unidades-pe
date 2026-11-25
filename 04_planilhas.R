@@ -16,6 +16,10 @@
 #   05_partos                        SIH, procedimentos do PROCOBS2C.CNV, TODO O ESTADO,
 #                                    por gestão: abas Geral (tipo e subtipo × gestão)
 #                                    e Parto normal / Parto cesáreo (unidades por gestão)
+#   06_leitos                        CNES-LT, dezembro de cada ano: existentes | SUS, por gestão
+#   07_cuida_pe                      indicadores do Cuida PE: consultas nas 15 UPAEs, cirurgias
+#                                    por caráter e gestão (e proporção), RNM e TC, eletivas
+#                                    da Portaria 339 por mês
 #   00_unidades                      cadastro das unidades que aparecem nas planilhas
 #
 # Unidades dos temas 01 a 04 (rede estadual):
@@ -48,6 +52,7 @@ ABA_GRUPO   <- c("02" = "02 Diagnóstico", "03" = "03 Clínicos", "04" = "04 Cir
 
 # Rótulos do cabeçalho das tabelas
 ROTULOS <- c(GRUPO_PROC = "Grupo de procedimento", ESPECIALIDADE = "Especialidade (CBO)",
+             CARATER = "Caráter de atendimento", SUBGRUPO = "Subgrupo de procedimento", ANO_EXEC = "Ano",
              TIPO_DE_PARTO = "Tipo de parto", TIPO_DE_LEITO = "Tipo de leito", ESPECIALIDADE_LEITO = "Especialidade do leito", PROCEDIMENTO = "Procedimento", GESTAO = "Gestão",
              TIPO_REDE = "Tipo de rede", MODELO_GESTAO = "Modelo de gestão", CNES = "CNES", UNIDADE = "Unidade",
              MUNICIPIO = "Município", REGIAO_SAUDE = "Região de saúde")
@@ -61,6 +66,13 @@ PARTOS <- data.table(
   SUBTIPO = c("Parto normal", "Parto normal em gestação de alto risco", "Parto normal em centro de parto normal",
               "Cirurgia cesariana", "Cirurgia cesariana em gestação de alto risco",
               "Cirurgia cesariana c/ laqueadura tubária"))
+
+# Cuida PE
+UPAES_CUIDA <- c("0151475", "3460967", "3489302", "3840301", "7296762", "7297394", "7381344", "7465386",
+                 "7472552", "7478364", "7484860", "7490534", "7490569", "9229221", "9620508")
+SUBGRUPOS_IMAGEM <- c("0206" = "0206 Diagnóstico por tomografia", "0207" = "0207 Diagnóstico por ressonância magnética")
+CARATER_CIR <- c("01" = "Eletivo", "02" = "Urgência")   # CARATEND.CNV / CARAT_AT.CNV: urgência = 02
+MESES <- c("jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez")
 
 NAT_JUR_ESTADUAL <- c("1023", "1058", "1082", "1112", "1147", "1171", "1236", "1260", "1295", "1325")
 NAT_JUR_PUBLICA_EMPRESARIAL <- c("2011", "2038")
@@ -417,7 +429,7 @@ main <- function() {
   lt <- if (file.exists(arq_lt)) ler_parquet(arq_lt)[COMPETENCIA >= CFG$inicio & COMPETENCIA <= CFG$fim] else NULL
   sia <- ler_parquet(arq_sia)[PA_MVM >= CFG$inicio & PA_MVM <= CFG$fim]
   sih <- ler_parquet(arq_sih)[COMPETENCIA >= CFG$inicio & COMPETENCIA <= CFG$fim]
-  for (cl in c("PA_CONDIC", "PA_UFMUN")) if (!cl %in% names(sia)) set(sia, j = cl, value = NA_character_)
+  for (cl in c("PA_CONDIC", "PA_UFMUN", "PA_CATEND")) if (!cl %in% names(sia)) set(sia, j = cl, value = NA_character_)
   for (cl in c("TP_GESTAO", "MUNIC_MOV")) if (!cl %in% names(sih)) set(sih, j = cl, value = NA_character_)
   sia[, `:=`(ANO = as.integer(substr(PA_MVM, 1, 4)), GESTAO = gestao_sia(PA_CONDIC),
              GRUPO = substr(PA_PROC_ID, 1, 2), QTD = QTD_APROVADA, VALOR = VALOR_APROVADO)]
@@ -549,6 +561,45 @@ main <- function() {
                               `Meses recentes` = "O CNES é atualizado mensalmente; o ano corrente pode mudar até dezembro.",
                               Fonte = "DATASUS, CNES-LT (arquivos LTPEaamm.dbc), FTP público. Mesmos arquivos do TabWin (T:\\TabWCNES\\LEITO)."))
   }
+
+  # 07 Cuida PE ---------------------------------------------------------------------
+  p339 <- ler_csv("referencias/portaria_339_cirurgias_eletivas.csv")$PROC
+  upae <- sia[CNES %chin% UPAES_CUIDA & PA_PROC_ID == CONSULTA_MEDICA_ESPECIALIZADA & GESTAO == "Estadual"]
+  cir  <- sih[GRUPO == "04" & CAR_INT %chin% names(CARATER_CIR) & GESTAO %chin% c("Estadual", "Municipal")]
+  cir[, CARATER := CARATER_CIR[CAR_INT]]
+  img  <- sia[substr(PA_PROC_ID, 1, 4) %chin% names(SUBGRUPOS_IMAGEM) & PA_CATEND %chin% names(CARATER_CIR) &
+                GESTAO == "Estadual"]
+  img[, SUBGRUPO := SUBGRUPOS_IMAGEM[substr(PA_PROC_ID, 1, 4)]]
+  ele  <- sia[PA_PROC_ID %chin% p339 & GRUPO == "04" & PA_CATEND == "01" & GESTAO == "Estadual"]
+  ele[, `:=`(ANO_EXEC = as.character(ANO), ANO = MESES[as.integer(substr(PA_MVM, 5, 6))])]
+  # Proporção: % de cada caráter no total de cirurgias da gestão, por ano
+  prop <- cir[, .(QTD = sum(QTD)), by = .(GESTAO, CARATER, ANO)]
+  if (!nrow(prop)) prop <- data.table(GESTAO = character(), CARATER = character(), ANO = integer(), QTD = numeric())
+  prop <- rbind(prop, prop[, .(GESTAO = "Total", QTD = sum(QTD)), by = .(CARATER, ANO)])
+  prop[, VALOR := QTD / sum(QTD), by = .(GESTAO, ANO)]
+  wp <- largo(prop, c("GESTAO", "CARATER"), anos)
+  for (a in anos) set(wp, j = paste0("VALOR_", a), value = round(wp[[paste0("VALOR_", a)]], 4))
+  wp[, O_ := match(GESTAO, c("Estadual", "Municipal", "Total"))]; setorder(wp, O_, CARATER); wp[, O_ := NULL]
+  # Cada aba só entra se houver dados (ex.: base ainda incompleta durante a recarga)
+  se <- function(x, expr) if (nrow(x)) expr else NULL
+  abas_cuida <- Filter(Negate(is.null), list(
+    `Consultas UPAEs` = se(upae, unidades_ano(upae, unidades, anos, "Consultas")),
+    `Cirurgias por caráter` = se(cir, por_gestao(cir, "CARATER", NULL, anos, unname(CARATER_CIR), NULL, "Cirurgias", c(16, 12))),
+    `Proporção cirurgias` = se(cir, tabela(wp, c("GESTAO", "CARATER"), anos, NULL, which(wp$GESTAO == "Total"), c(12, 16),
+                                           rotulos = c("Cirurgias", "% na gestão"), formatos = c("#,##0", "0.0%"))),
+    `RNM e TC` = se(img, geral(img, "SUBGRUPO", anos, "Exames", 45)),
+    `Eletivas Portaria 339` = se(ele, geral(ele, "ANO_EXEC", MESES, "Cirurgias", 10))))
+  gravar_planilha("07_cuida_pe", abas_cuida, "Indicadores do Cuida PE",
+                  paste("Consultas UPAEs: SIA, 0301010072, gestão estadual (PA_CONDIC = E), nas 15 UPAEs do log da área.",
+                        "Cirurgias por caráter: SIH, grupo 04, caráter eletivo (01) ou urgência (02) (CARATEND.CNV),",
+                        "gestão estadual e municipal (campo GESTAO); número de AIH. Proporção: % de cada caráter no total",
+                        "de cirurgias eletivas + urgência da gestão. RNM e TC: SIA, subgrupos 0206 e 0207, caráter eletivo",
+                        "ou urgência (PA_CATEND), gestão estadual. Eletivas Portaria 339: SIA, procedimentos da Portaria",
+                        "Estadual 339/2023 (PORT339.DBF, 214 procedimentos), grupo 04, caráter eletivo, gestão estadual,",
+                        "MAC e FAEC; linhas = ano, colunas = mês de competência."),
+                  atualizacao, csv = if (nrow(upae)) csv_tema(upae, unidades, character()),
+                  itens = c(Unidades = paste("Consultas: as 15 UPAEs. Cirurgias: todo o estado, gestão estadual e municipal.",
+                                             "RNM/TC e eletivas da Portaria 339: toda a produção sob gestão estadual.")))
 
   # 00 Unidades
   gravar_planilha("00_unidades", list(Unidades = unidades[, .(CNES, UNIDADE, TIPO_REDE, MODELO_GESTAO, TIPO_UNIDADE,
