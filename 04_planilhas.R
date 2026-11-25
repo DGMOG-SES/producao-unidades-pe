@@ -450,6 +450,9 @@ main <- function() {
   }
 
   arq_lt <- file.path(SAIDA, "leitos.parquet")
+  # Se o 01b não consolidou (ex.: FTP fora do ar), monta a base com as partições já baixadas
+  if (!file.exists(arq_lt) && length(list.files(file.path(CFG$dir_dados, "leitos"), "\\.parquet$")))
+    consolidar(file.path(CFG$dir_dados, "leitos"), arq_lt)
   lt <- NULL
   # As planilhas começam no primeiro ano completo na base (SIA e SIH com todos
   # os meses daquele ano em diante): durante a carga histórica, os anos antigos

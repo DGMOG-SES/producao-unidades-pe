@@ -32,7 +32,11 @@ LEITOS <- list(
 
 main <- function() {
   dir.create(LEITOS$dir, recursive = TRUE, showWarnings = FALSE)
-  lst <- listar_ftp(LEITOS$ftp)
+  lst <- tryCatch(listar_ftp(LEITOS$ftp), error = function(e) {
+    log_msg("FTP do CNES indisponível (%s); mantendo os leitos já baixados", conditionMessage(e))
+    NULL
+  })
+  if (is.null(lst)) { consolidar(LEITOS$dir, LEITOS$saida); return(invisible(NULL)) }
   padrao <- sprintf("^LT%s(\\d{2})(\\d{2})\\.dbc$", CFG$uf)
   lst <- lst[grepl(padrao, nome, ignore.case = TRUE)]
   lst[, mes := sub(padrao, "20\\1\\2", nome, ignore.case = TRUE)]
