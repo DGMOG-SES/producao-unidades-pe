@@ -409,12 +409,15 @@ csv_tema <- function(dt, unidades, dims) {
 
 # Primeiro ano (AAAA01) a partir do qual SIA e SIH têm todos os meses na base,
 # pelos controles de extração. O ano corrente conta até o último mês baixado.
+meses_ctl <- function(arq, chave) {
+  f <- file.path(CFG$dir_dados, "controle", arq)
+  if (file.exists(f)) ler_csv(f)[[chave]] else character()
+}
+meses_sia <- function() meses_ctl("sia_processados_v3.csv", "mvm")
+meses_sih <- function() meses_ctl("sih_processados_v2.csv", "mes")
+
 primeiro_ano_completo <- function() {
-  ctl <- function(arq, chave) {
-    f <- file.path(CFG$dir_dados, "controle", arq)
-    if (file.exists(f)) ler_csv(f)[[chave]] else character()
-  }
-  meses <- intersect(ctl("sia_processados_v3.csv", "mvm"), ctl("sih_processados_v2.csv", "mes"))
+  meses <- intersect(meses_sia(), meses_sih())
   if (!length(meses)) return(CFG$inicio)
   ultimo <- max(meses)
   anos <- rev(seq(as.integer(substr(CFG$inicio, 1, 4)), as.integer(substr(ultimo, 1, 4))))
@@ -454,9 +457,11 @@ main <- function() {
   # entram sozinhos à medida que são baixados.
   inicio <- primeiro_ano_completo()
   log_msg("Planilhas a partir de %s", inicio)
-  sia <- ler_parquet(arq_sia)[PA_MVM >= inicio & PA_MVM <= CFG$fim]
+  # Só os meses registrados como baixados no layout atual: partições antigas
+  # (layout anterior, ainda não refeitas) ficam de fora até serem refeitas.
+  sia <- ler_parquet(arq_sia)[PA_MVM >= inicio & PA_MVM <= CFG$fim & PA_MVM %chin% meses_sia()]
   if (file.exists(arq_lt)) lt <- ler_parquet(arq_lt)[COMPETENCIA >= inicio & COMPETENCIA <= CFG$fim]
-  sih <- ler_parquet(arq_sih)[COMPETENCIA >= inicio & COMPETENCIA <= CFG$fim]
+  sih <- ler_parquet(arq_sih)[COMPETENCIA >= inicio & COMPETENCIA <= CFG$fim & COMPETENCIA %chin% meses_sih()]
   for (cl in c("PA_CONDIC", "PA_UFMUN", "PA_CATEND")) if (!cl %in% names(sia)) set(sia, j = cl, value = NA_character_)
   for (cl in c("TP_GESTAO", "MUNIC_MOV")) if (!cl %in% names(sih)) set(sih, j = cl, value = NA_character_)
   sia[, `:=`(ANO = as.integer(substr(PA_MVM, 1, 4)), GESTAO = gestao_sia(PA_CONDIC),
