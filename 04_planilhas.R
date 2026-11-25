@@ -52,7 +52,7 @@ ABA_GRUPO   <- c("02" = "02 Diagnóstico", "03" = "03 Clínicos", "04" = "04 Cir
 
 # Rótulos do cabeçalho das tabelas
 ROTULOS <- c(GRUPO_PROC = "Grupo de procedimento", ESPECIALIDADE = "Especialidade (CBO)",
-             CARATER = "Caráter de atendimento", SUBGRUPO = "Subgrupo de procedimento", ANO_EXEC = "Ano",
+             CARATER = "Caráter de atendimento", FONTE = "Fonte", SUBGRUPO = "Subgrupo de procedimento", ANO_EXEC = "Ano",
              TIPO_DE_PARTO = "Tipo de parto", TIPO_DE_LEITO = "Tipo de leito", ESPECIALIDADE_LEITO = "Especialidade do leito", PROCEDIMENTO = "Procedimento", GESTAO = "Gestão",
              TIPO_REDE = "Tipo de rede", MODELO_GESTAO = "Modelo de gestão", CNES = "CNES", UNIDADE = "Unidade",
              MUNICIPIO = "Município", REGIAO_SAUDE = "Região de saúde")
@@ -570,8 +570,19 @@ main <- function() {
   img  <- sia[substr(PA_PROC_ID, 1, 4) %chin% names(SUBGRUPOS_IMAGEM) & PA_CATEND %chin% names(CARATER_CIR) &
                 GESTAO == "Estadual"]
   img[, SUBGRUPO := SUBGRUPOS_IMAGEM[substr(PA_PROC_ID, 1, 4)]]
-  ele  <- sia[PA_PROC_ID %chin% p339 & GRUPO == "04" & PA_CATEND == "01" & GESTAO == "Estadual"]
-  ele[, `:=`(ANO_EXEC = as.character(ANO), ANO = MESES[as.integer(substr(PA_MVM, 5, 6))])]
+  # Eletivas da Portaria 339: SIA + SIH, como nos dois logs da área
+  ele <- rbind(
+    sia[PA_PROC_ID %chin% p339 & GRUPO == "04" & PA_CATEND == "01" & GESTAO == "Estadual",
+        .(ANO_EXEC = as.character(ANO), MES = substr(PA_MVM, 5, 6), FONTE = "Ambulatorial (SIA)", QTD, VALOR)],
+    sih[PROC_REA %chin% p339 & GRUPO == "04" & CAR_INT == "01" & GESTAO == "Estadual",
+        .(ANO_EXEC = as.character(ANO), MES = substr(COMPETENCIA, 5, 6), FONTE = "Hospitalar (SIH)", QTD, VALOR)])
+  ele[, ANO := MESES[as.integer(MES)]]
+  ele_t <- rbind(ele, ele[, .(QTD = sum(QTD), VALOR = sum(VALOR), FONTE = "Total"), by = .(ANO_EXEC, ANO)], fill = TRUE)
+  ele_t <- rbind(ele_t, ele_t[, .(QTD = sum(QTD), VALOR = sum(VALOR), ANO_EXEC = "Total geral"), by = .(FONTE, ANO)], fill = TRUE)
+  we <- largo(ele_t, c("ANO_EXEC", "FONTE"), MESES)
+  we[, `:=`(O1_ = fifelse(ANO_EXEC == "Total geral", "9999", ANO_EXEC),
+            O2_ = match(FONTE, c("Ambulatorial (SIA)", "Hospitalar (SIH)", "Total")))]
+  setorder(we, O1_, O2_); we[, c("O1_", "O2_") := NULL]
   # Proporção: % de cada caráter no total de cirurgias da gestão, por ano
   prop <- cir[, .(QTD = sum(QTD)), by = .(GESTAO, CARATER, ANO)]
   if (!nrow(prop)) prop <- data.table(GESTAO = character(), CARATER = character(), ANO = integer(), QTD = numeric())
@@ -588,15 +599,17 @@ main <- function() {
     `Proporção cirurgias` = se(cir, tabela(wp, c("GESTAO", "CARATER"), anos, NULL, which(wp$GESTAO == "Total"), c(12, 16),
                                            rotulos = c("Cirurgias", "% na gestão"), formatos = c("#,##0", "0.0%"))),
     `RNM e TC` = se(img, geral(img, "SUBGRUPO", anos, "Exames", 45)),
-    `Eletivas Portaria 339` = se(ele, geral(ele, "ANO_EXEC", MESES, "Cirurgias", 10))))
+    `Eletivas Portaria 339` = se(ele, tabela(we, c("ANO_EXEC", "FONTE"), MESES, "Cirurgias",
+                                             which(we$FONTE == "Total" | we$ANO_EXEC == "Total geral"), c(11, 20)))))
   gravar_planilha("07_cuida_pe", abas_cuida, "Indicadores do Cuida PE",
                   paste("Consultas UPAEs: SIA, 0301010072, gestão estadual (PA_CONDIC = E), nas 15 UPAEs do log da área.",
                         "Cirurgias por caráter: SIH, grupo 04, caráter eletivo (01) ou urgência (02) (CARATEND.CNV),",
                         "gestão estadual e municipal (campo GESTAO); número de AIH. Proporção: % de cada caráter no total",
                         "de cirurgias eletivas + urgência da gestão. RNM e TC: SIA, subgrupos 0206 e 0207, caráter eletivo",
-                        "ou urgência (PA_CATEND), gestão estadual. Eletivas Portaria 339: SIA, procedimentos da Portaria",
+                        "ou urgência (PA_CATEND), gestão estadual. Eletivas Portaria 339: procedimentos da Portaria",
                         "Estadual 339/2023 (PORT339.DBF, 214 procedimentos), grupo 04, caráter eletivo, gestão estadual,",
-                        "MAC e FAEC; linhas = ano, colunas = mês de competência."),
+                        "MAC e FAEC, no SIA (quantidade aprovada; PA_CATEND = 01) e no SIH (número de AIH; CAR_INT = 01),",
+                        "com o total dos dois; linhas = ano e fonte, colunas = mês de competência."),
                   atualizacao, csv = if (nrow(upae)) csv_tema(upae, unidades, character()),
                   itens = c(Unidades = paste("Consultas: as 15 UPAEs. Cirurgias: todo o estado, gestão estadual e municipal.",
                                              "RNM/TC e eletivas da Portaria 339: toda a produção sob gestão estadual.")))
