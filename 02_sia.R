@@ -16,7 +16,8 @@
 #   PA_TIPPRE (tipo de prestador), PA_NAT_JUR (natureza jurídica), PA_TPFIN
 #   (tipo de financiamento), PA_DOCORIG (instrumento: BPA-C, BPA-I, APAC...) e
 #   PA_CONDIC (condição de gestão: D dupla, E estadual, P municipal; é a
-#   "Gestao" do Prod_PE.def usado no TabWin da SES).
+#   "Gestao" do Prod_PE.def usado no TabWin da SES) e PA_CATEND (caráter de
+#   atendimento: 01 eletivo, 02 urgência, 03-06 acidentes, 99/00 não informado).
 # Medidas: QTD_APRESENTADA (PA_QTDPRO), QTD_APROVADA (PA_QTDAPR),
 #   VALOR_APRESENTADO (PA_VALPRO), VALOR_APROVADO (PA_VALAPR), N_REGISTROS.
 #
@@ -32,14 +33,14 @@ SIA <- list(
   max_por_execucao = as.integer(argumento("max") %||% "25"),
   dir      = file.path(CFG$dir_dados, "sia"),
   saida    = file.path(CFG$dir_dados, "saida", "sia_unidades.parquet"),
-  # v2: layout com PA_CONDIC; movimentos do layout anterior são refeitos
-  controle = file.path(CFG$dir_dados, "controle", "sia_processados_v2.csv"),
+  # v3: layout com PA_CONDIC e PA_CATEND; movimentos de layouts anteriores são refeitos
+  controle = file.path(CFG$dir_dados, "controle", "sia_processados_v3.csv"),
   # Além das chaves, guarda campos de classificação (natureza jurídica, tipo de
   # unidade e de prestador, financiamento, instrumento de registro e município)
   # para que regras novas possam ser aplicadas sem baixar tudo de novo.
   texto    = c("PA_CODUNI", "PA_GESTAO", "PA_CMP", "PA_MVM", "PA_PROC_ID", "PA_CBOCOD",
                "PA_UFMUN", "PA_TPUPS", "PA_TIPPRE", "PA_NAT_JUR", "PA_TPFIN", "PA_DOCORIG",
-               "PA_CONDIC"),
+               "PA_CONDIC", "PA_CATEND"),
   numero   = c("PA_QTDPRO", "PA_QTDAPR", "PA_VALPRO", "PA_VALAPR")
 )
 
@@ -67,7 +68,7 @@ ler_parte <- function(nome, mvm) {
                 VALOR_APROVADO = sum(PA_VALAPR, na.rm = TRUE),
                 N_REGISTROS = .N),
             by = .(PA_MVM, PA_CMP, CNES = PA_CODUNI, PA_GESTAO, PA_PROC_ID, CBO = PA_CBOCOD,
-                   PA_UFMUN, PA_TPUPS, PA_TIPPRE, PA_NAT_JUR, PA_TPFIN, PA_DOCORIG, PA_CONDIC)]
+                   PA_UFMUN, PA_TPUPS, PA_TIPPRE, PA_NAT_JUR, PA_TPFIN, PA_DOCORIG, PA_CONDIC, PA_CATEND)]
   log_msg("  %s: %s registros no arquivo; %d linhas agregadas", nome, format(n, big.mark = "."), nrow(out))
   rm(dt); gc(verbose = FALSE)
   out
@@ -101,7 +102,7 @@ main <- function() {
       partes <- lapply(ftp[mvm == m]$nome, ler_parte, mvm = m)
       dt <- rbindlist(partes)
       dt <- dt[, lapply(.SD, sum), by = .(PA_MVM, PA_CMP, CNES, PA_GESTAO, PA_PROC_ID, CBO,
-                                          PA_UFMUN, PA_TPUPS, PA_TIPPRE, PA_NAT_JUR, PA_TPFIN, PA_DOCORIG, PA_CONDIC),
+                                          PA_UFMUN, PA_TPUPS, PA_TIPPRE, PA_NAT_JUR, PA_TPFIN, PA_DOCORIG, PA_CONDIC, PA_CATEND),
                .SDcols = c("QTD_APRESENTADA", "QTD_APROVADA", "VALOR_APRESENTADO", "VALOR_APROVADO", "N_REGISTROS")]
       gravar_parquet(dt, file.path(SIA$dir, sprintf("sia_%s.parquet", m)))
       ctrl <- registrar_controle(ctrl, SIA$controle, "mvm", m, pend[mvm == m]$assinatura)
