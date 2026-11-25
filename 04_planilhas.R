@@ -222,9 +222,12 @@ montar_unidades <- function(cnes_com_producao) {
 # complementar e estaduais fora da lista, só a produção sob gestão estadual.
 filtrar_rede <- function(dt, col_gestor, unidades) {
   dt <- merge(dt, unidades[, .(CNES, TIPO_REDE, NA_LISTA_SES)], by = "CNES")
-  dt[(TIPO_REDE %chin% c("Rede própria", "OSS") & NA_LISTA_SES == "Sim") |
-       (TIPO_REDE %chin% c("Rede própria", "Complementar") & NA_LISTA_SES == "Não" &
-          get(col_gestor) == CFG$gestor_estadual)][, c("TIPO_REDE", "NA_LISTA_SES") := NULL][]
+  # Rede própria e OSS da lista: toda a produção. Complementar (na lista como
+  # referência ou não) e estaduais fora da lista: só sob gestão estadual.
+  dt[, LISTA_PROPRIA_ := TIPO_REDE %chin% c("Rede própria", "OSS") & NA_LISTA_SES == "Sim"]
+  dt[LISTA_PROPRIA_ |
+       (TIPO_REDE %chin% c("Rede própria", "Complementar") & get(col_gestor) == CFG$gestor_estadual)][
+    , c("TIPO_REDE", "NA_LISTA_SES", "LISTA_PROPRIA_") := NULL][]
 }
 
 # ---- Gravação -------------------------------------------------------------------
