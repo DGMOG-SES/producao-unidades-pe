@@ -2,10 +2,10 @@
 # ------------------------------------------------------------------------------
 # 01 - Cadastro dos estabelecimentos de PE (CNES-ST)
 #
-# Baixa o arquivo STPEaamm.dbc do último mês disponível de cada ano do período
-# (2023, 2024, 2025 e 2026) e guarda, para cada CNES, os dados do registro mais
-# recente. Usar mais de um ano evita perder unidades que fecharam no meio do
-# período e ainda têm produção em 2023-2025.
+# Baixa o arquivo STPEaamm.dbc do primeiro e do último mês disponível de cada
+# ano do período (2023 a 2026) e guarda, para cada CNES, os dados do registro
+# mais recente. Ler janeiro e dezembro de cada ano evita perder unidades que
+# fecharam no meio do período (ex.: Hospital de Retaguarda em Neurologia, 2023).
 #
 # A natureza jurídica (NAT_JUR) é o que separa a rede complementar (prestadores
 # privados e filantrópicos) dos estabelecimentos públicos, no 04_planilhas.R.
@@ -34,9 +34,10 @@ main <- function() {
   lst[, mes := sub(padrao, "20\\1\\2", nome, ignore.case = TRUE)]
   lst <- lst[mes >= CFG$inicio & mes <= CFG$fim]
   if (!nrow(lst)) stop("Nenhum arquivo do CNES-ST de ", CFG$uf, " no período")
-  # Último arquivo de cada ano
+  # Primeiro e último arquivo de cada ano: o primeiro pega unidades que fecharam
+  # no meio do ano e não aparecem mais no cadastro de dezembro
   lst[, ano := substr(mes, 1, 4)]
-  escolhidos <- lst[, .SD[which.max(mes)], by = ano]
+  escolhidos <- unique(lst[, .SD[c(which.min(mes), which.max(mes))], by = ano])
   assinatura <- paste(escolhidos[, paste(nome, tamanho, data, sep = "|")], collapse = ";")
 
   ctrl <- ler_controle(UNID$controle, "fonte")
