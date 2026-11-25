@@ -40,7 +40,7 @@ com subtotais e total geral.
 | OSS | Lista validada, modelo `OSS` |
 | Rede própria – "Estadual fora da lista SES" | Estabelecimentos da administração pública estadual no CNES (natureza jurídica 102-3, 111-2 etc.) fora da lista: laboratórios, unidades móveis, assistência farmacêutica |
 | Complementar | Referências fora da rede da lista validada (inclui o Hospital das Clínicas) e prestadores privados/filantrópicos (natureza jurídica 2xxx, exceto empresa pública e sociedade de economia mista, 3xxx e 4xxx) |
-| Outro público | Públicos não estaduais que faturam sob gestão estadual (ex.: "Municipal sob gestão estadual") |
+| Outro público | Públicos não estaduais que faturam sob gestão estadual (ex.: "Pública municipal") |
 
 Os partos (tema 05) incluem **todas** as unidades de PE, com a gestão separada.
 

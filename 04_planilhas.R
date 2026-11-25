@@ -29,7 +29,7 @@
 #                        ("Estadual fora da lista SES")
 #   Complementar         referências fora da rede da lista validada (ex.: Hospital
 #                        das Clínicas) e prestadores privados/filantrópicos
-#   Outro público        públicos não estaduais (ex.: "Municipal sob gestão estadual")
+#   Outro público        públicos não estaduais (ex.: "Pública municipal")
 # Gestão, como no TabWin: SIH campo GESTAO (E/2 estadual, M/1 municipal); SIA
 # PA_CONDIC (E estadual, P municipal, D dupla).
 #
@@ -210,8 +210,8 @@ montar_unidades <- function(mun_prod) {
   u[!LISTA_PROPRIA & TIPO_REDE == "Rede própria", MODELO_GESTAO := "Estadual fora da lista SES"]
   u[TIPO_REDE == "Complementar", MODELO_GESTAO := "Complementar"]
   u[TIPO_REDE %chin% c("Outro público", "Não identificado"), MODELO_GESTAO := NATUREZA]
-  u[TIPO_REDE == "Outro público" & ESFERA_A %chin% "M", MODELO_GESTAO := "Municipal sob gestão estadual"]
-  u[TIPO_REDE == "Outro público" & ESFERA_A %chin% "F", MODELO_GESTAO := "Federal sob gestão estadual"]
+  u[TIPO_REDE == "Outro público" & ESFERA_A %chin% "M", MODELO_GESTAO := "Pública municipal"]
+  u[TIPO_REDE == "Outro público" & ESFERA_A %chin% "F", MODELO_GESTAO := "Pública federal"]
   u[, NA_LISTA_SES := fifelse(is.na(VINCULO), "Não", "Sim")]
   u[, TIPO_UNIDADE := fcoalesce(TIPO_LISTA, unname(TIPOS_CNES[TP_UNID]),
                                 fifelse(is.na(TP_UNID), "Não informado", paste("Tipo", TP_UNID)))]

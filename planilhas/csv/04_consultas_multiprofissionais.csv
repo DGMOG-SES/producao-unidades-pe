@@ -289,13 +289,13 @@
 2023;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;223810 Fonoaudiólogo geral;356;2242,8
 2023;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;251510 Psicólogo clínico;1174;7396,2
 2023;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;251605 Assistente social;1365;8599,5
-2023;Outro público;Municipal sob gestão estadual;2500078;CASA DE SAUDE E MATERNIDADE ELZA MS BARROS DINIZ;Maraial;III Região de Saúde - PE;223505 Enfermeiro;280;1764
-2023;Outro público;Municipal sob gestão estadual;2500078;CASA DE SAUDE E MATERNIDADE ELZA MS BARROS DINIZ;Maraial;III Região de Saúde - PE;223605 Fisioterapeuta geral;693;4365,9
-2023;Outro público;Municipal sob gestão estadual;2711540;CNES 2711540;Jaqueira;III Região de Saúde - PE;223810 Fonoaudiólogo geral;50;315
-2023;Outro público;Municipal sob gestão estadual;2711540;CNES 2711540;Jaqueira;III Região de Saúde - PE;251510 Psicólogo clínico;106;667,8
-2023;Outro público;Municipal sob gestão estadual;7288263;HOSPITAL MUNICIPAL DE JAQUEIRA MARIA HELENA SILVA DE ANDRADE;Jaqueira;III Região de Saúde - PE;223710 Nutricionista;167;1052,1
-2023;Outro público;Municipal sob gestão estadual;7288263;HOSPITAL MUNICIPAL DE JAQUEIRA MARIA HELENA SILVA DE ANDRADE;Jaqueira;III Região de Saúde - PE;223810 Fonoaudiólogo geral;60;378
-2023;Outro público;Municipal sob gestão estadual;7288263;HOSPITAL MUNICIPAL DE JAQUEIRA MARIA HELENA SILVA DE ANDRADE;Jaqueira;III Região de Saúde - PE;251605 Assistente social;60;378
+2023;Outro público;Pública municipal;2500078;CASA DE SAUDE E MATERNIDADE ELZA MS BARROS DINIZ;Maraial;III Região de Saúde - PE;223505 Enfermeiro;280;1764
+2023;Outro público;Pública municipal;2500078;CASA DE SAUDE E MATERNIDADE ELZA MS BARROS DINIZ;Maraial;III Região de Saúde - PE;223605 Fisioterapeuta geral;693;4365,9
+2023;Outro público;Pública municipal;2711540;CNES 2711540;Jaqueira;III Região de Saúde - PE;223810 Fonoaudiólogo geral;50;315
+2023;Outro público;Pública municipal;2711540;CNES 2711540;Jaqueira;III Região de Saúde - PE;251510 Psicólogo clínico;106;667,8
+2023;Outro público;Pública municipal;7288263;HOSPITAL MUNICIPAL DE JAQUEIRA MARIA HELENA SILVA DE ANDRADE;Jaqueira;III Região de Saúde - PE;223710 Nutricionista;167;1052,1
+2023;Outro público;Pública municipal;7288263;HOSPITAL MUNICIPAL DE JAQUEIRA MARIA HELENA SILVA DE ANDRADE;Jaqueira;III Região de Saúde - PE;223810 Fonoaudiólogo geral;60;378
+2023;Outro público;Pública municipal;7288263;HOSPITAL MUNICIPAL DE JAQUEIRA MARIA HELENA SILVA DE ANDRADE;Jaqueira;III Região de Saúde - PE;251605 Assistente social;60;378
 2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;73;459,9
 2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;16;100,8
 2023;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223288 Cirurgião dentista - odontologia para pacientes com necessidades especiais;6;37,8
@@ -747,8 +747,8 @@
 2024;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;223810 Fonoaudiólogo geral;164;1033,2
 2024;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;251510 Psicólogo clínico;1601;10086,3
 2024;OSS;OSS;3840301;UPAE PALMARES;Palmares;III Região de Saúde - PE;251605 Assistente social;2338;14729,4
-2024;Outro público;Municipal sob gestão estadual;2500078;CASA DE SAUDE E MATERNIDADE ELZA MS BARROS DINIZ;Maraial;III Região de Saúde - PE;223505 Enfermeiro;72;453,6
-2024;Outro público;Municipal sob gestão estadual;2500078;CASA DE SAUDE E MATERNIDADE ELZA MS BARROS DINIZ;Maraial;III Região de Saúde - PE;223605 Fisioterapeuta geral;173;1089,9
+2024;Outro público;Pública municipal;2500078;CASA DE SAUDE E MATERNIDADE ELZA MS BARROS DINIZ;Maraial;III Região de Saúde - PE;223505 Enfermeiro;72;453,6
+2024;Outro público;Pública municipal;2500078;CASA DE SAUDE E MATERNIDADE ELZA MS BARROS DINIZ;Maraial;III Região de Saúde - PE;223605 Fisioterapeuta geral;173;1089,9
 2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223208 Cirurgião dentista - clínico geral;31;195,3
 2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223268 Cirurgião dentista - traumatologista bucomaxilofacial;16;100,8
 2024;Rede própria;Administração indireta;2711613;CENTRO UNIVERSITARIO INTEGRADO DE SAUDE AMAURY DE MEDEIROS;Recife;I Região de Saúde - PE;223505 Enfermeiro;6678;42071,4
