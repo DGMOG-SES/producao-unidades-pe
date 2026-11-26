@@ -775,7 +775,8 @@ main <- function() {
     # Natureza como no TabWin (Leitos_Especialidade.def): 1º dígito do NAT_JUR do
     # próprio arquivo de leitos, NATJUR1.CNV (empresa pública e sociedade de
     # economia mista, ex.: HC/EBSERH, ficam em Entidades Empresariais)
-    ls_ <- merge(ls_, unidades[, .(CNES, TIPO_REDE_U = TIPO_REDE, MODELO_U = MODELO_GESTAO)], by = "CNES", all.x = TRUE)
+    ls_ <- merge(ls_, unidades[, .(CNES, TIPO_REDE_U = TIPO_REDE, MODELO_U = MODELO_GESTAO, NAT_JUR_U = NAT_JUR)],
+                 by = "CNES", all.x = TRUE)
     nj <- if ("NAT_JUR" %in% names(ls_)) substr(ls_$NAT_JUR, 1, 1) else rep(NA_character_, nrow(ls_))
     ls_[, NATUREZA_LEITO := fcase(nj == "1", "Administração Pública", nj == "2", "Entidades Empresariais",
                                   nj == "3", "Entidades sem Fins Lucrativos", nj == "4", "Pessoas Físicas",
@@ -783,11 +784,19 @@ main <- function() {
                                   default = "Não especificado ou ignorado")]
     ord_nat <- c("Administração Pública", "Entidades Empresariais", "Entidades sem Fins Lucrativos",
                  "Pessoas Físicas", "Instituições Extraterritoriais", "Não especificado ou ignorado")
-    # Próprios (rede própria e OSS) sob gestão estadual: direta (06 grandes, gestão
-    # direta, estaduais fora da lista) × indireta (OSS e administração indireta)
+    # Próprios (rede própria e OSS) sob gestão estadual, em três categorias:
+    # - Gestão por OSS: modelo OSS da lista validada;
+    # - Administração indireta (fundações e autarquias): modelo "Administração
+    #   indireta" da lista; fora da lista, natureza jurídica de autarquia ou
+    #   fundação pública estadual (1112, 1147, 1260), Decreto-Lei 200/1967;
+    # - Administração direta: 06 grandes, gestão direta e demais estaduais.
     prop <- ls_[GESTAO == "Estadual" & TIPO_REDE_U %chin% c("Rede própria", "OSS")]
-    prop[, ADMINISTRACAO := fifelse(TIPO_REDE_U == "OSS" | MODELO_U %chin% c("OSS", "Administração indireta"),
-                                    "Indireta (OSS e adm. indireta)", "Direta")]
+    ADM_CAT <- c("Administração direta", "Administração indireta (fundações e autarquias)", "Gestão por OSS")
+    prop[, ADMINISTRACAO := fcase(
+      TIPO_REDE_U == "OSS" | MODELO_U %chin% "OSS", ADM_CAT[3],
+      MODELO_U %chin% "Administração indireta", ADM_CAT[2],
+      (is.na(MODELO_U) | MODELO_U %chin% "Estadual fora da lista SES") & NAT_JUR_U %chin% c("1112", "1147", "1260"), ADM_CAT[2],
+      default = ADM_CAT[1])]
     ordena <- function(t, col, ordem) {
       d <- t$dados; o <- order(match(d[[col]], c(ordem, "Total geral"), nomatch = 50L))
       t$dados <- d[o]; t$linhas_total <- which(d[o][[col]] == "Total geral"); t
@@ -803,16 +812,17 @@ main <- function() {
       `Estadual por natureza` = se(ls_[GESTAO == "Estadual"], ordena(do.call(geral, c(list(ls_[GESTAO == "Estadual"],
                                          "NATUREZA_LEITO", anos, "Leitos SUS", 28), rot_pct("Leitos SUS"))),
                                          "NATUREZA_LEITO", ord_nat)),
-      `Próprios por administração` = se(prop, ordena(do.call(geral, c(list(prop, "ADMINISTRACAO", anos, "Leitos SUS", 30),
-                                         rot_pct("Leitos SUS"))), "ADMINISTRACAO", c("Direta", "Indireta (OSS e adm. indireta)"))))),
+      `Próprios por administração` = se(prop, ordena(do.call(geral, c(list(prop, "ADMINISTRACAO", anos, "Leitos SUS", 44),
+                                         rot_pct("Leitos SUS"))), "ADMINISTRACAO", ADM_CAT)))),
       "Leitos SUS por tipo de gestão",
       paste("CNES-LT, posição de dezembro de cada ano (meses:", meses_cnes(ls_$COMPETENCIA), "). Leitos SUS",
             "(QT_SUS), por tipo de leito (TIP1LEIT.CNV) e tipo de gestão do estabelecimento (TPGESTAO).",
             "% dentro do bloco: gestão sobre o total da categoria, unidade sobre o subtotal da sua gestão;",
             "totais sobre o total geral da aba. TODO O ESTADO. Natureza como no TabWin: 1º dígito da natureza",
             "jurídica do arquivo de leitos (NATJUR1.CNV). Próprios: rede própria e OSS da",
-            "lista validada (e estaduais fora da lista), sob gestão estadual; direta = 06 grandes, gestão direta e",
-            "estaduais fora da lista; indireta = OSS e administração indireta."),
+            "lista validada (e estaduais fora da lista), sob gestão estadual: administração direta (06 grandes,",
+            "gestão direta, demais estaduais), administração indireta (fundações e autarquias: modelo da lista ou",
+            "natureza jurídica 1112, 1147, 1260) e gestão por OSS."),
       atualizacao)
   }
 
