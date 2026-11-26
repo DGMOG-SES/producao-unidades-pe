@@ -336,9 +336,13 @@ unidades_ano <- function(dt, unidades, anos, rotulo_qtd, agrupar = "TIPO_REDE", 
 
 # ---- Excel -----------------------------------------------------------------------
 
-escrever_tabela <- function(wb, aba, r) {
+escrever_tabela <- function(wb, aba, r, ref = NULL) {
   n_id <- length(r$ids); n_anos <- length(r$anos)
-  cab1 <- c(fcoalesce(unname(ROTULOS[r$ids]), r$ids), as.vector(rbind(as.character(r$anos), "")))
+  rot_anos <- as.character(r$anos)
+  # "*" no último ano quando ele é o ano do último mês de referência
+  marca <- !is.null(ref) && is.numeric(r$anos) && as.character(max(r$anos)) == substr(ref$mes, 1, 4)
+  if (marca) rot_anos[n_anos] <- paste0(rot_anos[n_anos], "*")
+  cab1 <- c(fcoalesce(unname(ROTULOS[r$ids]), r$ids), as.vector(rbind(rot_anos, "")))
   cab2 <- c(rep("", n_id), rep(r$rotulos, n_anos))
   openxlsx::writeData(wb, aba, t(cab1), startRow = 1, colNames = FALSE)
   openxlsx::writeData(wb, aba, t(cab2), startRow = 2, colNames = FALSE)
@@ -357,6 +361,19 @@ escrever_tabela <- function(wb, aba, r) {
   openxlsx::setColWidths(wb, aba, cols = 1:n_id, widths = r$larguras)
   openxlsx::setColWidths(wb, aba, cols = cols_num, widths = 15)
   openxlsx::freezePane(wb, aba, firstActiveRow = 3, firstActiveCol = n_id + 1)
+  if (marca) {
+    openxlsx::writeData(wb, aba, paste0("* ", ref$texto), startRow = nlin + 4, startCol = 1, colNames = FALSE)
+    openxlsx::addStyle(wb, aba, openxlsx::createStyle(textDecoration = "italic"), rows = nlin + 4, cols = 1)
+  }
+}
+
+# Último mês de referência de cada planilha (preenchido no main): o último ano
+# das tabelas leva "*" e uma nota embaixo com o mês.
+REF_PLANILHA <- list()
+mes_txt <- function(aaaamm) {
+  if (!length(aaaamm) || is.na(aaaamm)) return(NA_character_)
+  m <- c("jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez")
+  paste0(m[as.integer(substr(aaaamm, 5, 6))], "/", substr(aaaamm, 1, 4))
 }
 
 leia_me <- function(titulo, regras, atualizacao, itens = NULL) {
@@ -387,7 +404,8 @@ gravar_planilha <- function(nome, abas, titulo, regras, atualizacao, csv = NULL,
   # Sem aba Leia-me (pedido da área): as regras de cada tema ficam no README.
   for (nm in names(abas)) {
     openxlsx::addWorksheet(wb, nm)
-    if (inherits(abas[[nm]], "tabela_anual")) escrever_tabela(wb, nm, abas[[nm]]) else {
+    ref <- REF_PLANILHA[[substr(nome, 1, 2)]]
+    if (inherits(abas[[nm]], "tabela_anual")) escrever_tabela(wb, nm, abas[[nm]], ref) else {
       openxlsx::writeData(wb, nm, abas[[nm]], headerStyle = openxlsx::createStyle(textDecoration = "bold"))
       openxlsx::freezePane(wb, nm, firstRow = TRUE)
     }
@@ -520,6 +538,24 @@ main <- function() {
     ultimo = sprintf("SIA %s/%s, SIH %s/%s", substr(max(sia$PA_MVM), 5, 6), substr(max(sia$PA_MVM), 1, 4),
                      substr(max(sih$COMPETENCIA), 5, 6), substr(max(sih$COMPETENCIA), 1, 4)),
     em = format(Sys.time(), "%d/%m/%Y %H:%M", tz = "America/Recife"))
+
+  # Último mês de referência por planilha (prefixo do nome do arquivo)
+  ult <- list(sia = max(sia$PA_MVM), sih = max(sih$COMPETENCIA),
+              lt = if (!is.null(lt) && nrow(lt)) max(lt$COMPETENCIA),
+              st = if (!is.null(st_ano) && nrow(st_ano)) max(st_ano$COMPETENCIA))
+  ref_prod <- function(m, fonte) list(mes = m, texto = sprintf("Dados até %s (%s, competência de processamento); ano incompleto.",
+                                                                mes_txt(m), fonte))
+  ref_cnes <- function(m) if (!is.null(m)) list(mes = m, texto = sprintf(
+    "Posição de %s (último mês publicado do CNES); nos demais anos, dezembro.", mes_txt(m)))
+  cuida <- if (ult$sia == ult$sih) ref_prod(ult$sia, "SIA e SIH") else
+    list(mes = max(ult$sia, ult$sih), texto = sprintf("Dados até %s no SIA e %s no SIH (competência de processamento); ano incompleto.",
+                                                      mes_txt(ult$sia), mes_txt(ult$sih)))
+  REF_PLANILHA <<- list(`01` = ref_prod(ult$sia, "SIA"), `02` = ref_prod(ult$sih, "SIH"),
+                        `03` = ref_prod(ult$sia, "SIA"), `04` = ref_prod(ult$sia, "SIA"),
+                        `05` = ref_prod(ult$sih, "SIH"), `06` = ref_cnes(ult$lt), `07` = cuida,
+                        `08` = ref_cnes(ult$st), `09` = ref_cnes(ult$lt))
+  # Ano completo (ex.: dezembro já publicado): sem asterisco
+  REF_PLANILHA <<- Filter(function(r) !is.null(r) && substr(r$mes, 5, 6) != "12", REF_PLANILHA)
 
   # Recomeça a pasta: só ficam as planilhas desta versão
   unlink(list.files(PLAN, recursive = TRUE, full.names = TRUE))
