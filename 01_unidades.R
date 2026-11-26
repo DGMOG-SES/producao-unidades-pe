@@ -14,6 +14,10 @@
 #   CNES, CODUFMUN, TP_UNID, TPGESTAO, NAT_JUR, ESFERA_A, CNPJ_MAN, PF_PJ,
 #   COMPETENCIA_CNES (mês do arquivo de onde veio o registro)
 #
+# Também grava, para cada ano, o cadastro do último mês (dezembro; no ano
+# corrente, o último publicado), com o vínculo SUS (VINC_SUS), em
+# dados/cnes_st/st_AAAAMM.parquet: base das planilhas de estabelecimentos SUS.
+#
 # Só baixa de novo quando muda algum dos arquivos escolhidos.
 # Uso: Rscript 01_unidades.R [--reprocessar-tudo]
 # ------------------------------------------------------------------------------
@@ -24,7 +28,9 @@ UNID <- list(
   saida    = file.path(CFG$dir_dados, "referencias", "cnes_st_pe.csv"),
   controle = file.path(CFG$dir_dados, "controle", "cnes_st_processados.csv"),
   colunas  = c("CNES", "CODUFMUN", "TP_UNID", "TPGESTAO", "NAT_JUR", "ESFERA_A",
-               "CNPJ_MAN", "PF_PJ")
+               "CNPJ_MAN", "PF_PJ"),
+  dir_ano  = file.path(CFG$dir_dados, "cnes_st"),
+  col_ano  = c("CNES", "CODUFMUN", "TP_UNID", "TPGESTAO", "VINC_SUS", "NAT_JUR", "ESFERA_A")
 )
 
 main <- function() {
@@ -41,7 +47,9 @@ main <- function() {
   assinatura <- paste(escolhidos[, paste(nome, tamanho, data, sep = "|")], collapse = ";")
 
   ctrl <- ler_controle(UNID$controle, "fonte")
-  if (!tem_flag("reprocessar-tudo") && file.exists(UNID$saida) &&
+  ultimos <- lst[, .(mes = max(mes)), by = ano]$mes
+  arq_ano <- file.path(UNID$dir_ano, paste0("st_", ultimos, ".parquet"))
+  if (!tem_flag("reprocessar-tudo") && file.exists(UNID$saida) && all(file.exists(arq_ano)) &&
       identical(ctrl[fonte == "CNES-ST"]$assinatura, assinatura)) {
     log_msg("CNES-ST sem mudança (%s). Nada a fazer.", paste(escolhidos$nome, collapse = ", "))
     return(invisible(NULL))
@@ -50,10 +58,21 @@ main <- function() {
   partes <- lapply(seq_len(nrow(escolhidos)), function(i) {
     e <- escolhidos[i]
     log_msg("CNES-ST: %s", e$nome)
-    st <- padronizar(baixar_ler(CFG$ftp_st, e$nome), texto = UNID$colunas)
+    st <- padronizar(baixar_ler(CFG$ftp_st, e$nome), texto = c(UNID$colunas, "VINC_SUS"))
     st[, COMPETENCIA_CNES := e$mes]
-    st
+    if (e$mes %chin% ultimos) {
+      if (all(is.na(st$VINC_SUS))) stop("Campo VINC_SUS ausente em ", e$nome)
+      x <- st[, intersect(UNID$col_ano, names(st)), with = FALSE]
+      x[, TP_UNID := sprintf("%02d", as.integer(TP_UNID))]
+      x[, COMPETENCIA := e$mes]
+      dir.create(UNID$dir_ano, recursive = TRUE, showWarnings = FALSE)
+      gravar_parquet(x, file.path(UNID$dir_ano, paste0("st_", e$mes, ".parquet")))
+    }
+    st[, intersect(c(UNID$colunas, "COMPETENCIA_CNES"), names(st)), with = FALSE]
   })
+  # Partições de meses que deixaram de ser o último do ano (ex.: ano corrente)
+  velhos <- setdiff(list.files(UNID$dir_ano, "^st_\\d{6}\\.parquet$"), basename(arq_ano))
+  if (length(velhos)) file.remove(file.path(UNID$dir_ano, velhos))
   st <- rbindlist(partes, use.names = TRUE)
   st[, TP_UNID := sprintf("%02d", as.integer(TP_UNID))]
   # Registro mais recente de cada CNES

@@ -54,7 +54,8 @@ ROTULOS <- c(GRUPO_PROC = "Grupo de procedimento", ESPECIALIDADE = "Especialidad
              CARATER = "Caráter de atendimento", FONTE = "Fonte", SUBGRUPO = "Subgrupo de procedimento", ANO_EXEC = "Ano",
              TIPO_DE_PARTO = "Tipo de parto", TIPO_DE_LEITO = "Tipo de leito", ESPECIALIDADE_LEITO = "Especialidade do leito", PROCEDIMENTO = "Procedimento", GESTAO = "Gestão",
              TIPO_REDE = "Tipo de rede", MODELO_GESTAO = "Modelo de gestão", CNES = "CNES", UNIDADE = "Unidade",
-             MUNICIPIO = "Município", REGIAO_SAUDE = "Região de saúde")
+             MUNICIPIO = "Município", REGIAO_SAUDE = "Região de saúde",
+             TIPO_DE_ESTABELECIMENTO = "Tipo de estabelecimento", TIPO_UNIDADE = "Tipo de estabelecimento")
 CONSULTA_MEDICA_ESPECIALIZADA <- "0301010072"
 CONSULTA_MULTIPROFISSIONAL    <- "0301010048"
 
@@ -304,13 +305,13 @@ por_gestao <- function(dt, n1, n2 = NULL, anos, ordem1, ordem2 = NULL, rotulo_qt
 # produção, como a gestão nos partos), subtotal por grupo e total geral.
 # Sem a coluna Modelo de gestão nas planilhas (pedido da área); ela só ordena as linhas.
 COLS_UNID <- c("TIPO_REDE", "CNES", "UNIDADE", "MUNICIPIO", "REGIAO_SAUDE")
-unidades_ano <- function(dt, unidades, anos, rotulo_qtd, agrupar = "TIPO_REDE", ...) {
+unidades_ano <- function(dt, unidades, anos, rotulo_qtd, agrupar = "TIPO_REDE", ..., cols = COLS_UNID) {
   chave <- unique(c(if (agrupar %in% names(dt)) agrupar, "CNES"))
   w <- largo(dt, chave, anos)
   cols_val <- setdiff(names(w), chave)
   w <- w[rowSums(abs(as.matrix(w[, ..cols_val]))) > 0]
-  w <- merge(unidades[, c(COLS_UNID, "MODELO_GESTAO"), with = FALSE], w, by = "CNES")
-  ids <- unique(c(agrupar, COLS_UNID))
+  w <- merge(unidades[, unique(c(cols, "TIPO_REDE", "MODELO_GESTAO")), with = FALSE], w, by = "CNES")
+  ids <- unique(c(agrupar, cols))
   setcolorder(w, c(ids, cols_val))
   ordem_grupo <- if (agrupar == "TIPO_REDE") ORDEM_REDE else
     c("Estadual", "Municipal", "Dupla", "Sem gestão", "Não definida", "Não informada")
@@ -325,10 +326,11 @@ unidades_ano <- function(dt, unidades, anos, rotulo_qtd, agrupar = "TIPO_REDE", 
   })
   out <- rbindlist(partes, fill = TRUE)
   out <- rbind(out, somar_linha(w, cols_val, list(UNIDADE = "Total geral")), fill = TRUE)
-  out[, c("O1_", "O2_", "O3_", "MODELO_GESTAO") := NULL]
+  out[, intersect(c("O1_", "O2_", "O3_", "MODELO_GESTAO", setdiff("TIPO_REDE", ids)), names(out)) := NULL]
   setcolorder(out, c(ids, cols_val))
   tot <- which(startsWith(fcoalesce(out$UNIDADE, ""), "Subtotal") | out$UNIDADE == "Total geral")
-  larg <- c(TIPO_REDE = 14, GESTAO = 12, MODELO_GESTAO = 22, CNES = 10, UNIDADE = 45, MUNICIPIO = 20, REGIAO_SAUDE = 26)
+  larg <- c(TIPO_REDE = 14, GESTAO = 12, MODELO_GESTAO = 22, CNES = 10, UNIDADE = 45, TIPO_UNIDADE = 30,
+            MUNICIPIO = 20, REGIAO_SAUDE = 26)
   tabela(out, ids, anos, rotulo_qtd, tot, unname(larg[ids]), ...)
 }
 
@@ -440,6 +442,7 @@ main <- function() {
   }
   entradas <- c(arq_sia, arq_sih, file.path(SAIDA, "leitos.parquet"), file.path(REF, "cnes_st_pe.csv"), "referencias/estabelecimentos_validados.csv",
                 "referencias/municipios_regiao_saude_pe.csv", "04_planilhas.R",
+                list.files(file.path(CFG$dir_dados, "cnes_st"), "\\.parquet$", full.names = TRUE),
                 file.path(CFG$dir_dados, "controle", c("sia_processados_v3.csv", "sih_processados_v2.csv")))
   hash <- paste(tools::md5sum(entradas[file.exists(entradas)]), collapse = "")
   arq_hash <- file.path(CFG$dir_dados, "controle", "planilhas_hash.txt")
@@ -475,8 +478,16 @@ main <- function() {
           paste(sih[, .N, by = GESTAO][, paste(GESTAO, N, sep = "=")], collapse = ", "))
   anos <- seq(as.integer(substr(inicio, 1, 4)), max(c(sia$ANO, sih$ANO)))
 
+  # Cadastro de dezembro de cada ano (01_unidades.R), para os estabelecimentos SUS
+  arqs_st <- list.files(file.path(CFG$dir_dados, "cnes_st"), "\\.parquet$", full.names = TRUE)
+  st_ano <- if (length(arqs_st)) rbindlist(lapply(arqs_st, ler_parquet), use.names = TRUE, fill = TRUE) else NULL
+  if (!is.null(st_ano)) {
+    st_ano[, ANO := as.integer(substr(COMPETENCIA, 1, 4))]
+    st_ano <- st_ano[ANO %in% anos & VINC_SUS == "1"]
+  }
   mun_prod <- rbind(sia[, .(CNES, MUN_PROD = PA_UFMUN)], sih[, .(CNES, MUN_PROD = MUNIC_MOV)],
-                    if (!is.null(lt)) lt[, .(CNES, MUN_PROD = CODUFMUN)])
+                    if (!is.null(lt)) lt[, .(CNES, MUN_PROD = CODUFMUN)],
+                    if (!is.null(st_ano)) st_ano[, .(CNES, MUN_PROD = CODUFMUN)])
   unidades <- montar_unidades(mun_prod)
 
   sig <- sigtap()
@@ -498,7 +509,7 @@ main <- function() {
   pt <- merge(sih[PROC_REA %chin% PARTOS$PROC], PARTOS, by.x = "PROC_REA", by.y = "PROC")
 
   # Nomes só das unidades que aparecem em algum tema
-  usados <- unique(c(amb$CNES, int$CNES, cm$CNES, cs$CNES, pt$CNES, lt$CNES))
+  usados <- unique(c(amb$CNES, int$CNES, cm$CNES, cs$CNES, pt$CNES, lt$CNES, st_ano$CNES))
   unidades <- nomear(unidades[CNES %chin% usados])
   unidades[, O_ := match(TIPO_REDE, ORDEM_REDE, nomatch = 99L)]
   setorder(unidades, O_, MODELO_GESTAO, UNIDADE)[, O_ := NULL]
@@ -659,6 +670,52 @@ main <- function() {
                   atualizacao, csv = if (nrow(upae)) csv_tema(upae, unidades, character()),
                   itens = c(Unidades = paste("Consultas: as 15 UPAEs. Cirurgias: todo o estado, gestão estadual e municipal.",
                                              "RNM/TC e eletivas da Portaria 339: toda a produção sob gestão estadual.")))
+
+  # 08 Estabelecimentos SUS e 09 Leitos SUS (todo o estado, por tipo de gestão) ------
+  # % = participação no total do estado no ano (soma 100% no Total geral)
+  gestao_cnes <- function(x) fcase(x == "E", "Estadual", x == "M", "Municipal", x == "D", "Dupla",
+                                   x %chin% c("S", "Z"), "Sem gestão", default = "Não informada")
+  rot_pct <- function(r1) list(rotulos = c(r1, "% do estado"), formatos = c("#,##0", "0.0%"))
+  meses_cnes <- function(x) paste(sort(unique(x)), collapse = ", ")
+  cols_sus <- c("CNES", "UNIDADE", "TIPO_UNIDADE", "MUNICIPIO", "REGIAO_SAUDE")
+  if (!is.null(st_ano) && nrow(st_ano)) {
+    es <- copy(st_ano)
+    es[, `:=`(GESTAO = gestao_cnes(TPGESTAO),
+              TIPO_DE_ESTABELECIMENTO = fcoalesce(unname(TIPOS_CNES[TP_UNID]), paste("Tipo", TP_UNID)),
+              QTD = 1)]
+    es[, VALOR := QTD / .N, by = ANO]
+    ordem_tipo <- es[, .N, by = TIPO_DE_ESTABELECIMENTO][order(-N)]$TIPO_DE_ESTABELECIMENTO
+    un_es <- do.call(unidades_ano, c(list(es, unidades, anos, "Estabelecimentos", "GESTAO"),
+                                     rot_pct("Estabelecimentos"), list(cols = cols_sus)))
+    # % por unidade não diz nada: fica só nos subtotais e no total
+    un_es$dados[!seq_len(nrow(un_es$dados)) %in% un_es$linhas_total,
+                (grep("^VALOR_", names(un_es$dados), value = TRUE)) := NA_real_]
+    gravar_planilha("08_estabelecimentos_sus", list(
+      Geral = do.call(por_gestao, c(list(es, "TIPO_DE_ESTABELECIMENTO", NULL, anos, ordem_tipo, NULL,
+                                         "Estabelecimentos", c(40, 12)), rot_pct("Estabelecimentos"))),
+      Unidades = un_es),
+      "Estabelecimentos com vínculo SUS por tipo de gestão",
+      paste("CNES-ST, cadastro de dezembro de cada ano (no ano corrente, o último mês publicado; meses:",
+            meses_cnes(es$COMPETENCIA), "). Estabelecimentos com vínculo SUS (VINC_SUS = 1), por tipo de",
+            "estabelecimento (TP_UNID) e tipo de gestão (TPGESTAO). % = participação no total de estabelecimentos",
+            "SUS do estado no ano. TODO O ESTADO."),
+      atualizacao)
+  }
+  if (!is.null(lt) && nrow(lt)) {
+    ls_ <- lt[QT_SUS > 0]
+    ls_[, `:=`(QTD = QT_SUS)]
+    ls_[, VALOR := QTD / sum(QTD), by = ANO]
+    gravar_planilha("09_leitos_sus", list(
+      Geral = do.call(por_gestao, c(list(ls_, "TIPO_DE_LEITO", NULL, anos, tipos$TIPO_LEITO, NULL,
+                                         "Leitos SUS", c(24, 12)), rot_pct("Leitos SUS"))),
+      Unidades = do.call(unidades_ano, c(list(ls_, unidades, anos, "Leitos SUS", "GESTAO"),
+                                         rot_pct("Leitos SUS"), list(cols = cols_sus)))),
+      "Leitos SUS por tipo de gestão",
+      paste("CNES-LT, posição de dezembro de cada ano (meses:", meses_cnes(ls_$COMPETENCIA), "). Leitos SUS",
+            "(QT_SUS), por tipo de leito (TIP1LEIT.CNV) e tipo de gestão do estabelecimento (TPGESTAO).",
+            "% = participação no total de leitos SUS do estado no ano. TODO O ESTADO."),
+      atualizacao)
+  }
 
   # 00 Unidades
   gravar_planilha("00_unidades", list(Unidades = unidades[, .(CNES, UNIDADE, TIPO_REDE, TIPO_UNIDADE,
