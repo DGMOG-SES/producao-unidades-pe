@@ -25,8 +25,9 @@ LEITOS <- list(
   ftp      = "ftp://ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/LT/",
   dir      = file.path(CFG$dir_dados, "leitos"),
   saida    = file.path(CFG$dir_dados, "saida", "leitos.parquet"),
-  controle = file.path(CFG$dir_dados, "controle", "leitos_processados.csv"),
-  texto    = c("CNES", "CODUFMUN", "TP_LEITO", "CODLEITO", "TPGESTAO"),
+  # v2: guarda NAT_JUR do próprio arquivo (natureza como no TabWin, NATJUR1.CNV)
+  controle = file.path(CFG$dir_dados, "controle", "leitos_processados_v2.csv"),
+  texto    = c("CNES", "CODUFMUN", "TP_LEITO", "CODLEITO", "TPGESTAO", "NAT_JUR"),
   numero   = c("QT_EXIST", "QT_SUS", "QT_NSUS")
 )
 
@@ -63,7 +64,7 @@ main <- function() {
     ok <- tryCatch({
       lt <- padronizar(baixar_ler(LEITOS$ftp, p$nome), texto = LEITOS$texto, numero = LEITOS$numero)
       lt[, COMPETENCIA := p$mes]
-      lt <- lt[, lapply(.SD, sum, na.rm = TRUE), by = .(COMPETENCIA, CNES, CODUFMUN, TP_LEITO, CODLEITO, TPGESTAO),
+      lt <- lt[, lapply(.SD, sum, na.rm = TRUE), by = .(COMPETENCIA, CNES, CODUFMUN, TP_LEITO, CODLEITO, TPGESTAO, NAT_JUR),
                .SDcols = LEITOS$numero]
       gravar_parquet(lt, file.path(LEITOS$dir, sprintf("lt_%s.parquet", p$mes)))
       ctrl <- registrar_controle(ctrl, LEITOS$controle, "mes", p$mes, p$assinatura)

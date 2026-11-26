@@ -772,18 +772,17 @@ main <- function() {
     ls_ <- lt[QT_SUS > 0]
     ls_[, `:=`(QTD = QT_SUS)]
     ls_[, VALOR := QTD / sum(QTD), by = ANO]
-    # Natureza (NAT_JUR do cadastro): pública (1xxx, empresa pública e sociedade de
-    # economia mista), privada com fins lucrativos (2xxx, pessoa física 4xxx) e
-    # filantrópica (entidades sem fins lucrativos, 3xxx)
-    ls_ <- merge(ls_, unidades[, .(CNES, NAT_JUR_U = NAT_JUR, NATUREZA_U = NATUREZA, TIPO_REDE_U = TIPO_REDE,
-                                   MODELO_U = MODELO_GESTAO)], by = "CNES", all.x = TRUE)
-    ls_[, NATUREZA_LEITO := fcase(
-      NAT_JUR_U %chin% NAT_JUR_PUBLICA_EMPRESARIAL | substr(NAT_JUR_U, 1, 1) == "1", "Pública",
-      substr(NAT_JUR_U, 1, 1) %chin% c("2", "4"), "Privada com fins lucrativos",
-      substr(NAT_JUR_U, 1, 1) == "3", "Filantrópica",
-      NATUREZA_U == "Pública", "Pública",
-      default = "Não identificada")]
-    ord_nat <- c("Pública", "Privada com fins lucrativos", "Filantrópica", "Não identificada")
+    # Natureza como no TabWin (Leitos_Especialidade.def): 1º dígito do NAT_JUR do
+    # próprio arquivo de leitos, NATJUR1.CNV (empresa pública e sociedade de
+    # economia mista, ex.: HC/EBSERH, ficam em Entidades Empresariais)
+    ls_ <- merge(ls_, unidades[, .(CNES, TIPO_REDE_U = TIPO_REDE, MODELO_U = MODELO_GESTAO)], by = "CNES", all.x = TRUE)
+    nj <- if ("NAT_JUR" %in% names(ls_)) substr(ls_$NAT_JUR, 1, 1) else rep(NA_character_, nrow(ls_))
+    ls_[, NATUREZA_LEITO := fcase(nj == "1", "Administração Pública", nj == "2", "Entidades Empresariais",
+                                  nj == "3", "Entidades sem Fins Lucrativos", nj == "4", "Pessoas Físicas",
+                                  nj == "5", "Instituições Extraterritoriais",
+                                  default = "Não especificado ou ignorado")]
+    ord_nat <- c("Administração Pública", "Entidades Empresariais", "Entidades sem Fins Lucrativos",
+                 "Pessoas Físicas", "Instituições Extraterritoriais", "Não especificado ou ignorado")
     # Próprios (rede própria e OSS) sob gestão estadual: direta (06 grandes, gestão
     # direta, estaduais fora da lista) × indireta (OSS e administração indireta)
     prop <- ls_[GESTAO == "Estadual" & TIPO_REDE_U %chin% c("Rede própria", "OSS")]
@@ -810,9 +809,8 @@ main <- function() {
       paste("CNES-LT, posição de dezembro de cada ano (meses:", meses_cnes(ls_$COMPETENCIA), "). Leitos SUS",
             "(QT_SUS), por tipo de leito (TIP1LEIT.CNV) e tipo de gestão do estabelecimento (TPGESTAO).",
             "% dentro do bloco: gestão sobre o total da categoria, unidade sobre o subtotal da sua gestão;",
-            "totais sobre o total geral da aba. TODO O ESTADO. Natureza pela natureza",
-            "jurídica do CNES: pública (1xxx, empresa pública, sociedade de economia mista), privada com fins",
-            "lucrativos (2xxx, 4xxx) e filantrópica (sem fins lucrativos, 3xxx). Próprios: rede própria e OSS da",
+            "totais sobre o total geral da aba. TODO O ESTADO. Natureza como no TabWin: 1º dígito da natureza",
+            "jurídica do arquivo de leitos (NATJUR1.CNV). Próprios: rede própria e OSS da",
             "lista validada (e estaduais fora da lista), sob gestão estadual; direta = 06 grandes, gestão direta e",
             "estaduais fora da lista; indireta = OSS e administração indireta."),
       atualizacao)
