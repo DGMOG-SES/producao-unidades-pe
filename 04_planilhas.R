@@ -442,6 +442,7 @@ main <- function() {
   }
   entradas <- c(arq_sia, arq_sih, file.path(SAIDA, "leitos.parquet"), file.path(REF, "cnes_st_pe.csv"), "referencias/estabelecimentos_validados.csv",
                 "referencias/municipios_regiao_saude_pe.csv", "04_planilhas.R",
+                "referencias/leitos_tipo.csv", "referencias/leitos_especialidade.csv",
                 list.files(file.path(CFG$dir_dados, "cnes_st"), "\\.parquet$", full.names = TRUE),
                 file.path(CFG$dir_dados, "controle", c("sia_processados_v3.csv", "sih_processados_v2.csv")))
   hash <- paste(tools::md5sum(entradas[file.exists(entradas)]), collapse = "")
