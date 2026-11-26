@@ -544,12 +544,12 @@ main <- function() {
   ult <- list(sia = max(sia$PA_MVM), sih = max(sih$COMPETENCIA),
               lt = if (!is.null(lt) && nrow(lt)) max(lt$COMPETENCIA),
               st = if (!is.null(st_ano) && nrow(st_ano)) max(st_ano$COMPETENCIA))
-  ref_prod <- function(m, fonte) list(mes = m, texto = sprintf("Dados até %s (%s, competência de processamento); ano incompleto.",
+  ref_prod <- function(m, fonte) list(mes = m, texto = sprintf("Dados preliminares até %s (%s), sujeitos a alteração.",
                                                                 mes_txt(m), fonte))
   ref_cnes <- function(m) if (!is.null(m)) list(mes = m, texto = sprintf(
-    "Posição de %s (último mês publicado do CNES); nos demais anos, dezembro.", mes_txt(m)))
+    "Dados preliminares de %s, sujeitos a alteração.", mes_txt(m)))
   cuida <- if (ult$sia == ult$sih) ref_prod(ult$sia, "SIA e SIH") else
-    list(mes = max(ult$sia, ult$sih), texto = sprintf("Dados até %s no SIA e %s no SIH (competência de processamento); ano incompleto.",
+    list(mes = max(ult$sia, ult$sih), texto = sprintf("Dados preliminares até %s no SIA e %s no SIH, sujeitos a alteração.",
                                                       mes_txt(ult$sia), mes_txt(ult$sih)))
   REF_PLANILHA <<- list(`01` = ref_prod(ult$sia, "SIA"), `02` = ref_prod(ult$sih, "SIH"),
                         `03` = ref_prod(ult$sia, "SIA"), `04` = ref_prod(ult$sia, "SIA"),
