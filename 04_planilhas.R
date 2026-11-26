@@ -713,7 +713,36 @@ main <- function() {
   # % = participação no total do estado no ano (soma 100% no Total geral)
   gestao_cnes <- function(x) fcase(x == "E", "Estadual", x == "M", "Municipal", x == "D", "Dupla",
                                    x %chin% c("S", "Z"), "Sem gestão", default = "Não informada")
-  rot_pct <- function(r1) list(rotulos = c(r1, "% do estado"), formatos = c("#,##0", "0.0%"))
+  rot_pct <- function(r1) list(rotulos = c(r1, "%"), formatos = c("#,##0", "0.0%"))
+  # % dentro de cada bloco: linha de gestão ÷ total da sua categoria (ou unidade ÷
+  # subtotal da sua gestão); totais de categoria, subtotais e totais gerais ÷ total geral.
+  pct_bloco <- function(t) {
+    d <- t$dados; q <- grep("^QTD_", names(d), value = TRUE); v <- sub("^QTD_", "VALOR_", q)
+    c1 <- t$ids[1]
+    if ("UNIDADE" %in% t$ids) {                       # unidades agrupadas (ex.: por gestão)
+      eh_geral <- d$UNIDADE == "Total geral"
+      eh_sub <- startsWith(fcoalesce(d$UNIDADE, ""), "Subtotal")
+      grupo <- d[[c1]]; den_linha <- !eh_geral & !eh_sub
+      for (k in seq_along(q)) {
+        tg <- d[[q[k]]][eh_geral]
+        sub_g <- setNames(d[[q[k]]][eh_sub], grupo[eh_sub])
+        set(d, j = v[k], value = fifelse(den_linha, d[[q[k]]] / sub_g[grupo], d[[q[k]]] / tg))
+      }
+    } else if ("GESTAO" %in% t$ids && c1 != "GESTAO") { # categoria × gestão
+      eh_tot <- d$GESTAO == "Total"; tg_lin <- d[[c1]] == "Total geral" & eh_tot
+      for (k in seq_along(q)) {
+        tg <- d[[q[k]]][tg_lin]
+        tot_cat <- setNames(d[[q[k]]][eh_tot], d[[c1]][eh_tot])
+        set(d, j = v[k], value = fifelse(eh_tot | d[[c1]] == "Total geral" & !eh_tot,
+                                         d[[q[k]]] / tg, d[[q[k]]] / tot_cat[d[[c1]]]))
+      }
+    } else {                                           # categoria simples
+      for (k in seq_along(q)) set(d, j = v[k], value = d[[q[k]]] / d[[q[k]]][d[[c1]] == "Total geral"])
+    }
+    for (cl in v) set(d, which(!is.finite(d[[cl]])), cl, NA_real_)
+    t$dados <- d; t
+  }
+  pct_abas <- function(abas) lapply(Filter(Negate(is.null), abas), function(t) if (inherits(t, "tabela_anual")) pct_bloco(t) else t)
   meses_cnes <- function(x) paste(sort(unique(x)), collapse = ", ")
   cols_sus <- c("CNES", "UNIDADE", "TIPO_UNIDADE", "MUNICIPIO", "REGIAO_SAUDE")
   if (!is.null(st_ano) && nrow(st_ano)) {
@@ -723,20 +752,20 @@ main <- function() {
               QTD = 1)]
     es[, VALOR := QTD / .N, by = ANO]
     ordem_tipo <- es[, .N, by = TIPO_DE_ESTABELECIMENTO][order(-N)]$TIPO_DE_ESTABELECIMENTO
-    un_es <- do.call(unidades_ano, c(list(es, unidades, anos, "Estabelecimentos", "GESTAO"),
-                                     rot_pct("Estabelecimentos"), list(cols = cols_sus)))
+    un_es <- pct_bloco(do.call(unidades_ano, c(list(es, unidades, anos, "Estabelecimentos", "GESTAO"),
+                                     rot_pct("Estabelecimentos"), list(cols = cols_sus))))
     # % por unidade não diz nada: fica só nos subtotais e no total
     un_es$dados[!seq_len(nrow(un_es$dados)) %in% un_es$linhas_total,
                 (grep("^VALOR_", names(un_es$dados), value = TRUE)) := NA_real_]
     gravar_planilha("08_estabelecimentos_sus", list(
-      Geral = do.call(por_gestao, c(list(es, "TIPO_DE_ESTABELECIMENTO", NULL, anos, ordem_tipo, NULL,
-                                         "Estabelecimentos", c(40, 12)), rot_pct("Estabelecimentos"))),
+      Geral = pct_bloco(do.call(por_gestao, c(list(es, "TIPO_DE_ESTABELECIMENTO", NULL, anos, ordem_tipo, NULL,
+                                         "Estabelecimentos", c(40, 12)), rot_pct("Estabelecimentos")))),
       Unidades = un_es),
       "Estabelecimentos com vínculo SUS por tipo de gestão",
       paste("CNES-ST, cadastro de dezembro de cada ano (no ano corrente, o último mês publicado; meses:",
             meses_cnes(es$COMPETENCIA), "). Estabelecimentos com vínculo SUS (VINC_SUS = 1), por tipo de",
-            "estabelecimento (TP_UNID) e tipo de gestão (TPGESTAO). % = participação no total de estabelecimentos",
-            "SUS do estado no ano. TODO O ESTADO."),
+            "estabelecimento (TP_UNID) e tipo de gestão (TPGESTAO). % dentro do bloco: gestão sobre o total do",
+            "tipo; totais sobre o total geral. TODO O ESTADO."),
       atualizacao)
   }
   if (!is.null(lt) && nrow(lt)) {
@@ -765,7 +794,7 @@ main <- function() {
       t$dados <- d[o]; t$linhas_total <- which(d[o][[col]] == "Total geral"); t
     }
     est_dupla <- ls_[GESTAO %chin% c("Estadual", "Dupla")]
-    gravar_planilha("09_leitos_sus", list(
+    gravar_planilha("09_leitos_sus", pct_abas(list(
       Geral = do.call(por_gestao, c(list(ls_, "TIPO_DE_LEITO", NULL, anos, tipos$TIPO_LEITO, NULL,
                                          "Leitos SUS", c(24, 12)), rot_pct("Leitos SUS"))),
       Unidades = do.call(unidades_ano, c(list(ls_, unidades, anos, "Leitos SUS", "GESTAO"),
@@ -776,12 +805,12 @@ main <- function() {
                                          "NATUREZA_LEITO", anos, "Leitos SUS", 28), rot_pct("Leitos SUS"))),
                                          "NATUREZA_LEITO", ord_nat)),
       `Próprios por administração` = se(prop, ordena(do.call(geral, c(list(prop, "ADMINISTRACAO", anos, "Leitos SUS", 30),
-                                         rot_pct("Leitos SUS"))), "ADMINISTRACAO", c("Direta", "Indireta (OSS e adm. indireta)")))) |>
-        Filter(f = Negate(is.null)),
+                                         rot_pct("Leitos SUS"))), "ADMINISTRACAO", c("Direta", "Indireta (OSS e adm. indireta)"))))),
       "Leitos SUS por tipo de gestão",
       paste("CNES-LT, posição de dezembro de cada ano (meses:", meses_cnes(ls_$COMPETENCIA), "). Leitos SUS",
             "(QT_SUS), por tipo de leito (TIP1LEIT.CNV) e tipo de gestão do estabelecimento (TPGESTAO).",
-            "% = participação no total de leitos SUS do estado no ano. TODO O ESTADO. Natureza pela natureza",
+            "% dentro do bloco: gestão sobre o total da categoria, unidade sobre o subtotal da sua gestão;",
+            "totais sobre o total geral da aba. TODO O ESTADO. Natureza pela natureza",
             "jurídica do CNES: pública (1xxx, empresa pública, sociedade de economia mista), privada com fins",
             "lucrativos (2xxx, 4xxx) e filantrópica (sem fins lucrativos, 3xxx). Próprios: rede própria e OSS da",
             "lista validada (e estaduais fora da lista), sob gestão estadual; direta = 06 grandes, gestão direta e",
