@@ -68,7 +68,11 @@ processar_rd <- function(nome) {
 main <- function() {
   dir.create(SIH$dir, recursive = TRUE, showWarnings = FALSE)
 
-  ftp <- listar_sih()
+  ftp <- tryCatch(listar_sih(), error = function(e) {
+    log_msg("FTP do DATASUS indisponível (%s); montando a base com os meses já baixados", conditionMessage(e))
+    NULL
+  })
+  if (is.null(ftp)) { consolidar(SIH$dir, SIH$saida); quit(status = 1) }
   ctrl <- ler_controle(SIH$controle, "mes")
   forcar <- argumento("forcar")
   pend <- if (tem_flag("reprocessar-tudo")) ftp else ftp[!ctrl, on = .(mes, assinatura)]

@@ -78,7 +78,11 @@ ler_parte <- function(nome, mvm) {
 main <- function() {
   dir.create(SIA$dir, recursive = TRUE, showWarnings = FALSE)
 
-  ftp <- listar_sia()
+  ftp <- tryCatch(listar_sia(), error = function(e) {
+    log_msg("FTP do DATASUS indisponível (%s); montando a base com os meses já baixados", conditionMessage(e))
+    NULL
+  })
+  if (is.null(ftp)) { consolidar(SIA$dir, SIA$saida); quit(status = 1) }
   movs <- ftp[, .(assinatura = paste(assinatura, collapse = ";")), by = mvm]
   ctrl <- ler_controle(SIA$controle, "mvm")
   forcar <- argumento("forcar")
