@@ -55,7 +55,8 @@ ROTULOS <- c(GRUPO_PROC = "Grupo de procedimento", ESPECIALIDADE = "Especialidad
              TIPO_DE_PARTO = "Tipo de parto", TIPO_DE_LEITO = "Tipo de leito", ESPECIALIDADE_LEITO = "Especialidade do leito", PROCEDIMENTO = "Procedimento", GESTAO = "Gestão",
              TIPO_REDE = "Tipo de rede", MODELO_GESTAO = "Modelo de gestão", CNES = "CNES", UNIDADE = "Unidade",
              MUNICIPIO = "Município", REGIAO_SAUDE = "Região de saúde",
-             TIPO_DE_ESTABELECIMENTO = "Tipo de estabelecimento", TIPO_UNIDADE = "Tipo de estabelecimento")
+             TIPO_DE_ESTABELECIMENTO = "Tipo de estabelecimento", TIPO_UNIDADE = "Tipo de estabelecimento",
+             NATUREZA_LEITO = "Natureza", ADMINISTRACAO = "Tipo de administração")
 CONSULTA_MEDICA_ESPECIALIZADA <- "0301010072"
 CONSULTA_MULTIPROFISSIONAL    <- "0301010048"
 
@@ -742,15 +743,49 @@ main <- function() {
     ls_ <- lt[QT_SUS > 0]
     ls_[, `:=`(QTD = QT_SUS)]
     ls_[, VALOR := QTD / sum(QTD), by = ANO]
+    # Natureza (NAT_JUR do cadastro): pública (1xxx, empresa pública e sociedade de
+    # economia mista), privada com fins lucrativos (2xxx, pessoa física 4xxx) e
+    # filantrópica (entidades sem fins lucrativos, 3xxx)
+    ls_ <- merge(ls_, unidades[, .(CNES, NAT_JUR_U = NAT_JUR, NATUREZA_U = NATUREZA, TIPO_REDE_U = TIPO_REDE,
+                                   MODELO_U = MODELO_GESTAO)], by = "CNES", all.x = TRUE)
+    ls_[, NATUREZA_LEITO := fcase(
+      NAT_JUR_U %chin% NAT_JUR_PUBLICA_EMPRESARIAL | substr(NAT_JUR_U, 1, 1) == "1", "Pública",
+      substr(NAT_JUR_U, 1, 1) %chin% c("2", "4"), "Privada com fins lucrativos",
+      substr(NAT_JUR_U, 1, 1) == "3", "Filantrópica",
+      NATUREZA_U == "Pública", "Pública",
+      default = "Não identificada")]
+    ord_nat <- c("Pública", "Privada com fins lucrativos", "Filantrópica", "Não identificada")
+    # Próprios (rede própria e OSS) sob gestão estadual: direta (06 grandes, gestão
+    # direta, estaduais fora da lista) × indireta (OSS e administração indireta)
+    prop <- ls_[GESTAO == "Estadual" & TIPO_REDE_U %chin% c("Rede própria", "OSS")]
+    prop[, ADMINISTRACAO := fifelse(TIPO_REDE_U == "OSS" | MODELO_U %chin% c("OSS", "Administração indireta"),
+                                    "Indireta (OSS e adm. indireta)", "Direta")]
+    ordena <- function(t, col, ordem) {
+      d <- t$dados; o <- order(match(d[[col]], c(ordem, "Total geral"), nomatch = 50L))
+      t$dados <- d[o]; t$linhas_total <- which(d[o][[col]] == "Total geral"); t
+    }
+    est_dupla <- ls_[GESTAO %chin% c("Estadual", "Dupla")]
     gravar_planilha("09_leitos_sus", list(
       Geral = do.call(por_gestao, c(list(ls_, "TIPO_DE_LEITO", NULL, anos, tipos$TIPO_LEITO, NULL,
                                          "Leitos SUS", c(24, 12)), rot_pct("Leitos SUS"))),
       Unidades = do.call(unidades_ano, c(list(ls_, unidades, anos, "Leitos SUS", "GESTAO"),
-                                         rot_pct("Leitos SUS"), list(cols = cols_sus)))),
+                                         rot_pct("Leitos SUS"), list(cols = cols_sus))),
+      `Est. e dupla por natureza` = se(est_dupla, do.call(por_gestao, c(list(est_dupla, "NATUREZA_LEITO", NULL, anos,
+                                         ord_nat, NULL, "Leitos SUS", c(28, 12)), rot_pct("Leitos SUS")))),
+      `Estadual por natureza` = se(ls_[GESTAO == "Estadual"], ordena(do.call(geral, c(list(ls_[GESTAO == "Estadual"],
+                                         "NATUREZA_LEITO", anos, "Leitos SUS", 28), rot_pct("Leitos SUS"))),
+                                         "NATUREZA_LEITO", ord_nat)),
+      `Próprios por administração` = se(prop, ordena(do.call(geral, c(list(prop, "ADMINISTRACAO", anos, "Leitos SUS", 30),
+                                         rot_pct("Leitos SUS"))), "ADMINISTRACAO", c("Direta", "Indireta (OSS e adm. indireta)")))) |>
+        Filter(f = Negate(is.null)),
       "Leitos SUS por tipo de gestão",
       paste("CNES-LT, posição de dezembro de cada ano (meses:", meses_cnes(ls_$COMPETENCIA), "). Leitos SUS",
             "(QT_SUS), por tipo de leito (TIP1LEIT.CNV) e tipo de gestão do estabelecimento (TPGESTAO).",
-            "% = participação no total de leitos SUS do estado no ano. TODO O ESTADO."),
+            "% = participação no total de leitos SUS do estado no ano. TODO O ESTADO. Natureza pela natureza",
+            "jurídica do CNES: pública (1xxx, empresa pública, sociedade de economia mista), privada com fins",
+            "lucrativos (2xxx, 4xxx) e filantrópica (sem fins lucrativos, 3xxx). Próprios: rede própria e OSS da",
+            "lista validada (e estaduais fora da lista), sob gestão estadual; direta = 06 grandes, gestão direta e",
+            "estaduais fora da lista; indireta = OSS e administração indireta."),
       atualizacao)
   }
 
