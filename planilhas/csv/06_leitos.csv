@@ -2144,7 +2144,7 @@
 2020;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;Dupla;Clínico;40 NEFROUROLOGIA;3;3
 2020;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;Dupla;Clínico;42 NEUROLOGIA;1;1
 2020;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;Dupla;Clínico;44 ONCOLOGIA;3;3
-2020;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);10;0
+2020;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;0
 2020;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;11;11
 2020;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;Dupla;Obstétrico;10 OBSTETRICIA CIRURGICA;6;3
 2020;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;Dupla;Obstétrico;43 OBSTETRICIA CLINICA;5;3
@@ -2193,7 +2193,7 @@
 2020;Complementar;7966482;CENTRO DE OLHOS;Recife;I Região de Saúde - PE;Municipal;Hospital/dia;07 CIRURGICO/DIAGNOSTICO/TERAPEUTICO;5;0
 2020;Complementar;3021289;CENTRO HOSPITALAR ALBERT SABIN SA;Recife;I Região de Saúde - PE;Estadual;Cirúrgico;03 CIRURGIA GERAL;49;1
 2020;Complementar;3021289;CENTRO HOSPITALAR ALBERT SABIN SA;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;79;1
-2020;Complementar;3021289;CENTRO HOSPITALAR ALBERT SABIN SA;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);9;0
+2020;Complementar;3021289;CENTRO HOSPITALAR ALBERT SABIN SA;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;9;0
 2020;Complementar;3021289;CENTRO HOSPITALAR ALBERT SABIN SA;Recife;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;9;0
 2020;Complementar;9571248;CENTRO HOSPITALAR DE SAUDE SAO FRANCISCO DE ASSIS;Abreu e Lima;I Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;40;0
 2020;Complementar;9571248;CENTRO HOSPITALAR DE SAUDE SAO FRANCISCO DE ASSIS;Abreu e Lima;I Região de Saúde - PE;Municipal;Cirúrgico;06 GINECOLOGIA;20;0
@@ -2271,7 +2271,7 @@
 2020;Complementar;2752743;FGH;Recife;I Região de Saúde - PE;Municipal;Cirúrgico;14 OTORRINOLARINGOLOGIA;3;3
 2020;Complementar;2752743;FGH;Recife;I Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;4;4
 2020;Complementar;2752743;FGH;Recife;I Região de Saúde - PE;Municipal;Clínico;87 SAUDE MENTAL;10;10
-2020;Complementar;2752743;FGH;Recife;I Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);10;0
+2020;Complementar;2752743;FGH;Recife;I Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;0
 2020;Complementar;2752743;FGH;Recife;I Região de Saúde - PE;Municipal;Hospital/dia;07 CIRURGICO/DIAGNOSTICO/TERAPEUTICO;6;6
 2020;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;Estadual;Cirúrgico;11 OFTALMOLOGIA;10;8
 2020;Complementar;0000485;FUNDACAO ALTINO VENTURA;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;2;2
@@ -2298,7 +2298,7 @@
 2020;Complementar;2343738;HOSPITAL ARMINDO MOURA;Moreno;I Região de Saúde - PE;Estadual;Cirúrgico;03 CIRURGIA GERAL;10;10
 2020;Complementar;2343738;HOSPITAL ARMINDO MOURA;Moreno;I Região de Saúde - PE;Estadual;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;83;83
 2020;Complementar;2343738;HOSPITAL ARMINDO MOURA;Moreno;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;42;42
-2020;Complementar;2343738;HOSPITAL ARMINDO MOURA;Moreno;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);20;0
+2020;Complementar;2343738;HOSPITAL ARMINDO MOURA;Moreno;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;20;0
 2020;Complementar;9073116;HOSPITAL CAPIBARIBE;Recife;I Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;1;0
 2020;Complementar;9073116;HOSPITAL CAPIBARIBE;Recife;I Região de Saúde - PE;Municipal;Complementar;74 UTI ADULTO - TIPO I;20;0
 2020;Complementar;2711907;HOSPITAL CLOTILDES DE FONTE RANGEL;Brejinho;X Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;5;5
@@ -2428,7 +2428,7 @@
 2020;Complementar;2344882;HOSPITAL DO TRICENTENARIO;Olinda;I Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;8;8
 2020;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;Dupla;Cirúrgico;03 CIRURGIA GERAL;11;0
 2020;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;Dupla;Clínico;33 CLINICA GERAL;19;15
-2020;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);10;10
+2020;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;10
 2020;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;20;10
 2020;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;Dupla;Obstétrico;10 OBSTETRICIA CIRURGICA;10;0
 2020;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;Dupla;Outras especialidades;34 CRONICOS;20;20
@@ -2448,7 +2448,7 @@
 2020;Complementar;6683630;HOSPITAL E MATERNIDADE NOSSA SENHORA DO O RECIFE;Recife;I Região de Saúde - PE;Estadual;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;10;0
 2020;Complementar;6683630;HOSPITAL E MATERNIDADE NOSSA SENHORA DO O RECIFE;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;20;20
 2020;Complementar;6683630;HOSPITAL E MATERNIDADE NOSSA SENHORA DO O RECIFE;Recife;I Região de Saúde - PE;Estadual;Clínico;41 NEONATOLOGIA;9;0
-2020;Complementar;6683630;HOSPITAL E MATERNIDADE NOSSA SENHORA DO O RECIFE;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);17;0
+2020;Complementar;6683630;HOSPITAL E MATERNIDADE NOSSA SENHORA DO O RECIFE;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;17;0
 2020;Complementar;6683630;HOSPITAL E MATERNIDADE NOSSA SENHORA DO O RECIFE;Recife;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;5;0
 2020;Complementar;6683630;HOSPITAL E MATERNIDADE NOSSA SENHORA DO O RECIFE;Recife;I Região de Saúde - PE;Estadual;Complementar;81 UTI NEONATAL - TIPO II;14;0
 2020;Complementar;6683630;HOSPITAL E MATERNIDADE NOSSA SENHORA DO O RECIFE;Recife;I Região de Saúde - PE;Estadual;Complementar;92 UNIDADE DE CUIDADOS INTERMED NEONATAL CONVENCIONAL;6;0
@@ -2457,7 +2457,7 @@
 2020;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;Dupla;Cirúrgico;03 CIRURGIA GERAL;25;20
 2020;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;Dupla;Clínico;33 CLINICA GERAL;77;72
 2020;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;Dupla;Clínico;87 SAUDE MENTAL;6;6
-2020;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);30;15
+2020;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;30;15
 2020;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;Dupla;Obstétrico;43 OBSTETRICIA CLINICA;29;24
 2020;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;Dupla;Outras especialidades;47 PSIQUIATRIA;6;6
 2020;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;Dupla;Pediátrico;45 PEDIATRIA CLINICA;24;21
@@ -2512,7 +2512,7 @@
 2020;Complementar;2752808;HOSPITAL EVANGELICO DE PERNAMBUCO;Recife;I Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;60;60
 2020;Complementar;2752808;HOSPITAL EVANGELICO DE PERNAMBUCO;Recife;I Região de Saúde - PE;Municipal;Clínico;42 NEUROLOGIA;1;1
 2020;Complementar;2752808;HOSPITAL EVANGELICO DE PERNAMBUCO;Recife;I Região de Saúde - PE;Municipal;Clínico;87 SAUDE MENTAL;14;14
-2020;Complementar;2752808;HOSPITAL EVANGELICO DE PERNAMBUCO;Recife;I Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);20;10
+2020;Complementar;2752808;HOSPITAL EVANGELICO DE PERNAMBUCO;Recife;I Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;20;10
 2020;Complementar;2752808;HOSPITAL EVANGELICO DE PERNAMBUCO;Recife;I Região de Saúde - PE;Municipal;Outras especialidades;34 CRONICOS;20;20
 2020;Complementar;2752808;HOSPITAL EVANGELICO DE PERNAMBUCO;Recife;I Região de Saúde - PE;Municipal;Pediátrico;68 PEDIATRIA CIRURGICA;6;6
 2020;Complementar;2346621;HOSPITAL FERREIRA LIMA;Timbaúba;XII Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;29;18
@@ -2548,10 +2548,10 @@
 2020;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Clínico;42 NEUROLOGIA;1;0
 2020;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Clínico;44 ONCOLOGIA;1;0
 2020;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Clínico;46 PNEUMOLOGIA;1;0
-2020;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);20;0
+2020;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;20;0
 2020;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Complementar;75 UTI ADULTO - TIPO II;10;0
 2020;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Complementar;81 UTI NEONATAL - TIPO II;30;30
-2020;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Complementar;96 (sem descrição);4;0
+2020;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Complementar;96 SUPORTE VENTILATORIO PULMONAR - COVID-19;4;0
 2020;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Obstétrico;10 OBSTETRICIA CIRURGICA;21;20
 2020;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Obstétrico;43 OBSTETRICIA CLINICA;33;31
 2020;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;3;2
@@ -2598,7 +2598,7 @@
 2020;Complementar;2344254;HOSPITAL JESUS PEQUENINO;Bezerros;IV Região de Saúde - PE;Dupla;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;37;32
 2020;Complementar;2344254;HOSPITAL JESUS PEQUENINO;Bezerros;IV Região de Saúde - PE;Dupla;Clínico;33 CLINICA GERAL;50;40
 2020;Complementar;2344254;HOSPITAL JESUS PEQUENINO;Bezerros;IV Região de Saúde - PE;Dupla;Clínico;40 NEFROUROLOGIA;3;2
-2020;Complementar;2344254;HOSPITAL JESUS PEQUENINO;Bezerros;IV Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);10;10
+2020;Complementar;2344254;HOSPITAL JESUS PEQUENINO;Bezerros;IV Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;10
 2020;Complementar;2344254;HOSPITAL JESUS PEQUENINO;Bezerros;IV Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;10;10
 2020;Complementar;2344254;HOSPITAL JESUS PEQUENINO;Bezerros;IV Região de Saúde - PE;Dupla;Obstétrico;10 OBSTETRICIA CIRURGICA;2;0
 2020;Complementar;2344254;HOSPITAL JESUS PEQUENINO;Bezerros;IV Região de Saúde - PE;Dupla;Obstétrico;43 OBSTETRICIA CLINICA;1;0
@@ -2611,7 +2611,7 @@
 2020;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;Dupla;Cirúrgico;03 CIRURGIA GERAL;34;23
 2020;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;Dupla;Cirúrgico;11 OFTALMOLOGIA;12;12
 2020;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;Dupla;Clínico;33 CLINICA GERAL;64;50
-2020;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);9;0
+2020;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;9;0
 2020;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;16;15
 2020;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;Dupla;Complementar;78 UTI PEDIATRICA - TIPO II;20;7
 2020;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;Dupla;Complementar;81 UTI NEONATAL - TIPO II;3;0
@@ -2646,7 +2646,7 @@
 2020;Complementar;5356067;HOSPITAL MEMORIAL JABOATAO;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;31;31
 2020;Complementar;5356067;HOSPITAL MEMORIAL JABOATAO;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;60;60
 2020;Complementar;5356067;HOSPITAL MEMORIAL JABOATAO;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;39;39
-2020;Complementar;5356067;HOSPITAL MEMORIAL JABOATAO;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);10;10
+2020;Complementar;5356067;HOSPITAL MEMORIAL JABOATAO;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;10
 2020;Complementar;5356067;HOSPITAL MEMORIAL JABOATAO;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Complementar;75 UTI ADULTO - TIPO II;40;40
 2020;Complementar;5356067;HOSPITAL MEMORIAL JABOATAO;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Outras especialidades;34 CRONICOS;40;40
 2020;Complementar;2430622;HOSPITAL MEMORIAL PETROLINA;Petrolina;VIII Região de Saúde - PE;Dupla;Cirúrgico;02 CARDIOLOGIA;6;4
@@ -2698,7 +2698,7 @@
 2020;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;Dupla;Clínico;32 CARDIOLOGIA;4;0
 2020;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;Dupla;Clínico;33 CLINICA GERAL;10;1
 2020;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;Dupla;Clínico;41 NEONATOLOGIA;10;0
-2020;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);5;0
+2020;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;5;0
 2020;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;Dupla;Complementar;66 UNIDADE ISOLAMENTO;1;0
 2020;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;10;10
 2020;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;Dupla;Obstétrico;10 OBSTETRICIA CIRURGICA;7;0
@@ -2724,7 +2724,7 @@
 2020;Complementar;5707234;HOSPITAL NOSSA SENHORA DO O PAULISTA;Paulista;I Região de Saúde - PE;Dupla;Cirúrgico;15 PLASTICA;2;0
 2020;Complementar;5707234;HOSPITAL NOSSA SENHORA DO O PAULISTA;Paulista;I Região de Saúde - PE;Dupla;Clínico;32 CARDIOLOGIA;4;0
 2020;Complementar;5707234;HOSPITAL NOSSA SENHORA DO O PAULISTA;Paulista;I Região de Saúde - PE;Dupla;Clínico;33 CLINICA GERAL;34;4
-2020;Complementar;5707234;HOSPITAL NOSSA SENHORA DO O PAULISTA;Paulista;I Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);18;0
+2020;Complementar;5707234;HOSPITAL NOSSA SENHORA DO O PAULISTA;Paulista;I Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;18;0
 2020;Complementar;5707234;HOSPITAL NOSSA SENHORA DO O PAULISTA;Paulista;I Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;45;30
 2020;Complementar;7428456;HOSPITAL NOVO NASCER;Camaragibe;I Região de Saúde - PE;Municipal;Outras especialidades;47 PSIQUIATRIA;94;0
 2020;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;Dupla;Cirúrgico;02 CARDIOLOGIA;30;22
@@ -2744,7 +2744,7 @@
 2020;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;Dupla;Clínico;42 NEUROLOGIA;10;0
 2020;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;Dupla;Clínico;44 ONCOLOGIA;35;10
 2020;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;Dupla;Clínico;46 PNEUMOLOGIA;9;0
-2020;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);50;40
+2020;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;50;40
 2020;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;Dupla;Complementar;66 UNIDADE ISOLAMENTO;2;0
 2020;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;Dupla;Complementar;74 UTI ADULTO - TIPO I;22;0
 2020;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;115;30
@@ -2778,7 +2778,7 @@
 2020;Complementar;2517132;HOSPITAL SANTA JOANA;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;52;5
 2020;Complementar;2517132;HOSPITAL SANTA JOANA;Recife;I Região de Saúde - PE;Estadual;Clínico;41 NEONATOLOGIA;3;0
 2020;Complementar;2517132;HOSPITAL SANTA JOANA;Recife;I Região de Saúde - PE;Estadual;Clínico;44 ONCOLOGIA;6;0
-2020;Complementar;2517132;HOSPITAL SANTA JOANA;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);5;0
+2020;Complementar;2517132;HOSPITAL SANTA JOANA;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;5;0
 2020;Complementar;2517132;HOSPITAL SANTA JOANA;Recife;I Região de Saúde - PE;Estadual;Complementar;74 UTI ADULTO - TIPO I;39;0
 2020;Complementar;2517132;HOSPITAL SANTA JOANA;Recife;I Região de Saúde - PE;Estadual;Complementar;77 UTI PEDIATRICA - TIPO I;9;0
 2020;Complementar;2517132;HOSPITAL SANTA JOANA;Recife;I Região de Saúde - PE;Estadual;Complementar;80 UTI NEONATAL - TIPO I;14;0
@@ -2827,7 +2827,7 @@
 2020;Complementar;3374599;HOSPITAL SAO MARCOS;Recife;I Região de Saúde - PE;Estadual;Cirúrgico;15 PLASTICA;2;0
 2020;Complementar;3374599;HOSPITAL SAO MARCOS;Recife;I Região de Saúde - PE;Estadual;Cirúrgico;16 TORAXICA;2;0
 2020;Complementar;3374599;HOSPITAL SAO MARCOS;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;67;1
-2020;Complementar;3374599;HOSPITAL SAO MARCOS;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);10;0
+2020;Complementar;3374599;HOSPITAL SAO MARCOS;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;0
 2020;Complementar;3374599;HOSPITAL SAO MARCOS;Recife;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;40;0
 2020;Complementar;0000221;HOSPITAL SAO SEBASTIAO;Cabo de Santo Agostinho;I Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;8;0
 2020;Complementar;0000221;HOSPITAL SAO SEBASTIAO;Cabo de Santo Agostinho;I Região de Saúde - PE;Municipal;Cirúrgico;06 GINECOLOGIA;4;0
@@ -2889,7 +2889,7 @@
 2020;Complementar;2315343;HVU HOSPITAL VALE DO UNA;Palmares;III Região de Saúde - PE;Dupla;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;4;4
 2020;Complementar;2315343;HVU HOSPITAL VALE DO UNA;Palmares;III Região de Saúde - PE;Dupla;Clínico;33 CLINICA GERAL;30;28
 2020;Complementar;2315343;HVU HOSPITAL VALE DO UNA;Palmares;III Região de Saúde - PE;Dupla;Clínico;41 NEONATOLOGIA;3;3
-2020;Complementar;2315343;HVU HOSPITAL VALE DO UNA;Palmares;III Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);10;0
+2020;Complementar;2315343;HVU HOSPITAL VALE DO UNA;Palmares;III Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;0
 2020;Complementar;2315343;HVU HOSPITAL VALE DO UNA;Palmares;III Região de Saúde - PE;Dupla;Complementar;66 UNIDADE ISOLAMENTO;3;1
 2020;Complementar;2315343;HVU HOSPITAL VALE DO UNA;Palmares;III Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;20;20
 2020;Complementar;2315343;HVU HOSPITAL VALE DO UNA;Palmares;III Região de Saúde - PE;Dupla;Complementar;81 UTI NEONATAL - TIPO II;10;0
@@ -2935,8 +2935,8 @@
 2020;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Dupla;Clínico;42 NEUROLOGIA;5;5
 2020;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Dupla;Clínico;44 ONCOLOGIA;60;60
 2020;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Dupla;Clínico;46 PNEUMOLOGIA;5;5
-2020;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);50;30
-2020;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Dupla;Complementar;52 (sem descrição);10;0
+2020;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;50;30
+2020;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Dupla;Complementar;52 UTI II PEDIATRICA - SRAG COVID-19;10;0
 2020;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Dupla;Complementar;65 UNIDADE INTERMEDIARIA NEONATAL;56;56
 2020;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Dupla;Complementar;66 UNIDADE ISOLAMENTO;13;13
 2020;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;15;15
@@ -2961,7 +2961,7 @@
 2020;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;Dupla;Clínico;32 CARDIOLOGIA;8;6
 2020;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;Dupla;Clínico;33 CLINICA GERAL;9;4
 2020;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;Dupla;Clínico;42 NEUROLOGIA;1;0
-2020;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);10;5
+2020;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;5
 2020;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;14;0
 2020;Complementar;2345889;INSTITUTO PERNAMBUCANO I P;Caruaru;IV Região de Saúde - PE;Dupla;Cirúrgico;03 CIRURGIA GERAL;7;0
 2020;Complementar;2345889;INSTITUTO PERNAMBUCANO I P;Caruaru;IV Região de Saúde - PE;Dupla;Clínico;33 CLINICA GERAL;7;0
@@ -3026,7 +3026,7 @@
 2020;Complementar;2430118;NEUROCARDIO;Petrolina;VIII Região de Saúde - PE;Dupla;Clínico;42 NEUROLOGIA;3;0
 2020;Complementar;2430118;NEUROCARDIO;Petrolina;VIII Região de Saúde - PE;Dupla;Clínico;44 ONCOLOGIA;2;0
 2020;Complementar;2430118;NEUROCARDIO;Petrolina;VIII Região de Saúde - PE;Dupla;Clínico;46 PNEUMOLOGIA;1;0
-2020;Complementar;2430118;NEUROCARDIO;Petrolina;VIII Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);10;0
+2020;Complementar;2430118;NEUROCARDIO;Petrolina;VIII Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;0
 2020;Complementar;2430118;NEUROCARDIO;Petrolina;VIII Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;6;0
 2020;Complementar;2430118;NEUROCARDIO;Petrolina;VIII Região de Saúde - PE;Dupla;Complementar;85 UTI CORONARIANA TIPO II - UCO TIPO II;4;0
 2020;Complementar;2430118;NEUROCARDIO;Petrolina;VIII Região de Saúde - PE;Dupla;Obstétrico;10 OBSTETRICIA CIRURGICA;3;1
@@ -3072,7 +3072,7 @@
 2020;Complementar;2571528;SEOPE 2;Olinda;I Região de Saúde - PE;Municipal;Hospital/dia;07 CIRURGICO/DIAGNOSTICO/TERAPEUTICO;2;1
 2020;Complementar;0147028;SOCIEDADE HOSPITALAR MARIA VITORIA;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;20;20
 2020;Complementar;6525296;SOCIEDADE HOSPITALAR MARIA VITORIA;São Lourenço da Mata;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;20;20
-2020;Complementar;0147028;SOCIEDADE HOSPITALAR MARIA VITORIA;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);46;0
+2020;Complementar;0147028;SOCIEDADE HOSPITALAR MARIA VITORIA;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;46;0
 2020;Complementar;6525296;SOCIEDADE HOSPITALAR MARIA VITORIA;São Lourenço da Mata;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;10;10
 2020;Complementar;3496295;SOS MAO;Recife;I Região de Saúde - PE;Estadual;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;13;0
 2020;Complementar;9203346;SUPERAR CENTRO DE REABILITACAO;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Outras especialidades;48 REABILITACAO;12;0
@@ -3083,7 +3083,7 @@
 2020;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;Estadual;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;34;34
 2020;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;Estadual;Clínico;32 CARDIOLOGIA;8;8
 2020;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;41;41
-2020;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);40;40
+2020;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;40;40
 2020;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;Estadual;Complementar;66 UNIDADE ISOLAMENTO;4;4
 2020;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;30;30
 2020;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;Estadual;Cirúrgico;06 GINECOLOGIA;12;12
@@ -3100,7 +3100,7 @@
 2020;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;Estadual;Pediátrico;45 PEDIATRIA CLINICA;79;79
 2020;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;Estadual;Pediátrico;68 PEDIATRIA CIRURGICA;5;5
 2020;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;18;18
-2020;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);20;20
+2020;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;20;20
 2020;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;Estadual;Cirúrgico;03 CIRURGIA GERAL;1;1
 2020;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;10;10
 2020;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;Estadual;Complementar;66 UNIDADE ISOLAMENTO;1;1
@@ -3109,7 +3109,7 @@
 2020;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;Estadual;Pediátrico;45 PEDIATRIA CLINICA;10;10
 2020;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;10;10
 2020;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;Estadual;Clínico;87 SAUDE MENTAL;12;12
-2020;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);10;10
+2020;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;10
 2020;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;Estadual;Complementar;81 UTI NEONATAL - TIPO II;10;10
 2020;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;Estadual;Complementar;92 UNIDADE DE CUIDADOS INTERMED NEONATAL CONVENCIONAL;10;10
 2020;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;Estadual;Obstétrico;10 OBSTETRICIA CIRURGICA;6;6
@@ -3123,7 +3123,7 @@
 2020;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;63;63
 2020;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;Estadual;Clínico;42 NEUROLOGIA;31;31
 2020;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;Estadual;Clínico;44 ONCOLOGIA;30;30
-2020;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);40;30
+2020;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;40;30
 2020;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;Estadual;Complementar;66 UNIDADE ISOLAMENTO;17;17
 2020;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;40;40
 2020;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;Estadual;Complementar;78 UTI PEDIATRICA - TIPO II;10;10
@@ -3136,7 +3136,7 @@
 2020;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;30;30
 2020;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;Estadual;Outras especialidades;49 PNEUMOLOGIA SANITARIA;2;2
 2020;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;150;150
-2020;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);120;103
+2020;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;120;103
 2020;OSS;9309594;HOSPITAL NOSSA SENHORA DE APARECIDA;Paulista;I Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;15;15
 2020;OSS;9309594;HOSPITAL NOSSA SENHORA DE APARECIDA;Paulista;I Região de Saúde - PE;Municipal;Cirúrgico;09 NEUROCIRURGIA;15;0
 2020;OSS;9309594;HOSPITAL NOSSA SENHORA DE APARECIDA;Paulista;I Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;27;27
@@ -3151,7 +3151,7 @@
 2020;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;Estadual;Cirúrgico;03 CIRURGIA GERAL;14;14
 2020;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;Estadual;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;15;15
 2020;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;54;54
-2020;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);20;20
+2020;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;20;20
 2020;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;Estadual;Complementar;66 UNIDADE ISOLAMENTO;6;6
 2020;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;10;10
 2020;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;Estadual;Complementar;78 UTI PEDIATRICA - TIPO II;5;5
@@ -3161,7 +3161,7 @@
 2020;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;Estadual;Cirúrgico;03 CIRURGIA GERAL;11;11
 2020;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;23;23
 2020;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;Estadual;Clínico;87 SAUDE MENTAL;4;4
-2020;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);20;10
+2020;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;20;10
 2020;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;Estadual;Obstétrico;43 OBSTETRICIA CLINICA;19;19
 2020;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;Estadual;Pediátrico;45 PEDIATRIA CLINICA;5;5
 2020;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;Estadual;Pediátrico;68 PEDIATRIA CIRURGICA;3;3
@@ -3169,7 +3169,7 @@
 2020;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;Estadual;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;6;6
 2020;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;21;21
 2020;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;Estadual;Clínico;41 NEONATOLOGIA;5;5
-2020;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;Estadual;Complementar;52 (sem descrição);8;0
+2020;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;Estadual;Complementar;52 UTI II PEDIATRICA - SRAG COVID-19;8;0
 2020;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;10;0
 2020;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;Estadual;Obstétrico;10 OBSTETRICIA CIRURGICA;5;5
 2020;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;Estadual;Obstétrico;43 OBSTETRICIA CLINICA;12;12
@@ -3181,7 +3181,7 @@
 2020;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;Dupla;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;2;2
 2020;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;Dupla;Clínico;33 CLINICA GERAL;36;36
 2020;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;Dupla;Clínico;87 SAUDE MENTAL;6;0
-2020;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);8;8
+2020;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;8;8
 2020;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;6;6
 2020;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;Dupla;Obstétrico;10 OBSTETRICIA CIRURGICA;11;11
 2020;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;Dupla;Obstétrico;43 OBSTETRICIA CLINICA;18;18
@@ -3190,16 +3190,16 @@
 2020;OSS;2428989;HOSPITAL SAO SEBASTIAO;Caruaru;IV Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;60;60
 2020;OSS;2344858;MATERNIDADE BRITES DE ALBUQUERQUE;Olinda;I Região de Saúde - PE;Estadual;Cirúrgico;03 CIRURGIA GERAL;1;1
 2020;OSS;2344858;MATERNIDADE BRITES DE ALBUQUERQUE;Olinda;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;20;20
-2020;OSS;2344858;MATERNIDADE BRITES DE ALBUQUERQUE;Olinda;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);24;18
-2020;OSS;2344858;MATERNIDADE BRITES DE ALBUQUERQUE;Olinda;I Região de Saúde - PE;Estadual;Complementar;52 (sem descrição);10;0
+2020;OSS;2344858;MATERNIDADE BRITES DE ALBUQUERQUE;Olinda;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;24;18
+2020;OSS;2344858;MATERNIDADE BRITES DE ALBUQUERQUE;Olinda;I Região de Saúde - PE;Estadual;Complementar;52 UTI II PEDIATRICA - SRAG COVID-19;10;0
 2020;OSS;2344858;MATERNIDADE BRITES DE ALBUQUERQUE;Olinda;I Região de Saúde - PE;Estadual;Pediátrico;45 PEDIATRIA CLINICA;20;20
 2020;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;20;20
-2020;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);10;5
+2020;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;5
 2020;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;30;30
-2020;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);20;20
+2020;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;20;20
 2020;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;Estadual;Hospital/dia;07 CIRURGICO/DIAGNOSTICO/TERAPEUTICO;10;10
 2020;OSS;0151475;UPAE GOIANA;Goiana;XII Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;40;40
-2020;OSS;0151475;UPAE GOIANA;Goiana;XII Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);10;10
+2020;OSS;0151475;UPAE GOIANA;Goiana;XII Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;10
 2020;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;28;28
 2020;Outro público;5278333;CAPS 24 H DE ABREU E LIMA;Abreu e Lima;I Região de Saúde - PE;Municipal;Outras especialidades;84 ACOLHIMENTO NOTURNO;8;8
 2020;Outro público;6822630;CAPS AD III;Serra Talhada;XI Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;15;15
@@ -3332,7 +3332,7 @@
 2020;Outro público;2499975;HOSPITAL DISTRITAL JAILTON MESSIAS DE ALBUQUERQUE;Barreiros;III Região de Saúde - PE;Municipal;Cirúrgico;06 GINECOLOGIA;6;6
 2020;Outro público;2499975;HOSPITAL DISTRITAL JAILTON MESSIAS DE ALBUQUERQUE;Barreiros;III Região de Saúde - PE;Municipal;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;12;12
 2020;Outro público;2499975;HOSPITAL DISTRITAL JAILTON MESSIAS DE ALBUQUERQUE;Barreiros;III Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;22;22
-2020;Outro público;2499975;HOSPITAL DISTRITAL JAILTON MESSIAS DE ALBUQUERQUE;Barreiros;III Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);10;0
+2020;Outro público;2499975;HOSPITAL DISTRITAL JAILTON MESSIAS DE ALBUQUERQUE;Barreiros;III Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;0
 2020;Outro público;2499975;HOSPITAL DISTRITAL JAILTON MESSIAS DE ALBUQUERQUE;Barreiros;III Região de Saúde - PE;Municipal;Complementar;66 UNIDADE ISOLAMENTO;3;3
 2020;Outro público;2499975;HOSPITAL DISTRITAL JAILTON MESSIAS DE ALBUQUERQUE;Barreiros;III Região de Saúde - PE;Municipal;Complementar;75 UTI ADULTO - TIPO II;5;0
 2020;Outro público;2499975;HOSPITAL DISTRITAL JAILTON MESSIAS DE ALBUQUERQUE;Barreiros;III Região de Saúde - PE;Municipal;Hospital/dia;07 CIRURGICO/DIAGNOSTICO/TERAPEUTICO;17;17
@@ -3436,8 +3436,8 @@
 2020;Outro público;2355841;HOSPITAL MAE KYOLA;Correntes;V Região de Saúde - PE;Municipal;Obstétrico;10 OBSTETRICIA CIRURGICA;3;3
 2020;Outro público;2355841;HOSPITAL MAE KYOLA;Correntes;V Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;5;5
 2020;Outro público;2712016;HOSPITAL MARIA ALICE GOMES LAFAYETTE;Sertânia;VI Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;44;44
-2020;Outro público;2712016;HOSPITAL MARIA ALICE GOMES LAFAYETTE;Sertânia;VI Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);16;0
-2020;Outro público;2712016;HOSPITAL MARIA ALICE GOMES LAFAYETTE;Sertânia;VI Região de Saúde - PE;Municipal;Complementar;52 (sem descrição);2;0
+2020;Outro público;2712016;HOSPITAL MARIA ALICE GOMES LAFAYETTE;Sertânia;VI Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;16;0
+2020;Outro público;2712016;HOSPITAL MARIA ALICE GOMES LAFAYETTE;Sertânia;VI Região de Saúde - PE;Municipal;Complementar;52 UTI II PEDIATRICA - SRAG COVID-19;2;0
 2020;Outro público;2712016;HOSPITAL MARIA ALICE GOMES LAFAYETTE;Sertânia;VI Região de Saúde - PE;Municipal;Obstétrico;43 OBSTETRICIA CLINICA;4;4
 2020;Outro público;2712016;HOSPITAL MARIA ALICE GOMES LAFAYETTE;Sertânia;VI Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;6;6
 2020;Outro público;2703025;HOSPITAL MARIA DA PENHA DOURADO CAVALCANTE;Lajedo;V Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;28;28
@@ -3446,7 +3446,7 @@
 2020;Outro público;2715317;HOSPITAL MARIA RAFAEL DE SIQUEIRA;São José do Egito;X Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;7;7
 2020;Outro público;2715317;HOSPITAL MARIA RAFAEL DE SIQUEIRA;São José do Egito;X Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;37;37
 2020;Outro público;2715317;HOSPITAL MARIA RAFAEL DE SIQUEIRA;São José do Egito;X Região de Saúde - PE;Municipal;Clínico;41 NEONATOLOGIA;8;8
-2020;Outro público;2715317;HOSPITAL MARIA RAFAEL DE SIQUEIRA;São José do Egito;X Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);4;0
+2020;Outro público;2715317;HOSPITAL MARIA RAFAEL DE SIQUEIRA;São José do Egito;X Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;4;0
 2020;Outro público;2715317;HOSPITAL MARIA RAFAEL DE SIQUEIRA;São José do Egito;X Região de Saúde - PE;Municipal;Complementar;74 UTI ADULTO - TIPO I;1;0
 2020;Outro público;2715317;HOSPITAL MARIA RAFAEL DE SIQUEIRA;São José do Egito;X Região de Saúde - PE;Municipal;Obstétrico;43 OBSTETRICIA CLINICA;8;8
 2020;Outro público;2715317;HOSPITAL MARIA RAFAEL DE SIQUEIRA;São José do Egito;X Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;10;10
@@ -3456,7 +3456,7 @@
 2020;Outro público;0000035;HOSPITAL MENDO SAMPAIO;Cabo de Santo Agostinho;I Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;20;20
 2020;Outro público;0113956;HOSPITAL MILITAR DE AREA DE RECIFE;Recife;I Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;12;0
 2020;Outro público;0113956;HOSPITAL MILITAR DE AREA DE RECIFE;Recife;I Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;55;0
-2020;Outro público;0113956;HOSPITAL MILITAR DE AREA DE RECIFE;Recife;I Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);10;0
+2020;Outro público;0113956;HOSPITAL MILITAR DE AREA DE RECIFE;Recife;I Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;0
 2020;Outro público;0113956;HOSPITAL MILITAR DE AREA DE RECIFE;Recife;I Região de Saúde - PE;Municipal;Complementar;75 UTI ADULTO - TIPO II;6;0
 2020;Outro público;0113956;HOSPITAL MILITAR DE AREA DE RECIFE;Recife;I Região de Saúde - PE;Municipal;Outras especialidades;47 PSIQUIATRIA;8;0
 2020;Outro público;2639025;HOSPITAL MONSENHOR ALFREDO DAMASO;Bom Conselho;V Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;42;42
@@ -3483,7 +3483,7 @@
 2020;Outro público;2638932;HOSPITAL MUNICIPAL ANTONIO XAVIER SOBRINHO;Paranatama;V Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;4;4
 2020;Outro público;2356279;HOSPITAL MUNICIPAL CIENTISTA NELSON CHAVES;Água Preta;III Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;10;10
 2020;Outro público;2356279;HOSPITAL MUNICIPAL CIENTISTA NELSON CHAVES;Água Preta;III Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;20;20
-2020;Outro público;2356279;HOSPITAL MUNICIPAL CIENTISTA NELSON CHAVES;Água Preta;III Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);20;0
+2020;Outro público;2356279;HOSPITAL MUNICIPAL CIENTISTA NELSON CHAVES;Água Preta;III Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;20;0
 2020;Outro público;2356279;HOSPITAL MUNICIPAL CIENTISTA NELSON CHAVES;Água Preta;III Região de Saúde - PE;Municipal;Complementar;74 UTI ADULTO - TIPO I;5;0
 2020;Outro público;2356279;HOSPITAL MUNICIPAL CIENTISTA NELSON CHAVES;Água Preta;III Região de Saúde - PE;Municipal;Obstétrico;43 OBSTETRICIA CLINICA;8;8
 2020;Outro público;2356279;HOSPITAL MUNICIPAL CIENTISTA NELSON CHAVES;Água Preta;III Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;12;12
@@ -3501,7 +3501,7 @@
 2020;Outro público;5093619;HOSPITAL MUNICIPAL DE CARUARU DR MANOEL AFONSO PORTO NETO;Caruaru;IV Região de Saúde - PE;Municipal;Clínico;32 CARDIOLOGIA;8;8
 2020;Outro público;5093619;HOSPITAL MUNICIPAL DE CARUARU DR MANOEL AFONSO PORTO NETO;Caruaru;IV Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;29;29
 2020;Outro público;5093619;HOSPITAL MUNICIPAL DE CARUARU DR MANOEL AFONSO PORTO NETO;Caruaru;IV Região de Saúde - PE;Municipal;Clínico;87 SAUDE MENTAL;7;7
-2020;Outro público;5093619;HOSPITAL MUNICIPAL DE CARUARU DR MANOEL AFONSO PORTO NETO;Caruaru;IV Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);10;0
+2020;Outro público;5093619;HOSPITAL MUNICIPAL DE CARUARU DR MANOEL AFONSO PORTO NETO;Caruaru;IV Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;0
 2020;Outro público;5093619;HOSPITAL MUNICIPAL DE CARUARU DR MANOEL AFONSO PORTO NETO;Caruaru;IV Região de Saúde - PE;Municipal;Outras especialidades;34 CRONICOS;21;21
 2020;Outro público;7288263;HOSPITAL MUNICIPAL DE JAQUEIRA MARIA HELENA SILVA DE ANDRADE;Jaqueira;III Região de Saúde - PE;Estadual;Cirúrgico;03 CIRURGIA GERAL;10;10
 2020;Outro público;7288263;HOSPITAL MUNICIPAL DE JAQUEIRA MARIA HELENA SILVA DE ANDRADE;Jaqueira;III Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;10;10
@@ -3984,7 +3984,7 @@
 2020;Outro público;7958838;US 411 HOSPITAL DA MULHER DO RECIFE DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;Municipal;Cirúrgico;06 GINECOLOGIA;11;11
 2020;Outro público;7958838;US 411 HOSPITAL DA MULHER DO RECIFE DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;Municipal;Cirúrgico;15 PLASTICA;4;4
 2020;Outro público;7958838;US 411 HOSPITAL DA MULHER DO RECIFE DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;34;34
-2020;Outro público;7958838;US 411 HOSPITAL DA MULHER DO RECIFE DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);54;0
+2020;Outro público;7958838;US 411 HOSPITAL DA MULHER DO RECIFE DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;54;0
 2020;Outro público;7958838;US 411 HOSPITAL DA MULHER DO RECIFE DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;Municipal;Complementar;75 UTI ADULTO - TIPO II;10;10
 2020;Outro público;7958838;US 411 HOSPITAL DA MULHER DO RECIFE DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;Municipal;Complementar;81 UTI NEONATAL - TIPO II;10;10
 2020;Outro público;7958838;US 411 HOSPITAL DA MULHER DO RECIFE DRA MERCES PONTES CUNHA;Recife;I Região de Saúde - PE;Municipal;Complementar;92 UNIDADE DE CUIDADOS INTERMED NEONATAL CONVENCIONAL;15;15
@@ -4020,7 +4020,7 @@
 2020;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;73;73
 2020;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;Estadual;Clínico;41 NEONATOLOGIA;15;15
 2020;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;Estadual;Clínico;46 PNEUMOLOGIA;2;2
-2020;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);26;0
+2020;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;26;0
 2020;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;44;44
 2020;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;Estadual;Complementar;81 UTI NEONATAL - TIPO II;15;15
 2020;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;Estadual;Complementar;92 UNIDADE DE CUIDADOS INTERMED NEONATAL CONVENCIONAL;15;15
@@ -4032,8 +4032,8 @@
 2020;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;56;56
 2020;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Clínico;40 NEFROUROLOGIA;6;6
 2020;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Clínico;44 ONCOLOGIA;10;10
-2020;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);8;8
-2020;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Complementar;52 (sem descrição);10;10
+2020;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;8;8
+2020;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Complementar;52 UTI II PEDIATRICA - SRAG COVID-19;10;10
 2020;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Complementar;66 UNIDADE ISOLAMENTO;1;1
 2020;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;20;20
 2020;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Complementar;78 UTI PEDIATRICA - TIPO II;8;8
@@ -4055,7 +4055,7 @@
 2020;Rede própria;2347342;HOSPITAL COLONIA PROFESSOR ALCIDES CODICEIRA;Igarassu;I Região de Saúde - PE;Estadual;Outras especialidades;47 PSIQUIATRIA;82;82
 2020;Rede própria;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;Estadual;Clínico;31 AIDS;36;36
 2020;Rede própria;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;9;9
-2020;Rede própria;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);6;6
+2020;Rede própria;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;6;6
 2020;Rede própria;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;Estadual;Complementar;66 UNIDADE ISOLAMENTO;2;2
 2020;Rede própria;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;5;5
 2020;Rede própria;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;Estadual;Complementar;78 UTI PEDIATRICA - TIPO II;5;5
@@ -4081,9 +4081,9 @@
 2020;Rede própria;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;Estadual;Pediátrico;45 PEDIATRIA CLINICA;70;70
 2020;Rede própria;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;Estadual;Pediátrico;68 PEDIATRIA CIRURGICA;48;48
 2020;Rede própria;0245364;HOSPITAL DE CAMPANHA DE PETROLINA;Petrolina;VIII Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;30;30
-2020;Rede própria;0245364;HOSPITAL DE CAMPANHA DE PETROLINA;Petrolina;VIII Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);20;0
+2020;Rede própria;0245364;HOSPITAL DE CAMPANHA DE PETROLINA;Petrolina;VIII Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;20;0
 2020;Rede própria;0101826;HOSPITAL DE CAMPANHA DO RECIFE HPR I AURORA;Recife;I Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;60;60
-2020;Rede própria;0101826;HOSPITAL DE CAMPANHA DO RECIFE HPR I AURORA;Recife;I Região de Saúde - PE;Municipal;Complementar;96 (sem descrição);100;0
+2020;Rede própria;0101826;HOSPITAL DE CAMPANHA DO RECIFE HPR I AURORA;Recife;I Região de Saúde - PE;Municipal;Complementar;96 SUPORTE VENTILATORIO PULMONAR - COVID-19;100;0
 2020;Rede própria;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;Estadual;Cirúrgico;06 GINECOLOGIA;1;1
 2020;Rede própria;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;1;1
 2020;Rede própria;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;Estadual;Clínico;41 NEONATOLOGIA;33;33
@@ -4123,7 +4123,7 @@
 2020;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;Estadual;Clínico;40 NEFROUROLOGIA;4;4
 2020;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;Estadual;Clínico;42 NEUROLOGIA;9;9
 2020;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;Estadual;Clínico;46 PNEUMOLOGIA;5;5
-2020;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);10;10
+2020;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;10
 2020;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;31;31
 2020;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;Estadual;Hospital/dia;07 CIRURGICO/DIAGNOSTICO/TERAPEUTICO;5;5
 2020;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;Estadual;Outras especialidades;48 REABILITACAO;28;28
@@ -4152,8 +4152,8 @@
 2020;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;Dupla;Clínico;42 NEUROLOGIA;14;14
 2020;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;Dupla;Clínico;44 ONCOLOGIA;20;20
 2020;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;Dupla;Clínico;46 PNEUMOLOGIA;18;18
-2020;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);51;20
-2020;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;Dupla;Complementar;52 (sem descrição);10;6
+2020;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;51;20
+2020;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;Dupla;Complementar;52 UTI II PEDIATRICA - SRAG COVID-19;10;6
 2020;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;Dupla;Complementar;66 UNIDADE ISOLAMENTO;12;12
 2020;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;27;17
 2020;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;Dupla;Complementar;78 UTI PEDIATRICA - TIPO II;10;10
@@ -4171,7 +4171,7 @@
 2020;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;151;151
 2020;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;Estadual;Clínico;40 NEFROUROLOGIA;40;40
 2020;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;Estadual;Clínico;46 PNEUMOLOGIA;44;44
-2020;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);73;30
+2020;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;73;30
 2020;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;30;30
 2020;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;Estadual;Complementar;78 UTI PEDIATRICA - TIPO II;20;20
 2020;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;Estadual;Hospital/dia;07 CIRURGICO/DIAGNOSTICO/TERAPEUTICO;4;4
@@ -4195,7 +4195,7 @@
 2020;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;Estadual;Clínico;42 NEUROLOGIA;1;1
 2020;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;Estadual;Clínico;46 PNEUMOLOGIA;1;1
 2020;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;Estadual;Clínico;87 SAUDE MENTAL;4;4
-2020;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);10;10
+2020;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;10
 2020;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;Estadual;Complementar;66 UNIDADE ISOLAMENTO;2;2
 2020;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;Estadual;Obstétrico;10 OBSTETRICIA CIRURGICA;8;8
 2020;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;Estadual;Obstétrico;43 OBSTETRICIA CLINICA;3;3
@@ -4216,7 +4216,7 @@
 2020;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;34;34
 2020;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;Estadual;Clínico;40 NEFROUROLOGIA;14;14
 2020;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;Estadual;Clínico;44 ONCOLOGIA;7;7
-2020;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);10;0
+2020;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;0
 2020;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;19;19
 2020;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;Estadual;Cirúrgico;03 CIRURGIA GERAL;9;9
 2020;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;Estadual;Cirúrgico;06 GINECOLOGIA;2;2
@@ -4226,7 +4226,7 @@
 2020;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;20;20
 2020;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;Estadual;Clínico;36 GERIATRIA;6;6
 2020;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;Estadual;Clínico;87 SAUDE MENTAL;6;6
-2020;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);10;10
+2020;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;10
 2020;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;10;10
 2020;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;Estadual;Complementar;95 UNIDADE DE CUIDADOS INTERMED  ADULTO;8;8
 2020;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;Estadual;Obstétrico;10 OBSTETRICIA CIRURGICA;10;10
@@ -4239,7 +4239,7 @@
 2020;Rede própria;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;34;34
 2020;Rede própria;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;Estadual;Clínico;41 NEONATOLOGIA;5;5
 2020;Rede própria;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;Estadual;Clínico;87 SAUDE MENTAL;10;10
-2020;Rede própria;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);5;5
+2020;Rede própria;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;5;5
 2020;Rede própria;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;Estadual;Complementar;66 UNIDADE ISOLAMENTO;1;1
 2020;Rede própria;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;Estadual;Complementar;92 UNIDADE DE CUIDADOS INTERMED NEONATAL CONVENCIONAL;5;5
 2020;Rede própria;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;Estadual;Obstétrico;10 OBSTETRICIA CIRURGICA;13;13
@@ -4309,7 +4309,7 @@
 2021;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;Dupla;Clínico;40 NEFROUROLOGIA;3;3
 2021;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;Dupla;Clínico;42 NEUROLOGIA;1;1
 2021;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;Dupla;Clínico;44 ONCOLOGIA;3;3
-2021;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);20;20
+2021;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;20;20
 2021;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;11;11
 2021;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;Dupla;Obstétrico;10 OBSTETRICIA CIRURGICA;6;3
 2021;Complementar;2639009;CASA DE SAUDE PERPETUO SOCORRO;Garanhuns;V Região de Saúde - PE;Dupla;Obstétrico;43 OBSTETRICIA CLINICA;5;3
@@ -4359,7 +4359,7 @@
 2021;Complementar;7966482;CENTRO DE OLHOS;Recife;I Região de Saúde - PE;Municipal;Hospital/dia;07 CIRURGICO/DIAGNOSTICO/TERAPEUTICO;5;0
 2021;Complementar;3021289;CENTRO HOSPITALAR ALBERT SABIN SA;Recife;I Região de Saúde - PE;Estadual;Cirúrgico;03 CIRURGIA GERAL;49;1
 2021;Complementar;3021289;CENTRO HOSPITALAR ALBERT SABIN SA;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;79;1
-2021;Complementar;3021289;CENTRO HOSPITALAR ALBERT SABIN SA;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);9;0
+2021;Complementar;3021289;CENTRO HOSPITALAR ALBERT SABIN SA;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;9;0
 2021;Complementar;3021289;CENTRO HOSPITALAR ALBERT SABIN SA;Recife;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;9;0
 2021;Complementar;9571248;CENTRO HOSPITALAR DE SAUDE SAO FRANCISCO DE ASSIS;Abreu e Lima;I Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;40;0
 2021;Complementar;9571248;CENTRO HOSPITALAR DE SAUDE SAO FRANCISCO DE ASSIS;Abreu e Lima;I Região de Saúde - PE;Municipal;Cirúrgico;06 GINECOLOGIA;20;0
@@ -4529,7 +4529,7 @@
 2021;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;Estadual;Clínico;42 NEUROLOGIA;10;10
 2021;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;Estadual;Clínico;44 ONCOLOGIA;14;14
 2021;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;Estadual;Clínico;46 PNEUMOLOGIA;2;2
-2021;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);8;8
+2021;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;8;8
 2021;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;Estadual;Complementar;66 UNIDADE ISOLAMENTO;4;4
 2021;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;Estadual;Complementar;76 UTI ADULTO - TIPO III;10;10
 2021;Complementar;0000396;HOSPITAL DAS CLINICAS;Recife;I Região de Saúde - PE;Estadual;Complementar;81 UTI NEONATAL - TIPO II;10;10
@@ -4575,7 +4575,7 @@
 2021;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;16;16
 2021;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;Estadual;Clínico;38 HEMATOLOGIA;20;20
 2021;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;Estadual;Clínico;44 ONCOLOGIA;49;49
-2021;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);20;20
+2021;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;20;20
 2021;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;Estadual;Complementar;66 UNIDADE ISOLAMENTO;2;2
 2021;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;35;35
 2021;Complementar;0000582;HOSPITAL DE CANCER DE PERNAMBUCO;Recife;I Região de Saúde - PE;Estadual;Outras especialidades;34 CRONICOS;16;16
@@ -4599,7 +4599,7 @@
 2021;Complementar;2344882;HOSPITAL DO TRICENTENARIO;Olinda;I Região de Saúde - PE;Dupla;Pediátrico;45 PEDIATRIA CLINICA;8;8
 2021;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;Dupla;Cirúrgico;03 CIRURGIA GERAL;11;0
 2021;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;Dupla;Clínico;33 CLINICA GERAL;19;15
-2021;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);30;20
+2021;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;30;20
 2021;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;10;10
 2021;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;Dupla;Obstétrico;10 OBSTETRICIA CIRURGICA;10;0
 2021;Complementar;7551584;HOSPITAL DO VALE;Limoeiro;II Região de Saúde - PE;Dupla;Outras especialidades;34 CRONICOS;20;20
@@ -4619,8 +4619,8 @@
 2021;Complementar;6683630;HOSPITAL E MATERNIDADE NOSSA SENHORA DO O RECIFE;Recife;I Região de Saúde - PE;Estadual;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;10;0
 2021;Complementar;6683630;HOSPITAL E MATERNIDADE NOSSA SENHORA DO O RECIFE;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;30;30
 2021;Complementar;6683630;HOSPITAL E MATERNIDADE NOSSA SENHORA DO O RECIFE;Recife;I Região de Saúde - PE;Estadual;Clínico;41 NEONATOLOGIA;9;0
-2021;Complementar;6683630;HOSPITAL E MATERNIDADE NOSSA SENHORA DO O RECIFE;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);40;40
-2021;Complementar;6683630;HOSPITAL E MATERNIDADE NOSSA SENHORA DO O RECIFE;Recife;I Região de Saúde - PE;Estadual;Complementar;52 (sem descrição);5;0
+2021;Complementar;6683630;HOSPITAL E MATERNIDADE NOSSA SENHORA DO O RECIFE;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;40;40
+2021;Complementar;6683630;HOSPITAL E MATERNIDADE NOSSA SENHORA DO O RECIFE;Recife;I Região de Saúde - PE;Estadual;Complementar;52 UTI II PEDIATRICA - SRAG COVID-19;5;0
 2021;Complementar;6683630;HOSPITAL E MATERNIDADE NOSSA SENHORA DO O RECIFE;Recife;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;5;0
 2021;Complementar;6683630;HOSPITAL E MATERNIDADE NOSSA SENHORA DO O RECIFE;Recife;I Região de Saúde - PE;Estadual;Complementar;81 UTI NEONATAL - TIPO II;19;0
 2021;Complementar;6683630;HOSPITAL E MATERNIDADE NOSSA SENHORA DO O RECIFE;Recife;I Região de Saúde - PE;Estadual;Complementar;92 UNIDADE DE CUIDADOS INTERMED NEONATAL CONVENCIONAL;6;0
@@ -4629,8 +4629,8 @@
 2021;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;Dupla;Cirúrgico;03 CIRURGIA GERAL;25;20
 2021;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;Dupla;Clínico;33 CLINICA GERAL;77;72
 2021;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;Dupla;Clínico;87 SAUDE MENTAL;6;6
-2021;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);50;50
-2021;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;Dupla;Complementar;52 (sem descrição);5;5
+2021;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;50;50
+2021;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;Dupla;Complementar;52 UTI II PEDIATRICA - SRAG COVID-19;5;5
 2021;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;10;0
 2021;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;Dupla;Complementar;81 UTI NEONATAL - TIPO II;10;0
 2021;Complementar;2639262;HOSPITAL E MATERNIDADE SANTA MARIA;Araripina;IX Região de Saúde - PE;Dupla;Obstétrico;43 OBSTETRICIA CLINICA;29;24
@@ -4685,7 +4685,7 @@
 2021;Complementar;2752808;HOSPITAL EVANGELICO DE PERNAMBUCO;Recife;I Região de Saúde - PE;Dupla;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;4;4
 2021;Complementar;2752808;HOSPITAL EVANGELICO DE PERNAMBUCO;Recife;I Região de Saúde - PE;Dupla;Clínico;33 CLINICA GERAL;30;30
 2021;Complementar;2752808;HOSPITAL EVANGELICO DE PERNAMBUCO;Recife;I Região de Saúde - PE;Dupla;Clínico;87 SAUDE MENTAL;14;14
-2021;Complementar;2752808;HOSPITAL EVANGELICO DE PERNAMBUCO;Recife;I Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);30;10
+2021;Complementar;2752808;HOSPITAL EVANGELICO DE PERNAMBUCO;Recife;I Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;30;10
 2021;Complementar;2752808;HOSPITAL EVANGELICO DE PERNAMBUCO;Recife;I Região de Saúde - PE;Dupla;Outras especialidades;34 CRONICOS;20;20
 2021;Complementar;2346621;HOSPITAL FERREIRA LIMA;Timbaúba;XII Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;29;18
 2021;Complementar;2346621;HOSPITAL FERREIRA LIMA;Timbaúba;XII Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;34;21
@@ -4721,9 +4721,9 @@
 2021;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Dupla;Clínico;42 NEUROLOGIA;1;0
 2021;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Dupla;Clínico;44 ONCOLOGIA;1;0
 2021;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Dupla;Clínico;46 PNEUMOLOGIA;1;0
-2021;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);20;20
+2021;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;20;20
 2021;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Dupla;Complementar;81 UTI NEONATAL - TIPO II;34;30
-2021;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Dupla;Complementar;96 (sem descrição);4;0
+2021;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Dupla;Complementar;96 SUPORTE VENTILATORIO PULMONAR - COVID-19;4;0
 2021;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Dupla;Obstétrico;10 OBSTETRICIA CIRURGICA;21;20
 2021;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Dupla;Obstétrico;43 OBSTETRICIA CLINICA;33;31
 2021;Complementar;2319454;HOSPITAL GUARARAPES;Jaboatão dos Guararapes;I Região de Saúde - PE;Dupla;Pediátrico;45 PEDIATRIA CLINICA;6;5
@@ -4770,7 +4770,7 @@
 2021;Complementar;2344254;HOSPITAL JESUS PEQUENINO;Bezerros;IV Região de Saúde - PE;Dupla;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;37;32
 2021;Complementar;2344254;HOSPITAL JESUS PEQUENINO;Bezerros;IV Região de Saúde - PE;Dupla;Clínico;33 CLINICA GERAL;50;40
 2021;Complementar;2344254;HOSPITAL JESUS PEQUENINO;Bezerros;IV Região de Saúde - PE;Dupla;Clínico;40 NEFROUROLOGIA;3;2
-2021;Complementar;2344254;HOSPITAL JESUS PEQUENINO;Bezerros;IV Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);30;30
+2021;Complementar;2344254;HOSPITAL JESUS PEQUENINO;Bezerros;IV Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;30;30
 2021;Complementar;2344254;HOSPITAL JESUS PEQUENINO;Bezerros;IV Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;10;10
 2021;Complementar;2344254;HOSPITAL JESUS PEQUENINO;Bezerros;IV Região de Saúde - PE;Dupla;Obstétrico;10 OBSTETRICIA CIRURGICA;2;0
 2021;Complementar;2344254;HOSPITAL JESUS PEQUENINO;Bezerros;IV Região de Saúde - PE;Dupla;Obstétrico;43 OBSTETRICIA CLINICA;1;0
@@ -4783,7 +4783,7 @@
 2021;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;Dupla;Cirúrgico;03 CIRURGIA GERAL;34;23
 2021;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;Dupla;Cirúrgico;11 OFTALMOLOGIA;12;12
 2021;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;Dupla;Clínico;33 CLINICA GERAL;76;60
-2021;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);14;14
+2021;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;14;14
 2021;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;20;15
 2021;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;Dupla;Complementar;78 UTI PEDIATRICA - TIPO II;20;7
 2021;Complementar;0000566;HOSPITAL MARIA LUCINDA;Recife;I Região de Saúde - PE;Dupla;Complementar;81 UTI NEONATAL - TIPO II;3;0
@@ -4808,7 +4808,7 @@
 2021;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;Dupla;Clínico;36 GERIATRIA;1;0
 2021;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;Dupla;Clínico;40 NEFROUROLOGIA;2;0
 2021;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;Dupla;Clínico;44 ONCOLOGIA;2;2
-2021;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);10;6
+2021;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;6
 2021;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;7;2
 2021;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;Dupla;Hospital/dia;07 CIRURGICO/DIAGNOSTICO/TERAPEUTICO;2;2
 2021;Complementar;3369293;HOSPITAL MEMORIAL ARCOVERDE LTDA;Arcoverde;VI Região de Saúde - PE;Dupla;Obstétrico;10 OBSTETRICIA CIRURGICA;2;0
@@ -4819,7 +4819,7 @@
 2021;Complementar;5356067;HOSPITAL MEMORIAL JABOATAO;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;31;31
 2021;Complementar;5356067;HOSPITAL MEMORIAL JABOATAO;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;60;60
 2021;Complementar;5356067;HOSPITAL MEMORIAL JABOATAO;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;39;39
-2021;Complementar;5356067;HOSPITAL MEMORIAL JABOATAO;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);10;10
+2021;Complementar;5356067;HOSPITAL MEMORIAL JABOATAO;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;10
 2021;Complementar;5356067;HOSPITAL MEMORIAL JABOATAO;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Complementar;75 UTI ADULTO - TIPO II;40;40
 2021;Complementar;5356067;HOSPITAL MEMORIAL JABOATAO;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Outras especialidades;34 CRONICOS;40;40
 2021;Complementar;2430622;HOSPITAL MEMORIAL PETROLINA;Petrolina;VIII Região de Saúde - PE;Dupla;Cirúrgico;02 CARDIOLOGIA;6;4
@@ -4871,7 +4871,7 @@
 2021;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;Dupla;Clínico;32 CARDIOLOGIA;4;4
 2021;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;Dupla;Clínico;33 CLINICA GERAL;10;1
 2021;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;Dupla;Clínico;41 NEONATOLOGIA;10;0
-2021;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);5;0
+2021;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;5;0
 2021;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;Dupla;Complementar;66 UNIDADE ISOLAMENTO;1;0
 2021;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;10;10
 2021;Complementar;2351633;HOSPITAL MEMORIAL SAO VICENTE;Serra Talhada;XI Região de Saúde - PE;Dupla;Obstétrico;10 OBSTETRICIA CIRURGICA;7;0
@@ -4897,7 +4897,7 @@
 2021;Complementar;5707234;HOSPITAL NOSSA SENHORA DO O PAULISTA;Paulista;I Região de Saúde - PE;Dupla;Cirúrgico;15 PLASTICA;2;0
 2021;Complementar;5707234;HOSPITAL NOSSA SENHORA DO O PAULISTA;Paulista;I Região de Saúde - PE;Dupla;Clínico;32 CARDIOLOGIA;4;0
 2021;Complementar;5707234;HOSPITAL NOSSA SENHORA DO O PAULISTA;Paulista;I Região de Saúde - PE;Dupla;Clínico;33 CLINICA GERAL;34;4
-2021;Complementar;5707234;HOSPITAL NOSSA SENHORA DO O PAULISTA;Paulista;I Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);24;14
+2021;Complementar;5707234;HOSPITAL NOSSA SENHORA DO O PAULISTA;Paulista;I Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;24;14
 2021;Complementar;5707234;HOSPITAL NOSSA SENHORA DO O PAULISTA;Paulista;I Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;45;30
 2021;Complementar;7428456;HOSPITAL NOVO NASCER;Camaragibe;I Região de Saúde - PE;Municipal;Outras especialidades;47 PSIQUIATRIA;94;0
 2021;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;Dupla;Cirúrgico;02 CARDIOLOGIA;30;22
@@ -4917,7 +4917,7 @@
 2021;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;Dupla;Clínico;42 NEUROLOGIA;10;0
 2021;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;Dupla;Clínico;44 ONCOLOGIA;35;10
 2021;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;Dupla;Clínico;46 PNEUMOLOGIA;9;0
-2021;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);60;30
+2021;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;60;30
 2021;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;Dupla;Complementar;66 UNIDADE ISOLAMENTO;2;0
 2021;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;Dupla;Complementar;74 UTI ADULTO - TIPO I;22;0
 2021;Complementar;0001120;HOSPITAL PORTUGUES;Recife;I Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;115;30
@@ -4951,7 +4951,7 @@
 2021;Complementar;2517132;HOSPITAL SANTA JOANA;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;52;5
 2021;Complementar;2517132;HOSPITAL SANTA JOANA;Recife;I Região de Saúde - PE;Estadual;Clínico;41 NEONATOLOGIA;3;0
 2021;Complementar;2517132;HOSPITAL SANTA JOANA;Recife;I Região de Saúde - PE;Estadual;Clínico;44 ONCOLOGIA;6;0
-2021;Complementar;2517132;HOSPITAL SANTA JOANA;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);5;0
+2021;Complementar;2517132;HOSPITAL SANTA JOANA;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;5;0
 2021;Complementar;2517132;HOSPITAL SANTA JOANA;Recife;I Região de Saúde - PE;Estadual;Complementar;74 UTI ADULTO - TIPO I;39;0
 2021;Complementar;2517132;HOSPITAL SANTA JOANA;Recife;I Região de Saúde - PE;Estadual;Complementar;77 UTI PEDIATRICA - TIPO I;9;0
 2021;Complementar;2517132;HOSPITAL SANTA JOANA;Recife;I Região de Saúde - PE;Estadual;Complementar;80 UTI NEONATAL - TIPO I;14;0
@@ -5000,7 +5000,7 @@
 2021;Complementar;3374599;HOSPITAL SAO MARCOS;Recife;I Região de Saúde - PE;Estadual;Cirúrgico;15 PLASTICA;2;0
 2021;Complementar;3374599;HOSPITAL SAO MARCOS;Recife;I Região de Saúde - PE;Estadual;Cirúrgico;16 TORAXICA;2;0
 2021;Complementar;3374599;HOSPITAL SAO MARCOS;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;67;0
-2021;Complementar;3374599;HOSPITAL SAO MARCOS;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);10;10
+2021;Complementar;3374599;HOSPITAL SAO MARCOS;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;10
 2021;Complementar;3374599;HOSPITAL SAO MARCOS;Recife;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;40;0
 2021;Complementar;0000221;HOSPITAL SAO SEBASTIAO;Cabo de Santo Agostinho;I Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;8;0
 2021;Complementar;0000221;HOSPITAL SAO SEBASTIAO;Cabo de Santo Agostinho;I Região de Saúde - PE;Municipal;Cirúrgico;06 GINECOLOGIA;4;0
@@ -5122,8 +5122,8 @@
 2021;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Dupla;Clínico;42 NEUROLOGIA;5;5
 2021;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Dupla;Clínico;44 ONCOLOGIA;60;60
 2021;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Dupla;Clínico;46 PNEUMOLOGIA;5;5
-2021;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);50;30
-2021;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Dupla;Complementar;52 (sem descrição);40;16
+2021;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;50;30
+2021;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Dupla;Complementar;52 UTI II PEDIATRICA - SRAG COVID-19;40;16
 2021;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Dupla;Complementar;65 UNIDADE INTERMEDIARIA NEONATAL;56;56
 2021;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Dupla;Complementar;66 UNIDADE ISOLAMENTO;13;13
 2021;Complementar;0000434;IMIP;Recife;I Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;15;15
@@ -5152,7 +5152,7 @@
 2021;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;Dupla;Clínico;33 CLINICA GERAL;4;4
 2021;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;Dupla;Clínico;38 HEMATOLOGIA;2;2
 2021;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;Dupla;Clínico;44 ONCOLOGIA;2;2
-2021;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);10;5
+2021;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;5
 2021;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;14;8
 2021;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;Dupla;Obstétrico;10 OBSTETRICIA CIRURGICA;1;0
 2021;Complementar;9569723;INSTITUTO MEMORIAL DO VALE;Petrolina;VIII Região de Saúde - PE;Dupla;Obstétrico;43 OBSTETRICIA CLINICA;1;0
@@ -5193,7 +5193,7 @@
 2021;Complementar;3015920;META SERVICOS HOSPITALARES E CONSULTORIA EM SAUDE LTDA;Olinda;I Região de Saúde - PE;Estadual;Clínico;32 CARDIOLOGIA;3;0
 2021;Complementar;3015920;META SERVICOS HOSPITALARES E CONSULTORIA EM SAUDE LTDA;Olinda;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;15;15
 2021;Complementar;3015920;META SERVICOS HOSPITALARES E CONSULTORIA EM SAUDE LTDA;Olinda;I Região de Saúde - PE;Estadual;Clínico;42 NEUROLOGIA;2;0
-2021;Complementar;3015920;META SERVICOS HOSPITALARES E CONSULTORIA EM SAUDE LTDA;Olinda;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);10;10
+2021;Complementar;3015920;META SERVICOS HOSPITALARES E CONSULTORIA EM SAUDE LTDA;Olinda;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;10
 2021;Complementar;3015920;META SERVICOS HOSPITALARES E CONSULTORIA EM SAUDE LTDA;Olinda;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;5;5
 2021;Complementar;0001465;NAPPE;Recife;I Região de Saúde - PE;Municipal;Hospital/dia;73 SAUDE MENTAL;1;0
 2021;Complementar;0001465;NAPPE;Recife;I Região de Saúde - PE;Municipal;Outras especialidades;47 PSIQUIATRIA;1;0
@@ -5223,7 +5223,7 @@
 2021;Complementar;2430118;NEUROCARDIO;Petrolina;VIII Região de Saúde - PE;Dupla;Clínico;42 NEUROLOGIA;3;0
 2021;Complementar;2430118;NEUROCARDIO;Petrolina;VIII Região de Saúde - PE;Dupla;Clínico;44 ONCOLOGIA;2;0
 2021;Complementar;2430118;NEUROCARDIO;Petrolina;VIII Região de Saúde - PE;Dupla;Clínico;46 PNEUMOLOGIA;1;0
-2021;Complementar;2430118;NEUROCARDIO;Petrolina;VIII Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);20;15
+2021;Complementar;2430118;NEUROCARDIO;Petrolina;VIII Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;20;15
 2021;Complementar;2430118;NEUROCARDIO;Petrolina;VIII Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;6;0
 2021;Complementar;2430118;NEUROCARDIO;Petrolina;VIII Região de Saúde - PE;Dupla;Complementar;85 UTI CORONARIANA TIPO II - UCO TIPO II;4;0
 2021;Complementar;2430118;NEUROCARDIO;Petrolina;VIII Região de Saúde - PE;Dupla;Obstétrico;10 OBSTETRICIA CIRURGICA;3;1
@@ -5249,7 +5249,7 @@
 2021;Complementar;6809154;POLICLINICA DE ABREU E LIMA LTDA;Abreu e Lima;I Região de Saúde - PE;Municipal;Obstétrico;10 OBSTETRICIA CIRURGICA;8;0
 2021;Complementar;6809154;POLICLINICA DE ABREU E LIMA LTDA;Abreu e Lima;I Região de Saúde - PE;Municipal;Obstétrico;43 OBSTETRICIA CLINICA;8;0
 2021;Complementar;9643486;PRONTO ATENDIMENTO CAXANGA;Recife;I Região de Saúde - PE;Dupla;Clínico;33 CLINICA GERAL;1;1
-2021;Complementar;9643486;PRONTO ATENDIMENTO CAXANGA;Recife;I Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);20;0
+2021;Complementar;9643486;PRONTO ATENDIMENTO CAXANGA;Recife;I Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;20;0
 2021;Complementar;0875589;PRONTO ATENDIMENTO PAULISTA;Paulista;I Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;18;0
 2021;Complementar;6306748;PRONTO ATENDIMENTO UNIMED SANTA CRUZ DO CAPIBARIBE;Santa Cruz do Capibaribe;IV Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;6;0
 2021;Complementar;2713497;PRONTO SOCORRO SAO FRANCISCO LTDA;Salgueiro;VII Região de Saúde - PE;Dupla;Cirúrgico;03 CIRURGIA GERAL;14;10
@@ -5275,8 +5275,8 @@
 2021;Complementar;0147028;SOCIEDADE HOSPITALAR MARIA VITORIA;Recife;I Região de Saúde - PE;Estadual;Cirúrgico;03 CIRURGIA GERAL;10;10
 2021;Complementar;0147028;SOCIEDADE HOSPITALAR MARIA VITORIA;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;20;20
 2021;Complementar;6525296;SOCIEDADE HOSPITALAR MARIA VITORIA;São Lourenço da Mata;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;53;53
-2021;Complementar;0147028;SOCIEDADE HOSPITALAR MARIA VITORIA;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);56;55
-2021;Complementar;6525296;SOCIEDADE HOSPITALAR MARIA VITORIA;São Lourenço da Mata;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);15;0
+2021;Complementar;0147028;SOCIEDADE HOSPITALAR MARIA VITORIA;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;56;55
+2021;Complementar;6525296;SOCIEDADE HOSPITALAR MARIA VITORIA;São Lourenço da Mata;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;15;0
 2021;Complementar;0147028;SOCIEDADE HOSPITALAR MARIA VITORIA;Recife;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;30;0
 2021;Complementar;6525296;SOCIEDADE HOSPITALAR MARIA VITORIA;São Lourenço da Mata;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;10;10
 2021;Complementar;3496295;SOS MAO;Recife;I Região de Saúde - PE;Estadual;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;13;0
@@ -5288,7 +5288,7 @@
 2021;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;Estadual;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;34;34
 2021;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;Estadual;Clínico;32 CARDIOLOGIA;8;8
 2021;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;37;37
-2021;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);20;20
+2021;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;20;20
 2021;OSS;6559379;HOSPITAL DOM HELDER CAMARA;Cabo de Santo Agostinho;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;30;30
 2021;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;Estadual;Cirúrgico;06 GINECOLOGIA;12;12
 2021;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;Estadual;Cirúrgico;12 ONCOLOGIA;4;4
@@ -5304,7 +5304,7 @@
 2021;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;Estadual;Pediátrico;45 PEDIATRIA CLINICA;79;79
 2021;OSS;2430711;HOSPITAL DOM MALAN;Petrolina;VIII Região de Saúde - PE;Estadual;Pediátrico;68 PEDIATRIA CIRURGICA;5;5
 2021;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;4;4
-2021;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);40;30
+2021;OSS;0226491;HOSPITAL EDUARDO CAMPOS;Serra Talhada;XI Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;40;30
 2021;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;Estadual;Cirúrgico;03 CIRURGIA GERAL;1;1
 2021;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;10;10
 2021;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;Estadual;Complementar;66 UNIDADE ISOLAMENTO;1;1
@@ -5313,7 +5313,7 @@
 2021;OSS;2711958;HOSPITAL ERMIRIO COUTINHO;Nazaré da Mata;II Região de Saúde - PE;Estadual;Pediátrico;45 PEDIATRIA CLINICA;10;10
 2021;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;20;20
 2021;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;Estadual;Clínico;87 SAUDE MENTAL;12;12
-2021;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);30;10
+2021;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;30;10
 2021;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;Estadual;Complementar;81 UTI NEONATAL - TIPO II;10;10
 2021;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;Estadual;Complementar;92 UNIDADE DE CUIDADOS INTERMED NEONATAL CONVENCIONAL;10;10
 2021;OSS;2712008;HOSPITAL JOAO MURILO E POLICLINICA DE VITORIA;Vitória de Santo Antão;I Região de Saúde - PE;Estadual;Obstétrico;10 OBSTETRICIA CIRURGICA;6;6
@@ -5327,7 +5327,7 @@
 2021;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;97;97
 2021;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;Estadual;Clínico;42 NEUROLOGIA;36;36
 2021;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;Estadual;Clínico;44 ONCOLOGIA;30;30
-2021;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);110;60
+2021;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;110;60
 2021;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;Estadual;Complementar;66 UNIDADE ISOLAMENTO;17;17
 2021;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;40;40
 2021;OSS;7498810;HOSPITAL MESTRE VITALINO;Caruaru;IV Região de Saúde - PE;Estadual;Complementar;78 UTI PEDIATRICA - TIPO II;10;10
@@ -5337,12 +5337,12 @@
 2021;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;Estadual;Cirúrgico;03 CIRURGIA GERAL;29;29
 2021;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;Estadual;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;58;58
 2021;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;50;50
-2021;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);20;10
+2021;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;20;10
 2021;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;Estadual;Complementar;66 UNIDADE ISOLAMENTO;3;3
 2021;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;30;30
 2021;OSS;6431569;HOSPITAL MIGUEL ARRAES;Paulista;I Região de Saúde - PE;Estadual;Outras especialidades;49 PNEUMOLOGIA SANITARIA;2;2
 2021;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;160;160
-2021;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);140;120
+2021;OSS;0134252;HOSPITAL NOSSA SENHORA DAS GRACAS;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;140;120
 2021;OSS;9309594;HOSPITAL NOSSA SENHORA DE APARECIDA;Paulista;I Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;15;15
 2021;OSS;9309594;HOSPITAL NOSSA SENHORA DE APARECIDA;Paulista;I Região de Saúde - PE;Municipal;Cirúrgico;09 NEUROCIRURGIA;15;0
 2021;OSS;9309594;HOSPITAL NOSSA SENHORA DE APARECIDA;Paulista;I Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;27;27
@@ -5354,12 +5354,12 @@
 2021;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;Estadual;Clínico;32 CARDIOLOGIA;26;26
 2021;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;20;20
 2021;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;Estadual;Clínico;42 NEUROLOGIA;44;44
-2021;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);8;0
+2021;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;8;0
 2021;OSS;6908268;HOSPITAL PELOPIDAS SILVEIRA;Recife;I Região de Saúde - PE;Estadual;Complementar;76 UTI ADULTO - TIPO III;30;30
 2021;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;Estadual;Cirúrgico;03 CIRURGIA GERAL;8;8
 2021;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;Estadual;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;9;9
 2021;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;54;54
-2021;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);40;20
+2021;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;40;20
 2021;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;Estadual;Complementar;66 UNIDADE ISOLAMENTO;6;6
 2021;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;10;10
 2021;OSS;2428393;HOSPITAL REGIONAL DE PALMARES DR SILVIO MAGALHAES;Palmares;III Região de Saúde - PE;Estadual;Complementar;78 UTI PEDIATRICA - TIPO II;5;5
@@ -5370,7 +5370,7 @@
 2021;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;Estadual;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;2;2
 2021;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;11;11
 2021;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;Estadual;Clínico;87 SAUDE MENTAL;4;4
-2021;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);30;10
+2021;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;30;10
 2021;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;Estadual;Obstétrico;43 OBSTETRICIA CLINICA;19;19
 2021;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;Estadual;Pediátrico;45 PEDIATRIA CLINICA;6;6
 2021;OSS;2428385;HOSPITAL REGIONAL EMILIA CAMARA;Afogados da Ingazeira;X Região de Saúde - PE;Estadual;Pediátrico;68 PEDIATRIA CIRURGICA;3;3
@@ -5378,7 +5378,7 @@
 2021;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;Estadual;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;10;10
 2021;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;17;17
 2021;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;Estadual;Clínico;41 NEONATOLOGIA;5;5
-2021;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);10;10
+2021;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;10
 2021;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;10;0
 2021;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;Estadual;Obstétrico;10 OBSTETRICIA CIRURGICA;6;6
 2021;OSS;2712040;HOSPITAL REGIONAL FERNANDO BEZERRA;Ouricuri;IX Região de Saúde - PE;Estadual;Obstétrico;43 OBSTETRICIA CLINICA;16;16
@@ -5390,7 +5390,7 @@
 2021;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;Dupla;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;22;22
 2021;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;Dupla;Clínico;33 CLINICA GERAL;26;26
 2021;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;Dupla;Clínico;87 SAUDE MENTAL;6;0
-2021;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);20;20
+2021;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;20;20
 2021;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;6;6
 2021;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;Dupla;Obstétrico;10 OBSTETRICIA CIRURGICA;11;11
 2021;OSS;2551764;HOSPITAL REGIONAL RUY DE BARROS CORREIA;Arcoverde;VI Região de Saúde - PE;Dupla;Obstétrico;43 OBSTETRICIA CLINICA;18;18
@@ -5399,16 +5399,16 @@
 2021;OSS;2428989;HOSPITAL SAO SEBASTIAO;Caruaru;IV Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;60;60
 2021;OSS;2344858;MATERNIDADE BRITES DE ALBUQUERQUE;Olinda;I Região de Saúde - PE;Estadual;Cirúrgico;03 CIRURGIA GERAL;1;1
 2021;OSS;2344858;MATERNIDADE BRITES DE ALBUQUERQUE;Olinda;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;40;40
-2021;OSS;2344858;MATERNIDADE BRITES DE ALBUQUERQUE;Olinda;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);60;40
-2021;OSS;2344858;MATERNIDADE BRITES DE ALBUQUERQUE;Olinda;I Região de Saúde - PE;Estadual;Complementar;52 (sem descrição);10;10
+2021;OSS;2344858;MATERNIDADE BRITES DE ALBUQUERQUE;Olinda;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;60;40
+2021;OSS;2344858;MATERNIDADE BRITES DE ALBUQUERQUE;Olinda;I Região de Saúde - PE;Estadual;Complementar;52 UTI II PEDIATRICA - SRAG COVID-19;10;10
 2021;OSS;2344858;MATERNIDADE BRITES DE ALBUQUERQUE;Olinda;I Região de Saúde - PE;Estadual;Pediátrico;45 PEDIATRIA CLINICA;10;10
-2021;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);5;0
+2021;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;5;0
 2021;OSS;7296762;UPAE ANTONIO SIMAO DOS SANTOS FIGUEIRA GARANHUNS;Garanhuns;V Região de Saúde - PE;Estadual;Hospital/dia;07 CIRURGICO/DIAGNOSTICO/TERAPEUTICO;24;24
 2021;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;20;20
-2021;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);30;20
+2021;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;30;20
 2021;OSS;7297394;UPAE DR EMANUEL ALIRIO BRANDAO PETROLINA;Petrolina;VIII Região de Saúde - PE;Estadual;Hospital/dia;07 CIRURGICO/DIAGNOSTICO/TERAPEUTICO;10;10
 2021;OSS;0151475;UPAE GOIANA;Goiana;XII Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;24;24
-2021;OSS;0151475;UPAE GOIANA;Goiana;XII Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);10;0
+2021;OSS;0151475;UPAE GOIANA;Goiana;XII Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;0
 2021;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;28;28
 2021;OSS;7381344;UPAE MINISTRO FERNANDO LYRA CARUARU;Caruaru;IV Região de Saúde - PE;Estadual;Hospital/dia;07 CIRURGICO/DIAGNOSTICO/TERAPEUTICO;4;4
 2021;Outro público;5278333;CAPS 24 H DE ABREU E LIMA;Abreu e Lima;I Região de Saúde - PE;Municipal;Outras especialidades;84 ACOLHIMENTO NOTURNO;8;8
@@ -5446,8 +5446,8 @@
 2021;Outro público;2435802;H G G DR PAULO DA VEIGA PESSOA;Gravatá;IV Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;8;8
 2021;Outro público;2435802;H G G DR PAULO DA VEIGA PESSOA;Gravatá;IV Região de Saúde - PE;Municipal;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;3;3
 2021;Outro público;2435802;H G G DR PAULO DA VEIGA PESSOA;Gravatá;IV Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;40;40
-2021;Outro público;2435802;H G G DR PAULO DA VEIGA PESSOA;Gravatá;IV Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);20;10
-2021;Outro público;2435802;H G G DR PAULO DA VEIGA PESSOA;Gravatá;IV Região de Saúde - PE;Municipal;Complementar;96 (sem descrição);10;8
+2021;Outro público;2435802;H G G DR PAULO DA VEIGA PESSOA;Gravatá;IV Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;20;10
+2021;Outro público;2435802;H G G DR PAULO DA VEIGA PESSOA;Gravatá;IV Região de Saúde - PE;Municipal;Complementar;96 SUPORTE VENTILATORIO PULMONAR - COVID-19;10;8
 2021;Outro público;2435802;H G G DR PAULO DA VEIGA PESSOA;Gravatá;IV Região de Saúde - PE;Municipal;Obstétrico;10 OBSTETRICIA CIRURGICA;3;3
 2021;Outro público;2435802;H G G DR PAULO DA VEIGA PESSOA;Gravatá;IV Região de Saúde - PE;Municipal;Obstétrico;43 OBSTETRICIA CLINICA;4;4
 2021;Outro público;2435802;H G G DR PAULO DA VEIGA PESSOA;Gravatá;IV Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;4;4
@@ -5480,7 +5480,7 @@
 2021;Outro público;2711893;HOSPITAL CEL ALVARO FERRAZ;Floresta;XI Região de Saúde - PE;Municipal;Obstétrico;43 OBSTETRICIA CLINICA;11;11
 2021;Outro público;2711893;HOSPITAL CEL ALVARO FERRAZ;Floresta;XI Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;8;8
 2021;Outro público;0111856;HOSPITAL COVID 19 GARANHUNS;Garanhuns;V Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;22;22
-2021;Outro público;0111856;HOSPITAL COVID 19 GARANHUNS;Garanhuns;V Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);10;0
+2021;Outro público;0111856;HOSPITAL COVID 19 GARANHUNS;Garanhuns;V Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;0
 2021;Outro público;3890457;HOSPITAL DE AERONAUTICA DE RECIFE;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;6;0
 2021;Outro público;3890457;HOSPITAL DE AERONAUTICA DE RECIFE;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Cirúrgico;05 GASTROENTEROLOGIA;2;0
 2021;Outro público;3890457;HOSPITAL DE AERONAUTICA DE RECIFE;Jaboatão dos Guararapes;I Região de Saúde - PE;Municipal;Cirúrgico;06 GINECOLOGIA;3;0
@@ -5515,15 +5515,15 @@
 2021;Outro público;0128651;HOSPITAL DE CAMPANHA DE TORITAMA;Toritama;IV Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;4;4
 2021;Outro público;0127752;HOSPITAL DE CAMPANHA MUNICIPAL DE SALGUEIRO;Salgueiro;VII Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;24;24
 2021;Outro público;0111171;HOSPITAL DE CAMPANHA POMBOS COVID 19 PLUS;Pombos;I Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;14;14
-2021;Outro público;0111171;HOSPITAL DE CAMPANHA POMBOS COVID 19 PLUS;Pombos;I Região de Saúde - PE;Municipal;Complementar;96 (sem descrição);1;0
+2021;Outro público;0111171;HOSPITAL DE CAMPANHA POMBOS COVID 19 PLUS;Pombos;I Região de Saúde - PE;Municipal;Complementar;96 SUPORTE VENTILATORIO PULMONAR - COVID-19;1;0
 2021;Outro público;0127248;HOSPITAL DE CAMPANHA SANTA CRUZ DO CAPIBARIBE;Santa Cruz do Capibaribe;IV Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;16;16
-2021;Outro público;0127248;HOSPITAL DE CAMPANHA SANTA CRUZ DO CAPIBARIBE;Santa Cruz do Capibaribe;IV Região de Saúde - PE;Municipal;Complementar;96 (sem descrição);3;0
+2021;Outro público;0127248;HOSPITAL DE CAMPANHA SANTA CRUZ DO CAPIBARIBE;Santa Cruz do Capibaribe;IV Região de Saúde - PE;Municipal;Complementar;96 SUPORTE VENTILATORIO PULMONAR - COVID-19;3;0
 2021;Outro público;6042414;HOSPITAL DE ENSINO DR WASHINGTON ANTONIO DE BARROS;Petrolina;VIII Região de Saúde - PE;Municipal;Cirúrgico;01 BUCO MAXILO FACIAL;4;4
 2021;Outro público;6042414;HOSPITAL DE ENSINO DR WASHINGTON ANTONIO DE BARROS;Petrolina;VIII Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;15;15
 2021;Outro público;6042414;HOSPITAL DE ENSINO DR WASHINGTON ANTONIO DE BARROS;Petrolina;VIII Região de Saúde - PE;Municipal;Cirúrgico;09 NEUROCIRURGIA;21;21
 2021;Outro público;6042414;HOSPITAL DE ENSINO DR WASHINGTON ANTONIO DE BARROS;Petrolina;VIII Região de Saúde - PE;Municipal;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;46;46
 2021;Outro público;6042414;HOSPITAL DE ENSINO DR WASHINGTON ANTONIO DE BARROS;Petrolina;VIII Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;35;35
-2021;Outro público;6042414;HOSPITAL DE ENSINO DR WASHINGTON ANTONIO DE BARROS;Petrolina;VIII Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);20;20
+2021;Outro público;6042414;HOSPITAL DE ENSINO DR WASHINGTON ANTONIO DE BARROS;Petrolina;VIII Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;20;20
 2021;Outro público;6042414;HOSPITAL DE ENSINO DR WASHINGTON ANTONIO DE BARROS;Petrolina;VIII Região de Saúde - PE;Municipal;Complementar;75 UTI ADULTO - TIPO II;21;21
 2021;Outro público;6042414;HOSPITAL DE ENSINO DR WASHINGTON ANTONIO DE BARROS;Petrolina;VIII Região de Saúde - PE;Municipal;Outras especialidades;34 CRONICOS;8;8
 2021;Outro público;2715295;HOSPITAL DE MATERNIDADE JOAO PEREIRA DE ANDRADE;Condado;XII Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;8;8
@@ -5542,7 +5542,7 @@
 2021;Outro público;2499975;HOSPITAL DISTRITAL JAILTON MESSIAS DE ALBUQUERQUE;Barreiros;III Região de Saúde - PE;Municipal;Cirúrgico;06 GINECOLOGIA;6;6
 2021;Outro público;2499975;HOSPITAL DISTRITAL JAILTON MESSIAS DE ALBUQUERQUE;Barreiros;III Região de Saúde - PE;Municipal;Cirúrgico;13 ORTOPEDIATRAUMATOLOGIA;12;12
 2021;Outro público;2499975;HOSPITAL DISTRITAL JAILTON MESSIAS DE ALBUQUERQUE;Barreiros;III Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;22;22
-2021;Outro público;2499975;HOSPITAL DISTRITAL JAILTON MESSIAS DE ALBUQUERQUE;Barreiros;III Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);10;0
+2021;Outro público;2499975;HOSPITAL DISTRITAL JAILTON MESSIAS DE ALBUQUERQUE;Barreiros;III Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;0
 2021;Outro público;2499975;HOSPITAL DISTRITAL JAILTON MESSIAS DE ALBUQUERQUE;Barreiros;III Região de Saúde - PE;Municipal;Complementar;66 UNIDADE ISOLAMENTO;3;3
 2021;Outro público;2499975;HOSPITAL DISTRITAL JAILTON MESSIAS DE ALBUQUERQUE;Barreiros;III Região de Saúde - PE;Municipal;Complementar;75 UTI ADULTO - TIPO II;5;0
 2021;Outro público;2499975;HOSPITAL DISTRITAL JAILTON MESSIAS DE ALBUQUERQUE;Barreiros;III Região de Saúde - PE;Municipal;Hospital/dia;07 CIRURGICO/DIAGNOSTICO/TERAPEUTICO;17;17
@@ -5576,8 +5576,8 @@
 2021;Outro público;2638878;HOSPITAL DR LIDIO PARAIBA;Pesqueira;IV Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;3;3
 2021;Outro público;2638878;HOSPITAL DR LIDIO PARAIBA;Pesqueira;IV Região de Saúde - PE;Municipal;Cirúrgico;06 GINECOLOGIA;2;2
 2021;Outro público;2638878;HOSPITAL DR LIDIO PARAIBA;Pesqueira;IV Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;71;71
-2021;Outro público;2638878;HOSPITAL DR LIDIO PARAIBA;Pesqueira;IV Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);2;0
-2021;Outro público;2638878;HOSPITAL DR LIDIO PARAIBA;Pesqueira;IV Região de Saúde - PE;Municipal;Complementar;52 (sem descrição);2;0
+2021;Outro público;2638878;HOSPITAL DR LIDIO PARAIBA;Pesqueira;IV Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;2;0
+2021;Outro público;2638878;HOSPITAL DR LIDIO PARAIBA;Pesqueira;IV Região de Saúde - PE;Municipal;Complementar;52 UTI II PEDIATRICA - SRAG COVID-19;2;0
 2021;Outro público;2638878;HOSPITAL DR LIDIO PARAIBA;Pesqueira;IV Região de Saúde - PE;Municipal;Obstétrico;10 OBSTETRICIA CIRURGICA;12;12
 2021;Outro público;2638878;HOSPITAL DR LIDIO PARAIBA;Pesqueira;IV Região de Saúde - PE;Municipal;Obstétrico;43 OBSTETRICIA CLINICA;12;12
 2021;Outro público;2638878;HOSPITAL DR LIDIO PARAIBA;Pesqueira;IV Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;5;5
@@ -5599,7 +5599,7 @@
 2021;Outro público;2431823;HOSPITAL E MATERNIDADE MUNICIPAL OLIMPIO M GOUVEIA LINS;Sirinhaém;III Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;5;5
 2021;Outro público;2432048;HOSPITAL E MATERNIDADES PETRONILA CAMPOS;São Lourenço da Mata;I Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;11;11
 2021;Outro público;2432048;HOSPITAL E MATERNIDADES PETRONILA CAMPOS;São Lourenço da Mata;I Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;20;20
-2021;Outro público;2432048;HOSPITAL E MATERNIDADES PETRONILA CAMPOS;São Lourenço da Mata;I Região de Saúde - PE;Municipal;Complementar;96 (sem descrição);10;0
+2021;Outro público;2432048;HOSPITAL E MATERNIDADES PETRONILA CAMPOS;São Lourenço da Mata;I Região de Saúde - PE;Municipal;Complementar;96 SUPORTE VENTILATORIO PULMONAR - COVID-19;10;0
 2021;Outro público;2432048;HOSPITAL E MATERNIDADES PETRONILA CAMPOS;São Lourenço da Mata;I Região de Saúde - PE;Municipal;Obstétrico;10 OBSTETRICIA CIRURGICA;9;9
 2021;Outro público;2432048;HOSPITAL E MATERNIDADES PETRONILA CAMPOS;São Lourenço da Mata;I Região de Saúde - PE;Municipal;Obstétrico;43 OBSTETRICIA CLINICA;24;24
 2021;Outro público;2432048;HOSPITAL E MATERNIDADES PETRONILA CAMPOS;São Lourenço da Mata;I Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;13;13
@@ -5613,7 +5613,7 @@
 2021;Outro público;2344408;HOSPITAL GERAL ALFREDO ALVES DE LIMA;Chã Grande;I Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;4;4
 2021;Outro público;2344408;HOSPITAL GERAL ALFREDO ALVES DE LIMA;Chã Grande;I Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;12;12
 2021;Outro público;2344408;HOSPITAL GERAL ALFREDO ALVES DE LIMA;Chã Grande;I Região de Saúde - PE;Municipal;Complementar;66 UNIDADE ISOLAMENTO;10;10
-2021;Outro público;2344408;HOSPITAL GERAL ALFREDO ALVES DE LIMA;Chã Grande;I Região de Saúde - PE;Municipal;Complementar;96 (sem descrição);4;0
+2021;Outro público;2344408;HOSPITAL GERAL ALFREDO ALVES DE LIMA;Chã Grande;I Região de Saúde - PE;Municipal;Complementar;96 SUPORTE VENTILATORIO PULMONAR - COVID-19;4;0
 2021;Outro público;2344408;HOSPITAL GERAL ALFREDO ALVES DE LIMA;Chã Grande;I Região de Saúde - PE;Municipal;Obstétrico;10 OBSTETRICIA CIRURGICA;2;2
 2021;Outro público;2344408;HOSPITAL GERAL ALFREDO ALVES DE LIMA;Chã Grande;I Região de Saúde - PE;Municipal;Obstétrico;43 OBSTETRICIA CLINICA;4;4
 2021;Outro público;2344408;HOSPITAL GERAL ALFREDO ALVES DE LIMA;Chã Grande;I Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;8;8
@@ -5630,7 +5630,7 @@
 2021;Outro público;2432706;HOSPITAL GERAL VIRGINIA COLACO DIAS;Pombos;I Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;4;4
 2021;Outro público;2432706;HOSPITAL GERAL VIRGINIA COLACO DIAS;Pombos;I Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;9;9
 2021;Outro público;2432706;HOSPITAL GERAL VIRGINIA COLACO DIAS;Pombos;I Região de Saúde - PE;Municipal;Complementar;66 UNIDADE ISOLAMENTO;1;1
-2021;Outro público;2432706;HOSPITAL GERAL VIRGINIA COLACO DIAS;Pombos;I Região de Saúde - PE;Municipal;Complementar;96 (sem descrição);1;0
+2021;Outro público;2432706;HOSPITAL GERAL VIRGINIA COLACO DIAS;Pombos;I Região de Saúde - PE;Municipal;Complementar;96 SUPORTE VENTILATORIO PULMONAR - COVID-19;1;0
 2021;Outro público;2432706;HOSPITAL GERAL VIRGINIA COLACO DIAS;Pombos;I Região de Saúde - PE;Municipal;Obstétrico;10 OBSTETRICIA CIRURGICA;1;1
 2021;Outro público;2432706;HOSPITAL GERAL VIRGINIA COLACO DIAS;Pombos;I Região de Saúde - PE;Municipal;Obstétrico;43 OBSTETRICIA CLINICA;4;4
 2021;Outro público;2432706;HOSPITAL GERAL VIRGINIA COLACO DIAS;Pombos;I Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;3;3
@@ -5650,8 +5650,8 @@
 2021;Outro público;2355841;HOSPITAL MAE KYOLA;Correntes;V Região de Saúde - PE;Municipal;Obstétrico;10 OBSTETRICIA CIRURGICA;3;3
 2021;Outro público;2355841;HOSPITAL MAE KYOLA;Correntes;V Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;5;5
 2021;Outro público;2712016;HOSPITAL MARIA ALICE GOMES LAFAYETTE;Sertânia;VI Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;44;44
-2021;Outro público;2712016;HOSPITAL MARIA ALICE GOMES LAFAYETTE;Sertânia;VI Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);16;0
-2021;Outro público;2712016;HOSPITAL MARIA ALICE GOMES LAFAYETTE;Sertânia;VI Região de Saúde - PE;Municipal;Complementar;52 (sem descrição);2;0
+2021;Outro público;2712016;HOSPITAL MARIA ALICE GOMES LAFAYETTE;Sertânia;VI Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;16;0
+2021;Outro público;2712016;HOSPITAL MARIA ALICE GOMES LAFAYETTE;Sertânia;VI Região de Saúde - PE;Municipal;Complementar;52 UTI II PEDIATRICA - SRAG COVID-19;2;0
 2021;Outro público;2712016;HOSPITAL MARIA ALICE GOMES LAFAYETTE;Sertânia;VI Região de Saúde - PE;Municipal;Obstétrico;43 OBSTETRICIA CLINICA;4;4
 2021;Outro público;2712016;HOSPITAL MARIA ALICE GOMES LAFAYETTE;Sertânia;VI Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;6;6
 2021;Outro público;2703025;HOSPITAL MARIA DA PENHA DOURADO CAVALCANTE;Lajedo;V Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;31;31
@@ -5660,9 +5660,9 @@
 2021;Outro público;2715317;HOSPITAL MARIA RAFAEL DE SIQUEIRA;São José do Egito;X Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;7;7
 2021;Outro público;2715317;HOSPITAL MARIA RAFAEL DE SIQUEIRA;São José do Egito;X Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;37;37
 2021;Outro público;2715317;HOSPITAL MARIA RAFAEL DE SIQUEIRA;São José do Egito;X Região de Saúde - PE;Municipal;Clínico;41 NEONATOLOGIA;8;8
-2021;Outro público;2715317;HOSPITAL MARIA RAFAEL DE SIQUEIRA;São José do Egito;X Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);6;0
-2021;Outro público;2715317;HOSPITAL MARIA RAFAEL DE SIQUEIRA;São José do Egito;X Região de Saúde - PE;Municipal;Complementar;52 (sem descrição);1;0
-2021;Outro público;2715317;HOSPITAL MARIA RAFAEL DE SIQUEIRA;São José do Egito;X Região de Saúde - PE;Municipal;Complementar;96 (sem descrição);7;5
+2021;Outro público;2715317;HOSPITAL MARIA RAFAEL DE SIQUEIRA;São José do Egito;X Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;6;0
+2021;Outro público;2715317;HOSPITAL MARIA RAFAEL DE SIQUEIRA;São José do Egito;X Região de Saúde - PE;Municipal;Complementar;52 UTI II PEDIATRICA - SRAG COVID-19;1;0
+2021;Outro público;2715317;HOSPITAL MARIA RAFAEL DE SIQUEIRA;São José do Egito;X Região de Saúde - PE;Municipal;Complementar;96 SUPORTE VENTILATORIO PULMONAR - COVID-19;7;5
 2021;Outro público;2715317;HOSPITAL MARIA RAFAEL DE SIQUEIRA;São José do Egito;X Região de Saúde - PE;Municipal;Obstétrico;43 OBSTETRICIA CLINICA;8;8
 2021;Outro público;2715317;HOSPITAL MARIA RAFAEL DE SIQUEIRA;São José do Egito;X Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;10;10
 2021;Outro público;0000035;HOSPITAL MENDO SAMPAIO;Cabo de Santo Agostinho;I Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;8;8
@@ -5670,7 +5670,7 @@
 2021;Outro público;0000035;HOSPITAL MENDO SAMPAIO;Cabo de Santo Agostinho;I Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;30;30
 2021;Outro público;0113956;HOSPITAL MILITAR DE AREA DE RECIFE;Recife;I Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;12;0
 2021;Outro público;0113956;HOSPITAL MILITAR DE AREA DE RECIFE;Recife;I Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;55;0
-2021;Outro público;0113956;HOSPITAL MILITAR DE AREA DE RECIFE;Recife;I Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);10;0
+2021;Outro público;0113956;HOSPITAL MILITAR DE AREA DE RECIFE;Recife;I Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;0
 2021;Outro público;0113956;HOSPITAL MILITAR DE AREA DE RECIFE;Recife;I Região de Saúde - PE;Municipal;Complementar;75 UTI ADULTO - TIPO II;6;0
 2021;Outro público;0113956;HOSPITAL MILITAR DE AREA DE RECIFE;Recife;I Região de Saúde - PE;Municipal;Outras especialidades;47 PSIQUIATRIA;8;0
 2021;Outro público;2639025;HOSPITAL MONSENHOR ALFREDO DAMASO;Bom Conselho;V Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;42;42
@@ -5697,7 +5697,7 @@
 2021;Outro público;2638932;HOSPITAL MUNICIPAL ANTONIO XAVIER SOBRINHO;Paranatama;V Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;2;2
 2021;Outro público;2356279;HOSPITAL MUNICIPAL CIENTISTA NELSON CHAVES;Água Preta;III Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;10;10
 2021;Outro público;2356279;HOSPITAL MUNICIPAL CIENTISTA NELSON CHAVES;Água Preta;III Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;20;20
-2021;Outro público;2356279;HOSPITAL MUNICIPAL CIENTISTA NELSON CHAVES;Água Preta;III Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);20;0
+2021;Outro público;2356279;HOSPITAL MUNICIPAL CIENTISTA NELSON CHAVES;Água Preta;III Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;20;0
 2021;Outro público;2356279;HOSPITAL MUNICIPAL CIENTISTA NELSON CHAVES;Água Preta;III Região de Saúde - PE;Municipal;Complementar;74 UTI ADULTO - TIPO I;5;0
 2021;Outro público;2356279;HOSPITAL MUNICIPAL CIENTISTA NELSON CHAVES;Água Preta;III Região de Saúde - PE;Municipal;Obstétrico;43 OBSTETRICIA CLINICA;8;8
 2021;Outro público;2356279;HOSPITAL MUNICIPAL CIENTISTA NELSON CHAVES;Água Preta;III Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;12;12
@@ -5716,8 +5716,8 @@
 2021;Outro público;5390044;HOSPITAL MUNICIPAL DE ABREU E LIMA;Abreu e Lima;I Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;4;4
 2021;Outro público;5093619;HOSPITAL MUNICIPAL DE CARUARU DR MANOEL AFONSO PORTO NETO;Caruaru;IV Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;39;39
 2021;Outro público;5093619;HOSPITAL MUNICIPAL DE CARUARU DR MANOEL AFONSO PORTO NETO;Caruaru;IV Região de Saúde - PE;Municipal;Clínico;87 SAUDE MENTAL;7;7
-2021;Outro público;5093619;HOSPITAL MUNICIPAL DE CARUARU DR MANOEL AFONSO PORTO NETO;Caruaru;IV Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);10;10
-2021;Outro público;5093619;HOSPITAL MUNICIPAL DE CARUARU DR MANOEL AFONSO PORTO NETO;Caruaru;IV Região de Saúde - PE;Municipal;Complementar;96 (sem descrição);11;11
+2021;Outro público;5093619;HOSPITAL MUNICIPAL DE CARUARU DR MANOEL AFONSO PORTO NETO;Caruaru;IV Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;10
+2021;Outro público;5093619;HOSPITAL MUNICIPAL DE CARUARU DR MANOEL AFONSO PORTO NETO;Caruaru;IV Região de Saúde - PE;Municipal;Complementar;96 SUPORTE VENTILATORIO PULMONAR - COVID-19;11;11
 2021;Outro público;7288263;HOSPITAL MUNICIPAL DE JAQUEIRA MARIA HELENA SILVA DE ANDRADE;Jaqueira;III Região de Saúde - PE;Estadual;Cirúrgico;03 CIRURGIA GERAL;10;10
 2021;Outro público;7288263;HOSPITAL MUNICIPAL DE JAQUEIRA MARIA HELENA SILVA DE ANDRADE;Jaqueira;III Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;10;10
 2021;Outro público;7288263;HOSPITAL MUNICIPAL DE JAQUEIRA MARIA HELENA SILVA DE ANDRADE;Jaqueira;III Região de Saúde - PE;Estadual;Obstétrico;43 OBSTETRICIA CLINICA;7;7
@@ -5979,7 +5979,7 @@
 2021;Outro público;2702827;UNIDADE MISTA ANA ALVES DE CARVALHO;Mirandiba;VII Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;2;2
 2021;Outro público;4018044;UNIDADE MISTA ARGEMIRO JOSE TORRES;Carnaubeira da Penha;XI Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;2;2
 2021;Outro público;4018044;UNIDADE MISTA ARGEMIRO JOSE TORRES;Carnaubeira da Penha;XI Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;3;3
-2021;Outro público;4018044;UNIDADE MISTA ARGEMIRO JOSE TORRES;Carnaubeira da Penha;XI Região de Saúde - PE;Municipal;Complementar;96 (sem descrição);4;0
+2021;Outro público;4018044;UNIDADE MISTA ARGEMIRO JOSE TORRES;Carnaubeira da Penha;XI Região de Saúde - PE;Municipal;Complementar;96 SUPORTE VENTILATORIO PULMONAR - COVID-19;4;0
 2021;Outro público;4018044;UNIDADE MISTA ARGEMIRO JOSE TORRES;Carnaubeira da Penha;XI Região de Saúde - PE;Municipal;Obstétrico;43 OBSTETRICIA CLINICA;3;3
 2021;Outro público;4018044;UNIDADE MISTA ARGEMIRO JOSE TORRES;Carnaubeira da Penha;XI Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;3;3
 2021;Outro público;2715171;UNIDADE MISTA BELARMINO L P MELO;Aliança;XII Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;4;4
@@ -6161,23 +6161,23 @@
 2021;Outro público;2315165;UNIDADE MISTA VIRGINIA GUERRA;Chã de Alegria;I Região de Saúde - PE;Municipal;Obstétrico;43 OBSTETRICIA CLINICA;4;4
 2021;Outro público;2315165;UNIDADE MISTA VIRGINIA GUERRA;Chã de Alegria;I Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;3;3
 2021;Outro público;7407203;UPA 24 HORAS TIMBAUBA PE;Timbaúba;XII Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;8;8
-2021;Outro público;7407203;UPA 24 HORAS TIMBAUBA PE;Timbaúba;XII Região de Saúde - PE;Municipal;Complementar;96 (sem descrição);3;0
+2021;Outro público;7407203;UPA 24 HORAS TIMBAUBA PE;Timbaúba;XII Região de Saúde - PE;Municipal;Complementar;96 SUPORTE VENTILATORIO PULMONAR - COVID-19;3;0
 2021;Outro público;7407203;UPA 24 HORAS TIMBAUBA PE;Timbaúba;XII Região de Saúde - PE;Municipal;Pediátrico;45 PEDIATRIA CLINICA;2;2
-2021;Outro público;0163260;UPA 24H PESQUEIRA;Pesqueira;IV Região de Saúde - PE;Municipal;Complementar;51 (sem descrição);3;0
-2021;Outro público;0163260;UPA 24H PESQUEIRA;Pesqueira;IV Região de Saúde - PE;Municipal;Complementar;96 (sem descrição);4;0
+2021;Outro público;0163260;UPA 24H PESQUEIRA;Pesqueira;IV Região de Saúde - PE;Municipal;Complementar;51 UTI II ADULTO - SRAG COVID-19;3;0
+2021;Outro público;0163260;UPA 24H PESQUEIRA;Pesqueira;IV Região de Saúde - PE;Municipal;Complementar;96 SUPORTE VENTILATORIO PULMONAR - COVID-19;4;0
 2021;Outro público;0842931;UPA 24HS DE GRAVATA;Gravatá;IV Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;5;5
 2021;Outro público;9070427;UPA BOA VISTA DR AMORIM;Caruaru;IV Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;10;10
-2021;Outro público;9070427;UPA BOA VISTA DR AMORIM;Caruaru;IV Região de Saúde - PE;Municipal;Complementar;96 (sem descrição);10;10
+2021;Outro público;9070427;UPA BOA VISTA DR AMORIM;Caruaru;IV Região de Saúde - PE;Municipal;Complementar;96 SUPORTE VENTILATORIO PULMONAR - COVID-19;10;10
 2021;Outro público;0113360;UPA DEPUTADO OSVALDO RABELO;Goiana;XII Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;1;1
 2021;Outro público;7819587;UPA DO SALGADO;Caruaru;IV Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;3;3
-2021;Outro público;7819587;UPA DO SALGADO;Caruaru;IV Região de Saúde - PE;Municipal;Complementar;96 (sem descrição);3;3
+2021;Outro público;7819587;UPA DO SALGADO;Caruaru;IV Região de Saúde - PE;Municipal;Complementar;96 SUPORTE VENTILATORIO PULMONAR - COVID-19;3;3
 2021;Outro público;7809557;UPA MESTRE CAMARAO;Brejo da Madre de Deus;IV Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;11;11
 2021;Outro público;9070419;UPA RENDEIRAS DR JOSE BARRETO;Caruaru;IV Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;2;2
-2021;Outro público;9070419;UPA RENDEIRAS DR JOSE BARRETO;Caruaru;IV Região de Saúde - PE;Municipal;Complementar;96 (sem descrição);2;2
+2021;Outro público;9070419;UPA RENDEIRAS DR JOSE BARRETO;Caruaru;IV Região de Saúde - PE;Municipal;Complementar;96 SUPORTE VENTILATORIO PULMONAR - COVID-19;2;2
 2021;Outro público;2434059;UPA SANTO AMARO;Goiana;XII Região de Saúde - PE;Municipal;Obstétrico;43 OBSTETRICIA CLINICA;4;4
 2021;Outro público;9453318;UPA SEBASTIAO JOSE DE BARROS;Trindade;IX Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;2;2
 2021;Outro público;6855881;UPA VASSOURAL;Caruaru;IV Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;2;2
-2021;Outro público;6855881;UPA VASSOURAL;Caruaru;IV Região de Saúde - PE;Municipal;Complementar;96 (sem descrição);2;2
+2021;Outro público;6855881;UPA VASSOURAL;Caruaru;IV Região de Saúde - PE;Municipal;Complementar;96 SUPORTE VENTILATORIO PULMONAR - COVID-19;2;2
 2021;Outro público;0265500;US 111 HOSPITAL EDUARDO CAMPOS DA PESSOA IDOSA DO RECIFE;Recife;I Região de Saúde - PE;Municipal;Cirúrgico;03 CIRURGIA GERAL;8;8
 2021;Outro público;0265500;US 111 HOSPITAL EDUARDO CAMPOS DA PESSOA IDOSA DO RECIFE;Recife;I Região de Saúde - PE;Municipal;Clínico;33 CLINICA GERAL;36;36
 2021;Outro público;0265500;US 111 HOSPITAL EDUARDO CAMPOS DA PESSOA IDOSA DO RECIFE;Recife;I Região de Saúde - PE;Municipal;Complementar;66 UNIDADE ISOLAMENTO;3;3
@@ -6248,7 +6248,7 @@
 2021;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;73;73
 2021;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;Estadual;Clínico;41 NEONATOLOGIA;15;15
 2021;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;Estadual;Clínico;46 PNEUMOLOGIA;2;2
-2021;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);26;0
+2021;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;26;0
 2021;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;44;44
 2021;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;Estadual;Complementar;81 UTI NEONATAL - TIPO II;15;15
 2021;Rede própria;0000418;HOSPITAL AGAMENON MAGALHAES;Recife;I Região de Saúde - PE;Estadual;Complementar;92 UNIDADE DE CUIDADOS INTERMED NEONATAL CONVENCIONAL;15;15
@@ -6260,8 +6260,8 @@
 2021;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;56;56
 2021;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Clínico;40 NEFROUROLOGIA;6;6
 2021;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Clínico;44 ONCOLOGIA;10;10
-2021;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);8;0
-2021;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Complementar;52 (sem descrição);10;10
+2021;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;8;0
+2021;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Complementar;52 UTI II PEDIATRICA - SRAG COVID-19;10;10
 2021;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Complementar;66 UNIDADE ISOLAMENTO;1;1
 2021;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;20;20
 2021;Rede própria;2427427;HOSPITAL BARAO DE LUCENA;Recife;I Região de Saúde - PE;Estadual;Complementar;78 UTI PEDIATRICA - TIPO II;8;8
@@ -6283,7 +6283,7 @@
 2021;Rede própria;2347342;HOSPITAL COLONIA PROFESSOR ALCIDES CODICEIRA;Igarassu;I Região de Saúde - PE;Estadual;Outras especialidades;47 PSIQUIATRIA;82;82
 2021;Rede própria;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;Estadual;Clínico;31 AIDS;36;36
 2021;Rede própria;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;9;9
-2021;Rede própria;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);6;6
+2021;Rede própria;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;6;6
 2021;Rede própria;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;Estadual;Complementar;66 UNIDADE ISOLAMENTO;2;2
 2021;Rede própria;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;5;5
 2021;Rede própria;0000981;HOSPITAL CORREIA PICANCO;Recife;I Região de Saúde - PE;Estadual;Complementar;78 UTI PEDIATRICA - TIPO II;5;5
@@ -6309,9 +6309,9 @@
 2021;Rede própria;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;Estadual;Pediátrico;45 PEDIATRIA CLINICA;70;70
 2021;Rede própria;0000655;HOSPITAL DA RESTAURACAO;Recife;I Região de Saúde - PE;Estadual;Pediátrico;68 PEDIATRIA CIRURGICA;48;48
 2021;Rede própria;0245364;HOSPITAL DE CAMPANHA DE PETROLINA;Petrolina;VIII Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;30;30
-2021;Rede própria;0245364;HOSPITAL DE CAMPANHA DE PETROLINA;Petrolina;VIII Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);20;0
+2021;Rede própria;0245364;HOSPITAL DE CAMPANHA DE PETROLINA;Petrolina;VIII Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;20;0
 2021;Rede própria;0101826;HOSPITAL DE CAMPANHA DO RECIFE HPR I AURORA;Recife;I Região de Saúde - PE;Dupla;Clínico;33 CLINICA GERAL;60;60
-2021;Rede própria;0101826;HOSPITAL DE CAMPANHA DO RECIFE HPR I AURORA;Recife;I Região de Saúde - PE;Dupla;Complementar;96 (sem descrição);100;0
+2021;Rede própria;0101826;HOSPITAL DE CAMPANHA DO RECIFE HPR I AURORA;Recife;I Região de Saúde - PE;Dupla;Complementar;96 SUPORTE VENTILATORIO PULMONAR - COVID-19;100;0
 2021;Rede própria;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;Estadual;Cirúrgico;06 GINECOLOGIA;1;1
 2021;Rede própria;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;1;1
 2021;Rede própria;2351994;HOSPITAL DE CARUARU JESUS NAZARENO;Caruaru;IV Região de Saúde - PE;Estadual;Clínico;41 NEONATOLOGIA;33;33
@@ -6350,7 +6350,7 @@
 2021;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;Estadual;Clínico;40 NEFROUROLOGIA;4;4
 2021;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;Estadual;Clínico;42 NEUROLOGIA;9;9
 2021;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;Estadual;Clínico;46 PNEUMOLOGIA;5;5
-2021;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);10;10
+2021;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;10
 2021;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;31;31
 2021;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;Estadual;Hospital/dia;07 CIRURGICO/DIAGNOSTICO/TERAPEUTICO;5;5
 2021;Rede própria;2802783;HOSPITAL GETULIO VARGAS;Recife;I Região de Saúde - PE;Estadual;Outras especialidades;48 REABILITACAO;28;28
@@ -6377,8 +6377,8 @@
 2021;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;Dupla;Clínico;42 NEUROLOGIA;14;14
 2021;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;Dupla;Clínico;44 ONCOLOGIA;20;20
 2021;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;Dupla;Clínico;46 PNEUMOLOGIA;18;18
-2021;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;Dupla;Complementar;51 (sem descrição);51;33
-2021;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;Dupla;Complementar;52 (sem descrição);10;6
+2021;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;Dupla;Complementar;51 UTI II ADULTO - SRAG COVID-19;51;33
+2021;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;Dupla;Complementar;52 UTI II PEDIATRICA - SRAG COVID-19;10;6
 2021;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;Dupla;Complementar;66 UNIDADE ISOLAMENTO;12;12
 2021;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;Dupla;Complementar;75 UTI ADULTO - TIPO II;27;17
 2021;Rede própria;0000477;HOSPITAL OSWALDO CRUZ;Recife;I Região de Saúde - PE;Dupla;Complementar;78 UTI PEDIATRICA - TIPO II;10;10
@@ -6396,7 +6396,7 @@
 2021;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;151;151
 2021;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;Estadual;Clínico;40 NEFROUROLOGIA;40;40
 2021;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;Estadual;Clínico;46 PNEUMOLOGIA;44;44
-2021;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);45;0
+2021;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;45;0
 2021;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;30;30
 2021;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;Estadual;Complementar;78 UTI PEDIATRICA - TIPO II;20;20
 2021;Rede própria;0000426;HOSPITAL OTAVIO DE FREITAS;Recife;I Região de Saúde - PE;Estadual;Hospital/dia;07 CIRURGICO/DIAGNOSTICO/TERAPEUTICO;4;4
@@ -6420,7 +6420,7 @@
 2021;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;Estadual;Clínico;42 NEUROLOGIA;1;1
 2021;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;Estadual;Clínico;46 PNEUMOLOGIA;1;1
 2021;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;Estadual;Clínico;87 SAUDE MENTAL;4;4
-2021;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);10;10
+2021;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;10
 2021;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;Estadual;Complementar;66 UNIDADE ISOLAMENTO;2;2
 2021;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;Estadual;Obstétrico;10 OBSTETRICIA CIRURGICA;8;8
 2021;Rede própria;2348489;HOSPITAL PROFESSOR AGAMENON MAGALHAES;Serra Talhada;XI Região de Saúde - PE;Estadual;Obstétrico;43 OBSTETRICIA CLINICA;3;3
@@ -6441,7 +6441,7 @@
 2021;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;35;35
 2021;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;Estadual;Clínico;40 NEFROUROLOGIA;14;14
 2021;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;Estadual;Clínico;44 ONCOLOGIA;7;7
-2021;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);10;0
+2021;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;0
 2021;Rede própria;2427419;HOSPITAL REGIONAL DO AGRESTE DR WALDEMIRO FERREIRA;Caruaru;IV Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;19;19
 2021;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;Estadual;Cirúrgico;03 CIRURGIA GERAL;9;9
 2021;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;Estadual;Cirúrgico;06 GINECOLOGIA;2;2
@@ -6451,7 +6451,7 @@
 2021;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;20;20
 2021;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;Estadual;Clínico;36 GERIATRIA;6;6
 2021;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;Estadual;Clínico;87 SAUDE MENTAL;6;6
-2021;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);10;10
+2021;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;10;10
 2021;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;Estadual;Complementar;75 UTI ADULTO - TIPO II;10;10
 2021;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;Estadual;Complementar;95 UNIDADE DE CUIDADOS INTERMED  ADULTO;8;8
 2021;Rede própria;2702983;HOSPITAL REGIONAL DOM MOURA;Garanhuns;V Região de Saúde - PE;Estadual;Obstétrico;10 OBSTETRICIA CIRURGICA;10;10
@@ -6464,8 +6464,8 @@
 2021;Rede própria;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;Estadual;Clínico;33 CLINICA GERAL;40;40
 2021;Rede própria;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;Estadual;Clínico;41 NEONATOLOGIA;5;5
 2021;Rede própria;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;Estadual;Clínico;87 SAUDE MENTAL;10;10
-2021;Rede própria;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;Estadual;Complementar;51 (sem descrição);20;10
-2021;Rede própria;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;Estadual;Complementar;52 (sem descrição);10;0
+2021;Rede própria;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;Estadual;Complementar;51 UTI II ADULTO - SRAG COVID-19;20;10
+2021;Rede própria;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;Estadual;Complementar;52 UTI II PEDIATRICA - SRAG COVID-19;10;0
 2021;Rede própria;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;Estadual;Complementar;66 UNIDADE ISOLAMENTO;1;1
 2021;Rede própria;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;Estadual;Complementar;92 UNIDADE DE CUIDADOS INTERMED NEONATAL CONVENCIONAL;5;5
 2021;Rede própria;2356287;HOSPITAL REGIONAL INACIO DE SA;Salgueiro;VII Região de Saúde - PE;Estadual;Obstétrico;10 OBSTETRICIA CIRURGICA;13;13
