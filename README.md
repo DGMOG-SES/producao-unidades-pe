@@ -32,6 +32,18 @@ com subtotais e total geral.
 | `00_unidades` | Cadastro das unidades que aparecem nas planilhas | | |
 | `atualizacao.csv` | Último mês disponível de cada fonte e data da geração | | |
 
+
+## Baixar todas as planilhas de uma vez
+
+A cada atualização em que as planilhas mudam, o GitHub publica um `planilhas.zip` com todas
+elas em **Releases** (área de downloads do repositório). A versão mais recente fica sempre no
+mesmo link:
+
+https://github.com/DGMOG-SES/producao-unidades-pe/releases/latest/download/planilhas.zip
+
+As versões anteriores ficam listadas em
+https://github.com/DGMOG-SES/producao-unidades-pe/releases (script `publicar_release.sh`).
+
 ## Regras
 
 **Temas 01 a 04: toda a produção sob gestão estadual**, igual ao filtro `Gestao: ESTADUAL` do TabWin (os totais batem com ele). As unidades são classificadas assim:

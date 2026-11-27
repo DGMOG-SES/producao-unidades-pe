@@ -154,3 +154,8 @@ jobs:
 
       - name: Publicar planilhas
         run: bash publicar.sh "Atualiza planilhas após carga paralela ($(date +%Y-%m-%d))"
+
+      - name: Publicar planilhas.zip em Releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash publicar_release.sh

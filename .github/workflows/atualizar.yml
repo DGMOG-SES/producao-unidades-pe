@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "*.R"
+      - "*.sh"
       - "referencias/**"
       - ".github/workflows/atualizar.yml"
   schedule:
@@ -100,6 +101,12 @@ jobs:
       - name: Publicar no repositório
         if: always()
         run: bash publicar.sh "Atualiza dados e planilhas ($(date +%Y-%m-%d))"
+
+      - name: Publicar planilhas.zip em Releases
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash publicar_release.sh
 
       - name: Sinalizar falha de extração
         if: steps.sia.outcome == 'failure' || steps.sih.outcome == 'failure'
