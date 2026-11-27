@@ -7,8 +7,7 @@ hora, por disparo manual): o pipeline só baixa meses novos ou republicados e s�
 as planilhas quando algo mudou.
 
 Mesmo desenho do [informacoes-estrategicas-geres](https://github.com/DGMOG-SES/informacoes-estrategicas-geres)
-(R + `data.table` + `read.dbc`, extração incremental, partições Parquet), mas a
-saída são planilhas e não um painel.
+(R + `data.table` + `read.dbc`, extração incremental, partições Parquet).
 
 ## Planilhas
 
