@@ -414,10 +414,23 @@ gravar_planilha <- function(nome, abas, titulo, regras, atualizacao, csv = NULL,
       openxlsx::freezePane(wb, nm, firstRow = TRUE)
       if (!is.null(attr(abas[[nm]], "larguras")))
         openxlsx::setColWidths(wb, nm, cols = seq_along(attr(abas[[nm]], "larguras")), widths = attr(abas[[nm]], "larguras"))
+      niv <- attr(abas[[nm]], "niveis")
+      if (!is.null(niv)) {
+        nc <- ncol(abas[[nm]])
+        est <- list(`0` = openxlsx::createStyle(textDecoration = "bold", fgFill = "#1F4E78", fontColour = "#FFFFFF"),
+                    `1` = openxlsx::createStyle(textDecoration = "bold", fgFill = "#BDD7EE"),
+                    `2` = openxlsx::createStyle(textDecoration = "bold", fgFill = "#EEF4FA"))
+        for (k in names(est)) { r <- which(niv == as.integer(k))
+          if (length(r)) openxlsx::addStyle(wb, nm, est[[k]], rows = r + 1, cols = seq_len(nc), gridExpand = TRUE, stack = TRUE) }
+      }
+      for (f in names(attr(abas[[nm]], "formatos")))
+        if (f %in% names(abas[[nm]])) openxlsx::addStyle(wb, nm, openxlsx::createStyle(numFmt = attr(abas[[nm]], "formatos")[[f]]),
+                                                         rows = seq_len(nrow(abas[[nm]])) + 1, cols = match(f, names(abas[[nm]])),
+                                                         gridExpand = TRUE, stack = TRUE)
       if (!is.null(attr(abas[[nm]], "linhas_total")))
         openxlsx::addStyle(wb, nm, openxlsx::createStyle(textDecoration = "bold"), rows = attr(abas[[nm]], "linhas_total") + 1,
                            cols = seq_len(ncol(abas[[nm]])), gridExpand = TRUE, stack = TRUE)
-      num <- which(vapply(abas[[nm]], is.numeric, TRUE))
+      num <- setdiff(which(vapply(abas[[nm]], is.numeric, TRUE)), match(names(attr(abas[[nm]], "formatos")), names(abas[[nm]])))
       if (length(num)) openxlsx::addStyle(wb, nm, openxlsx::createStyle(numFmt = "#,##0"), rows = seq_len(nrow(abas[[nm]])) + 1,
                                           cols = num, gridExpand = TRUE, stack = TRUE)
       if (!is.null(attr(abas[[nm]], "nota"))) {
@@ -843,8 +856,7 @@ main <- function() {
 
   # 10 Estabelecimentos de PE (todos, qualquer gestão), só o mês mais recente ---------
   if (length(arqs_st)) {
-    arq_ult <- sort(arqs_st)[length(arqs_st)]
-    e10 <- ler_parquet(arq_ult)
+    e10 <- ler_parquet(sort(arqs_st)[length(arqs_st)])
     comp10 <- max(e10$COMPETENCIA)
     nj1 <- substr(e10$NAT_JUR, 1, 1)
     e10[, `:=`(
@@ -853,42 +865,74 @@ main <- function() {
       # Natureza como no TabWin do CNES (NATJUR1.CNV, pelo código da natureza jurídica)
       NATUREZA = fcase(nj1 == "1", "Administração Pública", nj1 == "2", "Entidades Empresariais",
                        nj1 == "3", "Entidades sem Fins Lucrativos", nj1 == "4", "Pessoas Físicas",
-                       nj1 == "5", "Instituições Extraterritoriais", default = "Não especificado ou ignorado"))]
-    ord_g <- c("Estadual", "Dupla", "Municipal", "Sem gestão", "Não informada")
-    ord_n <- c("Administração Pública", "Entidades Empresariais", "Entidades sem Fins Lucrativos",
-               "Pessoas Físicas", "Instituições Extraterritoriais", "Não especificado ou ignorado")
+                       nj1 == "5", "Instituições Extraterritoriais", default = "Não especificado ou ignorado"),
+      SUS = fifelse(VINC_SUS %chin% "1", "Com vínculo SUS", "Sem vínculo SUS"))]
+    ord_g <- intersect(c("Estadual", "Dupla", "Municipal", "Sem gestão", "Não informada"), e10$GESTAO)
+    ord_n <- intersect(c("Administração Pública", "Entidades Empresariais", "Entidades sem Fins Lucrativos",
+                         "Pessoas Físicas", "Instituições Extraterritoriais", "Não especificado ou ignorado"), e10$NATUREZA)
     ord_t <- e10[, .N, by = TIPO][order(-N)]$TIPO
+    ord_s <- c("Com vínculo SUS", "Sem vínculo SUS")
+    N_TOT <- nrow(e10)
     nota10 <- if (substr(comp10, 5, 6) != "12") sprintf("* Dados preliminares de %s, sujeitos a alteração.", mes_txt(comp10)) else
       sprintf("Competência: %s.", mes_txt(comp10))
-    e10[, SUS := fifelse(VINC_SUS %chin% "1", "Com vínculo SUS", "Sem vínculo SUS")]
-    rot10 <- sprintf("Total de unidades (%s%s)", mes_txt(comp10), if (substr(comp10, 5, 6) != "12") "*" else "")
-    com_total <- function(x, rot1) {
-      x <- rbind(x, as.data.table(c(setNames(list("Total"), names(x)[1]),
-                                    lapply(x[, -1, with = FALSE], function(v) if (is.numeric(v)) sum(v) else NA))),
-                 fill = TRUE)
-      setattr(x, "linhas_total", nrow(x)); x
+    rot_tot <- sprintf("Total (%s%s)", mes_txt(comp10), if (substr(comp10, 5, 6) != "12") "*" else "")
+    medidas <- function(x) list(`Com vínculo SUS` = sum(x == "Com vínculo SUS"),
+                                `Sem vínculo SUS` = sum(x == "Sem vínculo SUS"), Total = length(x))
+    pct <- function(d) { d[, `% do estado` := Total / N_TOT]; setnames(d, "Total", rot_tot); d }
+    marca <- function(d, niveis, larg) { setattr(d, "niveis", niveis); setattr(d, "larguras", larg)
+      setattr(d, "nota", nota10); setattr(d, "formatos", c(`% do estado` = "0.0%")); d }
+
+    # Aba principal: gestão > tipo > natureza, com subtotais
+    linhas <- list(data.table(`Gestão` = "Total geral", `Tipo de estabelecimento` = "", `Natureza jurídica` = "",
+                              as.data.table(medidas(e10$SUS))))
+    niv <- 0L
+    for (g in ord_g) {
+      eg <- e10[GESTAO == g]
+      linhas[[length(linhas) + 1]] <- data.table(`Gestão` = g, `Tipo de estabelecimento` = "", `Natureza jurídica` = "",
+                                                 as.data.table(medidas(eg$SUS))); niv <- c(niv, 1L)
+      for (t in intersect(ord_t, eg$TIPO)) {
+        et <- eg[TIPO == t]
+        linhas[[length(linhas) + 1]] <- data.table(`Gestão` = "", `Tipo de estabelecimento` = t, `Natureza jurídica` = "",
+                                                   as.data.table(medidas(et$SUS))); niv <- c(niv, 2L)
+        for (n in intersect(ord_n, et$NATUREZA)) {
+          linhas[[length(linhas) + 1]] <- data.table(`Gestão` = "", `Tipo de estabelecimento` = "", `Natureza jurídica` = n,
+                                                     as.data.table(medidas(et[NATUREZA == n]$SUS))); niv <- c(niv, 3L)
+        }
+      }
     }
-    base10 <- e10[, .(SUS_S = sum(SUS == "Com vínculo SUS"), SUS_N = sum(SUS == "Sem vínculo SUS"), N = .N),
-                  by = .(GESTAO, TIPO, NATUREZA)]
-    base10 <- base10[order(match(GESTAO, ord_g), match(TIPO, ord_t), match(NATUREZA, ord_n))]
-    setnames(base10, c("Gestão", "Tipo de estabelecimento", "Natureza jurídica", "Com vínculo SUS",
-                       "Sem vínculo SUS", rot10))
-    base10 <- com_total(base10)
-    matriz <- function(linha, ordem_l, rot_l) {
-      m <- dcast(e10, as.formula(paste(linha, "~ GESTAO")), value.var = "CNES", fun.aggregate = length)
-      gs <- intersect(ord_g, names(m)); setcolorder(m, c(linha, gs))
-      m[, Total := rowSums(.SD), .SDcols = gs]
-      s <- dcast(e10, as.formula(paste(linha, "~ SUS")), value.var = "CNES", fun.aggregate = length)
-      for (cl in c("Com vínculo SUS", "Sem vínculo SUS")) if (!cl %in% names(s)) s[, (cl) := 0L]
-      m <- merge(m, s[, c(linha, "Com vínculo SUS", "Sem vínculo SUS"), with = FALSE], by = linha)
-      m <- m[order(match(get(linha), ordem_l))]
-      setnames(m, linha, rot_l); com_total(m)
+    hier <- marca(pct(rbindlist(linhas)), niv, c(14, 50, 32, 16, 16, 18, 12))
+
+    # Resumo: cada dimensão sozinha
+    bloco <- function(col, ordem, titulo) {
+      r <- rbindlist(lapply(ordem, function(v) data.table(Categoria = v, as.data.table(medidas(e10[get(col) == v]$SUS)))))
+      list(rbind(data.table(Categoria = titulo, `Com vínculo SUS` = NA_integer_, `Sem vínculo SUS` = NA_integer_,
+                            Total = NA_integer_), r), c(1L, rep(3L, nrow(r))))
     }
-    abas10 <- list(`Gestão, tipo e natureza` = base10,
-                   `Tipo × gestão` = matriz("TIPO", ord_t, "Tipo de estabelecimento"),
-                   `Natureza × gestão` = matriz("NATUREZA", ord_n, "Natureza jurídica"))
-    larg10 <- list(c(14, 52, 32, 16, 16, 24), c(52, 12, 12, 12, 12, 16, 16), c(32, 12, 12, 12, 12, 16, 16))
-    for (k in seq_along(abas10)) { setattr(abas10[[k]], "nota", nota10); setattr(abas10[[k]], "larguras", larg10[[k]]) }
+    bl <- list(bloco("GESTAO", ord_g, "Por gestão"), bloco("TIPO", ord_t, "Por tipo de estabelecimento"),
+               bloco("NATUREZA", ord_n, "Por natureza jurídica"), bloco("SUS", ord_s, "Por vínculo SUS"))
+    res <- rbind(data.table(Categoria = "Total geral", as.data.table(medidas(e10$SUS))), rbindlist(lapply(bl, `[[`, 1)))
+    resumo <- marca(pct(res), c(0L, unlist(lapply(bl, `[[`, 2))), c(50, 16, 16, 18, 12))
+    resumo[Categoria %chin% vapply(bl, function(b) b[[1]]$Categoria[1], ""), `% do estado` := NA_real_]
+
+    # Matrizes: linha × coluna, com totais
+    matriz <- function(lin, col, ord_l, ord_c, rot_l) {
+      m <- dcast(e10, as.formula(paste(lin, "~", col)), value.var = "CNES", fun.aggregate = length)
+      cs <- intersect(ord_c, names(m)); setcolorder(m, c(lin, cs))
+      m[, Total := rowSums(.SD), .SDcols = cs]
+      m <- m[order(match(get(lin), ord_l))]
+      tot <- as.data.table(c(setNames(list("Total geral"), lin), lapply(m[, -1, with = FALSE], sum)))
+      m <- rbind(tot, m); setnames(m, lin, rot_l); setnames(m, "Total", rot_tot)
+      marca(m, c(0L, rep(3L, nrow(m) - 1)), c(if (rot_l == "Tipo de estabelecimento") 50 else 32, rep(16, length(cs) + 1)))
+    }
+    abas10 <- list(
+      Resumo = resumo,
+      `Gestão > tipo > natureza` = hier,
+      `Tipo × gestão` = matriz("TIPO", "GESTAO", ord_t, ord_g, "Tipo de estabelecimento"),
+      `Natureza × gestão` = matriz("NATUREZA", "GESTAO", ord_n, ord_g, "Natureza jurídica"),
+      `Tipo × natureza` = matriz("TIPO", "NATUREZA", ord_t, ord_n, "Tipo de estabelecimento"),
+      `Vínculo SUS × gestão` = matriz("SUS", "GESTAO", ord_s, ord_g, "Vínculo SUS"),
+      `Tipo × vínculo SUS` = matriz("TIPO", "SUS", ord_t, ord_s, "Tipo de estabelecimento"),
+      `Natureza × vínculo SUS` = matriz("NATUREZA", "SUS", ord_n, ord_s, "Natureza jurídica"))
     gravar_planilha("10_estabelecimentos_pe", abas10, "Estabelecimentos de saúde de PE",
                     "CNES-ST, todos os estabelecimentos de PE no mês mais recente", atualizacao)
   }
