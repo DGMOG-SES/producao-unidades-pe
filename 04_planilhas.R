@@ -93,6 +93,9 @@ TIPOS_CNES <- c("01" = "Posto de saúde", "02" = "Centro de saúde/Unidade bási
                 "74" = "Polo academia da saúde", "75" = "Telessaúde", "76" = "Central de regulação médica das urgências",
                 "77" = "Serviço de atenção domiciliar isolado", "79" = "Oficina ortopédica",
                 "80" = "Laboratório de saúde pública", "81" = "Central de regulação do acesso",
+                "60" = "Cooperativa ou empresa de cessão de trabalhadores na saúde",
+                "67" = "Laboratório central de saúde pública (LACEN)",
+                "71" = "Centro de apoio à saúde da família", "84" = "Central de abastecimento",
                 "82" = "Central de notificação, captação e distribuição de órgãos",
                 "83" = "Polo de prevenção e promoção da saúde", "85" = "Centro de imunização")
 
@@ -409,6 +412,18 @@ gravar_planilha <- function(nome, abas, titulo, regras, atualizacao, csv = NULL,
     if (inherits(abas[[nm]], "tabela_anual")) escrever_tabela(wb, nm, abas[[nm]], ref) else {
       openxlsx::writeData(wb, nm, abas[[nm]], headerStyle = openxlsx::createStyle(textDecoration = "bold"))
       openxlsx::freezePane(wb, nm, firstRow = TRUE)
+      if (!is.null(attr(abas[[nm]], "larguras")))
+        openxlsx::setColWidths(wb, nm, cols = seq_along(attr(abas[[nm]], "larguras")), widths = attr(abas[[nm]], "larguras"))
+      if (!is.null(attr(abas[[nm]], "linhas_total")))
+        openxlsx::addStyle(wb, nm, openxlsx::createStyle(textDecoration = "bold"), rows = attr(abas[[nm]], "linhas_total") + 1,
+                           cols = seq_len(ncol(abas[[nm]])), gridExpand = TRUE, stack = TRUE)
+      num <- which(vapply(abas[[nm]], is.numeric, TRUE))
+      if (length(num)) openxlsx::addStyle(wb, nm, openxlsx::createStyle(numFmt = "#,##0"), rows = seq_len(nrow(abas[[nm]])) + 1,
+                                          cols = num, gridExpand = TRUE, stack = TRUE)
+      if (!is.null(attr(abas[[nm]], "nota"))) {
+        openxlsx::writeData(wb, nm, attr(abas[[nm]], "nota"), startRow = nrow(abas[[nm]]) + 3, colNames = FALSE)
+        openxlsx::addStyle(wb, nm, openxlsx::createStyle(textDecoration = "italic"), rows = nrow(abas[[nm]]) + 3, cols = 1)
+      }
     }
   }
   gravar_atomico(function(f) openxlsx::saveWorkbook(wb, f, overwrite = TRUE), file.path(PLAN, paste0(nome, ".xlsx")))
@@ -824,6 +839,52 @@ main <- function() {
             "gestão direta, demais estaduais), administração indireta (fundações e autarquias: modelo da lista ou",
             "natureza jurídica 1112, 1147, 1260) e gestão por OSS."),
       atualizacao)
+  }
+
+  # 10 Estabelecimentos de PE (todos, qualquer gestão), só o mês mais recente ---------
+  if (length(arqs_st)) {
+    arq_ult <- sort(arqs_st)[length(arqs_st)]
+    e10 <- ler_parquet(arq_ult)
+    comp10 <- max(e10$COMPETENCIA)
+    nj1 <- substr(e10$NAT_JUR, 1, 1)
+    e10[, `:=`(
+      GESTAO = gestao_cnes(TPGESTAO),
+      TIPO = fcoalesce(unname(TIPOS_CNES[TP_UNID]), paste("Tipo", TP_UNID)),
+      # Natureza como no TabWin do CNES (NATJUR1.CNV, pelo código da natureza jurídica)
+      NATUREZA = fcase(nj1 == "1", "Administração Pública", nj1 == "2", "Entidades Empresariais",
+                       nj1 == "3", "Entidades sem Fins Lucrativos", nj1 == "4", "Pessoas Físicas",
+                       nj1 == "5", "Instituições Extraterritoriais", default = "Não especificado ou ignorado"))]
+    ord_g <- c("Estadual", "Dupla", "Municipal", "Sem gestão", "Não informada")
+    ord_n <- c("Administração Pública", "Entidades Empresariais", "Entidades sem Fins Lucrativos",
+               "Pessoas Físicas", "Instituições Extraterritoriais", "Não especificado ou ignorado")
+    ord_t <- e10[, .N, by = TIPO][order(-N)]$TIPO
+    nota10 <- if (substr(comp10, 5, 6) != "12") sprintf("* Dados preliminares de %s, sujeitos a alteração.", mes_txt(comp10)) else
+      sprintf("Competência: %s.", mes_txt(comp10))
+    rot10 <- sprintf("Total de unidades (%s%s)", mes_txt(comp10), if (substr(comp10, 5, 6) != "12") "*" else "")
+    com_total <- function(x, rot1) {
+      x <- rbind(x, as.data.table(c(setNames(list("Total"), names(x)[1]),
+                                    lapply(x[, -1, with = FALSE], function(v) if (is.numeric(v)) sum(v) else NA))),
+                 fill = TRUE)
+      setattr(x, "linhas_total", nrow(x)); x
+    }
+    base10 <- e10[, .(N = .N), by = .(GESTAO, TIPO, NATUREZA)]
+    base10 <- base10[order(match(GESTAO, ord_g), match(TIPO, ord_t), match(NATUREZA, ord_n))]
+    setnames(base10, c("Gestão", "Tipo de estabelecimento", "Natureza jurídica", rot10))
+    base10 <- com_total(base10)
+    matriz <- function(linha, ordem_l, rot_l) {
+      m <- dcast(e10, as.formula(paste(linha, "~ GESTAO")), value.var = "CNES", fun.aggregate = length)
+      gs <- intersect(ord_g, names(m)); setcolorder(m, c(linha, gs))
+      m[, Total := rowSums(.SD), .SDcols = gs]
+      m <- m[order(match(get(linha), ordem_l))]
+      setnames(m, linha, rot_l); com_total(m)
+    }
+    abas10 <- list(`Gestão, tipo e natureza` = base10,
+                   `Tipo × gestão` = matriz("TIPO", ord_t, "Tipo de estabelecimento"),
+                   `Natureza × gestão` = matriz("NATUREZA", ord_n, "Natureza jurídica"))
+    larg10 <- list(c(14, 52, 32, 24), c(52, 12, 12, 12, 12, 12), c(32, 12, 12, 12, 12, 12))
+    for (k in seq_along(abas10)) { setattr(abas10[[k]], "nota", nota10); setattr(abas10[[k]], "larguras", larg10[[k]]) }
+    gravar_planilha("10_estabelecimentos_pe", abas10, "Estabelecimentos de saúde de PE",
+                    "CNES-ST, todos os estabelecimentos de PE no mês mais recente", atualizacao)
   }
 
   # 00 Unidades
