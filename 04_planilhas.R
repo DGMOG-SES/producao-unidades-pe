@@ -860,6 +860,7 @@ main <- function() {
     ord_t <- e10[, .N, by = TIPO][order(-N)]$TIPO
     nota10 <- if (substr(comp10, 5, 6) != "12") sprintf("* Dados preliminares de %s, sujeitos a alteração.", mes_txt(comp10)) else
       sprintf("Competência: %s.", mes_txt(comp10))
+    e10[, SUS := fifelse(VINC_SUS %chin% "1", "Com vínculo SUS", "Sem vínculo SUS")]
     rot10 <- sprintf("Total de unidades (%s%s)", mes_txt(comp10), if (substr(comp10, 5, 6) != "12") "*" else "")
     com_total <- function(x, rot1) {
       x <- rbind(x, as.data.table(c(setNames(list("Total"), names(x)[1]),
@@ -867,21 +868,26 @@ main <- function() {
                  fill = TRUE)
       setattr(x, "linhas_total", nrow(x)); x
     }
-    base10 <- e10[, .(N = .N), by = .(GESTAO, TIPO, NATUREZA)]
+    base10 <- e10[, .(SUS_S = sum(SUS == "Com vínculo SUS"), SUS_N = sum(SUS == "Sem vínculo SUS"), N = .N),
+                  by = .(GESTAO, TIPO, NATUREZA)]
     base10 <- base10[order(match(GESTAO, ord_g), match(TIPO, ord_t), match(NATUREZA, ord_n))]
-    setnames(base10, c("Gestão", "Tipo de estabelecimento", "Natureza jurídica", rot10))
+    setnames(base10, c("Gestão", "Tipo de estabelecimento", "Natureza jurídica", "Com vínculo SUS",
+                       "Sem vínculo SUS", rot10))
     base10 <- com_total(base10)
     matriz <- function(linha, ordem_l, rot_l) {
       m <- dcast(e10, as.formula(paste(linha, "~ GESTAO")), value.var = "CNES", fun.aggregate = length)
       gs <- intersect(ord_g, names(m)); setcolorder(m, c(linha, gs))
       m[, Total := rowSums(.SD), .SDcols = gs]
+      s <- dcast(e10, as.formula(paste(linha, "~ SUS")), value.var = "CNES", fun.aggregate = length)
+      for (cl in c("Com vínculo SUS", "Sem vínculo SUS")) if (!cl %in% names(s)) s[, (cl) := 0L]
+      m <- merge(m, s[, c(linha, "Com vínculo SUS", "Sem vínculo SUS"), with = FALSE], by = linha)
       m <- m[order(match(get(linha), ordem_l))]
       setnames(m, linha, rot_l); com_total(m)
     }
     abas10 <- list(`Gestão, tipo e natureza` = base10,
                    `Tipo × gestão` = matriz("TIPO", ord_t, "Tipo de estabelecimento"),
                    `Natureza × gestão` = matriz("NATUREZA", ord_n, "Natureza jurídica"))
-    larg10 <- list(c(14, 52, 32, 24), c(52, 12, 12, 12, 12, 12), c(32, 12, 12, 12, 12, 12))
+    larg10 <- list(c(14, 52, 32, 16, 16, 24), c(52, 12, 12, 12, 12, 16, 16), c(32, 12, 12, 12, 12, 16, 16))
     for (k in seq_along(abas10)) { setattr(abas10[[k]], "nota", nota10); setattr(abas10[[k]], "larguras", larg10[[k]]) }
     gravar_planilha("10_estabelecimentos_pe", abas10, "Estabelecimentos de saúde de PE",
                     "CNES-ST, todos os estabelecimentos de PE no mês mais recente", atualizacao)
